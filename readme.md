@@ -1,0 +1,11 @@
+### Targeting the Persistent and Inevitable: Static Ransomware Detection via Tracing Encryption Behaviors
+
+#### Abstract
+
+Ransomware persists as a critical cyber threat, with escalating attack volumes and sophistication despite decades of defensive efforts. Dynamic ransomware analysis incurs higher overhead than static analysis. In contrast, static approaches proactively identify ransomware prior to execution, inherently overcoming these limitations. However, representative detectors such as general-purpose raw-binary ones, struggle to cope with static obfuscation techniques (e.g. code polymorphism), highlighting the need for a more resilient approach.
+
+Intuitively, we put our focus on the persistent and inevitable behavior of ransomware from a static perspective. i.e., encryption behaviors. It circumvents the pitfalls of dynamic approaches while addressing the limitations of general-purpose binary analysis and resisting common evasion techniques. We propose CryptoSense, a novel ransomware detection approach that leverages static analysis of intrinsic encryption behaviors overlooked by prior work. Our intuition is that attackers typically implement encryption behaviors by invoking OS APIs, reusing encryption libraries, or reimplementing encryption algorithms, while designing new encryption algorithms is rare. Our experiments demonstrate that ransomware exhibits distinctive OS API usage patterns and encryption algorithm constants. We evaluate CryptoSense's effectiveness, robustness, generalizability, and resistance to evasion attacks, compared to the state-of-the-art approaches. CryptoSense significantly outperforms the state-of-the-art, achieving F1-score improvements of 37.0%, 35.6%, and 27.8% across varying ransomware-to-benign ratios. Moreover, CryptoSense achieves a low false negative rate of 0.08, a prominent reduction of 82.2% compared to the state-of-the-art. Ablation studies, performance-cost analyses, and parameter sensitivity evaluations further validate CryptoSense's component effectiveness and practical usability.
+
+
+
+This paper has been submitted to NDSS 2026.
