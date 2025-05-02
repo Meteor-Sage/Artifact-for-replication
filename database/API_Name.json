@@ -1,0 +1,212 @@
+[
+    {
+        "Des": "CSP",
+        "Name": "BCryptEnumContextFunctionProviders",
+        "Parameter": "[in] dwTable, [in] pszContext, [in] dwInterface, [in] pszFunction, [in, out] pcbBuffer, [in, out] ppBuffer"
+    },
+    {
+        "Des": "CSP",
+        "Name": "BCryptEnumProviders",
+        "Parameter": "[in] pszAlgId, [out] pImplCount, [out] ppImplList, [in] dwFlags"
+    },
+    {
+        "Des": "CSP",
+        "Name": "CryptEnumProviders",
+        "Parameter": "[in] dwIndex, [in] pdwReserved, [in] dwFlags, [out] pdwProvType, [out] szProvName, [in, out] pcbProvName"
+    },
+    {
+        "Des": "CSP",
+        "Name": "CryptGetDefaultProvider",
+        "Parameter": "[in] dwProvType, [in] pdwReserved, [in] dwFlags"
+    },
+    {
+        "Des": "CSP",
+        "Name": "CryptAcquireContext",
+        "Parameter": "[out] phProv, [in] szContainer, [in] szProvider, [in] dwProvType, [in] dwFlags"
+    },
+    {
+        "Des": "CSP",
+        "Name": "CryptReleaseContext",
+        "Parameter": "[in] hProv, [in] dwFlags"
+    },
+    {
+        "Des": "CSP",
+        "Name": "FreeCryptProvFromCertEx",
+        "Parameter": "[in] fAcquired, [in]hProv, dwKeySpec, [in, optional]pwszCapiProvider, [in]dwProviderType, [in, optional]pwszTmpContainer"
+    },
+    {
+        "Des": "CSP",
+        "Name": "CryptSetProvParam",
+        "Parameter": "[in] hProv, [in] dwParam, [in] pbData, [in] dwFlags"
+    },
+    {
+        "Des": "Key_related",
+        "Name": "BCryptDeriveKey",
+        "Parameter": "[in] hSharedSecret, [in] pwszKDF"
+    },
+    {
+        "Des": "Key_related",
+        "Name": "BCryptKeyDerivation",
+        "Parameter": "[in] hKey, [in, optional] pParameterList, [out] pbDerivedKey, [in] cbDerivedKey, [out] pcbResult, [in] dwFlags"
+    },
+    {
+        "Des": "Key_related",
+        "Name": "BCryptDestroyKey",
+        "Parameter": "[in, out] hKey"
+    },
+    {
+        "Des": "Key_related",
+        "Name": "CryptDestroyKey",
+        "Parameter": "[in] hKey"
+    },
+    {
+        "Des": "Key_related",
+        "Name": "BCryptDuplicateKey",
+        "Parameter": "[in] hKey, [out] phNewKey, [out] pbKeyObject, [in] cbKeyObject, [in] dwFlags"
+    },
+    {
+        "Des": "Key_related",
+        "Name": "CryptDuplicateKey",
+        "Parameter": "[in] hKey, [in] pdwReserved, [in] dwFlags, [out] phKey"
+    },
+    {
+        "Des": "Key_related",
+        "Name": "BCryptExportKey",
+        "Parameter": "[in] hKey, [in] hExportKey, [in] pszBlobType"
+    },
+    {
+        "Des": "Key_related",
+        "Name": "CryptExportKey",
+        "Parameter": "[in] hKey, [in] hExpKey"
+    },
+    {
+        "Des": "Key_related",
+        "Name": "BCryptGenerateKeyPair",
+        "Parameter": "[in, out] hAlgorithm, [out] phKey, [in] dwLength"
+    },
+    {
+        "Des": "Key_related",
+        "Name": "BCryptGenerateSymmetricKey",
+        "Parameter": "[in, out] hAlgorithm, [out] phKey, [out, optional] pbKeyObject, [in] cbKeyObject, [in] pbSecret,[in] cbSecret, [in] dwFlags"
+    },
+    {
+        "Des": "Key_related",
+        "Name": "CryptGenKey",
+        "Parameter": "[in] hProv, [in] Algid, [in] dwFlags, [out] phKey"
+    },
+    {
+        "Des": "Key_related",
+        "Name": "BCryptImportKey",
+        "Parameter": "[in] hAlgorithm, [in, optional] hImportKey, [in] pszBlobType, [out] phKey, [out, optional] pbKeyObject, [in] cbKeyObject, [in] pbInput, [in] cbInput, [in] dwFlags"
+    },
+    {
+        "Des": "Key_related",
+        "Name": "BCryptImportKeyPair",
+        "Parameter": "[in] hAlgorithm, [in, out] hImportKey, [in] pszBlobType, [out] phKey, [in] pbInput, [in] cbInput, [in] dwFlags "
+    },
+    {
+        "Des": "Key_related",
+        "Name": "CryptImportKey",
+        "Parameter": "[in] hProv, [in] pbData, [in] dwDataLen, [in] hPubKey, [in] dwFlags, [out] phKey"
+    },
+    {
+        "Des": "Key_related",
+        "Name": "CryptImportPublicKeyInfo",
+        "Parameter": "[in] hCryptProv, [in] dwCertEncodingType, [in] pInfo, [out] phKey"
+    },
+    {
+        "Des": "Key_related",
+        "Name": "CryptGetUserKey",
+        "Parameter": "[in] hProv, [in] dwKeySpec, [out] phUserKey"
+    },
+    {
+        "Des": "Key_related",
+        "Name": "CryptSetKeyParam",
+        "Parameter": "[in] hKey, [in] dwParam, [in] pbData, [in] dwFlags"
+    },
+    {
+        "Des": "Encryption",
+        "Name": "BCryptEncrypt",
+        "Parameter": "[in, out] hKey, [in] pbInput, [in] cbInput, [in, optional] pPaddingInfo, [in, out, optional] pbIV, [in] cbIV, [out, optional] pbOutput, [in] cbOutput, [out] pcbResult, [in] dwFlags"
+    },
+    {
+        "Des": "Encryption",
+        "Name": "CryptEncrypt",
+        "Parameter": "[in] hKey, [in] hHash, [in] Final, [in] dwFlags, [in, out] pbData, [in, out] pdwDataLen, [in] dwBufLen"
+    },
+    {
+        "Des": "Encryption",
+        "Name": "CryptProtectData",
+        "Parameter": "[in] pDataIn, [in, optional] szDataDescr, [in, optional] pOptionalEntropy, [in] pvReserved, [in, optional] pPromptStruct, [in] dwFlags, [out] pDataOut"
+    },
+    {
+        "Des": "Encryption",
+        "Name": "CryptProtectMemory",
+        "Parameter": "[in, out] pDataIn, [in] cbDataIn, [in] dwFlags"
+    },
+    {
+        "Des": "Encryption",
+        "Name": "EncryptFile",
+        "Parameter": "[in] lpFileName"
+    },
+    {
+        "Des": "Filesystem_read",
+        "Name": "LZRead",
+        "Parameter": "[in] hFile, [out] lpBuffer, [in] cbRead"
+    },
+    {
+        "Des": "Filesystem_read",
+        "Name": "ReadFile",
+        "Parameter": "[in] hFile, [out] lpBuffer, [in] nNumberOfBytesToRead, [out, optional] lpNumberOfBytesRead, [in, out, optional] lpOverlapped"
+    },
+    {
+        "Des": "Filesystem_read",
+        "Name": "LZOpenFile",
+        "Parameter": "[in] lpFileName, [out] lpReOpenBuf, [in] wStyle"
+    },
+    {
+        "Des": "Filesystem_read",
+        "Name": "OpenFile",
+        "Parameter": "[in] lpFileName, [out] lpReOpenBuff, [in] uStyle"
+    },
+    {
+        "Des": "Filesystem_read",
+        "Name": "OpenFileById",
+        "Parameter": "[in] hVolumeHint, [in] lpFileId, [in] dwDesiredAccess, [in] dwShareMode, [in, optional] lpSecurityAttributes, [in] dwFlagsAndAttributes"
+    },
+    {
+        "Des": "Filesystem_read",
+        "Name": "CreateFile",
+        "Parameter": "[in] lpFileName, [in] dwDesiredAccess, [in] dwShareMode, [in, optional] lpSecurityAttributes, [in] dwCreationDisposition, [in] dwFlagsAndAttributes, [in, optional] hTemplateFile"
+    },
+    {
+        "Des": "Filesystem_delete",
+        "Name": "DeleteFile",
+        "Parameter": "[in] lpFileName"
+    },
+    {
+        "Des": "Filesystem_move",
+        "Name": "MoveFile",
+        "Parameter": "[in] lpExistingFileName, [in] lpNewFileName"
+    },
+    {
+        "Des": "Filesystem_Write",
+        "Name": "WriteFile",
+        "Parameter": "[in] hFile, [in] lpBuffer, [in] nNumberOfBytesToWrite, [out, optional] lpNumberOfBytesWritten, [in, out, optional] lpOverlapped"
+    },
+    {
+        "Des": "Filesystem_Find",
+        "Name": "FindFirstFile",
+        "Parameter": "[in] lpFileName, [out] lpFindFileData"
+    },
+    {
+        "Des": "Filesystem_Find",
+        "Name": "FindNextFile",
+        "Parameter": "[in] hFindFile, [out] lpFindFileData"
+    },
+    {
+        "Des": "Filesystem_Find",
+        "Name": "SearchPath",
+        "Parameter": "[in, optional] lpPath, [in] lpFileName, [in, optional] lpExtension, [in] nBufferLength, [out] lpBuffer, [out, optional] lpFilePart"
+    }
+]
