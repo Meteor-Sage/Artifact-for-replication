@@ -1,0 +1,113 @@
+{
+    "sub_123": {
+        "nodes": {
+            "1": "sub_404D18",
+            "2": "sub_40AA50",
+            "3": "StartAddress",
+            "4": "?__scrt_common_main_seh",
+            "5": "main"
+        },
+        "edges": [
+            [
+                "?__scrt_common_main_seh",
+                "main"
+            ],
+            [
+                "main",
+                "sub_404D18"
+            ],
+            [
+                "sub_40AA50",
+                "sub_404D18"
+            ],
+            [
+                "main",
+                "sub_40AA50"
+            ],
+            [
+                "StartAddress",
+                "sub_40AA50"
+            ],
+            [
+                "sub_40AA50",
+                "sub_40AA50"
+            ]
+        ],
+        "leafs": [
+            "sub_404D18"
+        ]
+    },
+    "paths_123_1": [
+        {
+            "start": "sub_404D18",
+            "end": "sub_404D18",
+            "path": {
+                "nodes": [
+                    "sub_404D18"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_2": [
+        {
+            "start": "sub_404D18",
+            "end": "sub_4084A2",
+            "path": {
+                "nodes": [
+                    "sub_4084A2",
+                    "sub_40A677",
+                    "sub_404D18"
+                ],
+                "edges": [
+                    [
+                        "sub_40A677",
+                        "sub_4084A2"
+                    ],
+                    [
+                        "sub_404D18",
+                        "sub_40A677"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_404D18",
+            "end": "sub_40A677",
+            "path": {
+                "nodes": [
+                    "sub_40A677",
+                    "sub_404D18"
+                ],
+                "edges": [
+                    [
+                        "sub_404D18",
+                        "sub_40A677"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_404D18",
+            "end": "sub_404D18",
+            "path": {
+                "nodes": [
+                    "sub_404D18"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_3": [
+        {
+            "start": "sub_404D18",
+            "end": "sub_404D18",
+            "path": {
+                "nodes": [
+                    "sub_404D18"
+                ],
+                "edges": []
+            }
+        }
+    ]
+}

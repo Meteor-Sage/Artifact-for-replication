@@ -1,0 +1,78 @@
+{
+    "sub_123": {
+        "nodes": {
+            "0": "sub_400A8E",
+            "1": "sub_4010DA",
+            "2": "start"
+        },
+        "edges": [
+            [
+                "sub_4010DA",
+                "sub_400A8E"
+            ],
+            [
+                "sub_4010DA",
+                "sub_4010DA"
+            ],
+            [
+                "start",
+                "sub_4010DA"
+            ]
+        ],
+        "leafs": [
+            "sub_400A8E"
+        ]
+    },
+    "paths_123_1": [
+        {
+            "start": "sub_400A8E",
+            "end": "sub_400A8E",
+            "path": {
+                "nodes": [
+                    "sub_400A8E"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_2": [
+        {
+            "start": "sub_400A8E",
+            "end": "sub_40813D",
+            "path": {
+                "nodes": [
+                    "sub_400A8E",
+                    "sub_40813D"
+                ],
+                "edges": [
+                    [
+                        "sub_400A8E",
+                        "sub_40813D"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_400A8E",
+            "end": "sub_400A8E",
+            "path": {
+                "nodes": [
+                    "sub_400A8E"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_3": [
+        {
+            "start": "sub_400A8E",
+            "end": "sub_400A8E",
+            "path": {
+                "nodes": [
+                    "sub_400A8E"
+                ],
+                "edges": []
+            }
+        }
+    ]
+}

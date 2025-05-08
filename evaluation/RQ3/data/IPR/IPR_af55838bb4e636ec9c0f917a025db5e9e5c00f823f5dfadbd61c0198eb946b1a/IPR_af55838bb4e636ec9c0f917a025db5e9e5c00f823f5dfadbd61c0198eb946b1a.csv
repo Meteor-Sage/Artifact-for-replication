@@ -1,0 +1,6 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_40FC73,"Potential encryption function, likely implementing a variant of the MD5 hashing algorithm's MD5Transform function.",sub_409994,['WriteFile'],sub_40E3DE,"['FindFirstFile', 'FindNextFile']",sub_40EDA4,['CreateFile'],,
+,,sub_40BC9E,['WriteFile'],,,sub_40677D,"['CreateFile', 'ReadFile']",,
+,,sub_40404E,['WriteFile'],,,sub_409994,['CreateFile'],,
+,,,,,,sub_40D9D8,['CreateFile'],,
+,,,,,,sub_402622,['ReadFile'],,

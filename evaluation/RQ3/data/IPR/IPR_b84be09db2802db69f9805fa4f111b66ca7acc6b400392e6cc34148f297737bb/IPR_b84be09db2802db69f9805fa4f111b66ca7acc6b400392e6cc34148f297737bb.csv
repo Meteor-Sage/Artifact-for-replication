@@ -1,0 +1,13 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+start,"['crypt', 'Encrypt']",sub_40514D,['WriteFile'],sub_4039CB,"['FindFirstFile', 'FindNextFile']",sub_40514D,['CreateFile'],,
+sub_4069D3,"['crypt', 'crypt32.dll', 'Crypt', 'CryptStringToBinary']",sub_40A72A,"['MoveFile', 'WriteFile']",,,sub_40A72A,"['CreateFile', 'ReadFile']",,
+sub_40A72A,"['CryptGenRandom', 'crypt', 'Crypt', 'bcrypt.dll']",sub_4039CB,['WriteFile'],,,sub_4039CB,['CreateFile'],,
+sub_4039CB,"['crypt', 'Encrypt']",,,,,,,,
+sub_4048D7,Potential encryption or modification of data content read into memory. Includes bit-shifting and logical operations which are characteristic of encryption algorithms.,,,,,,,,
+sub_4003E2,"The function 'sub_4003E2' appears to implement a symmetric encryption or pseudorandom transformation, as it involves multiple bitwise rotations and XOR operations applied to its input data.",,,,,,,,
+sub_40DAE7,"The function involves bitwise rotations and XOR operations that modify the content read into memory, indicative of a potential encryption or data scrambling algorithm.",,,,,,,,
+sub_40A440,"Potential encryption or modification of data content in memory, possibly using a block cipher or XOR-based stream cipher given the use of look-up and bitwise operations.",,,,,,,,
+sub_40F410,Potential encryption or modification of data content using a series of transformations that resembles a block cipher operation.,,,,,,,,
+sub_4057AA,Potential encryption function with bitwise operations and data processing.,,,,,,,,
+sub_4000DF,"Potential encryption or modification of data content read into memory, involving bitwise operations and vectorized processing.",,,,,,,,
+sub_401AB6,"Potential encryption or modification of data content read into memory. The function incorporates bitwise operations, shifts, and complex logic suggesting content modification typically found in encryption algorithms.",,,,,,,,

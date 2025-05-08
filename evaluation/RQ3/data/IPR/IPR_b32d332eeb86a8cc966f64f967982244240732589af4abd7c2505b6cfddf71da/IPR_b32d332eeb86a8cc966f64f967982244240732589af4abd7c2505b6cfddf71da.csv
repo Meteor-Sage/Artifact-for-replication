@@ -1,0 +1,10 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_40D761,"['crypt', 'CryptEncrypt', 'Crypt', 'Encrypt']",sub_40AC0D,"['MoveFile', 'WriteFile']",sub_404E18,"['FindFirstFile', 'FindNextFile']",sub_40AC0D,"['CreateFile', 'ReadFile']",,
+sub_400B37,"['Crypt', 'CryptAcquireContext', 'CryptDestroyKey', 'CryptStringToBinary']",start,['WriteFile'],,,start,['CreateFile'],,
+start,"['Crypt', 'CryptBinaryToString']",,,,,,,,
+sub_40DF62,"['CryptGenRandom', 'Crypt', 'CryptReleaseContext', 'CryptAcquireContext']",,,,,,,,
+sub_401645,Potential encryption or modification of data content read into memory. The function appears to be implementing a series of complex data transformations likely characteristic of an encryption algorithm.,,,,,,,,
+sub_407C04,"The function performs multiple rounds of bitwise operations, including rotations and XORs, which are commonly used in block cipher encryption algorithms.",,,,,,,,
+sub_40AC0D,"The function appears to perform file manipulation involving read/write operations and content modification, potentially using cryptographic operations on the file content.",,,,,,,,
+sub_4036E4,"Potential encryption function that initializes and uses a 256-byte array, likely implementing a stream cipher similar to RC4.",,,,,,,,
+sub_40C20B,"Potential encryption function that modifies and processes memory content. The function involves manipulating data, including setting bytes and potentially performing block operations often seen in cryptographic functions.",,,,,,,,

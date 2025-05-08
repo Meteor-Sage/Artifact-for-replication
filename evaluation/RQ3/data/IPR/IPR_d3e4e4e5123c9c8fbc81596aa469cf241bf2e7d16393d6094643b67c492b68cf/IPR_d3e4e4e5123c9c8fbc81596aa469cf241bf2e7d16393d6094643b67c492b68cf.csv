@@ -1,0 +1,8 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_404A00,['RijnDael_AES_LONG'],sub_40AF77,['WriteFile'],sub_4081EF,['FindFirstFile'],sub_4081EF,['CreateFile'],sub_404488,['Snapshot']
+sub_40164D,['RijnDael_AES_inv_LONG'],sub_4081EF,['DeleteFile'],sub_402FD3,"['FindFirstFile', 'FindNextFile']",sub_415988,['CreateFile'],sub_4119B7,['Snapshot']
+sub_4000DF,['RijnDael_AES_LONG'],sub_41671B,['MoveFile'],,,sub_417E7B,"['NtOpenFile', 'OpenFile']",sub_416716,['Snapshot']
+sub_4045CD,"['Crypt', 'CryptBinaryToString']",sub_41F0E8,['WriteFile'],,,sub_41F0E8,['ReadFile'],,
+sub_40D7FD,"['CryptAcquireContext', 'CryptGenRandom', 'crypt', 'CryptReleaseContext', 'Crypt', 'bcrypt.dll']",sub_413F4C,"['RemoveFile', 'PathRemoveFileSpec', 'WriteFile']",,,sub_413F4C,"['CreateFile', 'ReadFile']",,
+sub_40971B,"The function sub_40971B contains patterns indicative of block-based encryption algorithms, with extensive bitwise operations, rotations, and key schedule-like behavior.",,,,,,,,
+sub_408E67,Function appears to perform complex data manipulations and involves several sub-functions that may contribute to cryptographic operations.,,,,,,,,

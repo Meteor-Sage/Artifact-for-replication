@@ -1,0 +1,6 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_40F802,['advapi32.dll'],sub_4005BD,['MoveFile'],sub_407417,"['FindFirstFile', 'FindNextFile']",sub_4005BD,['CreateFile'],sub_40DBD9,['Snapshot']
+sub_407417,['crypt'],sub_407417,['WriteFile'],,,sub_407417,['CreateFile'],sub_407417,['encrypted']
+sub_40F807,"Potential encryption function having characteristics of key schedule and iterative processing with bitwise operations, indicative of block cipher algorithms.",start,['WriteFile'],,,start,['CreateFile'],,
+sub_4013C0,"Potential encryption function manipulating and modifying data in memory, likely part of a cryptographic algorithm.",,,,,,,,
+sub_404968,"This function appears to perform XOR operations on arrays of integers, which is a common operation in various encryption algorithms.",,,,,,,,

@@ -1,0 +1,121 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4519EB(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "Function appears to perform bitwise operations and data modification based on given conditions, but does not exhibit typical characteristics of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_461301",
+            "is_crypto_fun": true,
+            "description": "Function appears to perform complex bitwise operations and utilizes tables, suggesting it may be part of a cryptographic algorithm or data obfuscation routine."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4E9B07(unsigned int a1, int a2);",
+            "is_crypto_fun": false,
+            "description": "The function performs byte-wise manipulation on its inputs but does not appear to implement a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4F1187",
+            "is_crypto_fun": false,
+            "description": "The function appears to manipulate data using bitwise operations and some complex logic, likely transforming data, but it does not resemble typical encryption algorithm behavior."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4EC5B6(a1);",
+            "is_crypto_fun": false,
+            "description": "This function performs bitwise manipulation and arithmetic operations on an integer without clear indications of encryption usage."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_469884(_DWORD *a1, unsigned int a2);",
+            "is_crypto_fun": false,
+            "description": "The function performs bitwise operations and modifies content based on the input, but it does not appear to be a standard encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4F53D0(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be a checksum or hash function based on the repeated bitwise operations and use of a lookup table. This does not match common encryption algorithm characteristics."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4FD113",
+            "is_crypto_fun": false,
+            "description": "The function seems to be manipulating data and performing bitwise operations, but does not clearly correspond to an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4612A3",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory using bitwise operations and a lookup table, resembling a CRC-like algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4FFF66(a1, a2, a3, a4, a5, a6);",
+            "is_crypto_fun": true,
+            "description": "Potential bitwise manipulation and data shifting that resembles operations in an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4FE1E1(v1, v2, v3, v4, v5, v6);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function involves various bitwise operations and uses sub-functions for possible cryptographic transformations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4F2C92(v1, v2, v3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function processes data based on specific conditions, potentially performing byte-wise operations which are characteristic of certain encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4F9FF2(v1, v2, v3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function performs operations on the provided data based on various conditions and appears to use subfunctions that resemble cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4F3EAF(a1, a2, a3, a4, a5, a6, a7, a8);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform various operations related to graphics and bitmap manipulation, including setting pixel formats and manipulating pixel values. There are no indications that this function is implementing an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_45E24A(unsigned __int8 **a1, int a2);",
+            "is_crypto_fun": false,
+            "description": "The provided function does not resemble a standard encryption algorithm. It appears to process data in a specific manner, potentially related to decompression given the nature of bitwise operations and data manipulation present."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4F3349(int result, _DWORD *a2, int a3, _BYTE *a4, int a5, unsigned __int8 a6);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function involves complex data processing that includes bitwise operations, potential byte-wise modifications, and multiple function calls that may be used for encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4F797E(int *a1, int *a2, Graphics::TBitmap *this, Graphics::TBitmap *a4, _DWORD *a5, char a6, Graphics::TBitmap *a7);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform image operations involving calculations and memory adjustments based on Bitmap properties rather than any typical encryption processes."
+        }
+    }
+]

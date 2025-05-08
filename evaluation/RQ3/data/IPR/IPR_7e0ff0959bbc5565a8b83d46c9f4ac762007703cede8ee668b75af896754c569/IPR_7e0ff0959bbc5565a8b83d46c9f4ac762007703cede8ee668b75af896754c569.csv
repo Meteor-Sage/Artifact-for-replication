@@ -1,0 +1,11 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_40E03E,"Potential encryption or modification of data content read into memory. This function appears to be implementing a (partially) reversible transformation based on complex bitwise operations and multiple rounds of manipulation, which is characteristic of various block cipher encryption algorithms.",sub_4063A5,['WriteFile'],,,sub_40166F,"['CreateFile', 'ReadFile']",,
+sub_40FA31,"Potential encryption or modification of data content read into memory. The function appears to be performing a series of cryptographic transformations based on calls to other functions, and then encoding the result.",sub_40FC78,"['WriteFile', 'DeleteFile']",,,sub_4063A5,['CreateFile'],,
+sub_40D9CC,"Potential encryption or modification of data content read into memory, possibly as part of some hash or block processing.",sub_406B3C,['WriteFile'],,,sub_4016D3,['ReadFile'],,
+,,sub_4088D1,['DeleteFile'],,,sub_40FC78,['CreateFile'],,
+,,sub_4088FB,['WriteFile'],,,sub_40FE36,"['CreateFile', 'ReadFile']",,
+,,sub_408DB4,['WriteFile'],,,sub_403F5C,['ReadFile'],,
+,,sub_405DD1,['WriteFile'],,,sub_406517,['CreateFile'],,
+,,sub_4076F9,['WriteFile'],,,sub_4002D7,['CreateFile'],,
+,,sub_4053DE,['WriteFile'],,,sub_40357E,['CreateFile'],,
+,,,,,,sub_401095,"['CreateFile', 'ReadFile']",,

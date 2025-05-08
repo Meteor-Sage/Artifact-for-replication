@@ -1,0 +1,9 @@
+node: { title: "0" label: "sub_4169B8" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "1" label: "TForm1_FormCreate" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "2" label: "sub_5063D7" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "3" label: "sub_50F884" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "4" label: "sub_4095C0" color: 76 textcolor: 73 bordercolor: black }
+edge: { sourcename: "2" targetname: "3" }
+edge: { sourcename: "1" targetname: "2" }
+edge: { sourcename: "0" targetname: "4" }
+edge: { sourcename: "2" targetname: "2" }

@@ -1,0 +1,6 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_40E2CB,"The function appears to be performing complex mathematical operations involving shifts and adds, which are typical in cryptographic algorithms. It also calls another function sub_4007A1, which could further indicate cryptographic processing resembling a mix of iterative hashing-like calculations and transformation steps.",sub_409441,['WriteFile'],sub_4004CC,"['FindFirstFile', 'FindNextFile']",sub_401433,['CreateFile'],,
+sub_40C6DF,Potential encryption or modification of data content read into memory. Involves complex bitwise operations and lookup tables which are characteristic of encryption algorithms.,sub_407B6C,['WriteFile'],,,sub_40386A,"['CreateFile', 'ReadFile']",,
+,,sub_40A7D3,['WriteFile'],,,sub_409441,['CreateFile'],,
+,,,,,,sub_40366E,['CreateFile'],,
+,,,,,,sub_400A87,['ReadFile'],,

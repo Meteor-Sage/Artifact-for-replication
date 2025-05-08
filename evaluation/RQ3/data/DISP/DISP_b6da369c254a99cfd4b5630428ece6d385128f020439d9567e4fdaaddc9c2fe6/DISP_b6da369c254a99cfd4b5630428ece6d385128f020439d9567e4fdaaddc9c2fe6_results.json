@@ -1,0 +1,79 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40485D(a1);",
+            "is_crypto_fun": false,
+            "description": "This function performs a bitwise modification on the input data but is not indicative of common encryption algorithm operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408150(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function performs bit manipulation, extracting a specific bit from a value. This is not indicative of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40AA86(unsigned int a1, char a2);",
+            "is_crypto_fun": false,
+            "description": "This function performs a bitwise rotation on the input integer."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4068D7(a1, a2);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption function having characteristics of key schedule and iterative processing with bitwise operations, indicative of block cipher algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409FD2(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function performs bitwise operations which are not characteristic of encryption algorithms but rather general data manipulation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4047E5(unsigned int *a1)",
+            "is_crypto_fun": false,
+            "description": "The function modifies an array of unsigned integers, but does not exhibit characteristics of typical encryption algorithms. It shifts and reorders the bytes of the input array and calls another function sub_4068D7."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4000C2",
+            "is_crypto_fun": false,
+            "description": "This function appears to be conducting arithmetic operations and bit manipulations, likely involving division and handling signed values. It does not match common techniques used in encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_407751(_DWORD *a1, int a2, int a3);",
+            "is_crypto_fun": false,
+            "description": "The function initializes and performs bit level manipulations on memory, but it doesn't exhibit clear characteristics of a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D49F(a1, a2, a3);",
+            "is_crypto_fun": true,
+            "description": "This function appears to perform XOR operations on arrays of integers, which is a common operation in various encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40B2AF(int a1, int a2, int a3, int a4, int a5);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption function manipulating and modifying data in memory, likely part of a cryptographic algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40167B(lpString, a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be processing a string and allocating memory, but it does not perform typical encryption operations."
+        }
+    }
+]

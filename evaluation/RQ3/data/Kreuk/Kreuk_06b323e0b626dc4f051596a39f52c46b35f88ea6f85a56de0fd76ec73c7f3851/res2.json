@@ -1,0 +1,202 @@
+{
+    "sub_12": {
+        "nodes": {
+            "4": "?__scrt_common_main_seh"
+        },
+        "edges": [],
+        "leafs": [
+            "?__scrt_common_main_seh"
+        ]
+    },
+    "sub_23": {
+        "nodes": {
+            "1": "sub_4085DF",
+            "3": "WinMain",
+            "5": "?__scrt_common_main_seh"
+        },
+        "edges": [
+            [
+                "WinMain",
+                "sub_4085DF"
+            ],
+            [
+                "?__scrt_common_main_seh",
+                "WinMain"
+            ]
+        ],
+        "leafs": [
+            "sub_4085DF"
+        ]
+    },
+    "sub_123": {
+        "nodes": {
+            "4": "?__scrt_common_main_seh"
+        },
+        "edges": [],
+        "leafs": [
+            "?__scrt_common_main_seh"
+        ]
+    },
+    "paths_12_1": [],
+    "paths_12_2": [
+        {
+            "start": "?__scrt_common_main_seh",
+            "end": "sub_402E7A",
+            "path": {
+                "nodes": [
+                    "?__scrt_common_main_seh",
+                    "WinMain",
+                    "sub_4085DF",
+                    "sub_402E7A",
+                    "sub_405430"
+                ],
+                "edges": [
+                    [
+                        "?__scrt_common_main_seh",
+                        "WinMain"
+                    ],
+                    [
+                        "WinMain",
+                        "sub_4085DF"
+                    ],
+                    [
+                        "sub_4085DF",
+                        "sub_405430"
+                    ],
+                    [
+                        "sub_405430",
+                        "sub_402E7A"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "?__scrt_common_main_seh",
+            "end": "sub_40AA4B",
+            "path": {
+                "nodes": [
+                    "?__scrt_common_main_seh",
+                    "WinMain",
+                    "sub_4085DF",
+                    "sub_40AA4B",
+                    "sub_405430"
+                ],
+                "edges": [
+                    [
+                        "?__scrt_common_main_seh",
+                        "WinMain"
+                    ],
+                    [
+                        "WinMain",
+                        "sub_4085DF"
+                    ],
+                    [
+                        "sub_4085DF",
+                        "sub_405430"
+                    ],
+                    [
+                        "sub_405430",
+                        "sub_40AA4B"
+                    ]
+                ]
+            }
+        }
+    ],
+    "paths_23_2": [
+        {
+            "start": "sub_4085DF",
+            "end": "sub_402E7A",
+            "path": {
+                "nodes": [
+                    "sub_4085DF",
+                    "sub_402E7A",
+                    "sub_405430"
+                ],
+                "edges": [
+                    [
+                        "sub_4085DF",
+                        "sub_405430"
+                    ],
+                    [
+                        "sub_405430",
+                        "sub_402E7A"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_4085DF",
+            "end": "sub_40AA4B",
+            "path": {
+                "nodes": [
+                    "sub_4085DF",
+                    "sub_40AA4B",
+                    "sub_405430"
+                ],
+                "edges": [
+                    [
+                        "sub_4085DF",
+                        "sub_405430"
+                    ],
+                    [
+                        "sub_405430",
+                        "sub_40AA4B"
+                    ]
+                ]
+            }
+        }
+    ],
+    "paths_23_3": [
+        {
+            "start": "sub_4085DF",
+            "end": "sub_40A215",
+            "path": {
+                "nodes": [
+                    "sub_4085DF",
+                    "sub_40A215"
+                ],
+                "edges": [
+                    [
+                        "sub_4085DF",
+                        "sub_40A215"
+                    ]
+                ]
+            }
+        }
+    ],
+    "paths_123_12": [
+        {
+            "start": "?__scrt_common_main_seh",
+            "end": "?__scrt_common_main_seh",
+            "path": {
+                "nodes": [
+                    "?__scrt_common_main_seh"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_23": [
+        {
+            "start": "?__scrt_common_main_seh",
+            "end": "sub_4085DF",
+            "path": {
+                "nodes": [
+                    "?__scrt_common_main_seh",
+                    "WinMain",
+                    "sub_4085DF"
+                ],
+                "edges": [
+                    [
+                        "?__scrt_common_main_seh",
+                        "WinMain"
+                    ],
+                    [
+                        "WinMain",
+                        "sub_4085DF"
+                    ]
+                ]
+            }
+        }
+    ]
+}

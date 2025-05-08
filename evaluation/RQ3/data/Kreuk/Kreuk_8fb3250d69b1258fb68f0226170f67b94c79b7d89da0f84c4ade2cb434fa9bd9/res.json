@@ -1,0 +1,75 @@
+{
+    "sub_12": {
+        "nodes": {},
+        "edges": [],
+        "leafs": []
+    },
+    "sub_23": {
+        "nodes": {
+            "4": "sub_50460E",
+            "11": "sub_50C8C7",
+            "18": "TForm1_GweHdLbSOj"
+        },
+        "edges": [
+            [
+                "TForm1_GweHdLbSOj",
+                "sub_50C8C7"
+            ],
+            [
+                "sub_50C8C7",
+                "sub_50460E"
+            ],
+            [
+                "sub_50C8C7",
+                "sub_50C8C7"
+            ]
+        ],
+        "leafs": [
+            "sub_50460E"
+        ]
+    },
+    "sub_123": {
+        "nodes": {},
+        "edges": [],
+        "leafs": []
+    },
+    "paths_12_1": [],
+    "paths_12_2": [],
+    "paths_23_2": [
+        {
+            "start": "sub_50460E",
+            "end": "sub_50D86C",
+            "path": {
+                "nodes": [
+                    "sub_50D86C",
+                    "sub_50FD97",
+                    "sub_50460E"
+                ],
+                "edges": [
+                    [
+                        "sub_50FD97",
+                        "sub_50D86C"
+                    ],
+                    [
+                        "sub_50460E",
+                        "sub_50FD97"
+                    ]
+                ]
+            }
+        }
+    ],
+    "paths_23_3": [
+        {
+            "start": "sub_50460E",
+            "end": "sub_50460E",
+            "path": {
+                "nodes": [
+                    "sub_50460E"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_12": [],
+    "paths_123_23": []
+}

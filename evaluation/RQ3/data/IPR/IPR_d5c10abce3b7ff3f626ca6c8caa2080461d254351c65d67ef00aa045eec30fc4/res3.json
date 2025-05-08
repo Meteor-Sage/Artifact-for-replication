@@ -1,0 +1,92 @@
+{
+    "sub_123": {
+        "nodes": {
+            "0": "sub_40FFA4",
+            "1": "start",
+            "2": "StartAddress",
+            "3": "sub_40B39C",
+            "4": "sub_400D90"
+        },
+        "edges": [
+            [
+                "StartAddress",
+                "sub_400D90"
+            ],
+            [
+                "sub_40FFA4",
+                "sub_40FFA4"
+            ],
+            [
+                "sub_400D90",
+                "sub_400D90"
+            ],
+            [
+                "sub_40FFA4",
+                "sub_400D90"
+            ],
+            [
+                "start",
+                "sub_40FFA4"
+            ],
+            [
+                "sub_400D90",
+                "sub_40B39C"
+            ]
+        ],
+        "leafs": [
+            "sub_40B39C"
+        ]
+    },
+    "paths_123_1": [
+        {
+            "start": "sub_40B39C",
+            "end": "sub_40B39C",
+            "path": {
+                "nodes": [
+                    "sub_40B39C"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_2": [
+        {
+            "start": "sub_40B39C",
+            "end": "sub_405533",
+            "path": {
+                "nodes": [
+                    "sub_404009",
+                    "sub_405533",
+                    "sub_4001A6",
+                    "sub_40B39C"
+                ],
+                "edges": [
+                    [
+                        "sub_404009",
+                        "sub_4001A6"
+                    ],
+                    [
+                        "sub_4001A6",
+                        "sub_405533"
+                    ],
+                    [
+                        "sub_40B39C",
+                        "sub_404009"
+                    ]
+                ]
+            }
+        }
+    ],
+    "paths_123_3": [
+        {
+            "start": "sub_40B39C",
+            "end": "sub_40B39C",
+            "path": {
+                "nodes": [
+                    "sub_40B39C"
+                ],
+                "edges": []
+            }
+        }
+    ]
+}

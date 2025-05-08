@@ -1,0 +1,75 @@
+{
+    "sub_123": {
+        "nodes": {
+            "0": "WinMain",
+            "1": "tmainCRTStartup",
+            "2": "sub_453C99",
+            "3": "sub_45F1AA"
+        },
+        "edges": [
+            [
+                "WinMain",
+                "sub_45F1AA"
+            ],
+            [
+                "sub_45F1AA",
+                "sub_453C99"
+            ],
+            [
+                "tmainCRTStartup",
+                "WinMain"
+            ]
+        ],
+        "leafs": [
+            "sub_453C99"
+        ]
+    },
+    "paths_123_1": [
+        {
+            "start": "sub_453C99",
+            "end": "sub_451FAE",
+            "path": {
+                "nodes": [
+                    "sub_451FAE",
+                    "sub_453C99"
+                ],
+                "edges": [
+                    [
+                        "sub_453C99",
+                        "sub_451FAE"
+                    ]
+                ]
+            }
+        }
+    ],
+    "paths_123_2": [
+        {
+            "start": "sub_453C99",
+            "end": "sub_453C99",
+            "path": {
+                "nodes": [
+                    "sub_453C99"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_3": [
+        {
+            "start": "sub_453C99",
+            "end": "sub_451FAE",
+            "path": {
+                "nodes": [
+                    "sub_451FAE",
+                    "sub_453C99"
+                ],
+                "edges": [
+                    [
+                        "sub_453C99",
+                        "sub_451FAE"
+                    ]
+                ]
+            }
+        }
+    ]
+}

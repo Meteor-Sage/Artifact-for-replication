@@ -1,0 +1,92 @@
+{
+    "sub_123": {
+        "nodes": {
+            "0": "sub_40E886",
+            "1": "start",
+            "2": "StartAddress",
+            "3": "sub_401F37",
+            "4": "sub_40062B"
+        },
+        "edges": [
+            [
+                "StartAddress",
+                "sub_40062B"
+            ],
+            [
+                "sub_40E886",
+                "sub_40E886"
+            ],
+            [
+                "sub_40062B",
+                "sub_40062B"
+            ],
+            [
+                "sub_40E886",
+                "sub_40062B"
+            ],
+            [
+                "start",
+                "sub_40E886"
+            ],
+            [
+                "sub_40062B",
+                "sub_401F37"
+            ]
+        ],
+        "leafs": [
+            "sub_401F37"
+        ]
+    },
+    "paths_123_1": [
+        {
+            "start": "sub_401F37",
+            "end": "sub_401F37",
+            "path": {
+                "nodes": [
+                    "sub_401F37"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_2": [
+        {
+            "start": "sub_401F37",
+            "end": "sub_4022E3",
+            "path": {
+                "nodes": [
+                    "sub_40BFC3",
+                    "sub_4022E3",
+                    "sub_402C64",
+                    "sub_401F37"
+                ],
+                "edges": [
+                    [
+                        "sub_40BFC3",
+                        "sub_402C64"
+                    ],
+                    [
+                        "sub_402C64",
+                        "sub_4022E3"
+                    ],
+                    [
+                        "sub_401F37",
+                        "sub_40BFC3"
+                    ]
+                ]
+            }
+        }
+    ],
+    "paths_123_3": [
+        {
+            "start": "sub_401F37",
+            "end": "sub_401F37",
+            "path": {
+                "nodes": [
+                    "sub_401F37"
+                ],
+                "edges": []
+            }
+        }
+    ]
+}

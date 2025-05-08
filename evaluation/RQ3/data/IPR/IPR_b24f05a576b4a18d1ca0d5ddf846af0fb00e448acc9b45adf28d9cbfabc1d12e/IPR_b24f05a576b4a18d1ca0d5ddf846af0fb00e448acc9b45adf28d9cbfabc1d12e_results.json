@@ -1,0 +1,93 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_45A288()",
+            "is_crypto_fun": true,
+            "description": "Potential AES encryption or decryption operation involving Rijndael AES inverse tables and bitwise manipulation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41537D",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory using RSA encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_45FA5A(v1, v2, v3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption function detected. The function seems to involve a series of bitwise operations and data transformations commonly found in encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_42851A(this);",
+            "is_crypto_fun": true,
+            "description": "This function appears to implement the Mersenne Twister PRNG (MT532C7). It indicates an encryption-related functionality since PRNGs like Mersenne Twister are often used in cryptographic applications to generate pseudorandom numbers."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_441696(_DWORD *a1, unsigned int *a2, unsigned int *a3, unsigned int a4);",
+            "is_crypto_fun": false,
+            "description": "The function involves multiple arithmetic operations on the input data using bitwise manipulation and multi-step calculations. It does not follow typical encryption patterns like those seen in AES, RSA, DES, etc."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_431EE4(_DWORD *a1, unsigned int *a2, unsigned int *a3);",
+            "is_crypto_fun": false,
+            "description": "This function performs a series of multiplications and additions on arrays of unsigned integers. It doesn't appear to implement any known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4669AE",
+            "is_crypto_fun": true,
+            "description": "This function appears to perform cryptographic operations potentially related to encryption. It utilizes SIMD instructions and multiple XOR operations, which are common in encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4500E7(const __m128i *a1, unsigned int *a2, int a3);",
+            "is_crypto_fun": true,
+            "description": "Potential SHA-256 hash computation function, involving bitwise operations, constant tables, and integration with SIMD instructions on __m128i data type."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_45BA28(__int128 *a1, unsigned int *a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be a SHA-512 hash function processing routine, as indicated by the use of SH6A2A specific constants and operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_456ED0(int *a1, int *a2);",
+            "is_crypto_fun": true,
+            "description": "The function shows characteristics of a cryptographic algorithm, potentially modifying input data through multiple bitwise operations and mathematical manipulations in rounds. It resembles an implementation of hash or block cipher algorithm like SHA-1 or similar."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4403C3",
+            "is_crypto_fun": false,
+            "description": "The function performs various arithmetic and bitwise operations on supplied parameters but there is no clear indication that it implements any known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_453BE0(_DWORD *this, char *a2, size_t a3, int a4);",
+            "is_crypto_fun": true,
+            "description": "The function appears to involve AES encryption operations, indicated by the use of Rijndael_AES_LONG_4B0719 constants and transformations on data."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4559BB",
+            "is_crypto_fun": true,
+            "description": "This function demonstrates multiple characteristics of cryptographic operations. It utilizes SIMD instructions (such as _mm_load_si128, _mm_xor_si128, _mm_add_epi32, etc.), and involves a series of XOR operations, shifts, and arithmetic operations typically found in encryption algorithms."
+        }
+    }
+]

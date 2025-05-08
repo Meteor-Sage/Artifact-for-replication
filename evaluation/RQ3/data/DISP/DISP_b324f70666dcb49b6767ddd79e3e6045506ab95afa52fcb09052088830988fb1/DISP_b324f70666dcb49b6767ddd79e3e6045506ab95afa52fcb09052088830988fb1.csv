@@ -1,0 +1,15 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_4038D7,"['crypt', 'Crypt']",sub_40159E,['WriteFile'],sub_40AD02,"['FindFirstFile', 'FindNextFile']",sub_400856,['ReadFile'],sub_404F7A,['Snapshot']
+sub_40D22E,"['crypt', 'Encrypt']",sub_400856,['WriteFile'],sub_40D22E,['PathFindFileName'],sub_40D22E,['CreateFile'],sub_40D22E,['encrypted']
+sub_40FFE7,"['crypt', 'Encrypt']",sub_40D22E,['WriteFile'],sub_40D552,['PathFindFileName'],sub_40FFE7,['CreateFile'],sub_40FFE7,['encrypted']
+sub_40FD5A,"['CryptReleaseContext', 'Crypt', 'CryptAcquireContext']",sub_40FFE7,['WriteFile'],sub_40B9B4,"['FindFirstFile', 'FindNextFile']",sub_406C50,['CreateFile'],sub_409D06,['Snapshot']
+sub_40A974,"['CryptGenRandom', 'Crypt', 'CryptReleaseContext', 'CryptAcquireContext']",sub_406C50,['WriteFile'],,,sub_412F77,['CreateFile'],,
+sub_407D39,Potential encryption or cryptographic hash function involving data content and multiple bitwise operations.,sub_40B9B4,"['MoveFile', 'DeleteFile']",,,,,,
+sub_403C23,"The function appears to perform complex bitwise operations and data manipulation consistent with cryptographic algorithms, potentially similar to hash functions or block ciphers.",sub_40D6D9,['MoveFile'],,,,,,
+sub_40BA87,Potential encryption or modification of data content read into memory. The function involves multiple bitwise operations on data arrays and matches the general characteristics of a cryptographic function.,sub_413992,['WriteFile'],,,,,,
+sub_40F05A,Potential encryption or modification of data content using values and operations that suggest structured transformation consistent with encryption algorithms.,sub_41A7EA,['WriteFile'],,,,,,
+sub_408631,Potential encryption or modification of data content read into memory. The function involves XOR operations and uses lookup tables for modification.,,,,,,,,
+sub_407C32,Potential encryption function involving various bitwise operations and rotations.,,,,,,,,
+sub_400D08,"This function appears to be setting up tables and constants used in AES encryption, including S-box initialization and lookup tables common in block cipher algorithms.",,,,,,,,
+sub_410EC0,This function appears to implement AES encryption operations using Intel's AES-NI instruction set.,,,,,,,,
+sub_41FE15,This function appears to be performing AES encryption based on the usage of AES instructions such as aesenc and aesenclast.,,,,,,,,

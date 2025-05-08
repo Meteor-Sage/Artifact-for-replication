@@ -1,0 +1,24 @@
+node: { title: "0" label: "sub_403F21" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "1" label: "sub_40DB50" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "2" label: "sub_401F91" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "3" label: "WinMain" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "4" label: "sub_404813" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "5" label: "sub_40B9FA" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "6" label: "sub_40E075" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "7" label: "sub_402BE1" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "8" label: "sub_40FADC" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "9" label: "?__scrt_common_main_seh" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "10" label: "sub_40A64B" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "11" label: "sub_40EC3A" color: 76 textcolor: 73 bordercolor: black }
+edge: { sourcename: "2" targetname: "7" }
+edge: { sourcename: "3" targetname: "0" }
+edge: { sourcename: "5" targetname: "7" }
+edge: { sourcename: "8" targetname: "10" }
+edge: { sourcename: "11" targetname: "4" }
+edge: { sourcename: "4" targetname: "8" }
+edge: { sourcename: "6" targetname: "10" }
+edge: { sourcename: "7" targetname: "4" }
+edge: { sourcename: "1" targetname: "7" }
+edge: { sourcename: "9" targetname: "3" }
+edge: { sourcename: "0" targetname: "2" }
+edge: { sourcename: "4" targetname: "6" }

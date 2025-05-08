@@ -1,0 +1,128 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_428658(a1);",
+            "is_crypto_fun": false,
+            "description": "This function does not perform encryption operations. It returns a shifted value based on the input."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40CDBF",
+            "is_crypto_fun": false,
+            "description": "This function does not appear to be performing encryption operations. It involves creating a file with specific parameters based on the input values."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41AB56(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function sub_41AB56 appears to call another function using a function pointer. This does not indicate any specific crypto operations. It modifies data content by passing original and processed inputs, but there's no clear indication of encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401011",
+            "is_crypto_fun": false,
+            "description": "The function performs a bitwise right shift operation on a value in memory, which is not characteristic of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409AFA",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform data shifting operations, which are not indicative of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_422F21",
+            "is_crypto_fun": false,
+            "description": "The provided function does not contain typical characteristics of an encryption algorithm. It appears to be performing conditional checks and function calls rather than data transformation or encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40AC55(char *result, _BYTE *a2, int a3);",
+            "is_crypto_fun": false,
+            "description": "Copies data from a2 to result, stopping at the first zero byte or after copying a3 bytes."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409D89",
+            "is_crypto_fun": false,
+            "description": "This function involves opening a file and setting access and share modes. It does not perform any encryption or data content modification specific to encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_404CFE(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "Function modifies or sets memory and does not exhibit characteristics of an encryption algorithm. It uses the memset32 function for memory modification."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_407C26(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function involves process manipulation and inter-process communication but does not exhibit characteristics of a standard encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4078D2",
+            "is_crypto_fun": false,
+            "description": "This function appears to handle memory management and critical section operations, but there is no evidence of encryption algorithm usage."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4102E7(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "Potentially arithmetic and bitwise operations on input parameters, not indicative of encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409E69",
+            "is_crypto_fun": false,
+            "description": "This function returns a value based on the current thread ID. It does not perform encryption or modification of data content read into memory."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F9AA",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform memory copying operations and does not contain any known encryption algorithm logic."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_406F2D(v1, v2, v3);",
+            "is_crypto_fun": false,
+            "description": "This function converts Unicode characters to a UTF-8 encoded string. It does not perform cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40736A",
+            "is_crypto_fun": false,
+            "description": "Possibly performing mathematical operations using FPU instructions rather than encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D1DB",
+            "is_crypto_fun": false,
+            "description": "Function appears to perform arithmetic and various operations on input values, but it does not resemble a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_42307E",
+            "is_crypto_fun": false,
+            "description": "The function interacts with the registry and performs various operations based on conditions but does not appear to perform encryption operations."
+        }
+    }
+]

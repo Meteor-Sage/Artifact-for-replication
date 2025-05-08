@@ -1,0 +1,9 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_500416,['1692FB1527'],sub_4026DC,['WriteFile'],,,sub_409E2C,['ReadFile'],,
+sub_46A7D8,Potential encryption or modification of data content read into memory. The operation resembles cryptographic transformations using bitwise operations and lookup tables.,sub_5089E8,['DeleteFile'],,,,,,
+sub_4622CD,The function appears to perform operations on input data involving a series of XOR operations and table lookups which is characteristic of certain encryption or checksum algorithms.,,,,,,,,
+sub_4F1F0A,Potential encryption or modification of data content read into memory.,,,,,,,,
+sub_4FB213,This function performs bitwise operations and data manipulation that are characteristic of encryption algorithms.,,,,,,,,
+sub_4F08DA,Potential encryption or modification of data content read into memory.,,,,,,,,
+sub_4FA10A,"Potential encryption or modification of data content read into memory. This code contains characteristic operations and checks commonly associated with encryption algorithms, such as rotating bits, conditional processing based on specific bit masks, and transforming data through function calls that could represent cryptographic transformations.",,,,,,,,
+sub_4F5037,"Potential encryption or modification of data content read into memory. The function involves byte manipulation, conditionally modifying data based on flag checks, and shifting operations, which are indicative of cryptographic processes.",,,,,,,,

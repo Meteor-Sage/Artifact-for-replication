@@ -1,0 +1,281 @@
+{
+    "sub_123": {
+        "nodes": {
+            "0": "WinMain",
+            "2": "Function",
+            "4": "?__scrt_common_main_seh"
+        },
+        "edges": [
+            [
+                "?__scrt_common_main_seh",
+                "WinMain"
+            ]
+        ],
+        "leafs": [
+            "WinMain",
+            "Function"
+        ]
+    },
+    "paths_123_1": [
+        {
+            "start": "Function",
+            "end": "Function",
+            "path": {
+                "nodes": [
+                    "Function"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_2": [
+        {
+            "start": "Function",
+            "end": "sub_400C18",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_400C18"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_400C18"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_40A4E4",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_40A4E4"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_40A4E4"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "Function",
+            "path": {
+                "nodes": [
+                    "Function"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_4047D5",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_4047D5",
+                    "sub_40B4CC",
+                    "sub_40D27F"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_40D27F"
+                    ],
+                    [
+                        "sub_40B4CC",
+                        "sub_4047D5"
+                    ],
+                    [
+                        "sub_40D27F",
+                        "sub_40B4CC"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_404193",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_404193",
+                    "sub_4047D5",
+                    "sub_40B4CC",
+                    "sub_40D27F"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_40D27F"
+                    ],
+                    [
+                        "sub_4047D5",
+                        "sub_404193"
+                    ],
+                    [
+                        "sub_40B4CC",
+                        "sub_4047D5"
+                    ],
+                    [
+                        "sub_40D27F",
+                        "sub_40B4CC"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_407605",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_407605",
+                    "sub_401FA1",
+                    "sub_40196C",
+                    "sub_40B25D",
+                    "sub_400D71",
+                    "sub_403B1F",
+                    "sub_404563",
+                    "sub_40750C",
+                    "sub_403DFA",
+                    "sub_402B30"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_402B30"
+                    ],
+                    [
+                        "sub_401FA1",
+                        "sub_407605"
+                    ],
+                    [
+                        "sub_40196C",
+                        "sub_407605"
+                    ],
+                    [
+                        "sub_40B25D",
+                        "sub_407605"
+                    ],
+                    [
+                        "sub_400D71",
+                        "sub_407605"
+                    ],
+                    [
+                        "sub_403B1F",
+                        "sub_407605"
+                    ],
+                    [
+                        "sub_404563",
+                        "sub_400D71"
+                    ],
+                    [
+                        "sub_404563",
+                        "sub_403B1F"
+                    ],
+                    [
+                        "sub_40750C",
+                        "sub_404563"
+                    ],
+                    [
+                        "sub_403DFA",
+                        "sub_407605"
+                    ],
+                    [
+                        "sub_403DFA",
+                        "sub_401FA1"
+                    ],
+                    [
+                        "sub_403DFA",
+                        "sub_40196C"
+                    ],
+                    [
+                        "sub_403DFA",
+                        "sub_40B25D"
+                    ],
+                    [
+                        "sub_403DFA",
+                        "sub_40750C"
+                    ],
+                    [
+                        "sub_402B30",
+                        "sub_403DFA"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_40B4CC",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_40B4CC",
+                    "sub_40D27F"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_40D27F"
+                    ],
+                    [
+                        "sub_40D27F",
+                        "sub_40B4CC"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_40196C",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_40196C",
+                    "sub_40B25D",
+                    "sub_403DFA",
+                    "sub_402B30"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_402B30"
+                    ],
+                    [
+                        "sub_40B25D",
+                        "sub_40196C"
+                    ],
+                    [
+                        "sub_403DFA",
+                        "sub_40196C"
+                    ],
+                    [
+                        "sub_403DFA",
+                        "sub_40B25D"
+                    ],
+                    [
+                        "sub_402B30",
+                        "sub_403DFA"
+                    ]
+                ]
+            }
+        }
+    ],
+    "paths_123_3": [
+        {
+            "start": "Function",
+            "end": "Function",
+            "path": {
+                "nodes": [
+                    "Function"
+                ],
+                "edges": []
+            }
+        }
+    ]
+}

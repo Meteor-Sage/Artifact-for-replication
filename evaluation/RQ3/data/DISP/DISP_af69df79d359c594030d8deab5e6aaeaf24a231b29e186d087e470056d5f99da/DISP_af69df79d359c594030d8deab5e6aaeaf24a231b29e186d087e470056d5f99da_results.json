@@ -1,0 +1,114 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40E8C3(int this, unsigned int a2);",
+            "is_crypto_fun": false,
+            "description": "Memory allocation and copying operations, potentially resizing a deque container."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D44E(int this, unsigned int a2);",
+            "is_crypto_fun": false,
+            "description": "Function appears to be related to data manipulation and memory operations, likely resizing or managing a data structure. No indications of encryption operations detected."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_420700(a1);",
+            "is_crypto_fun": false,
+            "description": "This function performs arithmetic operations on the return value of another function (sub_42FEF1), but it does not resemble any standard encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_424821(char *a1);",
+            "is_crypto_fun": false,
+            "description": "The function computes a value based on the input string using bitwise operations and shifts. It does not correspond to any well-known encryption algorithms such as AES, RSA, TEA, DES, ChaCha, or RC4."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_400966(this, a2);",
+            "is_crypto_fun": false,
+            "description": "Function does not exhibit characteristics of known encryption algorithms and appears to be related to data manipulation or encoding rather than encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D6A6",
+            "is_crypto_fun": false,
+            "description": "The function sub_40D6A6 appears to perform some form of content manipulation or indexing, but does not exhibit clear characteristics of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4026E0(_DWORD *this, _DWORD *a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to manipulate and update data based on certain conditions but does not inherently show characteristics of common encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40256E",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform operations involving indexing and modification of memory, but it does not match the structure of standard encryption algorithms like AES, RSA, TEA, DES, chacha, or RC4."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41829E",
+            "is_crypto_fun": true,
+            "description": "Potential implementation of a cryptographic algorithm, likely related to a block cipher given the operations involving data transformation, bitwise operations, and multiple rounds of processing."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_419C30(int *a1, unsigned int *a2, int a3);",
+            "is_crypto_fun": true,
+            "description": "The function appears to perform a series of operations that closely resemble the structure of a cryptographic hash function algorithm, particularly one that modifies data in memory. The use of operations like bit rotation, addition, and bitwise operations in large iterative loops are characteristic of cryptographic functions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41B9BE(int *a1, unsigned int *Src, size_t Size);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41B631(_DWORD *a1, unsigned int *Src, size_t Size);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function appears to process data in blocks, which is a common characteristic of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41EED5(a1, a2);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function performs multiple bitwise operations, shifts, and memory manipulation indicative of cryptographic processing."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_410F43(unsigned __int16 *a1, _DWORD *a2);",
+            "is_crypto_fun": false,
+            "description": "The code appears to manipulate and modify data content read into memory. There's no clear indication that it is part of a known encryption algorithm such as AES, RSA, TEA, DES, Chacha, or RC4."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4064D0(a1);",
+            "is_crypto_fun": false,
+            "description": "This function appears to manipulate several variables and structures, control flow, and perform various operations such as file handling and event management. However, it does not exhibit characteristics typically associated with encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4092B7(HI08FANCE hInstance);",
+            "is_crypto_fun": false,
+            "description": "The function does not appear to perform any encryption-related operations but involves extensive manipulation of various data structures and system resources, potentially related to UI or system-level functionality."
+        }
+    }
+]

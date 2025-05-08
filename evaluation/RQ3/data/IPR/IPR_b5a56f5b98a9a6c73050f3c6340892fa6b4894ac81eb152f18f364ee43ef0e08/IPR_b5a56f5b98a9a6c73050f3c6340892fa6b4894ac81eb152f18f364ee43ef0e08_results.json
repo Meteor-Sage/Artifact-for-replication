@@ -1,0 +1,100 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40716B",
+            "is_crypto_fun": false,
+            "description": "The function does not directly indicate the use of well-known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4115CB(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be performing complex arithmetic operations on the input parameters, but it does not resemble any standard encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401550(this);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption function utilizing Crypto++ library with RSA and OAEP(SHA1) schemes."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41F3BC",
+            "is_crypto_fun": true,
+            "description": "Potential symmetric encryption function involving bitwise operations and data transformation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41E4A5",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function appears to use operations that are characteristic of an AES (specifically Rijndael) decryption algorithm, as indicated by references like `RijnDael_AES_inv_LONG_467955`."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41B688(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform complex operations involving multiple recursive calls, but there is no clear indication of standard encryption algorithm principles being applied."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401E77",
+            "is_crypto_fun": false,
+            "description": "The function seems to be performing a series of multiplications and additions involving elements of input arrays. It appears to be a mathematical operation, potentially related to numerical computations or data transformations, but it does not exhibit characteristics typical of well-known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4250D2(int *a1, int *a2);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function includes several shifts, rotates, and XOR operations characteristic of cryptographic-like processing."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_424B0E(v1, v2);",
+            "is_crypto_fun": false,
+            "description": "This function does not appear to be part of a standard encryption algorithm. It does resemble processing similar to hash function implementations like SHA-512, identifiable by constants and bitwise operations often used in such algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_42C5AD",
+            "is_crypto_fun": true,
+            "description": "This function potentially modifies data content based on various bitwise and arithmetic operations, suggesting encryption-like activity."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41FC09",
+            "is_crypto_fun": true,
+            "description": "Potential complex mathematical operations involving multiple arrays and elements suggesting encryption-like behavior."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_425B89(this, Src, Size, a4);",
+            "is_crypto_fun": true,
+            "description": "Function appears to implement AES encryption using the Rijndael algorithm to modify data content."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41D6F6(_DWORD *a1, unsigned int *a2);",
+            "is_crypto_fun": false,
+            "description": "The provided function appears to perform a series of mathematical operations on the input parameters but does not match typical patterns of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41D48B(a1, a2, a3, a4);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function involves complex operations with SIMD instructions and appears to manipulate data in a manner consistent with encryption, possibly implementing an iterative block cipher with operations like XOR and data transformation."
+        }
+    }
+]

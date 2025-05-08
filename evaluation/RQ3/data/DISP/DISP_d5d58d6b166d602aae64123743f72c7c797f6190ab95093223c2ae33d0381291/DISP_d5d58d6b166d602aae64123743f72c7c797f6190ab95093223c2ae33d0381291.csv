@@ -1,0 +1,9 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_40116B,['Crypt'],sub_4060C1,['SaveFile'],sub_409A15,"['FindFirstFile', 'FindNextFile']",sub_4060C1,['OpenFile'],,
+sub_40B5F1,['Crypt'],sub_402763,['DeleteFile'],sub_407615,['FindFirstFile'],sub_402763,['CreateFile'],,
+sub_40E952,Possible encryption or CRC-like hash function modifying data content using lookup tables and bitwise operations.,sub_40ADA7,['MoveFile'],,,sub_404B2D,['CreateFile'],,
+sub_406E69,"Potential encryption involving multiple memory read and write operations, bit manipulations, and complex transformations.",sub_40AFE8,['WriteFile'],,,sub_40054F,['CreateFile'],,
+sub_40BFC2,"Potential encryption or modification of data content read into memory. The function involves significant bitwise operations and data transformation, indicating that it could be part of an encryption algorithm.",sub_404F76,['DeleteFile'],,,sub_40E457,['ReadFile'],,
+sub_40033C,The function appears to be setting up internal state tables often used in cryptographic algorithms such as AES. It initializes values and computes transformations that are characteristic of encryption-related functions.,sub_40E134,"['MoveFile', 'DeleteFile']",,,sub_4015D8,['CreateFile'],,
+sub_40DF39,"The function performs several operations involving bitwise rotation, copying memory, and apparent modification of the data in a structured manner that resembles features of certain cryptographic hash or encryption algorithms.",,,,,sub_40CE23,['CreateFile'],,
+sub_42701A,"Potential encryption or modification of data content read into memory. The function appears to involve bitwise manipulations and shifts, masking and checking conditions which are indicative of certain cryptographic operations, typically seen in encryption algorithms.",,,,,WinMain,['OpenFile'],,

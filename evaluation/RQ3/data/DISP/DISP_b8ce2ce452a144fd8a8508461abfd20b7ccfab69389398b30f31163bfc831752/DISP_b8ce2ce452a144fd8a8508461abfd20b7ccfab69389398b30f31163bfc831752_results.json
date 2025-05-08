@@ -1,0 +1,100 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40655E(a1);",
+            "is_crypto_fun": true,
+            "description": "Function performs XOR operations on data, indicating potential encryption-like behavior."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401DF5(_BYTE *a1, int a2);",
+            "is_crypto_fun": true,
+            "description": "This function appears to perform a series of bitwise XOR operations on the input data, which is a common technique used in encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40AC5D(a1, a2, a3, a4);",
+            "is_crypto_fun": true,
+            "description": "Likely obfuscation or encryption function using XOR operation with a constant key."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40E8C9(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "This function does not represent an encryption algorithm. It appears to manipulate input data with a mathematical operation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40CCEE",
+            "is_crypto_fun": false,
+            "description": "The function performs various operations such as memory allocation and modification, checks, and calls to other subroutines, but does not clearly implement any standard encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4000C1",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform a form of data encoding, possibly base64 encoding, but it does not implement an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_407633",
+            "is_crypto_fun": true,
+            "description": "This function appears to be implementing a block cipher encryption algorithm, with elements resembling the AES (Rijndael) cipher, including byte substitution and XOR operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_400AE7(unsigned int *a1, unsigned int a2);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption function using multiple rounds of transformations which resemble operations seen in block cipher encryption algorithms such as AES."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_400D46();",
+            "is_crypto_fun": false,
+            "description": "This function does not show typical characteristics of encryption algorithms such as key scheduling, state initialization or data rounds. It seems to perform a transformation using some unknown functions (dword_410893, dword_41E7B7, dword_411CBE) and arithmetic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401B28",
+            "is_crypto_fun": true,
+            "description": "The function performs content modification operations that strongly suggest it's an encryption algorithm. The presence of key scheduling, multiple rounds of bitwise and arithmetic operations (such as rotations and XORs) indicate that this function is likely implementing an encryption algorithm, possibly a variant of the Salsa20/ChaCha family."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D5A4()",
+            "is_crypto_fun": true,
+            "description": "Potential encryption function using XOR operation with a constant key on multiple data arrays."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409004(char *a1, _BYTE *a2);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function appears to perform complex operations on the input data, which is indicative of cryptographic processing."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4087E9(a1, a2, a3, a4, a5);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function performs operations on multiple variables, including bitwise operations and XOR processes."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40ACA8",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function involves multiple data transformations, bitwise operations, and buffer manipulations that are characteristic of cryptographic algorithms."
+        }
+    }
+]

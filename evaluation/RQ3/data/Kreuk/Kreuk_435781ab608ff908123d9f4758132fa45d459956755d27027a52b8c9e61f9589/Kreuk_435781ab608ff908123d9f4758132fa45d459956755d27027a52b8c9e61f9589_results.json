@@ -1,0 +1,79 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14E899C20(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be formatting and modifying strings in memory. It does not involve encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14E899DE0(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "This function appears to process and format a wide character string using vsnwprintf. It does not involve encryption logic."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14FE92600(a1, a2, a3, a4, a5, a6);",
+            "is_crypto_fun": true,
+            "description": "The function appears to perform encryption by modifying data content read into memory using XOR operations in conjunction with sub_1421DBBC9."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140485740",
+            "is_crypto_fun": false,
+            "description": "The function does not appear to perform any encryption or decryption operations. It appears to call another function 'sub_1404854B0' and modifies data based on its results, but there is no evident cryptographic algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1421DB867(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "The function performs a series of mathematical manipulations on input data but does not appear to be an encryption function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14E8999D0(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13);",
+            "is_crypto_fun": false,
+            "description": "Function contains complex manipulations and conditions but does not exhibit clear characteristics of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1421DBBC9",
+            "is_crypto_fun": true,
+            "description": "This function appears to be implementing an encryption algorithm, as it features bit operations like bitwise XOR, bit shifts, and rotations typically seen in encryption routines."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14CFEA3C1",
+            "is_crypto_fun": true,
+            "description": "The function appears to be implementing a variant of the SHA-512 hashing algorithm. This is determined by observing constants, bitwise operations, looping structure, and memory manipulation, commonly associated with SHA-512."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "Z17_e3cc5b58c71c8439Pw",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "Z17_a94acad878D3Cc13v(a1, a2)",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content using bitwise XOR operations and possible function pointer execution."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1449080C7(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12)",
+            "is_crypto_fun": true,
+            "description": "This function performs operations that resemble an encryption algorithm. It modifies and manipulates data using SIMD instructions (_mm_loadu_si128, _mm_shuffle_epi32, _mm_and_si128, _mm_xor_si128, etc.), processes large blocks of data in specific patterns, and implements key schedules or transformations, which is characteristic of encryption algorithms."
+        }
+    }
+]

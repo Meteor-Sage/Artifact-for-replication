@@ -1,0 +1,16 @@
+node: { title: "0" label: "sub_40B24F" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "1" label: "sub_400704" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "2" label: "sub_401604" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "3" label: "WinMain" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "4" label: "sub_408DBF" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "5" label: "tmainCRTStartup" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "6" label: "sub_402507" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "7" label: "sub_4015F5" color: 76 textcolor: 73 bordercolor: black }
+edge: { sourcename: "6" targetname: "2" }
+edge: { sourcename: "5" targetname: "3" }
+edge: { sourcename: "4" targetname: "0" }
+edge: { sourcename: "1" targetname: "0" }
+edge: { sourcename: "6" targetname: "7" }
+edge: { sourcename: "7" targetname: "1" }
+edge: { sourcename: "3" targetname: "6" }
+edge: { sourcename: "6" targetname: "4" }

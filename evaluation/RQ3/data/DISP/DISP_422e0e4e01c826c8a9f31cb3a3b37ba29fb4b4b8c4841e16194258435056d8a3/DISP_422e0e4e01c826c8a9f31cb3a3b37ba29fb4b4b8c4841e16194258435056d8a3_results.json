@@ -1,0 +1,113 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40E28B",
+            "is_crypto_fun": false
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "Delphi_Random_403C7F",
+            "is_crypto_fun": false,
+            "description": "The function performs a pseudo-random number generation operation, and does not appear to be a data encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40136D(result);",
+            "is_crypto_fun": false,
+            "description": "Function increments a specific memory address if certain conditions are met, does not appear to be an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40692B(result, a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform operations related to thread synchronization or reference counting, rather than encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40A319(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "This function reallocates and copies a string, no indication of encryption-related operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409551(a1);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform a conditional loop involving memory content comparison, but it does not exhibit characteristics of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40FA73(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "This function involves some data manipulation based on conditional checks and integer operations, but it does not appear to implement any well-known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40005E(int a1);",
+            "is_crypto_fun": false,
+            "description": "This function performs arithmetic operations including multiplication, addition, right shift, and bitwise AND. There is no indication of the use of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_407736(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "This function seems to perform memory modification operations using memset, and shifts bits of the input variables. It does not appear to be related to encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40CE51(a1);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform some kind of condition check and computation based on input values, but it does not resemble a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4007B7",
+            "is_crypto_fun": false,
+            "description": "This function appears to compare memory regions byte by byte and does not exhibit characteristics of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40A5B4",
+            "is_crypto_fun": false,
+            "description": "The function seems to perform memory copying operations, but it does not appear to be an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4055FE",
+            "is_crypto_fun": false,
+            "description": "The function appears to handle image copying and some form of data or exception handling, but does not seem to perform encryption or modification related to known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D335(a1);",
+            "is_crypto_fun": false,
+            "description": "The function modifies content using arithmetic and bitwise operations but does not correspond to a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_402BB1(a1);",
+            "is_crypto_fun": false,
+            "description": "The function does not appear to perform encryption. It seems to involve checks and manipulations based on memory content and conditions, potentially for data integrity or structure validation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40FBDC(v1, v2, v3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform interlocked operations and modifies memory content, but does not show characteristics of encryption algorithms like AES, RSA, or similar."
+        }
+    }
+]

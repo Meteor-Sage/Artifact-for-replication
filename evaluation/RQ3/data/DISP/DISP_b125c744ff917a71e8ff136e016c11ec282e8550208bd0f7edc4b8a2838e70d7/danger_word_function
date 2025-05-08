@@ -1,0 +1,11 @@
+node: { title: "0" label: "sub_403C42" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "1" label: "start" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "2" label: "StartAddress" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "3" label: "sub_403DE8" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "4" label: "sub_40EF04" color: 76 textcolor: 73 bordercolor: black }
+edge: { sourcename: "2" targetname: "3" }
+edge: { sourcename: "0" targetname: "0" }
+edge: { sourcename: "3" targetname: "3" }
+edge: { sourcename: "0" targetname: "3" }
+edge: { sourcename: "1" targetname: "0" }
+edge: { sourcename: "1" targetname: "4" }

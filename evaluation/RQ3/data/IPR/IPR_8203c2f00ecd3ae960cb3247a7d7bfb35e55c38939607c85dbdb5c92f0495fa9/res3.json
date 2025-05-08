@@ -1,0 +1,92 @@
+{
+    "sub_123": {
+        "nodes": {
+            "0": "sub_401935",
+            "1": "start",
+            "2": "StartAddress",
+            "3": "sub_404CBB",
+            "4": "sub_40655C"
+        },
+        "edges": [
+            [
+                "StartAddress",
+                "sub_40655C"
+            ],
+            [
+                "sub_401935",
+                "sub_401935"
+            ],
+            [
+                "sub_40655C",
+                "sub_40655C"
+            ],
+            [
+                "sub_401935",
+                "sub_40655C"
+            ],
+            [
+                "start",
+                "sub_401935"
+            ],
+            [
+                "sub_40655C",
+                "sub_404CBB"
+            ]
+        ],
+        "leafs": [
+            "sub_404CBB"
+        ]
+    },
+    "paths_123_1": [
+        {
+            "start": "sub_404CBB",
+            "end": "sub_404CBB",
+            "path": {
+                "nodes": [
+                    "sub_404CBB"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_2": [
+        {
+            "start": "sub_404CBB",
+            "end": "sub_405AE6",
+            "path": {
+                "nodes": [
+                    "sub_401387",
+                    "sub_405AE6",
+                    "sub_404F93",
+                    "sub_404CBB"
+                ],
+                "edges": [
+                    [
+                        "sub_401387",
+                        "sub_404F93"
+                    ],
+                    [
+                        "sub_404F93",
+                        "sub_405AE6"
+                    ],
+                    [
+                        "sub_404CBB",
+                        "sub_401387"
+                    ]
+                ]
+            }
+        }
+    ],
+    "paths_123_3": [
+        {
+            "start": "sub_404CBB",
+            "end": "sub_404CBB",
+            "path": {
+                "nodes": [
+                    "sub_404CBB"
+                ],
+                "edges": []
+            }
+        }
+    ]
+}

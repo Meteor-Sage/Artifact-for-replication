@@ -1,0 +1,11 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_40460D,"['Crypt', 'CryptAcquireContext']",sub_400DF0,['WriteFile'],sub_40905F,"['FindFirstFile', 'FindNextFile']",sub_400637,['CreateFile'],sub_40087E,['Snapshot']
+sub_4042C4,"['CryptGenRandom', 'crypt', 'Crypt']",sub_4042C4,"['MoveFile', 'WriteFile']",sub_4027A0,"['FindFirstFile', 'FindNextFile']",sub_4042C4,"['CreateFile', 'ReadFile']",,
+start,"['CryptReleaseContext', 'Crypt']",sub_40905F,['WriteFile'],,,sub_40905F,['CreateFile'],,
+sub_40BF87,"Potential encryption or modification of data content read into memory. The function appears to perform bitwise operations, shifts, and nonlinear mixing of data, indicative of a stream cipher-like encryption.",,,,,,,,
+sub_4045E2,"The function performs various bitwise operations and additions on the input data, which are indicative of a symmetric encryption algorithm.",,,,,,,,
+sub_415D75,"Function sub_415D75 appears to perform encryption-like operations with numerous XOR, shift, and other bitwise manipulations on data, as well as incorporating constant values often associated with cryptographic operations.",,,,,,,,
+sub_41C3A8,"Potential encryption or modification of data content read into memory, involving XOR operations, which are common in block cipher implementations.",,,,,,,,
+sub_407D9A,"This function appears to involve intricate bitwise operations and permutations on data, which is indicative of an encryption algorithm.",,,,,,,,
+sub_4139FF,"Potential encryption or modification of data content read into memory, using a byte-wise XOR operation and table lookup.",,,,,,,,
+sub_40BE2C,Potential encryption or modification of data content read into memory. The function uses multiple bitwise operations and variable manipulation which are indicative of encryption algorithms.,,,,,,,,

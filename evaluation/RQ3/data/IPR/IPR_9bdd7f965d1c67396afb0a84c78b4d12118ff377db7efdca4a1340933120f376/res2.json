@@ -1,0 +1,178 @@
+{
+    "sub_12": {
+        "nodes": {
+            "0": "sub_400BEA",
+            "1": "sub_402E0B",
+            "2": "start"
+        },
+        "edges": [
+            [
+                "sub_402E0B",
+                "sub_400BEA"
+            ],
+            [
+                "sub_402E0B",
+                "sub_402E0B"
+            ],
+            [
+                "start",
+                "sub_402E0B"
+            ]
+        ],
+        "leafs": [
+            "sub_400BEA"
+        ]
+    },
+    "sub_23": {
+        "nodes": {
+            "0": "start",
+            "4": "sub_402E0B",
+            "8": "sub_400BEA"
+        },
+        "edges": [
+            [
+                "sub_402E0B",
+                "sub_400BEA"
+            ],
+            [
+                "sub_402E0B",
+                "sub_402E0B"
+            ],
+            [
+                "start",
+                "sub_402E0B"
+            ]
+        ],
+        "leafs": [
+            "sub_400BEA"
+        ]
+    },
+    "sub_123": {
+        "nodes": {
+            "0": "sub_400BEA",
+            "1": "sub_402E0B",
+            "2": "start"
+        },
+        "edges": [
+            [
+                "sub_402E0B",
+                "sub_400BEA"
+            ],
+            [
+                "sub_402E0B",
+                "sub_402E0B"
+            ],
+            [
+                "start",
+                "sub_402E0B"
+            ]
+        ],
+        "leafs": [
+            "sub_400BEA"
+        ]
+    },
+    "paths_12_1": [
+        {
+            "start": "sub_400BEA",
+            "end": "sub_400BEA",
+            "path": {
+                "nodes": [
+                    "sub_400BEA"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_12_2": [
+        {
+            "start": "sub_400BEA",
+            "end": "sub_40B504",
+            "path": {
+                "nodes": [
+                    "sub_400BEA",
+                    "sub_40B504"
+                ],
+                "edges": [
+                    [
+                        "sub_400BEA",
+                        "sub_40B504"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_400BEA",
+            "end": "sub_400BEA",
+            "path": {
+                "nodes": [
+                    "sub_400BEA"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_23_2": [
+        {
+            "start": "sub_400BEA",
+            "end": "sub_40B504",
+            "path": {
+                "nodes": [
+                    "sub_400BEA",
+                    "sub_40B504"
+                ],
+                "edges": [
+                    [
+                        "sub_400BEA",
+                        "sub_40B504"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_400BEA",
+            "end": "sub_400BEA",
+            "path": {
+                "nodes": [
+                    "sub_400BEA"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_23_3": [
+        {
+            "start": "sub_400BEA",
+            "end": "sub_400BEA",
+            "path": {
+                "nodes": [
+                    "sub_400BEA"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_12": [
+        {
+            "start": "sub_400BEA",
+            "end": "sub_400BEA",
+            "path": {
+                "nodes": [
+                    "sub_400BEA"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_23": [
+        {
+            "start": "sub_400BEA",
+            "end": "sub_400BEA",
+            "path": {
+                "nodes": [
+                    "sub_400BEA"
+                ],
+                "edges": []
+            }
+        }
+    ]
+}

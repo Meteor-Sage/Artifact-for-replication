@@ -1,0 +1,142 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F167(Block, a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to assign a vftable address to a Block and conditionally calls another function, suggesting object management rather than cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_45145C(int a1);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be transforming and validating the input value, determining some size-related constraints or adjustments. There is no indication of cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_442705",
+            "is_crypto_fun": false,
+            "description": "The function appears to involve memory allocation and initialization but does not appear to be an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_479C73(a1);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform bit manipulations and conditional operations on the input integer. It does not resemble a known encryption function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_45B16B(void **this, void *a2);",
+            "is_crypto_fun": false,
+            "description": "Function appears to handle memory allocation and deallocation, not an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_43C9E6(_DWORD *this, std::_Locinfo *a2, int a3);",
+            "is_crypto_fun": false,
+            "description": "The function initializes a time_get object with locale information and sets its vtable pointer. It is not related to encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_438C3B(this, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The function initializes an object and sets a virtual function table pointer. It appears to relate to localization or time handling rather than encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_452085(this, a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform memory or state checks and updates using interlocked operations. There is no evidence of data transformation typical of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_459F93(int *this, _DWORD *a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform simple XOR operations and data copy, which are not characteristic of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_44CA54",
+            "is_crypto_fun": false,
+            "description": "This function appears to initialize a time_get object from the C++ standard library, which involves setting a vtable pointer and initializing the object with a locale info structure."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_46F516(a1, a2, a3, a4, a5);",
+            "is_crypto_fun": false,
+            "description": "Function appears to handle floating-point assembly and manipulation rather than encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_44F5AB",
+            "is_crypto_fun": false,
+            "description": "This function appears to be related to time and date operations, rather than performing encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4330E6",
+            "is_crypto_fun": false,
+            "description": "Function is involved in date and time manipulation and formatting, not related to encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_432DF3",
+            "is_crypto_fun": false,
+            "description": "Function related to locale and facet management in C++. Not a cryptographic or data modification function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_446BF9(this, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be related to formatting or parsing date and time. It utilizes several unknown library functions and formats for extracting or manipulating time-related information."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_47A366(v1, v2, v3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be responsible for formatting a floating-point number into a string representation. It does not match known encryption algorithm patterns."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_431AFD",
+            "is_crypto_fun": false,
+            "description": "The function appears to be modifying data and performing string manipulations, but it doesn't include typical patterns or operations characteristic of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_437E3A(a1, a2, a3, a4, a5, a6, a7, Src, a9, a10, a11, a12, a13, a14);",
+            "is_crypto_fun": false,
+            "description": "This function appears to involve manipulation of string or memory content based on various conditions, reading and inserting wchar_t characters, without any clear indications of standard encryption functionality."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4398B3(std::_Locinfo *a1, int a2, struct std::locale::_Locimp *a3, std::locale *a4);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be related to the manipulation of locale facets in C++ standard library locales. It dynamically allocates and initializes various locale-related facets (e.g., num_put, num_get, collate, messages, money_get, money_put, moneypunct). There is no indication that this function performs any cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4273FF(v1, v2, v3);",
+            "is_crypto_fun": false,
+            "description": "This function does not appear to be an implementation of a known encryption algorithm."
+        }
+    }
+]

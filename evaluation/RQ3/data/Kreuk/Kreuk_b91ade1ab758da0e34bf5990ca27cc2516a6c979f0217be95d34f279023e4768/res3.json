@@ -1,0 +1,100 @@
+{
+    "sub_123": {
+        "nodes": {
+            "6": "sub_4081C6",
+            "8": "sub_404A75",
+            "13": "start",
+            "15": "sub_40E12C",
+            "16": "sub_40B50E",
+            "17": "sub_40FCBB"
+        },
+        "edges": [
+            [
+                "sub_404A75",
+                "sub_4081C6"
+            ],
+            [
+                "sub_40FCBB",
+                "sub_404A75"
+            ],
+            [
+                "sub_40E12C",
+                "sub_40B50E"
+            ],
+            [
+                "start",
+                "sub_40FCBB"
+            ]
+        ],
+        "leafs": [
+            "sub_4081C6",
+            "sub_40B50E"
+        ]
+    },
+    "paths_123_1": [
+        {
+            "start": "sub_4081C6",
+            "end": "sub_4081C6",
+            "path": {
+                "nodes": [
+                    "sub_4081C6"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "sub_40B50E",
+            "end": "sub_40B50E",
+            "path": {
+                "nodes": [
+                    "sub_40B50E"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_2": [
+        {
+            "start": "sub_4081C6",
+            "end": "sub_4081C6",
+            "path": {
+                "nodes": [
+                    "sub_4081C6"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "sub_40B50E",
+            "end": "sub_40B50E",
+            "path": {
+                "nodes": [
+                    "sub_40B50E"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_3": [
+        {
+            "start": "sub_4081C6",
+            "end": "sub_4081C6",
+            "path": {
+                "nodes": [
+                    "sub_4081C6"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "sub_40B50E",
+            "end": "sub_40B50E",
+            "path": {
+                "nodes": [
+                    "sub_40B50E"
+                ],
+                "edges": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_141E43BA0(_DWORD *a1, _DWORD *a2, unsigned __int8 a3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content using XOR operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_145620480(_DWORD *a1, unsigned int *a2, unsigned int *a3);",
+            "is_crypto_fun": true,
+            "description": "Potentially implements Rijndael/AES encryption or decryption algorithm based on the transformation and permutation operations observed."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_141B59220",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14E724200(a1, a2, a3, a4);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function involves bitwise operations and the use of a lookup table, typical of some encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_148F9F0C0",
+            "is_crypto_fun": true,
+            "description": "Potential block cipher operation, involving multiple rounds of transformations and table lookups, indicative of a cryptographic algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14EBA5930(a1, a2, a3, a4);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function includes complex bitwise operations and potential use of lookup tables typical in block ciphers."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_148F9FF60",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function involves complex bitwise operations and utilizes a large lookup table (dword_14D3AB300), which is characteristic of certain cryptographic algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_145620A50(_DWORD *a1, unsigned int *a2, unsigned int *a3);",
+            "is_crypto_fun": true,
+            "description": "The function appears to be related to AES encryption, using several operations consistent with the AES algorithm such as XOR operations with predefined arrays, rotations, and data block manipulation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_144A96620(_DWORD *a1, unsigned int *a2, int a3);",
+            "is_crypto_fun": true,
+            "description": "This function appears to involve complex bitwise operations, shifts, and the use of external data (unk_14D363E00), which are characteristics typical of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_146A57220",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function involves bitwise operations, key scheduling, and data permutations commonly seen in block cipher algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14E724B60",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content using a series of bitwise XOR operations and lookups in a predefined table, which is characteristic of cryptographic transformations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14BAB2A00(__int64 a1, int a2, __int64 a3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption algorithm involving multiple XOR operations and data lookups, likely performing a form of block cipher encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_147080B20(__int64 *a1, __int64 a2, __int64 a3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The given code operates on multiple 64-bit integers, uses bitwise operations like rotation and masks, and involves complex manipulation of data sequences, indicating possible cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14C7FF850(__int64 *a1, __m128i *a2, unsigned __int64 a3);",
+            "is_crypto_fun": true,
+            "description": "The function appears to implement a cryptographic algorithm with extensive use of bitwise operations and state modification, which are indicative of block cipher rounds."
+        }
+    }
+]

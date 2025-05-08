@@ -1,0 +1,632 @@
+{
+    "sub_12": {
+        "nodes": {
+            "1": "sub_40CFB4",
+            "2": "WinMain",
+            "4": "sub_40A0E0",
+            "5": "tmainCRTStartup",
+            "6": "sub_403B0D",
+            "7": "sub_408F4A"
+        },
+        "edges": [
+            [
+                "tmainCRTStartup",
+                "WinMain"
+            ],
+            [
+                "sub_403B0D",
+                "sub_408F4A"
+            ],
+            [
+                "sub_408F4A",
+                "sub_40CFB4"
+            ],
+            [
+                "WinMain",
+                "sub_403B0D"
+            ],
+            [
+                "sub_403B0D",
+                "sub_40A0E0"
+            ]
+        ],
+        "leafs": [
+            "sub_40CFB4",
+            "sub_40A0E0"
+        ]
+    },
+    "sub_23": {
+        "nodes": {
+            "2": "tmainCRTStartup",
+            "3": "sub_403B0D",
+            "7": "sub_40A0E0",
+            "9": "sub_408F4A",
+            "13": "WinMain",
+            "16": "sub_40CFB4"
+        },
+        "edges": [
+            [
+                "tmainCRTStartup",
+                "WinMain"
+            ],
+            [
+                "sub_403B0D",
+                "sub_408F4A"
+            ],
+            [
+                "sub_408F4A",
+                "sub_40CFB4"
+            ],
+            [
+                "WinMain",
+                "sub_403B0D"
+            ],
+            [
+                "sub_403B0D",
+                "sub_40A0E0"
+            ]
+        ],
+        "leafs": [
+            "sub_40CFB4",
+            "sub_40A0E0"
+        ]
+    },
+    "sub_123": {
+        "nodes": {
+            "1": "sub_40CFB4",
+            "2": "WinMain",
+            "4": "sub_40A0E0",
+            "5": "tmainCRTStartup",
+            "6": "sub_403B0D",
+            "7": "sub_408F4A"
+        },
+        "edges": [
+            [
+                "tmainCRTStartup",
+                "WinMain"
+            ],
+            [
+                "sub_403B0D",
+                "sub_408F4A"
+            ],
+            [
+                "sub_408F4A",
+                "sub_40CFB4"
+            ],
+            [
+                "WinMain",
+                "sub_403B0D"
+            ],
+            [
+                "sub_403B0D",
+                "sub_40A0E0"
+            ]
+        ],
+        "leafs": [
+            "sub_40CFB4",
+            "sub_40A0E0"
+        ]
+    },
+    "paths_12_1": [
+        {
+            "start": "sub_40CFB4",
+            "end": "sub_40CFB4",
+            "path": {
+                "nodes": [
+                    "sub_40CFB4"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "sub_40A0E0",
+            "end": "sub_40A0E0",
+            "path": {
+                "nodes": [
+                    "sub_40A0E0"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_12_2": [
+        {
+            "start": "sub_40CFB4",
+            "end": "sub_407424",
+            "path": {
+                "nodes": [
+                    "sub_407424",
+                    "sub_40CFB4"
+                ],
+                "edges": [
+                    [
+                        "sub_40CFB4",
+                        "sub_407424"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40CFB4",
+            "end": "sub_400288",
+            "path": {
+                "nodes": [
+                    "sub_40CFB4",
+                    "sub_400288"
+                ],
+                "edges": [
+                    [
+                        "sub_40CFB4",
+                        "sub_400288"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40CFB4",
+            "end": "sub_40D323",
+            "path": {
+                "nodes": [
+                    "sub_40CFB4",
+                    "sub_40D323"
+                ],
+                "edges": [
+                    [
+                        "sub_40CFB4",
+                        "sub_40D323"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40CFB4",
+            "end": "sub_40EAB7",
+            "path": {
+                "nodes": [
+                    "sub_40CFB4",
+                    "sub_40D323",
+                    "sub_40EAB7"
+                ],
+                "edges": [
+                    [
+                        "sub_40CFB4",
+                        "sub_40D323"
+                    ],
+                    [
+                        "sub_40D323",
+                        "sub_40EAB7"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40CFB4",
+            "end": "sub_409ABB",
+            "path": {
+                "nodes": [
+                    "sub_4067D5",
+                    "sub_407424",
+                    "sub_40B12F",
+                    "sub_40BE44",
+                    "sub_409ABB",
+                    "sub_40CFB4"
+                ],
+                "edges": [
+                    [
+                        "sub_4067D5",
+                        "sub_40B12F"
+                    ],
+                    [
+                        "sub_407424",
+                        "sub_409ABB"
+                    ],
+                    [
+                        "sub_40B12F",
+                        "sub_40BE44"
+                    ],
+                    [
+                        "sub_40BE44",
+                        "sub_409ABB"
+                    ],
+                    [
+                        "sub_40CFB4",
+                        "sub_4067D5"
+                    ],
+                    [
+                        "sub_40CFB4",
+                        "sub_407424"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40A0E0",
+            "end": "sub_407424",
+            "path": {
+                "nodes": [
+                    "sub_407424",
+                    "sub_40A0E0"
+                ],
+                "edges": [
+                    [
+                        "sub_40A0E0",
+                        "sub_407424"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40A0E0",
+            "end": "sub_400288",
+            "path": {
+                "nodes": [
+                    "sub_40A0E0",
+                    "sub_400288"
+                ],
+                "edges": [
+                    [
+                        "sub_40A0E0",
+                        "sub_400288"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40A0E0",
+            "end": "sub_40D323",
+            "path": {
+                "nodes": [
+                    "sub_40A0E0",
+                    "sub_40D323"
+                ],
+                "edges": [
+                    [
+                        "sub_40A0E0",
+                        "sub_40D323"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40A0E0",
+            "end": "sub_40EAB7",
+            "path": {
+                "nodes": [
+                    "sub_40A0E0",
+                    "sub_40D323",
+                    "sub_40EAB7"
+                ],
+                "edges": [
+                    [
+                        "sub_40A0E0",
+                        "sub_40D323"
+                    ],
+                    [
+                        "sub_40D323",
+                        "sub_40EAB7"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40A0E0",
+            "end": "sub_409ABB",
+            "path": {
+                "nodes": [
+                    "sub_407424",
+                    "sub_409ABB",
+                    "sub_40A0E0"
+                ],
+                "edges": [
+                    [
+                        "sub_407424",
+                        "sub_409ABB"
+                    ],
+                    [
+                        "sub_40A0E0",
+                        "sub_407424"
+                    ]
+                ]
+            }
+        }
+    ],
+    "paths_23_2": [
+        {
+            "start": "sub_40CFB4",
+            "end": "sub_407424",
+            "path": {
+                "nodes": [
+                    "sub_407424",
+                    "sub_40CFB4"
+                ],
+                "edges": [
+                    [
+                        "sub_40CFB4",
+                        "sub_407424"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40CFB4",
+            "end": "sub_400288",
+            "path": {
+                "nodes": [
+                    "sub_40CFB4",
+                    "sub_400288"
+                ],
+                "edges": [
+                    [
+                        "sub_40CFB4",
+                        "sub_400288"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40CFB4",
+            "end": "sub_40D323",
+            "path": {
+                "nodes": [
+                    "sub_40CFB4",
+                    "sub_40D323"
+                ],
+                "edges": [
+                    [
+                        "sub_40CFB4",
+                        "sub_40D323"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40CFB4",
+            "end": "sub_40EAB7",
+            "path": {
+                "nodes": [
+                    "sub_40CFB4",
+                    "sub_40D323",
+                    "sub_40EAB7"
+                ],
+                "edges": [
+                    [
+                        "sub_40CFB4",
+                        "sub_40D323"
+                    ],
+                    [
+                        "sub_40D323",
+                        "sub_40EAB7"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40CFB4",
+            "end": "sub_409ABB",
+            "path": {
+                "nodes": [
+                    "sub_4067D5",
+                    "sub_407424",
+                    "sub_40B12F",
+                    "sub_40BE44",
+                    "sub_409ABB",
+                    "sub_40CFB4"
+                ],
+                "edges": [
+                    [
+                        "sub_4067D5",
+                        "sub_40B12F"
+                    ],
+                    [
+                        "sub_407424",
+                        "sub_409ABB"
+                    ],
+                    [
+                        "sub_40B12F",
+                        "sub_40BE44"
+                    ],
+                    [
+                        "sub_40BE44",
+                        "sub_409ABB"
+                    ],
+                    [
+                        "sub_40CFB4",
+                        "sub_4067D5"
+                    ],
+                    [
+                        "sub_40CFB4",
+                        "sub_407424"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40A0E0",
+            "end": "sub_407424",
+            "path": {
+                "nodes": [
+                    "sub_407424",
+                    "sub_40A0E0"
+                ],
+                "edges": [
+                    [
+                        "sub_40A0E0",
+                        "sub_407424"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40A0E0",
+            "end": "sub_400288",
+            "path": {
+                "nodes": [
+                    "sub_40A0E0",
+                    "sub_400288"
+                ],
+                "edges": [
+                    [
+                        "sub_40A0E0",
+                        "sub_400288"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40A0E0",
+            "end": "sub_40D323",
+            "path": {
+                "nodes": [
+                    "sub_40A0E0",
+                    "sub_40D323"
+                ],
+                "edges": [
+                    [
+                        "sub_40A0E0",
+                        "sub_40D323"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40A0E0",
+            "end": "sub_40EAB7",
+            "path": {
+                "nodes": [
+                    "sub_40A0E0",
+                    "sub_40D323",
+                    "sub_40EAB7"
+                ],
+                "edges": [
+                    [
+                        "sub_40A0E0",
+                        "sub_40D323"
+                    ],
+                    [
+                        "sub_40D323",
+                        "sub_40EAB7"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40A0E0",
+            "end": "sub_409ABB",
+            "path": {
+                "nodes": [
+                    "sub_407424",
+                    "sub_409ABB",
+                    "sub_40A0E0"
+                ],
+                "edges": [
+                    [
+                        "sub_407424",
+                        "sub_409ABB"
+                    ],
+                    [
+                        "sub_40A0E0",
+                        "sub_407424"
+                    ]
+                ]
+            }
+        }
+    ],
+    "paths_23_3": [
+        {
+            "start": "sub_40CFB4",
+            "end": "sub_40CFB4",
+            "path": {
+                "nodes": [
+                    "sub_40CFB4"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "sub_40CFB4",
+            "end": "sub_400F6D",
+            "path": {
+                "nodes": [
+                    "sub_40CFB4",
+                    "sub_400F6D"
+                ],
+                "edges": [
+                    [
+                        "sub_40CFB4",
+                        "sub_400F6D"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40A0E0",
+            "end": "sub_40A0E0",
+            "path": {
+                "nodes": [
+                    "sub_40A0E0"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "sub_40A0E0",
+            "end": "sub_400F6D",
+            "path": {
+                "nodes": [
+                    "sub_40A0E0",
+                    "sub_400F6D"
+                ],
+                "edges": [
+                    [
+                        "sub_40A0E0",
+                        "sub_400F6D"
+                    ]
+                ]
+            }
+        }
+    ],
+    "paths_123_12": [
+        {
+            "start": "sub_40CFB4",
+            "end": "sub_40CFB4",
+            "path": {
+                "nodes": [
+                    "sub_40CFB4"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "sub_40A0E0",
+            "end": "sub_40A0E0",
+            "path": {
+                "nodes": [
+                    "sub_40A0E0"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_23": [
+        {
+            "start": "sub_40CFB4",
+            "end": "sub_40CFB4",
+            "path": {
+                "nodes": [
+                    "sub_40CFB4"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "sub_40A0E0",
+            "end": "sub_40A0E0",
+            "path": {
+                "nodes": [
+                    "sub_40A0E0"
+                ],
+                "edges": []
+            }
+        }
+    ]
+}

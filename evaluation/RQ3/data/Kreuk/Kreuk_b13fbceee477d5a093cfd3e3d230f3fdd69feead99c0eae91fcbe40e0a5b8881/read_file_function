@@ -1,0 +1,34 @@
+node: { title: "0" label: "fread" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "1" label: "wWinMain" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "2" label: "sub_358974E6" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "3" label: "sub_35372DE0" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "4" label: "sub_3590D1A0" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "5" label: "sub_350B33F1" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "6" label: "wfsopen" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "7" label: "wfopen" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "8" label: "wopenfile" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "9" label: "tmainCRTStartup" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "10" label: "sub_35D52810" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "11" label: "sub_3579C5EE" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "12" label: "sub_35149FD9" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "13" label: "fread_nolock_s" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "14" label: "sub_35063050" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "15" label: "fread_s" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "16" label: "filbuf" color: 76 textcolor: 73 bordercolor: black }
+edge: { sourcename: "9" targetname: "1" }
+edge: { sourcename: "7" targetname: "6" }
+edge: { sourcename: "10" targetname: "3" }
+edge: { sourcename: "6" targetname: "8" }
+edge: { sourcename: "4" targetname: "11" }
+edge: { sourcename: "16" targetname: "2" }
+edge: { sourcename: "0" targetname: "15" }
+edge: { sourcename: "3" targetname: "14" }
+edge: { sourcename: "8" targetname: "5" }
+edge: { sourcename: "15" targetname: "13" }
+edge: { sourcename: "13" targetname: "16" }
+edge: { sourcename: "1" targetname: "0" }
+edge: { sourcename: "13" targetname: "11" }
+edge: { sourcename: "2" targetname: "11" }
+edge: { sourcename: "12" targetname: "4" }
+edge: { sourcename: "1" targetname: "7" }
+edge: { sourcename: "5" targetname: "12" }

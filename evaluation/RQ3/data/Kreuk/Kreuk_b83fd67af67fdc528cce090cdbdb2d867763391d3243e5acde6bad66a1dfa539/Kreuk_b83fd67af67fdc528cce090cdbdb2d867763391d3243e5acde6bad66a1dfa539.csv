@@ -1,0 +1,9 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_402911,"['Crypt', 'CryptImportKey']",sub_403F5A,"['MoveFile', 'WriteFile']",sub_40F8F4,"['FindFirstFile', 'FindNextFile']",sub_403F5A,"['CreateFile', 'ReadFile']",sub_40A8D9,['Snapshot']
+sub_406253,"['CryptExportKey', 'Crypt', 'CryptGenKey', 'CryptDestroyKey']",sub_40F8F4,['WriteFile'],,,sub_40F8F4,['CreateFile'],,
+sub_40BD8A,['salsa20'],,,,,,,,
+sub_403F5A,"['Encrypt', 'CryptGenRandom', 'crypt', 'CryptEncrypt', 'Crypt']",,,,,,,,
+sub_40F8F4,['crypt'],,,,,,,,
+start,"['CryptAcquireContext', 'Encrypt', 'CryptReleaseContext', 'crypt', 'CryptEncrypt', 'Crypt', 'CryptImportKey', 'CryptDestroyKey']",,,,,,,,
+sub_40CFE6,"The function appears to perform multiple bitwise rotations and XOR operations in rounds resembling the structure of a block cipher, suggesting that it is an encryption function.",,,,,,,,
+sub_403AD9,This function involves operations typically associated with Base64 encoding/decoding and potentially modifying data from memory.,,,,,,,,

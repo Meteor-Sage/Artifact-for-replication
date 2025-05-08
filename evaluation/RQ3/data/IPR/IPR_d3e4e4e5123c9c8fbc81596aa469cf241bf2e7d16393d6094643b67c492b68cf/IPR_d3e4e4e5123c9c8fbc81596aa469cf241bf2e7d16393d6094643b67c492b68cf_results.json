@@ -1,0 +1,100 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40351E",
+            "is_crypto_fun": false,
+            "description": "This function does not appear to perform any form of encryption, but rather a simple arithmetic and logical operation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_406DEA(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "Function performs bitwise operations and comparison but is not an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40164D(int *a1, unsigned __int8 *a2, int a3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or decryption function characterized by heavy use of bitwise operations and tables, possibly implementing a block cipher like AES."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409E93(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform arithmetic operations related to division and bit shifts, but does not seem to implement any encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40FA88(_BYTE *this, char a2);",
+            "is_crypto_fun": false,
+            "description": "This function performs a simple XOR operation, which is not standard encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_404A00(_DWORD *a1, unsigned __int8 *a2, int a3);",
+            "is_crypto_fun": true,
+            "description": "This function appears to perform transformations consistent with the AES (Advanced Encryption Standard) algorithm, specifically referring to 'RijnDael', which is indicative of AES transformation steps."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408E67",
+            "is_crypto_fun": true,
+            "description": "Function appears to perform complex data manipulations and involves several sub-functions that may contribute to cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4000DF(int *a1, unsigned __int8 *a2, int a3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption function resembling the Rijndael (AES) algorithm based on the use of S-box lookups and byte-wise operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40971B(_DWORD *a1, int a2);",
+            "is_crypto_fun": true,
+            "description": "The function sub_40971B contains patterns indicative of block-based encryption algorithms, with extensive bitwise operations, rotations, and key schedule-like behavior."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40A162",
+            "is_crypto_fun": false,
+            "description": "Function for OS version information and conditional content modification based on that."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_411458(void *this);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform various initialization, setup, and cleanup operations rather than encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40121F(int *a1, unsigned int a2, void (__cdecl *a3)(int, unsigned int, unsigned int), int a4);",
+            "is_crypto_fun": false,
+            "description": "This function does not appear to implement a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_403F23(a1, a2, a3, a4, a5);",
+            "is_crypto_fun": false,
+            "description": "The function involves various operations including memory allocation, bit manipulation, and function calls but does not exhibit clear characteristics of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_404488(a1, a2, a3, a4, lpProcName, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22, a23, a24, a25, a26, a27, a28, a29, a30, a31, a32, a33, a34, a35, a36, a37, a38, a39, a40, a41, a42, a43, a44, a45, a46, a47, a48, a49, a50, a51, a52, a53, a54, a55, a56, a57, a58, a59, a60, a61, a62, a63);",
+            "is_crypto_fun": false,
+            "description": "Function contains extensive bit-wise XOR operations and string manipulations, but lacks indications of standard encryption algorithm structures."
+        }
+    }
+]

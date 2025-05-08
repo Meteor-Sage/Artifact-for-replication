@@ -1,0 +1,93 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41B635(a1);",
+            "is_crypto_fun": false,
+            "description": "This function performs a series of bitwise operations and conditional checks but does not exhibit characteristics of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41041E(unsigned __int64 a1);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform bitwise manipulation on its input but does not resemble a standard encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41227F(a1);",
+            "is_crypto_fun": false,
+            "description": "Function does error handling and calls another function based on certain conditions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_404A71",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform memory allocation and string processing. It does not contain any recognizable cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D802(int a1, int a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform data manipulation by copying values in memory but does not exhibit characteristics of common encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40B13A",
+            "is_crypto_fun": true,
+            "description": "This function appears to implement an encryption operation using multiple rounds of data transformation, substitution, and permutation, potentially resembling AES."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401C30",
+            "is_crypto_fun": true,
+            "description": "Potential encryption function involving AES algorithm. The function uses 'RijnDael_AES_LONG_41EE95' which indicates AES cipher operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409FFD",
+            "is_crypto_fun": false,
+            "description": "This function does not seem to perform any encryption or cryptographic operations. It appears to implement a recursive algorithm that manipulates input data with arithmetic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4056EB(a1, Str, a3, a4, a5, Size, a7, a8, a9);",
+            "is_crypto_fun": false,
+            "description": "The function appears to handle string formatting and floating-point number manipulation, but does not exhibit characteristics of known cryptographic algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40B936(FileHandle, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to handle file operations, particularly checking the validity of a file handle and potentially performing some operation if the file handle is valid. It does not seem to perform any encryption or modification of data content in a way characteristic of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4026D9",
+            "is_crypto_fun": false,
+            "description": "The function involves handling integer sizes and possibly some formatting operations but does not exhibit typical patterns of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408698",
+            "is_crypto_fun": true,
+            "description": "The function appears to perform encryption/decryption operations utilizing the bcrypt.dll library. It allocates memory for processing and applies transformations to data read from and written to a file, indicating potential encryption functionality."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4061A8(v1, v2, v3, v4);",
+            "is_crypto_fun": false,
+            "description": "This function appears to handle parsing and processing structured data with various conditions, but it does not implement a recognizable encryption algorithm."
+        }
+    }
+]

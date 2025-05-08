@@ -1,0 +1,75 @@
+{
+    "sub_12": {
+        "nodes": {},
+        "edges": [],
+        "leafs": []
+    },
+    "sub_23": {
+        "nodes": {
+            "4": "sub_505E17",
+            "7": "sub_50809B",
+            "13": "TForm1_FormCreate"
+        },
+        "edges": [
+            [
+                "sub_50809B",
+                "sub_505E17"
+            ],
+            [
+                "TForm1_FormCreate",
+                "sub_50809B"
+            ],
+            [
+                "sub_50809B",
+                "sub_50809B"
+            ]
+        ],
+        "leafs": [
+            "sub_505E17"
+        ]
+    },
+    "sub_123": {
+        "nodes": {},
+        "edges": [],
+        "leafs": []
+    },
+    "paths_12_1": [],
+    "paths_12_2": [],
+    "paths_23_2": [
+        {
+            "start": "sub_505E17",
+            "end": "sub_50C0ED",
+            "path": {
+                "nodes": [
+                    "sub_50C0ED",
+                    "sub_50BFC6",
+                    "sub_505E17"
+                ],
+                "edges": [
+                    [
+                        "sub_50BFC6",
+                        "sub_50C0ED"
+                    ],
+                    [
+                        "sub_505E17",
+                        "sub_50BFC6"
+                    ]
+                ]
+            }
+        }
+    ],
+    "paths_23_3": [
+        {
+            "start": "sub_505E17",
+            "end": "sub_505E17",
+            "path": {
+                "nodes": [
+                    "sub_505E17"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_12": [],
+    "paths_123_23": []
+}

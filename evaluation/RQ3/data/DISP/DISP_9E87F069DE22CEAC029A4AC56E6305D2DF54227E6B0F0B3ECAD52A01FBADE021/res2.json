@@ -1,0 +1,149 @@
+{
+    "sub_12": {
+        "nodes": {
+            "0": "sub_40DAA6",
+            "1": "WinMain",
+            "2": "sub_401F31",
+            "3": "?__scrt_common_main_seh"
+        },
+        "edges": [
+            [
+                "sub_40DAA6",
+                "sub_401F31"
+            ],
+            [
+                "?__scrt_common_main_seh",
+                "WinMain"
+            ],
+            [
+                "WinMain",
+                "sub_40DAA6"
+            ]
+        ],
+        "leafs": [
+            "sub_401F31"
+        ]
+    },
+    "sub_23": {
+        "nodes": {
+            "4": "WinMain",
+            "5": "sub_401F31",
+            "9": "?__scrt_common_main_seh",
+            "10": "sub_40DAA6"
+        },
+        "edges": [
+            [
+                "sub_40DAA6",
+                "sub_401F31"
+            ],
+            [
+                "?__scrt_common_main_seh",
+                "WinMain"
+            ],
+            [
+                "WinMain",
+                "sub_40DAA6"
+            ]
+        ],
+        "leafs": [
+            "sub_401F31"
+        ]
+    },
+    "sub_123": {
+        "nodes": {
+            "0": "sub_40DAA6",
+            "1": "WinMain",
+            "2": "sub_401F31",
+            "3": "?__scrt_common_main_seh"
+        },
+        "edges": [
+            [
+                "sub_40DAA6",
+                "sub_401F31"
+            ],
+            [
+                "?__scrt_common_main_seh",
+                "WinMain"
+            ],
+            [
+                "WinMain",
+                "sub_40DAA6"
+            ]
+        ],
+        "leafs": [
+            "sub_401F31"
+        ]
+    },
+    "paths_12_1": [
+        {
+            "start": "sub_401F31",
+            "end": "sub_401F31",
+            "path": {
+                "nodes": [
+                    "sub_401F31"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_12_2": [
+        {
+            "start": "sub_401F31",
+            "end": "sub_401F31",
+            "path": {
+                "nodes": [
+                    "sub_401F31"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_23_2": [
+        {
+            "start": "sub_401F31",
+            "end": "sub_401F31",
+            "path": {
+                "nodes": [
+                    "sub_401F31"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_23_3": [
+        {
+            "start": "sub_401F31",
+            "end": "sub_401F31",
+            "path": {
+                "nodes": [
+                    "sub_401F31"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_12": [
+        {
+            "start": "sub_401F31",
+            "end": "sub_401F31",
+            "path": {
+                "nodes": [
+                    "sub_401F31"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_23": [
+        {
+            "start": "sub_401F31",
+            "end": "sub_401F31",
+            "path": {
+                "nodes": [
+                    "sub_401F31"
+                ],
+                "edges": []
+            }
+        }
+    ]
+}

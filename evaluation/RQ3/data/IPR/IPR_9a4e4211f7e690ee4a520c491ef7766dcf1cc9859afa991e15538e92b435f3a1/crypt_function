@@ -1,0 +1,41 @@
+node: { title: "0" label: "sub_404B3A" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "1" label: "fassign_l" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "2" label: "tmainCRTStartup" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "3" label: "sub_409326" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "4" label: "fassign" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "5" label: "sub_400FDB" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "6" label: "sub_40EBEB" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "7" label: "sub_40E5C6" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "8" label: "sub_4088A3" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "9" label: "sub_40CAA9" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "10" label: "sub_418C0B" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "11" label: "sub_406882" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "12" label: "sub_4161FE" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "13" label: "WinMain" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "14" label: "sub_403676" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "15" label: "sub_40DC41" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "16" label: "sub_4000DF" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "17" label: "sub_404CF8" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "18" label: "sub_4051F2" color: 76 textcolor: 73 bordercolor: black }
+edge: { sourcename: "5" targetname: "15" }
+edge: { sourcename: "3" targetname: "9" }
+edge: { sourcename: "2" targetname: "13" }
+edge: { sourcename: "14" targetname: "0" }
+edge: { sourcename: "16" targetname: "18" }
+edge: { sourcename: "0" targetname: "5" }
+edge: { sourcename: "16" targetname: "11" }
+edge: { sourcename: "6" targetname: "15" }
+edge: { sourcename: "13" targetname: "17" }
+edge: { sourcename: "13" targetname: "3" }
+edge: { sourcename: "7" targetname: "18" }
+edge: { sourcename: "10" targetname: "12" }
+edge: { sourcename: "7" targetname: "11" }
+edge: { sourcename: "4" targetname: "1" }
+edge: { sourcename: "1" targetname: "10" }
+edge: { sourcename: "18" targetname: "8" }
+edge: { sourcename: "16" targetname: "14" }
+edge: { sourcename: "16" targetname: "6" }
+edge: { sourcename: "17" targetname: "14" }
+edge: { sourcename: "9" targetname: "16" }
+edge: { sourcename: "7" targetname: "6" }
+edge: { sourcename: "3" targetname: "7" }

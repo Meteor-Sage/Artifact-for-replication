@@ -1,0 +1,93 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D8A2(_DWORD *a1, int a2);",
+            "is_crypto_fun": false,
+            "description": "The function involves a simple checksum or validation operation and does not appear to be an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4029A3(a1, hHandle);",
+            "is_crypto_fun": false,
+            "description": "This function appears to set standard handles based on the value of 'a1' and 'hHandle'. It doesn't show any characteristics of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F3C2(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to manipulate specific bits within a memory structure. It doesn't resemble a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40BCA3",
+            "is_crypto_fun": false,
+            "description": "This function manipulates bits and shifts values but does not match any known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4088D5(a1);",
+            "is_crypto_fun": false,
+            "description": "The function appears to involve bitwise operations and memory access, but does not exhibit characteristics of a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_406566(unsigned int *a1, unsigned int a2, unsigned int a3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be performing date or time calculations and manipulations, not encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_407686(__int64 a1, unsigned __int64 a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be a custom division or modulo operation, involving bitwise shifts and comparisons, but does not match known encryption algorithm characteristics."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40CF38(__int64 a1, unsigned __int64 a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform arithmetic operations and bit manipulation, potentially for division or modulo operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_406CE8",
+            "is_crypto_fun": false,
+            "description": "Function appears to handle reading bytes from a file with specific conditions and transformations applied to the data, but does not exhibit typical characteristics of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4074A7(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function seems to be performing some form of data manipulation or computation based on its logic. However, it does not match the standard pattern of any known encryption algorithm (such as AES, RSA, TEA, DES, chacha, RC4, etc.)."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_407A04",
+            "is_crypto_fun": false,
+            "description": "This function appears to handle data writing operations, utilizing system calls like WriteFile. It does not seem to implement an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40543F(a1);",
+            "is_crypto_fun": false,
+            "description": "The function appears to manage memory allocation and manipulation but does not exhibit typical encryption or cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F690(_BYTE *a1, unsigned __int16 a2, int a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to modify or encode data but doesn't seem to implement a well-known encryption algorithm. It involves conditional checks and manipulation of input bytes, resembling a state machine or data transformation routine."
+        }
+    }
+]

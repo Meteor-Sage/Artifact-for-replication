@@ -1,0 +1,107 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_833704(a2, a3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption using DES-like sbox transformations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_7A4796(this);",
+            "is_crypto_fun": true,
+            "description": "Potential initialization of cryptographic structures related to DSA and SHA1 algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_7AABDD(v1, v2, v3);",
+            "is_crypto_fun": true,
+            "description": "Function appears to be setting up a private key structure for ECDSA with SHA-256, indicating it is part of a cryptographic operation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_832439(a1);",
+            "is_crypto_fun": false,
+            "description": "This function performs a series of bitwise operations and comparisons but does not resemble a recognized encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_72B296(_DWORD *this, int a2, int a3, int a4);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content utilizing bitwise operations and lookup tables."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_7A93D4(v1);",
+            "is_crypto_fun": true,
+            "description": "This function appears to assign virtual function tables related to cryptographic private keys and digital signature algorithms, implying it is part of cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_72C313()",
+            "is_crypto_fun": true,
+            "description": "This function appears to be related to AES encryption, specifically the inverse Rijndael S-box for the AES algorithm, identified by the operations on elements in RijnDael_AES_inv_LONG_A75294."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_823580(_DWORD *a1, int *a2);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function exhibits characteristics of a hash function, specifically SHA1."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_82B89A(v1, v2, v3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory, likely involving arithmetic and bitwise operations which are typical of cryptographic algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_72997E(_DWORD *this, int a2, int a3, int a4);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption function due to patterns of XOR operations and bitwise shifts, indicating manipulation of data blocks."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_72C930(this, a2, a3, a4);",
+            "is_crypto_fun": true,
+            "description": "The function performs data content modification involving Rijndael (AES) operations, which indicates encryption or decryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_854D49(_DWORD *this, int a2);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_728160(v1, v2, v3, v4);",
+            "is_crypto_fun": true,
+            "description": "The function shows characteristics of an encryption algorithm, including bitwise operations, usage of constants, and multiple loops indicative of transformation rounds."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_82A591(_DWORD *a1, int *a2);",
+            "is_crypto_fun": true,
+            "description": "The function seems to be performing complex mathematical operations, including bitwise manipulations and the use of constants, which are characteristics of hash or encryption functions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_82430C(_QWORD *a1, __int64 *a2);",
+            "is_crypto_fun": false,
+            "description": "The function is not performing encryption but seems to be implementing a SHA-512 hash block computation."
+        }
+    }
+]

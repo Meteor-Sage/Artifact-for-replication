@@ -1,0 +1,20 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_48B1BB,['advapi32.dll'],sub_467350,['WriteFile'],sub_460003,"['FindFirstFile', 'FindNextFile']",sub_409928,['ReadFile'],sub_46DD5C,['Snapshot']
+sub_46805E,"Potential generation or modification of data for cryptographic purposes, possibly part of a pseudo-random number generator or similar cryptographic function.",sub_465D64,['MoveFile'],sub_46FFB1,"['FindFirstFile', 'FindNextFile']",sub_404A6A,['ReadFile'],sub_471E5B,['Snapshot']
+sub_47AABF,"Potential encryption or modification of data content read into memory, involving an array and complex bitwise operations.",sub_460003,"['MoveFile', 'DeleteFile']",sub_466F78,['FindFirstFile'],sub_40C7E6,['CreateFile'],sub_48656D,['RegEnumKey']
+sub_431300,"This function performs complex bitwise operations and manipulates data, which is indicative of encryption or data transformation routines. The logic includes shifting bits, masking, and conditional modifications that align with characteristics found in cryptographic functions.",sub_46FFB1,['DeleteFile'],sub_4645FA,"['FindFirstFile', 'FindNextFile']",sub_402F48,['OpenFile'],sub_48A9CE,['RegEnumKey']
+sub_41B186,Potential function for encryption or modification of data content read into memory.,sub_461D60,['MoveFile'],sub_46B5F0,['FindNextFile'],sub_462AE8,['CreateFile'],,
+,,sub_46D3EB,['WriteFile'],sub_46D70E,['FindFirstFile'],sub_46B5DC,['CreateFile'],,
+,,sub_460A51,['DeleteFile'],sub_46573B,['FindFirstFile'],sub_463C9D,['CreateFile'],,
+,,sub_46B3E0,['DeleteFile'],sub_467ACB,"['FindFirstFile', 'FindNextFile']",sub_46230C,['CreateFile'],,
+,,sub_46EBC9,['SaveFile'],sub_46B81C,"['FindFirstFile', 'FindNextFile']",sub_46B4D2,['CreateFile'],,
+,,,,sub_46F4E2,"['FindFirstFile', 'FindNextFile']",sub_463BAD,['CreateFile'],,
+,,,,,,sub_46E9E5,['ReadFile'],,
+,,,,,,sub_467A4F,['CreateFile'],,
+,,,,,,sub_460013,['CreateFile'],,
+,,,,,,sub_46EBC9,['OpenFile'],,
+,,,,,,sub_47A782,['OpenFile'],,
+,,,,,,sub_47AEFD,['ReadFile'],,
+,,,,,,sub_47CFC6,['CreateFile'],,
+,,,,,,sub_472AB1,"['CreateFile', 'ReadFile']",,
+,,,,,,sub_48F09F,"['CreateFile', 'ReadFile']",,

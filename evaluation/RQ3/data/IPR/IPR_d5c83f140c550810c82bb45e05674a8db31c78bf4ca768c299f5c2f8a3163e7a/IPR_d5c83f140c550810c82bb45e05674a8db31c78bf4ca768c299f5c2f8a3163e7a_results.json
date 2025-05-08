@@ -1,0 +1,86 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40268F(_DWORD *a1, int a2);",
+            "is_crypto_fun": true,
+            "description": "This function appears to involve intricate bitwise operations and permutations on data, which is indicative of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40183D(a1);",
+            "is_crypto_fun": false,
+            "description": "Function does not appear to be an encryption algorithm or modification of data content for encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41BF8A(_BYTE *a1, int a2);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory, using a byte-wise XOR operation and table lookup."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_402A9C(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "This function performs a series of bitwise operations and shifts but doesn't involve common encryption algorithms like AES, RSA, TEA, DES, chacha, or RC4."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41BDE5(a1, a2, a3, a4, a5);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory, involving XOR operations, which are common in block cipher implementations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40CAB8(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to modify data using bitwise operations and loops, but there is no clear indication it implements a well-known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40C394(_DWORD *a1);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function appears to perform bitwise operations, shifts, and nonlinear mixing of data, indicative of a stream cipher-like encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40CC53(a1);",
+            "is_crypto_fun": false,
+            "description": "This function does not exhibit characteristics typical of encryption algorithms such as AES, RSA, TEA, DES, chacha, or RC4. It appears to perform bit manipulation and calls to other functions which suggest possible data transformation but not encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409753(_DWORD *a1, int *a2);",
+            "is_crypto_fun": true,
+            "description": "The function performs various bitwise operations and additions on the input data, which are indicative of a symmetric encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41AE37(_DWORD *a1, int a2);",
+            "is_crypto_fun": true,
+            "description": "Function sub_41AE37 appears to perform encryption-like operations with numerous XOR, shift, and other bitwise manipulations on data, as well as incorporating constant values often associated with cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4124D1",
+            "is_crypto_fun": false,
+            "description": "This function performs bitwise shifting operations on a 64-bit integer. It does not exhibit characteristics of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D208(a1, a2);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function uses multiple bitwise operations and variable manipulation which are indicative of encryption algorithms."
+        }
+    }
+]

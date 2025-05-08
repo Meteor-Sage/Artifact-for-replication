@@ -1,0 +1,7 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_407531,['RijnDael_AES_LONG'],sub_40D02A,['WriteFile'],sub_400838,"['FindFirstFile', 'FindNextFile']",sub_40D02A,['CreateFile'],,
+sub_40C444,['RijnDael_AES_LONG'],sub_403805,"['MoveFile', 'WriteFile']",,,sub_403805,"['CreateFile', 'ReadFile']",,
+sub_403805,"['crypt', 'bcrypt.dll']",sub_407E1D,['WriteFile'],,,,,,
+sub_407F4C,"['crypt', 'crypt32.dll', 'Crypt', 'CryptStringToBinary']",sub_40AB03,['WriteFile'],,,,,,
+main,"['Encrypt', 'crypt', 'Crypt', 'CryptStringToBinary', 'crypt32.dll']",,,,,,,,
+sub_408388,"['crypt', 'Crypt', 'CryptStringToBinary', 'bcrypt.dll', 'crypt32.dll']",,,,,,,,

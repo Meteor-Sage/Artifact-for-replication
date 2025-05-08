@@ -1,0 +1,11 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_40019D,"['crypt', 'CryptEncrypt', 'Crypt', 'Encrypt']",sub_40C4A4,['WriteFile'],sub_404BBF,"['FindFirstFile', 'FindNextFile']",sub_40C4A4,['ReadFile'],sub_404BBF,['encrypted']
+WinMain,"['CryptReleaseContext', 'Crypt', 'CryptAcquireContext']",sub_401F57,['WriteFile'],,,sub_401F57,['ReadFile'],,
+sub_404BBF,"['CryptGenRandom', 'crypt', 'Crypt']",sub_40019D,"['MoveFile', 'WriteFile']",,,sub_40019D,"['CreateFile', 'ReadFile']",,
+sub_408705,"['Crypt', 'CryptAcquireContext']",sub_404BBF,['WriteFile'],,,sub_404BBF,['CreateFile'],,
+StartAddress,"['CryptReleaseContext', 'Crypt', 'CryptImportKey']",,,,,,,,
+sub_40FE0D,"This function is likely related to a block cipher or stream cipher setup, as it manipulates data in a form that suggests initialization of cryptographic structures.",,,,,,,,
+sub_4092DE,"The function appears to perform several rounds of bitwise operations, including rotations and additions on 128-bit SSE registers. These operations are characteristic of symmetric encryption algorithms such as those used in block ciphers.",,,,,,,,
+sub_401F57,Potential encryption or modification of data content read into memory.,,,,,,,,
+sub_40C4A4,Potential encryption or modification of data content read into memory. The function manipulates data read from a file using another function sub_40E052 which hints at encryption or similar data processing operations.,,,,,,,,
+sub_40E052,"Potential encryption or modification of data content using SIMD operations, involving XOR operations and possible state tracking.",,,,,,,,

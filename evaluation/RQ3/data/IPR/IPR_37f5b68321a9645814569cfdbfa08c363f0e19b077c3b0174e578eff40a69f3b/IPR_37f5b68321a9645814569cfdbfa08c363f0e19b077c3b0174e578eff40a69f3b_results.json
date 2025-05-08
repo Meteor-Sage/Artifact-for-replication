@@ -1,0 +1,93 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_402775",
+            "is_crypto_fun": false,
+            "description": "The function performs several bitwise operations on integer values and calls the function 'sub_40F07F' repeatedly. It is unlikely to be an encryption algorithm based on standard encryption patterns."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40719B(_DWORD **this, char *a2, __int64 a3);",
+            "is_crypto_fun": false,
+            "description": "The operations in this function seem to involve memory manipulation and data movement rather than cryptographic transformations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4038C2(a1);",
+            "is_crypto_fun": true,
+            "description": "This function appears to implement steps of a cryptographic pseudorandom number generator (possibly a variant of the Mersenne Twister)."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_506BB2",
+            "is_crypto_fun": false,
+            "description": "The function appears to involve bitwise operations and the manipulation of registers, but there is no clear indication that it implements a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40CEC4",
+            "is_crypto_fun": false,
+            "description": "This function does not appear to be an encryption algorithm. It performs multiple operations and calls to sub_40F07F, but there is no clear indication of standard encryption processes."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_402A81(Src, a2, a3, a4, a5);",
+            "is_crypto_fun": false,
+            "description": "Function primarily handling memory allocation, copy, and initialization, but does not show characteristics of standard encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4012B8(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "This function modifies the contents of the array pointed to by a1 based on various bit manipulations of the input a2, but does not perform any encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_404E7F",
+            "is_crypto_fun": false,
+            "description": "The function appears to implement a CRC (Cyclic Redundancy Check) calculation or a similar hashing operation rather than an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4079D7(_DWORD **this, unsigned __int8 *Src, __int64 a3);",
+            "is_crypto_fun": false,
+            "description": "The function does not appear to perform any encryption operations. It looks like it handles data copying and manipulation using conditional checks and memmove."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_403177",
+            "is_crypto_fun": true,
+            "description": "The function appears to be implementing a variant of the Mersenne Twister pseudorandom number generator (PRNG), which involves bitwise operations and manipulations typical of PRNGs used in cryptographic contexts."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408242",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform data manipulation and memory operations, but there is no clear indication of it being an encryption algorithm. It may involve some kind of data transformation, but not necessarily cryptographic."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40EB24(v1, v2, v3, v4);",
+            "is_crypto_fun": false,
+            "description": "The function does not appear to be implementing standard encryption algorithms but involves complex data manipulations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40BEEB(v1, v2, v3, v4);",
+            "is_crypto_fun": false,
+            "description": "Function appears to be handling complex data manipulations and processing, but it does not exhibit characteristics typical of an encryption algorithm."
+        }
+    }
+]

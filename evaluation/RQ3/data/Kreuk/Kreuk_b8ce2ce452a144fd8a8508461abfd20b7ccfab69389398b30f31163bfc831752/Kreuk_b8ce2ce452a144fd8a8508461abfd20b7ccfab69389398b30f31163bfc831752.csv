@@ -1,0 +1,11 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_400CB5,['RijnDael_AES_Base'],,,,,,,,
+sub_40A1A0,Potential encryption function using multiple rounds of transformations which resemble operations seen in block cipher encryption algorithms such as AES.,,,,,,,,
+sub_40BA9B,"The function performs content modification operations that strongly suggest it's an encryption algorithm. The presence of key scheduling, multiple rounds of bitwise and arithmetic operations (such as rotations and XORs) indicate that this function is likely implementing an encryption algorithm, possibly a variant of the Salsa20/ChaCha family.",,,,,,,,
+sub_40D4BB,"This function appears to perform a series of bitwise XOR operations on the input data, which is a common technique used in encryption algorithms.",,,,,,,,
+sub_408470,Likely obfuscation or encryption function using XOR operation with a constant key.,,,,,,,,
+sub_4074BF,"Function performs XOR operations on data, indicating potential encryption-like behavior.",,,,,,,,
+sub_40AF66,Potential encryption function using XOR operation with a constant key on multiple data arrays.,,,,,,,,
+sub_40E5B6,"Potential encryption or modification of data content read into memory. The function performs operations on multiple variables, including bitwise operations and XOR processes.",,,,,,,,
+sub_40B30F,"Potential encryption or modification of data content read into memory. The function appears to perform complex operations on the input data, which is indicative of cryptographic processing.",,,,,,,,
+sub_40FA36,"Potential encryption or modification of data content read into memory. The function involves multiple data transformations, bitwise operations, and buffer manipulations that are characteristic of cryptographic algorithms.",,,,,,,,

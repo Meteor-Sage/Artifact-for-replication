@@ -1,0 +1,23 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_418928,"['crypt', 'Encrypt']",sub_4133BE,['WriteFile'],sub_41C83E,"['FindFirstFile', 'FindNextFile']",sub_4133BE,['CreateFile'],sub_407FDE,['Snapshot']
+sub_41C370,"['crypt', 'Encrypt']",sub_41D339,['MoveFile'],,,sub_417AD5,['CreateFile'],sub_4199C5,['Backup']
+sub_4136CF,['Crypt'],sub_41D3AE,['WriteFile'],,,sub_41A6E5,"['CreateFile', 'ReadFile']",sub_42FD3E,['Backup']
+sub_417AD5,"['CryptDuplicateKey', 'Crypt', 'CryptDestroyKey']",sub_41BC7E,['WriteFile'],,,sub_41D3AE,['ReadFile'],,
+sub_411475,"['Crypt', 'CryptAcquireContext']",,,,,sub_41BC7E,['ReadFile'],,
+sub_41E095,"['Crypt', 'CryptDestroyKey']",,,,,sub_415AC1,['CreateFile'],,
+sub_4184BD,"['crypt', 'CryptEncrypt', 'Crypt', 'Encrypt']",,,,,,,,
+sub_41350D,"['CryptReleaseContext', 'Crypt', 'CryptDestroyKey']",,,,,,,,
+sub_41F91F,"['Crypt', 'CryptAcquireContext']",,,,,,,,
+sub_4135C8,"['Crypt', 'CryptImportKey', 'CryptStringToBinary']",,,,,,,,
+sub_413D92,"['Crypt', 'CryptGenKey']",,,,,,,,
+sub_412F92,"['CryptExportKey', 'Crypt']",,,,,,,,
+sub_41A240,"['crypt', 'CryptEncrypt', 'Crypt', 'Encrypt']",,,,,,,,
+sub_411AEE,"['CryptExportKey', 'Crypt']",,,,,,,,
+sub_4140C5,['Crypt'],,,,,,,,
+sub_416709,['Crypt'],,,,,,,,
+sub_41550C,"['crypt', 'Encrypt']",,,,,,,,
+sub_418D88,"['crypt', 'Encrypt']",,,,,,,,
+sub_41186C,"['crypt', 'Encrypt']",,,,,,,,
+sub_41F1FA,['Crypt'],,,,,,,,
+sub_41CE32,"['CryptAcquireContext', 'Encrypt', 'CryptReleaseContext', 'crypt', 'CryptEncrypt', 'Crypt', 'CryptImportKey', 'CryptDestroyKey', 'CryptDuplicateKey', 'CryptSetKeyParam']",,,,,,,,
+sub_446BD9,['advapi32.dll'],,,,,,,,

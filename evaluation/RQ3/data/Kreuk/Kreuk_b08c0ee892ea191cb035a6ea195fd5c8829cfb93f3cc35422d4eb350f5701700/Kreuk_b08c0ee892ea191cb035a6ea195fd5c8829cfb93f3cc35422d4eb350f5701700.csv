@@ -1,0 +1,9 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_402577,['salsa20'],,,,,,,,
+sub_401C4E,['RijnDael_AES_Base'],,,,,,,,
+sub_4029DE,"This function appears to perform bitwise operations and data manipulation consistent with encryption algorithms, potentially involving complex bit shifts and masks.",,,,,,,,
+sub_401CD0,"Potential encryption function. This code involves bitwise rotations (ROL, ROR) and manipulations, which are common in block cipher encryption algorithms.",,,,,,,,
+sub_40AA6F,"Potential encryption or modification of data content read into memory, with repeated XOR and bitwise rotation operations, indicating cryptographic behavior.",,,,,,,,
+sub_4072F0,"This function appears to perform a series of iterative modifications on its input, resembling the structure of cryptographic algorithms such as TEA (Tiny Encryption Algorithm). The use of bitwise operations, addition, and iteration are characteristic of encryption functions.",,,,,,,,
+sub_405EFA,Potential encryption or modification of data content read into memory. The function appears to perform XOR operations on the data which is a common feature in encryption algorithms.,,,,,,,,
+sub_4060C5,"The function shows multiple operations on data segments, bitwise shifts and logical operations that are characteristic of encryption algorithms.",,,,,,,,

@@ -1,0 +1,93 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4057AA(int *a1, __m128i *a2, int a3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption function with bitwise operations and data processing."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409140",
+            "is_crypto_fun": false,
+            "description": "The function appears to concatenate and output strings to the console but does not perform any encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F410(char *this);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content using a series of transformations that resembles a block cipher operation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40DAE7",
+            "is_crypto_fun": true,
+            "description": "The function involves bitwise rotations and XOR operations that modify the content read into memory, indicative of a potential encryption or data scrambling algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4048D7(a1, a2, a3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. Includes bit-shifting and logical operations which are characteristic of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D50B(int a1, int a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform memory manipulation, potentially copying or shifting data, but does not exhibit characteristics of a standard encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40A602(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "This function seems to be parsing or tokenizing input rather than performing encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4000DF(a1, a2, a3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory, involving bitwise operations and vectorized processing."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4003E2;",
+            "is_crypto_fun": true,
+            "description": "The function 'sub_4003E2' appears to implement a symmetric encryption or pseudorandom transformation, as it involves multiple bitwise rotations and XOR operations applied to its input data."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40A440(a1, a2, a3, a4);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content in memory, possibly using a block cipher or XOR-based stream cipher given the use of look-up and bitwise operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40A72A(lpFileName);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. Utilizes random number generation with `BCryptGenRandom`, and modifies file content using `sub_4057AA` and `sub_40A440`."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401AB6(_DWORD *a1, int *a2);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function incorporates bitwise operations, shifts, and complex logic suggesting content modification typically found in encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4039CB",
+            "is_crypto_fun": false,
+            "description": "This function appears to be involved in file operations, string manipulation, and potentially conditional checks related to file attributes, but it does not directly implement an encryption algorithm."
+        }
+    }
+]

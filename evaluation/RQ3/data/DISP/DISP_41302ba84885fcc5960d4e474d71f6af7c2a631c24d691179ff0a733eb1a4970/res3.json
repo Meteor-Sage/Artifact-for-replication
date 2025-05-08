@@ -1,0 +1,138 @@
+{
+    "sub_123": {
+        "nodes": {
+            "3": "sub_414E94",
+            "4": "sub_414EA4",
+            "5": "sub_41814D",
+            "8": "sub_415F1F"
+        },
+        "edges": [
+            [
+                "sub_414E94",
+                "sub_414EA4"
+            ],
+            [
+                "sub_414E94",
+                "sub_41814D"
+            ],
+            [
+                "sub_415F1F",
+                "sub_414E94"
+            ]
+        ],
+        "leafs": [
+            "sub_41814D",
+            "sub_414EA4"
+        ]
+    },
+    "paths_123_1": [
+        {
+            "start": "sub_41814D",
+            "end": "sub_41814D",
+            "path": {
+                "nodes": [
+                    "sub_41814D"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "sub_414EA4",
+            "end": "sub_414EA4",
+            "path": {
+                "nodes": [
+                    "sub_414EA4"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_2": [
+        {
+            "start": "sub_41814D",
+            "end": "sub_41FBC9",
+            "path": {
+                "nodes": [
+                    "sub_41FBC9",
+                    "sub_41814D"
+                ],
+                "edges": [
+                    [
+                        "sub_41814D",
+                        "sub_41FBC9"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_41814D",
+            "end": "sub_41C1E5",
+            "path": {
+                "nodes": [
+                    "sub_41814D",
+                    "sub_41C1E5"
+                ],
+                "edges": [
+                    [
+                        "sub_41814D",
+                        "sub_41C1E5"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_414EA4",
+            "end": "sub_41FBC9",
+            "path": {
+                "nodes": [
+                    "sub_41FBC9",
+                    "sub_414EA4"
+                ],
+                "edges": [
+                    [
+                        "sub_414EA4",
+                        "sub_41FBC9"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_414EA4",
+            "end": "sub_41C1E5",
+            "path": {
+                "nodes": [
+                    "sub_414EA4",
+                    "sub_41C1E5"
+                ],
+                "edges": [
+                    [
+                        "sub_414EA4",
+                        "sub_41C1E5"
+                    ]
+                ]
+            }
+        }
+    ],
+    "paths_123_3": [
+        {
+            "start": "sub_41814D",
+            "end": "sub_41814D",
+            "path": {
+                "nodes": [
+                    "sub_41814D"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "sub_414EA4",
+            "end": "sub_414EA4",
+            "path": {
+                "nodes": [
+                    "sub_414EA4"
+                ],
+                "edges": []
+            }
+        }
+    ]
+}

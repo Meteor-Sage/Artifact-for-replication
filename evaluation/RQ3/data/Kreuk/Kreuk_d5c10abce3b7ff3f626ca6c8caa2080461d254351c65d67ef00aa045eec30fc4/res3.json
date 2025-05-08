@@ -1,0 +1,92 @@
+{
+    "sub_123": {
+        "nodes": {
+            "0": "sub_40C372",
+            "1": "start",
+            "2": "StartAddress",
+            "3": "sub_4085A1",
+            "4": "sub_402A90"
+        },
+        "edges": [
+            [
+                "StartAddress",
+                "sub_402A90"
+            ],
+            [
+                "sub_40C372",
+                "sub_40C372"
+            ],
+            [
+                "sub_402A90",
+                "sub_402A90"
+            ],
+            [
+                "sub_40C372",
+                "sub_402A90"
+            ],
+            [
+                "start",
+                "sub_40C372"
+            ],
+            [
+                "sub_402A90",
+                "sub_4085A1"
+            ]
+        ],
+        "leafs": [
+            "sub_4085A1"
+        ]
+    },
+    "paths_123_1": [
+        {
+            "start": "sub_4085A1",
+            "end": "sub_4085A1",
+            "path": {
+                "nodes": [
+                    "sub_4085A1"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_2": [
+        {
+            "start": "sub_4085A1",
+            "end": "sub_40433C",
+            "path": {
+                "nodes": [
+                    "sub_40176E",
+                    "sub_40433C",
+                    "sub_402A8D",
+                    "sub_4085A1"
+                ],
+                "edges": [
+                    [
+                        "sub_40176E",
+                        "sub_402A8D"
+                    ],
+                    [
+                        "sub_402A8D",
+                        "sub_40433C"
+                    ],
+                    [
+                        "sub_4085A1",
+                        "sub_40176E"
+                    ]
+                ]
+            }
+        }
+    ],
+    "paths_123_3": [
+        {
+            "start": "sub_4085A1",
+            "end": "sub_4085A1",
+            "path": {
+                "nodes": [
+                    "sub_4085A1"
+                ],
+                "edges": []
+            }
+        }
+    ]
+}

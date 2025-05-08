@@ -1,0 +1,7 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_40EBEB,['Crypt'],sub_40E5C6,['WriteFile'],sub_40CAA9,"['FindFirstFile', 'FindNextFile']",sub_40E5C6,"['CreateFile', 'ReadFile']",,
+sub_406882,['RijnDael_AES_LONG'],sub_4000DF,['WriteFile'],,,sub_4000DF,"['CreateFile', 'ReadFile']",,
+sub_4051F2,['RijnDael_AES_LONG'],sub_40D5E2,['WriteFile'],,,sub_40D5E2,['CreateFile'],,
+sub_4088A3,['RijnDael_AES_LONG'],sub_400F0D,['WriteFile'],,,sub_409326,"['CreateFile', 'ReadFile']",,
+sub_40DC41,Potential encryption or modification of data content read into memory using bitwise operations and constants resembling common encryption algorithms.,,,,,if,['ReadFile'],,
+sub_4161FE,"Potential implementation of a floating-point number extraction and conversion algorithm, involving bitwise operations and memory adjustments. These operations, along with checks for specific constants, suggest a cryptographic function typically seen in custom floating-point encoding or encryption schemes.",,,,,,,,

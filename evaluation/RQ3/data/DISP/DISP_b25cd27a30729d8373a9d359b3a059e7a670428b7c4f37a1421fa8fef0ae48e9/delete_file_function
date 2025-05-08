@@ -1,0 +1,32 @@
+node: { title: "0" label: "DialogFunc" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "1" label: "sub_40DA9A" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "2" label: "sub_40A71D" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "3" label: "sub_401A8A" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "4" label: "sub_40DD1B" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "5" label: "sub_40B92C" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "6" label: "WinMain" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "7" label: "sub_40580B" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "8" label: "sub_40FA78" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "9" label: "sub_401DC1" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "10" label: "sub_403DFA" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "11" label: "sub_402692" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "12" label: "sub_409BE4" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "13" label: "?__scrt_common_main_seh" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "14" label: "sub_404C4D" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "15" label: "sub_403DC8" color: 76 textcolor: 73 bordercolor: black }
+edge: { sourcename: "8" targetname: "14" }
+edge: { sourcename: "12" targetname: "5" }
+edge: { sourcename: "5" targetname: "9" }
+edge: { sourcename: "7" targetname: "12" }
+edge: { sourcename: "7" targetname: "5" }
+edge: { sourcename: "0" targetname: "10" }
+edge: { sourcename: "3" targetname: "8" }
+edge: { sourcename: "9" targetname: "14" }
+edge: { sourcename: "4" targetname: "3" }
+edge: { sourcename: "15" targetname: "5" }
+edge: { sourcename: "3" targetname: "14" }
+edge: { sourcename: "6" targetname: "11" }
+edge: { sourcename: "2" targetname: "5" }
+edge: { sourcename: "13" targetname: "6" }
+edge: { sourcename: "7" targetname: "10" }
+edge: { sourcename: "11" targetname: "15" }

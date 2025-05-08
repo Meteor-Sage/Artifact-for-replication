@@ -1,0 +1,439 @@
+{
+    "sub_12": {
+        "nodes": {
+            "0": "sub_40342E",
+            "1": "sub_40A2BC",
+            "2": "StartAddress",
+            "3": "sub_402A5C",
+            "4": "sub_404F0C"
+        },
+        "edges": [
+            [
+                "StartAddress",
+                "sub_40A2BC"
+            ],
+            [
+                "sub_40A2BC",
+                "sub_404F0C"
+            ],
+            [
+                "sub_404F0C",
+                "sub_40342E"
+            ],
+            [
+                "sub_404F0C",
+                "sub_402A5C"
+            ]
+        ],
+        "leafs": [
+            "sub_40342E",
+            "sub_402A5C"
+        ]
+    },
+    "sub_23": {
+        "nodes": {
+            "1": "sub_40342E",
+            "3": "sub_40A2BC",
+            "6": "StartAddress",
+            "8": "sub_402A5C",
+            "10": "sub_404F0C"
+        },
+        "edges": [
+            [
+                "StartAddress",
+                "sub_40A2BC"
+            ],
+            [
+                "sub_404F0C",
+                "sub_40342E"
+            ],
+            [
+                "sub_40A2BC",
+                "sub_404F0C"
+            ],
+            [
+                "sub_404F0C",
+                "sub_402A5C"
+            ]
+        ],
+        "leafs": [
+            "sub_40342E",
+            "sub_402A5C"
+        ]
+    },
+    "sub_123": {
+        "nodes": {
+            "0": "sub_40342E",
+            "1": "sub_40A2BC",
+            "2": "StartAddress",
+            "3": "sub_402A5C",
+            "4": "sub_404F0C"
+        },
+        "edges": [
+            [
+                "StartAddress",
+                "sub_40A2BC"
+            ],
+            [
+                "sub_40A2BC",
+                "sub_404F0C"
+            ],
+            [
+                "sub_404F0C",
+                "sub_40342E"
+            ],
+            [
+                "sub_404F0C",
+                "sub_402A5C"
+            ]
+        ],
+        "leafs": [
+            "sub_40342E",
+            "sub_402A5C"
+        ]
+    },
+    "paths_12_1": [
+        {
+            "start": "sub_402A5C",
+            "end": "sub_402A5C",
+            "path": {
+                "nodes": [
+                    "sub_402A5C"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "sub_40342E",
+            "end": "sub_40342E",
+            "path": {
+                "nodes": [
+                    "sub_40342E"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_12_2": [
+        {
+            "start": "sub_402A5C",
+            "end": "sub_402A58",
+            "path": {
+                "nodes": [
+                    "sub_402A58",
+                    "sub_402A5C"
+                ],
+                "edges": [
+                    [
+                        "sub_402A5C",
+                        "sub_402A58"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_402A5C",
+            "end": "sub_40B531",
+            "path": {
+                "nodes": [
+                    "sub_40B531",
+                    "sub_4085EE",
+                    "sub_402A5C"
+                ],
+                "edges": [
+                    [
+                        "sub_4085EE",
+                        "sub_40B531"
+                    ],
+                    [
+                        "sub_402A5C",
+                        "sub_4085EE"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_402A5C",
+            "end": "sub_402A5C",
+            "path": {
+                "nodes": [
+                    "sub_402A5C"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "sub_402A5C",
+            "end": "sub_4085EE",
+            "path": {
+                "nodes": [
+                    "sub_4085EE",
+                    "sub_402A5C"
+                ],
+                "edges": [
+                    [
+                        "sub_402A5C",
+                        "sub_4085EE"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40342E",
+            "end": "sub_402A58",
+            "path": {
+                "nodes": [
+                    "sub_402A58",
+                    "sub_40342E"
+                ],
+                "edges": [
+                    [
+                        "sub_40342E",
+                        "sub_402A58"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40342E",
+            "end": "sub_40B531",
+            "path": {
+                "nodes": [
+                    "sub_40B531",
+                    "sub_4085EE",
+                    "sub_40342E"
+                ],
+                "edges": [
+                    [
+                        "sub_4085EE",
+                        "sub_40B531"
+                    ],
+                    [
+                        "sub_40342E",
+                        "sub_4085EE"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40342E",
+            "end": "sub_40342E",
+            "path": {
+                "nodes": [
+                    "sub_40342E"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "sub_40342E",
+            "end": "sub_4085EE",
+            "path": {
+                "nodes": [
+                    "sub_4085EE",
+                    "sub_40342E"
+                ],
+                "edges": [
+                    [
+                        "sub_40342E",
+                        "sub_4085EE"
+                    ]
+                ]
+            }
+        }
+    ],
+    "paths_23_2": [
+        {
+            "start": "sub_402A5C",
+            "end": "sub_402A58",
+            "path": {
+                "nodes": [
+                    "sub_402A58",
+                    "sub_402A5C"
+                ],
+                "edges": [
+                    [
+                        "sub_402A5C",
+                        "sub_402A58"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_402A5C",
+            "end": "sub_40B531",
+            "path": {
+                "nodes": [
+                    "sub_40B531",
+                    "sub_4085EE",
+                    "sub_402A5C"
+                ],
+                "edges": [
+                    [
+                        "sub_4085EE",
+                        "sub_40B531"
+                    ],
+                    [
+                        "sub_402A5C",
+                        "sub_4085EE"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_402A5C",
+            "end": "sub_402A5C",
+            "path": {
+                "nodes": [
+                    "sub_402A5C"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "sub_402A5C",
+            "end": "sub_4085EE",
+            "path": {
+                "nodes": [
+                    "sub_4085EE",
+                    "sub_402A5C"
+                ],
+                "edges": [
+                    [
+                        "sub_402A5C",
+                        "sub_4085EE"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40342E",
+            "end": "sub_402A58",
+            "path": {
+                "nodes": [
+                    "sub_402A58",
+                    "sub_40342E"
+                ],
+                "edges": [
+                    [
+                        "sub_40342E",
+                        "sub_402A58"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40342E",
+            "end": "sub_40B531",
+            "path": {
+                "nodes": [
+                    "sub_40B531",
+                    "sub_4085EE",
+                    "sub_40342E"
+                ],
+                "edges": [
+                    [
+                        "sub_4085EE",
+                        "sub_40B531"
+                    ],
+                    [
+                        "sub_40342E",
+                        "sub_4085EE"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "sub_40342E",
+            "end": "sub_40342E",
+            "path": {
+                "nodes": [
+                    "sub_40342E"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "sub_40342E",
+            "end": "sub_4085EE",
+            "path": {
+                "nodes": [
+                    "sub_4085EE",
+                    "sub_40342E"
+                ],
+                "edges": [
+                    [
+                        "sub_40342E",
+                        "sub_4085EE"
+                    ]
+                ]
+            }
+        }
+    ],
+    "paths_23_3": [
+        {
+            "start": "sub_402A5C",
+            "end": "sub_402A5C",
+            "path": {
+                "nodes": [
+                    "sub_402A5C"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "sub_40342E",
+            "end": "sub_40342E",
+            "path": {
+                "nodes": [
+                    "sub_40342E"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_12": [
+        {
+            "start": "sub_40342E",
+            "end": "sub_40342E",
+            "path": {
+                "nodes": [
+                    "sub_40342E"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "sub_402A5C",
+            "end": "sub_402A5C",
+            "path": {
+                "nodes": [
+                    "sub_402A5C"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_23": [
+        {
+            "start": "sub_40342E",
+            "end": "sub_40342E",
+            "path": {
+                "nodes": [
+                    "sub_40342E"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "sub_402A5C",
+            "end": "sub_402A5C",
+            "path": {
+                "nodes": [
+                    "sub_402A5C"
+                ],
+                "edges": []
+            }
+        }
+    ]
+}

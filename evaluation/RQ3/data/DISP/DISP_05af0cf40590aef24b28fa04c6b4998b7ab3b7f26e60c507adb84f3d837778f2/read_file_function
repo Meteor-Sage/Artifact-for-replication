@@ -1,0 +1,35 @@
+node: { title: "0" label: "sub_4165C2" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "1" label: "sub_414F53" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "2" label: "sopen_nolock" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "3" label: "sub_4777F6" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "4" label: "wsopen_nolock" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "5" label: "sopen_s" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "6" label: "sub_41FB8A" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "7" label: "sub_41AA2F" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "8" label: "sub_41088F" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "9" label: "sub_417834" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "10" label: "?translate_ansi_or_utf8_nolock" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "11" label: "??$common_openfile" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "12" label: "?configure_text_mode" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "13" label: "read_nolock" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "14" label: "wsopen_s" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "15" label: "?truncate_ctrl_z_if_present" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "16" label: "??$common_sopen_dispatch" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "17" label: "sub_479459" color: 76 textcolor: 73 bordercolor: black }
+edge: { sourcename: "11" targetname: "14" }
+edge: { sourcename: "11" targetname: "5" }
+edge: { sourcename: "16" targetname: "2" }
+edge: { sourcename: "4" targetname: "12" }
+edge: { sourcename: "13" targetname: "10" }
+edge: { sourcename: "12" targetname: "13" }
+edge: { sourcename: "4" targetname: "15" }
+edge: { sourcename: "13" targetname: "17" }
+edge: { sourcename: "14" targetname: "16" }
+edge: { sourcename: "10" targetname: "3" }
+edge: { sourcename: "2" targetname: "4" }
+edge: { sourcename: "1" targetname: "0" }
+edge: { sourcename: "15" targetname: "13" }
+edge: { sourcename: "7" targetname: "8" }
+edge: { sourcename: "5" targetname: "16" }
+edge: { sourcename: "16" targetname: "4" }
+edge: { sourcename: "7" targetname: "6" }

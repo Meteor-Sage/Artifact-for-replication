@@ -1,0 +1,114 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_46094F(void *this);",
+            "is_crypto_fun": false,
+            "description": "The function doesn't appear to perform encryption or any complex modification of data content."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_46A49A()",
+            "is_crypto_fun": true,
+            "description": "Potential generation or modification of data for cryptographic purposes, possibly part of a pseudo-random number generator or similar cryptographic function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_46F5DB",
+            "is_crypto_fun": false,
+            "description": "The function appears to manipulate the result of another function by performing a bitwise right shift and a bitwise AND operation. There are no indicators of encryption being performed."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_46A0A2(this);",
+            "is_crypto_fun": false,
+            "description": "The function appears to modify data content through bit rotations and arithmetic operations, but it does not resemble any known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4608C9(int this, _BYTE *a2);",
+            "is_crypto_fun": false,
+            "description": "This function does not appear to implement an encryption algorithm. It seems to involve conditional checks and modifications of keyboard state values, possibly for handling keyboard input or keymapping."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_464289()",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform several bitwise operations and a potential random number generation. It does not resemble a typical encryption algorithm implementation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_462A18()",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform bitwise manipulation and mathematical operations, potentially for random number generation or data transformation, but does not seem to implement a recognized encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_47C010(unsigned __int8 *a1, int a2, int a3, int a4);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory, involving an array and complex bitwise operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_420EC9(int a1, unsigned __int16 *a2, int a3, int a4, int a5);",
+            "is_crypto_fun": false,
+            "description": "This function does not resemble a known encryption algorithm. It appears to be performing bitwise operations and array indexing, but not encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_46749F(int this, int *a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to read or move some data and perform a string comparison. It does not demonstrate any characteristics of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4767DA(char *this, int a2, int *a3);",
+            "is_crypto_fun": false,
+            "description": "Function does not exhibit clear characteristics of standard encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_438CEE",
+            "is_crypto_fun": true,
+            "description": "This function performs complex bitwise operations and manipulates data, which is indicative of encryption or data transformation routines. The logic includes shifting bits, masking, and conditional modifications that align with characteristics found in cryptographic functions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_43DC86",
+            "is_crypto_fun": false,
+            "description": "Function involves significant bitwise operations and data manipulation. However, without more context, it doesn't clearly match known encryption algorithms (AES, RSA, TEA, DES, chacha, RC4, etc.). It might be a part of some complex algorithm, possibly involving data transformation, but it's not conclusively identifiable as an encryption function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41781A",
+            "is_crypto_fun": false,
+            "description": "Function does not appear to be an encryption algorithm, it is mostly focused on validation, memory manipulation, and checks against input parameters."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_413D03(v1, v2, v3);",
+            "is_crypto_fun": false,
+            "description": "This function does not contain any typical encryption algorithm operations (such as AES, RSA, TEA, DES, chacha, RC4). It appears to be a complex data processing function with a significant amount of memory manipulation, decision making, and state handling."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41E479(void *a1, int a2, void *a3, int a4, _DWORD *a5, int *a6, unsigned int a7);",
+            "is_crypto_fun": true,
+            "description": "Potential function for encryption or modification of data content read into memory."
+        }
+    }
+]

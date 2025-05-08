@@ -1,0 +1,19 @@
+node: { title: "0" label: "sub_40FC89" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "1" label: "sub_400E8E" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "2" label: "sub_40AB28" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "3" label: "sub_4080F2" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "4" label: "sub_40D601" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "5" label: "sub_40E68E" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "6" label: "sub_40C33E" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "7" label: "sub_409338" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "8" label: "sub_405A0E" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "9" label: "sub_40A898" color: 76 textcolor: 73 bordercolor: black }
+edge: { sourcename: "1" targetname: "8" }
+edge: { sourcename: "9" targetname: "7" }
+edge: { sourcename: "0" targetname: "9" }
+edge: { sourcename: "7" targetname: "6" }
+edge: { sourcename: "6" targetname: "3" }
+edge: { sourcename: "8" targetname: "4" }
+edge: { sourcename: "5" targetname: "8" }
+edge: { sourcename: "2" targetname: "8" }
+edge: { sourcename: "9" targetname: "6" }

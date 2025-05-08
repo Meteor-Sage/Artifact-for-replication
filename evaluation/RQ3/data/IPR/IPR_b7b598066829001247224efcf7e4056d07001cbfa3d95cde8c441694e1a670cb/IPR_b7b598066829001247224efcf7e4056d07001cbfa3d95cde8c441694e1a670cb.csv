@@ -1,0 +1,9 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_50440B,['16BE651527'],sub_40D1D4,['WriteFile'],,,sub_40325A,['ReadFile'],,
+sub_461874,"Function appears to perform complex bitwise operations and utilizes tables, suggesting it may be part of a cryptographic algorithm or data obfuscation routine.",sub_500C13,['DeleteFile'],,,,,,
+sub_466C15,"Potential encryption or modification of data content read into memory using bitwise operations and a lookup table, resembling a CRC-like algorithm.",,,,,,,,
+sub_4FA1E1,Potential bitwise manipulation and data shifting that resembles operations in an encryption algorithm.,,,,,,,,
+sub_4F1DC1,"Potential encryption or modification of data content read into memory. The function processes data based on specific conditions, potentially performing byte-wise operations which are characteristic of certain encryption algorithms.",,,,,,,,
+sub_4F2FCB,"Potential encryption or modification of data content read into memory. The function involves complex data processing that includes bitwise operations, potential byte-wise modifications, and multiple function calls that may be used for encryption.",,,,,,,,
+sub_4F0817,Potential encryption or modification of data content read into memory. The function involves various bitwise operations and uses sub-functions for possible cryptographic transformations.,,,,,,,,
+sub_4FE8B8,Potential encryption or modification of data content read into memory. The function performs operations on the provided data based on various conditions and appears to use subfunctions that resemble cryptographic operations.,,,,,,,,

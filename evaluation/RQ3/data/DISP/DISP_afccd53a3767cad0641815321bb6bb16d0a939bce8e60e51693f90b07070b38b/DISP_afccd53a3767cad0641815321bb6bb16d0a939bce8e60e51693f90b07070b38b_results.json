@@ -1,0 +1,128 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D55F",
+            "is_crypto_fun": false,
+            "description": "The function does not perform any encryption or content modification but rather manipulates an integer value."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41AE4D(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be making an indirect function call via a function pointer table, passing three arguments, but there's no definitive indication that it is an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_406169(char *a1, char a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to involve file handling and does not perform any encryption or modification of data content in a cryptographic manner."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40C87E(char *a1, char a2);",
+            "is_crypto_fun": false,
+            "description": "This function does not appear to be performing encryption. It constructs parameters to call CreateFileA, likely for file handling."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40A842(unsigned __int64 a1, char a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform bitwise operations on a given unsigned integer based on a character input, which does not indicate typical encryption behavior."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40CAFE(result, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to copy data from the source to the destination buffer and does not exhibit characteristics of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_423FDC(a1);",
+            "is_crypto_fun": false,
+            "description": "Function appears to be performing bitwise shifting based on input value. No indications of encryption; more likely a simple utility function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_422491",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform conditional checks and operations based on function pointers, but there is no clear indication of any typical encryption algorithm being utilized."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409708(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be a data manipulation function, specifically focused on memory setting operations with potentially larger data copying, but it does not correspond to a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40046B",
+            "is_crypto_fun": false,
+            "description": "The function 'sub_40046B' appears to perform a simple bitwise operation on the current thread ID. This does not align with standard encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_414BFA(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform arithmetic and bitwise operations based on the value of a3, without utilizing any known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40A915(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be related to encoding or character conversion, specifically dealing with UTF-16 to UTF-8 encoding, rather than encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40FFF7",
+            "is_crypto_fun": false,
+            "description": "The function appears to involve arithmetic and floating-point operations rather than cryptographic operations"
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409F86",
+            "is_crypto_fun": false,
+            "description": "Function appears to perform arithmetic and data manipulation, but lacks characteristics of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40ED51",
+            "is_crypto_fun": false,
+            "description": "The function appears to be copying data between two memory locations and does not perform any known encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4277BF(v1, v2, v3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be involved in registry operations and conditional logic based on certain values, but there is no indication of encryption in this function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40835D",
+            "is_crypto_fun": false,
+            "description": "The function does not appear to implement any known encryption algorithms. It involves various operations such as handling processes, exceptions, and potential interaction with other memory contents."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_407597",
+            "is_crypto_fun": false,
+            "description": "This function does not perform encryption or modification of data content in a manner consistent with encryption algorithms. Instead, it appears to manage some memory allocation or linked list manipulation operations."
+        }
+    }
+]

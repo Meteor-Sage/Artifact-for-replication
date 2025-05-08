@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_45F70C()",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content using byte-wise XOR operation with a dynamically obtained value."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4094E7",
+            "is_crypto_fun": false,
+            "description": "This function appears to handle some memory operations and range checks but does not demonstrate characteristics of an encryption function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40E295(Src, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to handle memory manipulation and conditional copying of data, but it does not exhibit characteristics typical of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40CAD3(v1, v2);",
+            "is_crypto_fun": false,
+            "description": "This function does not appear to be related to any known encryption algorithms. It performs checks on input values and calls another function for certain conditions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_404EB8",
+            "is_crypto_fun": false,
+            "description": "The function primarily handles memory manipulation (copy and delete) rather than encryption or cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408BF6",
+            "is_crypto_fun": false,
+            "description": "This function appears to be related to handling exceptions and is not performing encryption or modification of data content in a manner consistent with encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40806F(a1, a2);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption function involving data manipulation, bit-shifting, and conditional logic operations indicative of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D2EF(const void **a1, unsigned int a2, int Size);",
+            "is_crypto_fun": false,
+            "description": "This function is primarily involved in memory allocation and data copying operations rather than performing encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409968(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform data movement or modification, possibly related to string handling or memory copying. It does not match common encryption algorithm patterns."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_403531(unsigned __int16 *a1, _DWORD *a2);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory, involving complex bitwise and memory manipulations."
+        }
+    }
+]

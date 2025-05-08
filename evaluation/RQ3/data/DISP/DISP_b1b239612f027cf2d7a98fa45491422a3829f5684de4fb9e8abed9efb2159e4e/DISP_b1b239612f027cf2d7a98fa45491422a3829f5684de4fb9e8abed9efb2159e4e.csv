@@ -1,0 +1,9 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+,,sub_405C28,['WriteFile'],sub_401428,['FindFirstFile'],sub_40D697,['ReadFile'],sub_400D41,['Snapshot']
+,,sub_407ED1,['WriteFile'],sub_406ACD,['FindNextFile'],sub_40AE38,['CreateFile'],sub_40D0DC,['RegEnumKey']
+,,sub_403F4D,['WriteFile'],sub_406B09,['FindFirstFile'],sub_40CE1C,['CreateFile'],sub_40D126,['password']
+,,sub_40229A,['DeleteFile'],sub_40B39C,['FindNextFile'],sub_408CC2,['ReadFile'],sub_404403,['password']
+,,sub_404625,['WriteFile'],sub_40260D,['FindFirstFile'],sub_408A9C,['ReadFile'],sub_413BF2,['password']
+,,sub_407F4A,['WriteFile'],,,sub_402CFF,['CreateFile'],sub_4288E8,['password']
+,,sub_401193,['DeleteFile'],,,sub_403BF7,['CreateFile'],sub_42F38C,['password']
+,,,,,,sub_426749,['CreateFile'],,

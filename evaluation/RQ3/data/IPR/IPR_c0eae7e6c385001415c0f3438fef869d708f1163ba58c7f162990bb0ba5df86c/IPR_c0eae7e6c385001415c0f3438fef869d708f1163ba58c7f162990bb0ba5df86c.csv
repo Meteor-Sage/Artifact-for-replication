@@ -1,0 +1,11 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_406461,['RijnDael_AES_LONG'],Function,"['MoveFile', 'WriteFile']",sub_40A24D,"['FindFirstFile', 'FindNextFile']",Function,['ReadFile'],WinMain,"['Snapshot', 'encrypted']"
+sub_40996D,['RijnDael_AES_LONG'],sub_402EDF,['WriteFile'],sub_402EDF,"['FindFirstFile', 'FindNextFile']",sub_40A24D,['CreateFile'],,
+Function,['crypt'],,,,,sub_402EDF,['CreateFile'],,
+sub_4036AF,['salsa20'],,,,,,,,
+WinMain,['crypt'],,,,,,,,
+sub_401CB3,Potential encryption or modification of data content read into memory. The function involves bitwise rotations and multiple variable manipulations which are common in encryption algorithms.,,,,,,,,
+sub_40382B,"The function appears to perform operations consistent with a block cipher encryption algorithm, involving bitwise operations, rotations, and additions commonly seen in cryptographic functions.",,,,,,,,
+sub_40B72B,This function appears to involve bitwise operations and data shifting which are characteristic of certain encryption algorithms.,,,,,,,,
+sub_4029DF,"Potential encryption or modification of data content read into memory. The function appears to modify memory content using XOR operations based on processed data, which is indicative of encryption algorithms.",,,,,,,,
+sub_4067E1,"Potential encryption or modification of data content read into memory. The function involves several bitwise operations, allocations, and deallocations, which are typical in some encryption algorithms.",,,,,,,,

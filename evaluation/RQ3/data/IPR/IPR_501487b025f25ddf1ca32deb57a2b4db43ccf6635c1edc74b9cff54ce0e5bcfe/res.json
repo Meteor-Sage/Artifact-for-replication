@@ -1,0 +1,717 @@
+{
+    "sub_12": {
+        "nodes": {
+            "0": "WinMain",
+            "2": "Function",
+            "4": "?__scrt_common_main_seh"
+        },
+        "edges": [
+            [
+                "?__scrt_common_main_seh",
+                "WinMain"
+            ]
+        ],
+        "leafs": [
+            "WinMain",
+            "Function"
+        ]
+    },
+    "sub_23": {
+        "nodes": {
+            "7": "Function",
+            "12": "WinMain",
+            "16": "?__scrt_common_main_seh"
+        },
+        "edges": [
+            [
+                "?__scrt_common_main_seh",
+                "WinMain"
+            ]
+        ],
+        "leafs": [
+            "WinMain",
+            "Function"
+        ]
+    },
+    "sub_123": {
+        "nodes": {
+            "0": "WinMain",
+            "2": "Function",
+            "4": "?__scrt_common_main_seh"
+        },
+        "edges": [
+            [
+                "?__scrt_common_main_seh",
+                "WinMain"
+            ]
+        ],
+        "leafs": [
+            "WinMain",
+            "Function"
+        ]
+    },
+    "paths_12_1": [
+        {
+            "start": "WinMain",
+            "end": "sub_40E64C",
+            "path": {
+                "nodes": [
+                    "WinMain",
+                    "sub_40E64C",
+                    "sub_40A7CC"
+                ],
+                "edges": [
+                    [
+                        "WinMain",
+                        "sub_40E64C"
+                    ],
+                    [
+                        "WinMain",
+                        "sub_40A7CC"
+                    ],
+                    [
+                        "sub_40A7CC",
+                        "sub_40E64C"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "Function",
+            "path": {
+                "nodes": [
+                    "Function"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_12_2": [
+        {
+            "start": "WinMain",
+            "end": "WinMain",
+            "path": {
+                "nodes": [
+                    "WinMain"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "WinMain",
+            "end": "sub_40CAD7",
+            "path": {
+                "nodes": [
+                    "WinMain",
+                    "sub_40CAD7",
+                    "sub_40367E"
+                ],
+                "edges": [
+                    [
+                        "WinMain",
+                        "sub_40CAD7"
+                    ],
+                    [
+                        "WinMain",
+                        "sub_40367E"
+                    ],
+                    [
+                        "sub_40367E",
+                        "sub_40CAD7"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_40EDAD",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_40EDAD"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_40EDAD"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_405131",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_405131"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_405131"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "Function",
+            "path": {
+                "nodes": [
+                    "Function"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_408F6D",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_408F6D",
+                    "sub_406E5A",
+                    "sub_400B12"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_400B12"
+                    ],
+                    [
+                        "sub_406E5A",
+                        "sub_408F6D"
+                    ],
+                    [
+                        "sub_400B12",
+                        "sub_406E5A"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_40C106",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_40C106",
+                    "sub_408F6D",
+                    "sub_406E5A",
+                    "sub_400B12"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_400B12"
+                    ],
+                    [
+                        "sub_408F6D",
+                        "sub_40C106"
+                    ],
+                    [
+                        "sub_406E5A",
+                        "sub_408F6D"
+                    ],
+                    [
+                        "sub_400B12",
+                        "sub_406E5A"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_40DE39",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_40DE39",
+                    "sub_40E2A4",
+                    "sub_40F225",
+                    "sub_40E382",
+                    "sub_40FA81",
+                    "sub_404026",
+                    "sub_402982",
+                    "sub_400DE7",
+                    "sub_408138",
+                    "sub_40948C"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_40948C"
+                    ],
+                    [
+                        "sub_40E2A4",
+                        "sub_40DE39"
+                    ],
+                    [
+                        "sub_40F225",
+                        "sub_40DE39"
+                    ],
+                    [
+                        "sub_40E382",
+                        "sub_40DE39"
+                    ],
+                    [
+                        "sub_40FA81",
+                        "sub_40DE39"
+                    ],
+                    [
+                        "sub_404026",
+                        "sub_40DE39"
+                    ],
+                    [
+                        "sub_402982",
+                        "sub_40FA81"
+                    ],
+                    [
+                        "sub_402982",
+                        "sub_404026"
+                    ],
+                    [
+                        "sub_400DE7",
+                        "sub_402982"
+                    ],
+                    [
+                        "sub_408138",
+                        "sub_40DE39"
+                    ],
+                    [
+                        "sub_408138",
+                        "sub_40E2A4"
+                    ],
+                    [
+                        "sub_408138",
+                        "sub_40F225"
+                    ],
+                    [
+                        "sub_408138",
+                        "sub_40E382"
+                    ],
+                    [
+                        "sub_408138",
+                        "sub_400DE7"
+                    ],
+                    [
+                        "sub_40948C",
+                        "sub_408138"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_406E5A",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_406E5A",
+                    "sub_400B12"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_400B12"
+                    ],
+                    [
+                        "sub_400B12",
+                        "sub_406E5A"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_40F225",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_40F225",
+                    "sub_40E382",
+                    "sub_408138",
+                    "sub_40948C"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_40948C"
+                    ],
+                    [
+                        "sub_40E382",
+                        "sub_40F225"
+                    ],
+                    [
+                        "sub_408138",
+                        "sub_40F225"
+                    ],
+                    [
+                        "sub_408138",
+                        "sub_40E382"
+                    ],
+                    [
+                        "sub_40948C",
+                        "sub_408138"
+                    ]
+                ]
+            }
+        }
+    ],
+    "paths_23_2": [
+        {
+            "start": "WinMain",
+            "end": "WinMain",
+            "path": {
+                "nodes": [
+                    "WinMain"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "WinMain",
+            "end": "sub_40CAD7",
+            "path": {
+                "nodes": [
+                    "WinMain",
+                    "sub_40CAD7",
+                    "sub_40367E"
+                ],
+                "edges": [
+                    [
+                        "WinMain",
+                        "sub_40CAD7"
+                    ],
+                    [
+                        "WinMain",
+                        "sub_40367E"
+                    ],
+                    [
+                        "sub_40367E",
+                        "sub_40CAD7"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_40EDAD",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_40EDAD"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_40EDAD"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_405131",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_405131"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_405131"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "Function",
+            "path": {
+                "nodes": [
+                    "Function"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_408F6D",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_408F6D",
+                    "sub_406E5A",
+                    "sub_400B12"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_400B12"
+                    ],
+                    [
+                        "sub_406E5A",
+                        "sub_408F6D"
+                    ],
+                    [
+                        "sub_400B12",
+                        "sub_406E5A"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_40C106",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_40C106",
+                    "sub_408F6D",
+                    "sub_406E5A",
+                    "sub_400B12"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_400B12"
+                    ],
+                    [
+                        "sub_408F6D",
+                        "sub_40C106"
+                    ],
+                    [
+                        "sub_406E5A",
+                        "sub_408F6D"
+                    ],
+                    [
+                        "sub_400B12",
+                        "sub_406E5A"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_40DE39",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_40DE39",
+                    "sub_40E2A4",
+                    "sub_40F225",
+                    "sub_40E382",
+                    "sub_40FA81",
+                    "sub_404026",
+                    "sub_402982",
+                    "sub_400DE7",
+                    "sub_408138",
+                    "sub_40948C"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_40948C"
+                    ],
+                    [
+                        "sub_40E2A4",
+                        "sub_40DE39"
+                    ],
+                    [
+                        "sub_40F225",
+                        "sub_40DE39"
+                    ],
+                    [
+                        "sub_40E382",
+                        "sub_40DE39"
+                    ],
+                    [
+                        "sub_40FA81",
+                        "sub_40DE39"
+                    ],
+                    [
+                        "sub_404026",
+                        "sub_40DE39"
+                    ],
+                    [
+                        "sub_402982",
+                        "sub_40FA81"
+                    ],
+                    [
+                        "sub_402982",
+                        "sub_404026"
+                    ],
+                    [
+                        "sub_400DE7",
+                        "sub_402982"
+                    ],
+                    [
+                        "sub_408138",
+                        "sub_40DE39"
+                    ],
+                    [
+                        "sub_408138",
+                        "sub_40E2A4"
+                    ],
+                    [
+                        "sub_408138",
+                        "sub_40F225"
+                    ],
+                    [
+                        "sub_408138",
+                        "sub_40E382"
+                    ],
+                    [
+                        "sub_408138",
+                        "sub_400DE7"
+                    ],
+                    [
+                        "sub_40948C",
+                        "sub_408138"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_406E5A",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_406E5A",
+                    "sub_400B12"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_400B12"
+                    ],
+                    [
+                        "sub_400B12",
+                        "sub_406E5A"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "sub_40F225",
+            "path": {
+                "nodes": [
+                    "Function",
+                    "sub_40F225",
+                    "sub_40E382",
+                    "sub_408138",
+                    "sub_40948C"
+                ],
+                "edges": [
+                    [
+                        "Function",
+                        "sub_40948C"
+                    ],
+                    [
+                        "sub_40E382",
+                        "sub_40F225"
+                    ],
+                    [
+                        "sub_408138",
+                        "sub_40F225"
+                    ],
+                    [
+                        "sub_408138",
+                        "sub_40E382"
+                    ],
+                    [
+                        "sub_40948C",
+                        "sub_408138"
+                    ]
+                ]
+            }
+        }
+    ],
+    "paths_23_3": [
+        {
+            "start": "WinMain",
+            "end": "sub_40E64C",
+            "path": {
+                "nodes": [
+                    "WinMain",
+                    "sub_40E64C",
+                    "sub_40A7CC"
+                ],
+                "edges": [
+                    [
+                        "WinMain",
+                        "sub_40E64C"
+                    ],
+                    [
+                        "WinMain",
+                        "sub_40A7CC"
+                    ],
+                    [
+                        "sub_40A7CC",
+                        "sub_40E64C"
+                    ]
+                ]
+            }
+        },
+        {
+            "start": "Function",
+            "end": "Function",
+            "path": {
+                "nodes": [
+                    "Function"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_12": [
+        {
+            "start": "WinMain",
+            "end": "WinMain",
+            "path": {
+                "nodes": [
+                    "WinMain"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "Function",
+            "end": "Function",
+            "path": {
+                "nodes": [
+                    "Function"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_23": [
+        {
+            "start": "WinMain",
+            "end": "WinMain",
+            "path": {
+                "nodes": [
+                    "WinMain"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "Function",
+            "end": "Function",
+            "path": {
+                "nodes": [
+                    "Function"
+                ],
+                "edges": []
+            }
+        }
+    ]
+}
