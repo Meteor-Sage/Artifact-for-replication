@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40AC2C",
+            "is_crypto_fun": false,
+            "description": "Not an encryption function; this function appears to output an error message and terminate the program."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40248E(int a1, int a2);",
+            "is_crypto_fun": false,
+            "description": "The function does not perform any identifiable encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408E00()",
+            "is_crypto_fun": false,
+            "description": "The function does not perform any operations indicative of encryption algorithms. It appears to be related to main argument processing."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40820F();",
+            "is_crypto_fun": false,
+            "description": "The function sets a variable and calls two other functions but does not appear to perform any encryption operation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40762E();",
+            "is_crypto_fun": false,
+            "description": "No evidence of encryption or modification of data content read into memory."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F0AF()",
+            "is_crypto_fun": false,
+            "description": "This function primarily includes memory and app type setups, and query operations. It doesn't involve any identifiable encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_402661(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function checks if 'a1' is less than zero, then constructs a string from 'a2' into 'v2', and calls 'sub_40AC2C' with 'v2'. There is no indication of encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_403973();",
+            "is_crypto_fun": false,
+            "description": "This function does not perform any encryption or data modification operations. It seems to handle the destruction of a `std::ios_base::Init` object."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "wmain(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "This function handles COM initialization, interface operations, and reads/writes properties related to ShellLink and AppId. It does not perform encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40B1BA()",
+            "is_crypto_fun": false,
+            "description": "This function appears to be performing system time and performance counter-based initialization or seed generation, not encryption."
+        }
+    }
+]

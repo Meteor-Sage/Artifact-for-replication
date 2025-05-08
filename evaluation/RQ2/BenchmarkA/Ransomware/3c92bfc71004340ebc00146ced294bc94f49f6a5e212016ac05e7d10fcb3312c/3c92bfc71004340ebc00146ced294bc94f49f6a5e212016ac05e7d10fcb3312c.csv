@@ -1,0 +1,5 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+main,"['CryptAcquireContext', 'CryptStringToBinary', 'crypt', 'Encrypt', 'CryptGenRandom', 'CryptEncrypt', 'Crypt']",sub_140017960,['WriteFile'],sub_140033D64,['FindNextFile'],sub_140017B80,['ReadFile'],,
+sub_14005C0D0,['crypt'],,,,,sub_14005C0D0,['CreateFile'],,
+sub_1400191B0,"This function appears to implement a variant of a stream cipher similar to ChaCha. It involves operations like bitwise rotations (ROL) and modular addition typically used in encryption algorithms to provide diffusion and confusion, which are key characteristics of cryptographic functions.",,,,,,,,
+sub_140003330,Potential encryption or modification of data content using series of operations that resemble encryption through iterative transformations and memory manipulation.,,,,,,,,

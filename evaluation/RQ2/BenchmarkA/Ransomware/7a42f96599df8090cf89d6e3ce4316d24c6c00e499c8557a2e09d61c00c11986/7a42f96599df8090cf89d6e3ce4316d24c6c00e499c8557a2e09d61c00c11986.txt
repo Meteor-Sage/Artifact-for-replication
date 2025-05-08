@@ -1,0 +1,82 @@
+[
+    {
+        "Function": "sub_407B09",
+        "Total XOR and shift operations": 1,
+        "XOR operations": 0,
+        "Shift operations": 1,
+        "Operation percentage": "2.56%",
+        "Function Body": "\nvoid __usercall sub_407B09(int a1@<eax>, _BYTE *a2@<edx>, _BYTE *a3@<ecx>, int a4@<ebp>)\n{\n  int v4; // eax\n\n  LOBYTE(a1) = a1 & 0x2A;\n  v4 = a1 + 3;\n  BYTE1(v4) -= *(_BYTE *)(3 * v4);\n  v4 += 2;\n  LOBYTE(v4) = v4 & 0x20;\n  LOBYTE(v4) = v4 - *(_BYTE *)(v4 + 64);\n  BYTE1(v4) -= *(_BYTE *)v4;\n  LOBYTE(v4) = v4 & 0x40;\n  ++v4;\n  a2[a4] -= BYTE1(v4);\n  *(_DWORD *)(v4 + 45) -= v4;\n  LOBYTE(v4) = v4 & 0x2A;\n  v4 += 2;\n  LOBYTE(v4) = v4 & 0x2D;\n  LOBYTE(v4) = (v4 - *(_BYTE *)(v4 + 64)) & 0x2A;\n  v4 -= 707280960;\n  LOBYTE(v4) = v4 & 0x29;\n  v4 -= 1077945385;\n  LOBYTE(v4) = v4 & 0x2D;\n  v4 += 2142355380;\n  BYTE1(v4) -= *(_BYTE *)v4;\n  LOBYTE(v4) = v4 & 0x2D;\n  ++v4;\n  LOBYTE(v4) = v4 & 0x20;\n  BYTE1(a3) = BYTE1(a3) - MEMORY[0x2A404024] - MEMORY[0x2D202440];\n  LOBYTE(v4) = v4 - *(_BYTE *)(v4 + 42);\n  BYTE1(a3) -= *a3;\n  *a2 -= BYTE1(a3);\n  a3[a4] &= (unsigned __int16)(v4 - 9248) >> 8;\n  JUMPOUT(0x407B6D);\n}\n// 407B6A: control flows out of bounds to 407B6D\n\n"
+    },
+    {
+        "Function": "sub_4197F0",
+        "Total XOR and shift operations": 1,
+        "XOR operations": 1,
+        "Shift operations": 0,
+        "Operation percentage": "1.25%",
+        "Function Body": "\nvoid sub_4197F0()\n{\n  int v0; // ebx\n  int v1; // ebx\n  int v2; // [esp+24h] [ebp-48h]\n  unsigned int v3; // [esp+28h] [ebp-44h]\n  unsigned int v4; // [esp+2Ch] [ebp-40h]\n  unsigned int v5; // [esp+40h] [ebp-2Ch]\n  _DWORD *v6; // [esp+44h] [ebp-28h]\n  _DWORD *v7; // [esp+48h] [ebp-24h]\n  unsigned int *v8; // [esp+4Ch] [ebp-20h]\n  _DWORD *v9; // [esp+4Ch] [ebp-20h]\n  int (__fastcall ***v10)(_DWORD); // [esp+50h] [ebp-1Ch]\n  int i; // [esp+54h] [ebp-18h]\n  unsigned int v12; // [esp+54h] [ebp-18h]\n\n  v10 = (int (__fastcall ***)(_DWORD))unknown_libname_211(\n                                        (Classes::TResourceStream *)&off_40F81C,\n                                        1,\n                                        dword_41C660,\n                                        (LPCSTR)&str_gggggg[1],\n                                        10);\n  for ( i = 54231235; i != 21; --i )\n    GetStockObject(0);\n  v4 = (**v10)(v10);\n  v8 = (unsigned int *)VirtualAllocEx((HANDLE)0xFFFFFFFF, 0, v4 + 123, 0x1000u, 0x40u);\n  v6 = (_DWORD *)VirtualAllocEx((HANDLE)-1, 0, v4 + 123, 4096, 64);\n  sub_411714((int)v10, (int)v8, v4);\n  v5 = *v8;\n  v9 = v8 + 1;\n  v7 = v6 - 1;\n  v12 = 0;\n  v3 = 0;\n  v2 = 0;\n  Windows::FillMemory(v6, v4, 0);\n  while ( v3 < v4 )\n  {\n    sub_405AA0((char *)v6 + v2, (char *)v9 + v3, 123);\n    v0 = DeleteColorSpace(0) + 123;\n    v2 += v0 - DeleteColorSpace(0);\n    v3 += 134;\n  }\n  if ( v5 )\n  {\n    do\n    {\n      CharUpperW((LPWSTR)0x34);\n      CharUpperW((LPWSTR)0x34);\n      CharUpperW((LPWSTR)0x34);\n      CharUpperW((LPWSTR)0x34);\n      CharUpperW((LPWSTR)0x34);\n      CharUpperW((LPWSTR)0x34);\n      CharUpperW((LPWSTR)0x34);\n      CharUpperW((LPWSTR)0x34);\n      CharUpperW((LPWSTR)0x34);\n      CharUpperW((LPWSTR)0x34);\n      CharUpperW((LPWSTR)0x34);\n      CharUpperW((LPWSTR)0x34);\n      CharUpperW((LPWSTR)0x34);\n      CharUpperW((LPWSTR)0x34);\n      CharUpperW((LPWSTR)0x34);\n      v1 = v12 + *v6 - DeleteColorSpace(0);\n      *v6 = DeleteColorSpace(0) + v1;\n      *v6 ^= v12 + 566721 - DeleteColorSpace(0);\n      v12 += 4 - DeleteColorSpace(0);\n      v6 = (_DWORD *)((char *)v6 + 4 - DeleteColorSpace(0));\n    }\n    while ( v12 < v5 );\n  }\n  __asm { jmp     [ebp+var_14] }\n}\n// 419A6D: unbalanced stack, ignored a potential tail call\n// 40F81C: using guessed type _DWORD (__fastcall *off_40F81C)(Classes::TStream *__hidden this);\n// 411A78: using guessed type _DWORD __fastcall unknown_libname_211(Classes::TResourceStream *this, _DWORD, HMODULE hModule, LPCSTR lpType, _DWORD);\n// 419A78: using guessed type _strings str_gggggg[1];\n\n// nfuncs=1464 queued=202 decompiled=202 lumina nreq=0 worse=0 better=0\n// ALL OK, 202 function(s) have been successfully decompiled\n"
+    },
+    {
+        "Function": "sub_408724",
+        "Total XOR and shift operations": 1,
+        "XOR operations": 1,
+        "Shift operations": 0,
+        "Operation percentage": "0.35%",
+        "Function Body": "\nint __usercall sub_408724@<eax>(const CHAR *a1@<eax>, int System::TDateTime)\n{\n  char v2; // bl\n  char v3; // al\n  const CHAR *v4; // esi\n  unsigned int v5; // eax\n  unsigned int v6; // eax\n  unsigned int v7; // eax\n  unsigned int v8; // eax\n  const char *v9; // esi\n  unsigned __int8 v10; // al\n  unsigned int v12[2]; // [esp-Ch] [ebp-3Ch] BYREF\n  int *v13; // [esp-4h] [ebp-34h]\n  int v14; // [esp+8h] [ebp-28h] BYREF\n  int v15; // [esp+Ch] [ebp-24h] BYREF\n  char v16; // [esp+11h] [ebp-1Fh]\n  char v17; // [esp+12h] [ebp-1Eh]\n  char v18; // [esp+13h] [ebp-1Dh]\n  __int16 v19; // [esp+16h] [ebp-1Ah]\n  __int16 v20; // [esp+18h] [ebp-18h]\n  __int16 v21; // [esp+1Ah] [ebp-16h]\n  char v22; // [esp+1Dh] [ebp-13h]\n  int v23; // [esp+24h] [ebp-Ch]\n  CHAR v24; // [esp+2Bh] [ebp-5h]\n  LPCSTR lpsz; // [esp+2Ch] [ebp-4h]\n  int savedregs; // [esp+30h] [ebp+0h] BYREF\n\n  v14 = 0;\n  v15 = 0;\n  lpsz = a1;\n  v13 = &savedregs;\n  v12[1] = (unsigned int)&loc_408EA5;\n  v12[0] = (unsigned int)NtCurrentTeb()->NtTib.ExceptionList;\n  __writefsdword(0, (unsigned int)v12);\n  if ( a1 && *(int *)(System::TDateTime - 264) < 2 )\n  {\n    ++*(_DWORD *)(System::TDateTime - 264);\n    v2 = 32;\n    v22 = 0;\n    v18 = 0;\n    v17 = 0;\n    while ( 1 )\n    {\n      v10 = *lpsz;\n      if ( !*lpsz )\n        break;\n      v24 = *lpsz;\n      if ( !_bittest(dword_41A114, v10) )\n      {\n        lpsz = sub_40AAE0(lpsz);\n        v3 = v24;\n        if ( (unsigned __int8)(v24 - 97) < 0x1Au )\n          v3 = v24 - 32;\n        if ( (unsigned __int8)(v3 - 65) < 0x1Au )\n        {\n          if ( v3 == 77 && v2 == 72 )\n            v3 = 78;\n          v2 = v3;\n        }\n        switch ( v3 )\n        {\n          case '\"':\n          case '\\'':\n            while ( *lpsz && *lpsz != v24 )\n            {\n              if ( _bittest(dword_41A114, *(unsigned __int8 *)lpsz) )\n                lpsz = sub_40AAE0(lpsz);\n              else\n                ++lpsz;\n            }\n            unknown_libname_105(System::TDateTime);\n            if ( *lpsz )\n              ++lpsz;\n            continue;\n          case '/':\n            if ( byte_41C689 )\n              goto LABEL_86;\n            continue;\n          case ':':\n            if ( byte_41C694 )\n              goto LABEL_86;\n            continue;\n          case 'A':\n            unknown_libname_109(&savedregs);\n            v9 = lpsz - 1;\n            if ( Sysutils::StrLIComp(lpsz - 1, \"AM/PM\", 5u) )\n            {\n              if ( Sysutils::StrLIComp(v9, \"A/P\", 3u) )\n              {\n                if ( Sysutils::StrLIComp(v9, \"AMPM\", 4u) )\n                {\n                  if ( Sysutils::StrLIComp(v9, \"AAAA\", 4u) )\n                  {\n                    if ( Sysutils::StrLIComp(v9, off_408ED0, 3u) )\n                      goto LABEL_86;\n                    unknown_libname_108(&savedregs);\n                    Sysutils::DayOfWeek(System::TDateTime);\n                    unknown_libname_106(System::TDateTime);\n                    lpsz += 2;\n                  }\n                  else\n                  {\n                    unknown_libname_108(&savedregs);\n                    Sysutils::DayOfWeek(System::TDateTime);\n                    unknown_libname_106(System::TDateTime);\n                    lpsz += 3;\n                  }\n                }\n                else\n                {\n                  unknown_libname_106(System::TDateTime);\n                  lpsz += 3;\n                  v17 = 1;\n                }\n              }\n              else\n              {\n                unknown_libname_105(System::TDateTime);\n                lpsz += 2;\n                v17 = 1;\n              }\n            }\n            else\n            {\n              unknown_libname_105(System::TDateTime);\n              lpsz += 4;\n              v17 = 1;\n            }\n            continue;\n          case 'C':\n            SysUtils::_16719(&savedregs);\n            sub_408724(System::TDateTime);\n            unknown_libname_109(&savedregs);\n            if ( v21 || v20 || v19 )\n            {\n              unknown_libname_105(System::TDateTime);\n              sub_408724(System::TDateTime);\n            }\n            continue;\n          case 'D':\n            SysUtils::_16719(&savedregs);\n            if ( (unsigned int)(v23 - 1) < 2 )\n            {\n              unknown_libname_108(&savedregs);\n              unknown_libname_107(System::TDateTime);\n            }\n            else\n            {\n              if ( v23 != 3 && v23 != 4 )\n                goto LABEL_23;\n              Sysutils::DayOfWeek(System::TDateTime);\n              unknown_libname_106(System::TDateTime);\n            }\n            continue;\n          case 'E':\n            SysUtils::_16719(&savedregs);\n            unknown_libname_108(&savedregs);\n            unknown_libname_110(&savedregs);\n            unknown_libname_106(System::TDateTime);\n            continue;\n          case 'G':\n            SysUtils::_16719(&savedregs);\n            unknown_libname_108(&savedregs);\n            SysUtils::_16722((int)&v15, (int)&savedregs);\n            unknown_libname_106(System::TDateTime);\n            continue;\n          case 'H':\n            SysUtils::_16719(&savedregs);\n            unknown_libname_109(&savedregs);\n            v16 = 0;\n            v4 = lpsz;\n            break;\n          case 'M':\n            SysUtils::_16719(&savedregs);\n            unknown_libname_108(&savedregs);\n            if ( (unsigned int)(v23 - 1) < 2 )\n              goto LABEL_59;\n            unknown_libname_106(System::TDateTime);\n            continue;\n          case 'N':\n            SysUtils::_16719(&savedregs);\n            unknown_libname_109(&savedregs);\n            if ( v23 > 2 )\n              v23 = 2;\n            goto LABEL_59;\n          case 'S':\n            SysUtils::_16719(&savedregs);\n            unknown_libname_109(&savedregs);\n            if ( v23 > 2 )\n              v23 = 2;\n            goto LABEL_59;\n          case 'T':\n            SysUtils::_16719(&savedregs);\nLABEL_23:\n            sub_408724(System::TDateTime);\n            continue;\n          case 'Y':\n            SysUtils::_16719(&savedregs);\n            unknown_libname_108(&savedregs);\n            goto LABEL_59;\n          case 'Z':\n            SysUtils::_16719(&savedregs);\n            unknown_libname_109(&savedregs);\n            if ( v23 > 3 )\n              v23 = 3;\nLABEL_59:\n            unknown_libname_107(System::TDateTime);\n            continue;\n          default:\nLABEL_86:\n            unknown_libname_105(System::TDateTime);\n            continue;\n        }\n        while ( 1 )\n        {\nLABEL_46:\n          if ( !*v4 )\n            goto LABEL_47;\n          if ( !_bittest(dword_41A114, *(unsigned __int8 *)v4) )\n            break;\n          v4 = sub_40AAE0(v4);\n        }\n        v5 = *(unsigned __int8 *)v4;\n        if ( v5 > 0x48 )\n        {\n          v8 = v5 - 97;\n          if ( v8 )\n          {\n            if ( v8 == 7 )\n              goto LABEL_47;\n            goto LABEL_45;\n          }\n        }\n        else\n        {\n          if ( v5 == 72 )\n            goto LABEL_47;\n          v6 = v5 - 34;\n          if ( !v6 || (v7 = v6 - 5) == 0 )\n          {\n            v16 ^= 1u;\nLABEL_45:\n            ++v4;\n            goto LABEL_46;\n          }\n          if ( v7 != 26 )\n            goto LABEL_45;\n        }\n        if ( !v16 )\n        {\n          if ( !Sysutils::StrLIComp(v4, \"AM/PM\", 5u)\n            || !Sysutils::StrLIComp(v4, \"A/P\", 3u)\n            || !Sysutils::StrLIComp(v4, \"AMPM\", 4u) )\n          {\n            v17 = 1;\n          }\nLABEL_47:\n          if ( v23 > 2 )\n            v23 = 2;\n          goto LABEL_59;\n        }\n        goto LABEL_45;\n      }\n      Sysutils::StrCharLength(lpsz);\n      unknown_libname_105(System::TDateTime);\n      lpsz = sub_40AAE0(lpsz);\n      v2 = 32;\n    }\n    --*(_DWORD *)(System::TDateTime - 264);\n  }\n  __writefsdword(0, v12[0]);\n  v13 = (int *)&loc_408EAC;\n  return System::__linkproc__ LStrArrayClr(&v14, 2);\n}\n// 403BE4: using guessed type int __fastcall System::__linkproc__ LStrArrayClr(_DWORD, _DWORD);\n// 408360: using guessed type _DWORD __cdecl unknown_libname_105(_DWORD);\n// 4083A4: using guessed type _DWORD __cdecl unknown_libname_106(_DWORD);\n// 4083C4: using guessed type _DWORD __cdecl unknown_libname_107(_DWORD);\n// 408410: using guessed type _DWORD __cdecl SysUtils::_16719(_DWORD);\n// 40843C: using guessed type _DWORD __cdecl unknown_libname_108(_DWORD);\n// 408474: using guessed type _DWORD __cdecl unknown_libname_109(_DWORD);\n// 40861C: using guessed type _DWORD __cdecl unknown_libname_110(_DWORD);\n// 41A114: using guessed type signed __int32 dword_41A114[8];\n// 41C689: using guessed type char byte_41C689;\n// 41C694: using guessed type char byte_41C694;\n\n"
+    },
+    {
+        "Function": "sub_40132C",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n_DWORD *__fastcall sub_40132C(_DWORD *result)\n{\n  *result = result;\n  result[1] = result;\n  return result;\n}\n\n"
+    },
+    {
+        "Function": "sub_4026EC",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nvoid __fastcall __noreturn sub_4026EC(int a1, int a2)\n{\n  dword_41A004 = a2;\n  sub_403BA8(a1);\n}\n// 41A004: using guessed type int dword_41A004;\n\n"
+    },
+    {
+        "Function": "sub_402E9C",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nint __fastcall sub_402E9C(System::TObject *this)\n{\n  System::TObject::CleanupInstance(this);\n  return System::__linkproc__ FreeMem(this);\n}\n// 402648: using guessed type int __fastcall System::__linkproc__ FreeMem(_DWORD);\n\n"
+    },
+    {
+        "Function": "sub_403BA8",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nvoid __fastcall __noreturn sub_403BA8(int a1)\n{\n  dword_41A000 = a1;\n  System::__linkproc__ Halt0();\n}\n// 403AD0: using guessed type void __noreturn System::__linkproc__ Halt0(void);\n// 41A000: using guessed type int dword_41A000;\n\n"
+    },
+    {
+        "Function": "sub_403BB4",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n// positive sp value has been detected, the output may be wrong!\nvoid __fastcall __noreturn sub_403BB4(int a1)\n{\n  int v1; // [esp-4h] [ebp-4h]\n\n  dword_41A004 = v1;\n  sub_403BA8(a1);\n}\n// 403BBA: positive sp value 4 has been found\n// 403BB4: variable 'v1' is possibly undefined\n// 41A004: using guessed type int dword_41A004;\n\n"
+    },
+    {
+        "Function": "sub_4047FC",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nint sub_4047FC()\n{\n  return unknown_libname_72() - 1;\n}\n// 4047F4: using guessed type int unknown_libname_72(void);\n\n"
+    },
+    {
+        "Function": "sub_40481C",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n// attributes: thunk\nint sub_40481C()\n{\n  return System::__linkproc__ DynArrayClear();\n}\n// 4049BC: using guessed type int System::__linkproc__ DynArrayClear(void);\n\n"
+    }
+]

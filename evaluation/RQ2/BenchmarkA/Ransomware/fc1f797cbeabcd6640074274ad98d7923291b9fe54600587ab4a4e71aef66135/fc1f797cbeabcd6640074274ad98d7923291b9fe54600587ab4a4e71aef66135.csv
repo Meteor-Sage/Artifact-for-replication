@@ -1,0 +1,12 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_14A319EFA,['crypt'],sub_147490FD4,['MoveFile'],sub_14F4CC457,['FindFirstFile'],sub_1495FE740,['CreateFile'],,
+sub_149F268B4,['crypt'],sub_144AAD270,['WriteFile'],sub_14DE8FB00,['FindNextFile'],sub_1495FEF30,['ReadFile'],,
+sub_1474900AB,['crypt'],sub_145E950C0,['WriteFile'],sub_149E0A420,['FindFirstFile'],sub_145E950C0,['ReadFile'],,
+sub_147490FD4,['crypt'],,,,,sub_14BA6BDC0,['ReadFile'],,
+sub_14BD57AB0,"['0x9E1724', 'crypt', 'Sosemanuk']",,,,,,,,
+sub_14F4CCB64,['crypt'],,,,,,,,
+sub_14DE8F760,['crypt'],,,,,,,,
+sub_14FE2CC60,"['Crypt', 'CryptGenRandom']",,,,,,,,
+sub_14152CF56,This function appears to implement a basic form of data encryption or obfuscation using bitwise XOR operations between two data elements and a key derived from the input parameters.,,,,,,,,
+sub_14152C4DA,"The function appears to perform bitwise operations and shifts on data, which is characteristic of operations used in encryption algorithms. The manipulation of data through shifts and bitwise arithmetic suggests potential encryption or modification of data content read into memory.",,,,,,,,
+sub_14152C709,"This function appears to be performing complex mathematical operations involving large integer arithmetic, indicative of cryptographic transformations. The presence of operations such as multiplication, shifts, and modular reductions with constants and operations consistent with elliptic curve or finite field arithmetic suggests encryption or cryptographic signature generation.",,,,,,,,

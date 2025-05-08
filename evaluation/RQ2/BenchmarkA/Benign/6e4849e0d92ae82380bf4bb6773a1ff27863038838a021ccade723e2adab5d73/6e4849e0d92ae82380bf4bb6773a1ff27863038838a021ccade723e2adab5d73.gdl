@@ -1,0 +1,331 @@
+graph: {
+title: "Call flow of 0e3de1806def01DB5Dd011b07a3a012cecce53cac8ff49f52ecf6db96aa0dcdc"
+// IDA palette
+colorentry 32: 0 0 0
+colorentry 33: 0 0 255
+colorentry 34: 0 0 255
+colorentry 35: 128 128 128
+colorentry 36: 128 128 128
+colorentry 37: 0 0 128
+colorentry 38: 0 0 128
+colorentry 39: 0 0 255
+colorentry 40: 0 0 255
+colorentry 41: 0 0 128
+colorentry 42: 0 128 0
+colorentry 43: 0 255 0
+colorentry 44: 0 128 0
+colorentry 45: 255 128 0
+colorentry 46: 0 128 0
+colorentry 47: 128 128 255
+colorentry 48: 255 0 0
+colorentry 49: 128 128 0
+colorentry 50: 1 1 1
+colorentry 51: 192 192 192
+colorentry 52: 0 0 255
+colorentry 53: 0 0 255
+colorentry 54: 0 0 255
+colorentry 55: 128 128 128
+colorentry 56: 128 128 255
+colorentry 57: 0 128 0
+colorentry 58: 0 0 128
+colorentry 59: 0 0 255
+colorentry 60: 128 0 128
+colorentry 61: 0 128 0
+colorentry 62: 0 128 0
+colorentry 63: 0 128 64
+colorentry 64: 0 0 128
+colorentry 65: 0 0 128
+colorentry 66: 255 0 255
+colorentry 67: 128 128 0
+colorentry 68: 0 0 128
+colorentry 69: 0 0 255
+colorentry 70: 0 0 128
+colorentry 71: 0 0 255
+colorentry 72: 0 0 0
+colorentry 73: 255 255 255
+colorentry 74: 192 187 175
+colorentry 75: 0 255 255
+colorentry 76: 0 0 0
+colorentry 77: 128 0 0
+colorentry 78: 128 128 128
+colorentry 79: 128 128 0
+colorentry 80: 255 0 255
+colorentry 81: 0 68 255
+colorentry 82: 0 0 255
+colorentry 83: 0 0 0
+colorentry 84: 50 205 50
+node: { title: "0" label: "nullsub_1" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "1" label: "sub_40F0AF" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "2" label: "sub_40E2D9" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "3" label: "sub_40B956" color: 75 textcolor: 73 bordercolor: black }
+node: { title: "4" label: "start" color: green bordercolor: black }
+node: { title: "5" label: "sub_40F27E" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "6" label: "sub_40AC2C" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "7" label: "TlsCallback_1" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "8" label: "TlsCallback_0" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "9" label: "sub_407DAF" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "10" label: "sub_40E89A" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "11" label: "sub_406FF4" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "12" label: "sub_405D69" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "13" label: "sub_40DB16" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "14" label: "TopLevelExceptionFilter" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "15" label: "sub_40398C" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "16" label: "sub_402B6D" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "17" label: "sub_406252" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "18" label: "sub_409E46" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "19" label: "sub_40EC2E" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "20" label: "sub_400C11" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "21" label: "sub_40B0BE" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "22" label: "sub_40D1BE" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "23" label: "sub_40C143" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "24" label: "sub_400BB0" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "25" label: "sub_40B71F" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "26" label: "sub_408E69" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "27" label: "sub_409426" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "28" label: "sub_40D234" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "29" label: "sub_40B1BA" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "30" label: "sub_403279" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "31" label: "sub_401189" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "32" label: "sub_405F8B" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "33" label: "sub_4048D8" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "34" label: "sub_40ACBF" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "35" label: "sub_40BFFB" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "36" label: "sub_40D618" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "37" label: "sub_40E9C8" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "38" label: "sub_40C5F0" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "39" label: "sub_40C380" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "40" label: "sub_401C1B" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "41" label: "sub_407863" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "42" label: "sub_40E958" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "43" label: "__getmainargs" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "44" label: "__set_app_type" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "45" label: "memcpy" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "46" label: "malloc" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "47" label: "strlen" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "48" label: "_cexit" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "49" label: "_amsg_exit" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "50" label: "_initterm" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "51" label: "exit" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "52" label: "_lock" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "53" label: "__dllonexit" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "54" label: "_unlock" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "55" label: "signal" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "56" label: "__setusermatherr" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "57" label: "fprintf" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "58" label: "fwrite" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "59" label: "vfprintf" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "60" label: "abort" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "61" label: "strncmp" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "62" label: "calloc" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "63" label: "free" color: 80 textcolor: 73 bordercolor: black }
+node: { title: "64" label: "_main" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "65" label: "sub_40FA6C" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "66" label: "RunPerl" color: 80 bordercolor: black }
+node: { title: "67" label: "DeleteCriticalSection" color: 80 bordercolor: black }
+node: { title: "68" label: "EnterCriticalSection" color: 80 bordercolor: black }
+node: { title: "69" label: "GetCurrentProcess" color: 80 bordercolor: black }
+node: { title: "70" label: "GetCurrentProcessId" color: 80 bordercolor: black }
+node: { title: "71" label: "GetCurrentThreadId" color: 80 bordercolor: black }
+node: { title: "72" label: "GetLastError" color: 80 bordercolor: black }
+node: { title: "73" label: "GetModuleHandleA" color: 80 bordercolor: black }
+node: { title: "74" label: "GetProcAddress" color: 80 bordercolor: black }
+node: { title: "75" label: "GetStartupInfoA" color: 80 bordercolor: black }
+node: { title: "76" label: "GetSystemTimeAsFileTime" color: 80 bordercolor: black }
+node: { title: "77" label: "GetTickCount" color: 80 bordercolor: black }
+node: { title: "78" label: "InitializeCriticalSection" color: 80 bordercolor: black }
+node: { title: "79" label: "LeaveCriticalSection" color: 80 bordercolor: black }
+node: { title: "80" label: "LoadLibraryW" color: 80 bordercolor: black }
+node: { title: "81" label: "QueryPerformanceCounter" color: 80 bordercolor: black }
+node: { title: "82" label: "SetUnhandledExceptionFilter" color: 80 bordercolor: black }
+node: { title: "83" label: "Sleep" color: 80 bordercolor: black }
+node: { title: "84" label: "TerminateProcess" color: 80 bordercolor: black }
+node: { title: "85" label: "TlsGetValue" color: 80 bordercolor: black }
+node: { title: "86" label: "UnhandledExceptionFilter" color: 80 bordercolor: black }
+node: { title: "87" label: "VirtualProtect" color: 80 bordercolor: black }
+node: { title: "88" label: "VirtualQuery" color: 80 bordercolor: black }
+node: { title: "89" label: "_onexit" color: 80 bordercolor: black }
+// node 0
+// node 1
+edge: { sourcename: "1" targetname: "43" }
+// node 2
+edge: { sourcename: "2" targetname: "11" }
+edge: { sourcename: "2" targetname: "16" }
+edge: { sourcename: "2" targetname: "18" }
+edge: { sourcename: "2" targetname: "44" }
+// node 3
+edge: { sourcename: "3" targetname: "8" }
+edge: { sourcename: "3" targetname: "21" }
+edge: { sourcename: "3" targetname: "31" }
+edge: { sourcename: "3" targetname: "32" }
+edge: { sourcename: "3" targetname: "35" }
+edge: { sourcename: "3" targetname: "36" }
+edge: { sourcename: "3" targetname: "41" }
+edge: { sourcename: "3" targetname: "42" }
+edge: { sourcename: "3" targetname: "45" }
+edge: { sourcename: "3" targetname: "46" }
+edge: { sourcename: "3" targetname: "47" }
+edge: { sourcename: "3" targetname: "48" }
+edge: { sourcename: "3" targetname: "49" }
+edge: { sourcename: "3" targetname: "50" }
+edge: { sourcename: "3" targetname: "51" }
+edge: { sourcename: "3" targetname: "64" }
+edge: { sourcename: "3" targetname: "74" }
+edge: { sourcename: "3" targetname: "75" }
+edge: { sourcename: "3" targetname: "82" }
+edge: { sourcename: "3" targetname: "83" }
+// node 4
+edge: { sourcename: "4" targetname: "36" }
+// node 5
+edge: { sourcename: "5" targetname: "73" }
+edge: { sourcename: "5" targetname: "74" }
+// node 6
+// node 7
+edge: { sourcename: "7" targetname: "40" }
+// node 8
+edge: { sourcename: "8" targetname: "40" }
+// node 9
+// node 10
+// node 11
+// node 12
+edge: { sourcename: "12" targetname: "10" }
+edge: { sourcename: "12" targetname: "11" }
+edge: { sourcename: "12" targetname: "52" }
+edge: { sourcename: "12" targetname: "53" }
+edge: { sourcename: "12" targetname: "54" }
+edge: { sourcename: "12" targetname: "89" }
+// node 13
+edge: { sourcename: "13" targetname: "12" }
+// node 14
+edge: { sourcename: "14" targetname: "32" }
+edge: { sourcename: "14" targetname: "55" }
+// node 15
+// node 16
+// node 17
+edge: { sourcename: "17" targetname: "57" }
+// node 18
+// node 19
+edge: { sourcename: "19" targetname: "58" }
+edge: { sourcename: "19" targetname: "59" }
+edge: { sourcename: "19" targetname: "60" }
+// node 20
+edge: { sourcename: "20" targetname: "19" }
+edge: { sourcename: "20" targetname: "25" }
+edge: { sourcename: "20" targetname: "28" }
+edge: { sourcename: "20" targetname: "45" }
+edge: { sourcename: "20" targetname: "72" }
+edge: { sourcename: "20" targetname: "87" }
+edge: { sourcename: "20" targetname: "88" }
+// node 21
+edge: { sourcename: "21" targetname: "19" }
+edge: { sourcename: "21" targetname: "20" }
+edge: { sourcename: "21" targetname: "26" }
+edge: { sourcename: "21" targetname: "41" }
+edge: { sourcename: "21" targetname: "87" }
+edge: { sourcename: "21" targetname: "88" }
+// node 22
+// node 23
+// node 24
+edge: { sourcename: "24" targetname: "22" }
+edge: { sourcename: "24" targetname: "47" }
+edge: { sourcename: "24" targetname: "61" }
+// node 25
+edge: { sourcename: "25" targetname: "22" }
+edge: { sourcename: "25" targetname: "23" }
+// node 26
+edge: { sourcename: "26" targetname: "22" }
+// node 27
+edge: { sourcename: "27" targetname: "22" }
+// node 28
+edge: { sourcename: "28" targetname: "22" }
+// node 29
+edge: { sourcename: "29" targetname: "22" }
+edge: { sourcename: "29" targetname: "23" }
+// node 30
+edge: { sourcename: "30" targetname: "22" }
+edge: { sourcename: "30" targetname: "23" }
+// node 31
+edge: { sourcename: "31" targetname: "30" }
+edge: { sourcename: "31" targetname: "73" }
+edge: { sourcename: "31" targetname: "80" }
+// node 32
+// node 33
+// node 34
+edge: { sourcename: "34" targetname: "13" }
+// node 35
+// node 36
+edge: { sourcename: "36" targetname: "70" }
+edge: { sourcename: "36" targetname: "71" }
+edge: { sourcename: "36" targetname: "76" }
+edge: { sourcename: "36" targetname: "77" }
+edge: { sourcename: "36" targetname: "81" }
+// node 37
+edge: { sourcename: "37" targetname: "68" }
+edge: { sourcename: "37" targetname: "72" }
+edge: { sourcename: "37" targetname: "79" }
+edge: { sourcename: "37" targetname: "85" }
+// node 38
+edge: { sourcename: "38" targetname: "62" }
+edge: { sourcename: "38" targetname: "68" }
+edge: { sourcename: "38" targetname: "79" }
+// node 39
+edge: { sourcename: "39" targetname: "63" }
+edge: { sourcename: "39" targetname: "68" }
+edge: { sourcename: "39" targetname: "79" }
+// node 40
+edge: { sourcename: "40" targetname: "37" }
+edge: { sourcename: "40" targetname: "67" }
+edge: { sourcename: "40" targetname: "78" }
+// node 41
+// node 42
+// node 43
+// node 44
+// node 45
+// node 46
+// node 47
+// node 48
+// node 49
+// node 50
+// node 51
+// node 52
+// node 53
+// node 54
+// node 55
+// node 56
+// node 57
+// node 58
+// node 59
+// node 60
+// node 61
+// node 62
+// node 63
+// node 64
+edge: { sourcename: "64" targetname: "35" }
+edge: { sourcename: "64" targetname: "66" }
+// node 65
+edge: { sourcename: "65" targetname: "5" }
+edge: { sourcename: "65" targetname: "13" }
+// node 66
+// node 67
+// node 68
+// node 69
+// node 70
+// node 71
+// node 72
+// node 73
+// node 74
+// node 75
+// node 76
+// node 77
+// node 78
+// node 79
+// node 80
+// node 81
+// node 82
+// node 83
+// node 84
+// node 85
+// node 86
+// node 87
+// node 88
+// node 89
+}

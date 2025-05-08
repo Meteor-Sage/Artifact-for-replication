@@ -1,0 +1,121 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14004D930(a1);",
+            "is_crypto_fun": false,
+            "description": "The function performs a series of arithmetic and bitwise operations on the input, but it does not resemble any known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140009557",
+            "is_crypto_fun": true,
+            "description": "The function performs a series of XOR operations on the contents of the arrays pointed to by a1 and a2, which is indicative of data modification. The pattern of XOR and bitwise operations suggests potential encryption or obfuscation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1400096C9",
+            "is_crypto_fun": true,
+            "description": "This function performs bitwise operations combined with bitwise XOR, which are common in symmetric encryption algorithms for data transformation, suggesting potential content encryption or modification."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140007D20",
+            "is_crypto_fun": false,
+            "description": "The function contains bit manipulations and calculations with data, but does not display characteristics of a common encryption algorithm like AES, RSA, or others listed. It operates on a set of conditions and performs mathematical operations, potentially involving bit reversals and shifts. Without indications of cryptographic keys or typical encryption/decryption processes, it is not classified as encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140008945(a1, a2);",
+            "is_crypto_fun": true,
+            "description": "The function manipulates 64-bit unsigned integers with bitwise operations and combines them into 128-bit values, suggesting it's implementing an algorithm for data encryption or cryptographic manipulation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14002B7A8(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform arithmetic operations with large constants, possibly for hashing or generating pseudo-random numbers, rather than a standard encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140003B10",
+            "is_crypto_fun": false,
+            "description": "The function manipulates bytes of a 64-bit integer and uses bitwise operations, but it doesn't resemble an encryption function. It may involve some form of encoding or transformation but lacks common patterns or components of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140008D0A",
+            "is_crypto_fun": true,
+            "description": "The function appears to perform complex arithmetic operations on input parameters, involving shifts and multiplications which are indicative of encryption algorithms. The operations resemble modular arithmetic and have traits seen in elliptic curve or finite field-based cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140042940(a1, a2);",
+            "is_crypto_fun": true,
+            "description": "Function utilizes BCryptGenRandom for generating random data and includes bitwise operations suggestive of potential data encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140017876",
+            "is_crypto_fun": true,
+            "description": "This function appears to be part of a cryptographic algorithm that involves complex data manipulation operations, including bit rotations and various mathematical transformations. The involvement of constants and conditional operations indicates cryptographic processing, likely handling encryption or decryption tasks. References to Sosemanuk suggest potential use of stream cipher techniques."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1400212C0",
+            "is_crypto_fun": false,
+            "description": "The function does not exhibit characteristics of encryption algorithms like AES, RSA, TEA, DES, etc. Instead, it appears to be operating on strings and potentially executing actions based on character values, possibly associated with data processing or validation with various conditional operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140027F9B(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function seems to be involved in complex processing of some data but does not appear to implement any known encryption algorithms like AES, RSA, etc. It might involve data checking or time-related calculations, indicating a different set of operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1400206B0(__int64 *a1, __int64 a2, __int64 a3);",
+            "is_crypto_fun": false,
+            "description": "The function primarily involves operations such as bit manipulation, condition checks, and memory operations, which do not clearly indicate encryption-like behavior. There is no direct evidence of commonly used encryption operations like key scheduling, transformation rounds, or block/stream processing typical in encryption functions such as AES, RSA, etc."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14003A840",
+            "is_crypto_fun": false,
+            "description": "This function involves environment string manipulation, process creation, and handle management. It lacks typical encryption algorithm attributes, indicating it is not a function of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14000EEA9",
+            "is_crypto_fun": false,
+            "description": "The function does not resemble any standard encryption algorithm based on its decompiled code structure. It appears to perform complex data manipulations with heavy usage of memory operations, function calls, and control structures that are not characteristic of algorithms like AES, RSA, etc."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14004D864(a1);",
+            "is_crypto_fun": false,
+            "description": "This function performs arithmetic operations on the input, involving bit shifts, modulo operations, and constants. It is likely a date or time-related calculation rather than a cryptographic function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14004EA68()",
+            "is_crypto_fun": false,
+            "description": "This function is involved in setting or updating a security cookie, which is typically used for protecting against certain types of attacks like buffer overflows. It uses system-specific values such as system time, thread ID, and process ID to create a pseudo-random value but does not perform encryption."
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401BD2",
+            "is_crypto_fun": false,
+            "description": "The function handles window messages and is not related to encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4013DB",
+            "is_crypto_fun": false,
+            "description": "The function appears to involve network operations, socket creation, and data transmission. There is no evidence of encryption algorithms being used. It may facilitate data transfer or networking activities."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40102B(UINT a1);",
+            "is_crypto_fun": false,
+            "description": "The function calls ExitProcess, terminating the process with the given exit code. It does not perform any encryption or data modification."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "start;",
+            "is_crypto_fun": false,
+            "description": "The function start appears to set up some initial values using GetModuleHandleA and GetCommandLineA, then calls sub_401031 with these values. It does not directly handle encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401E03(int a1, _BYTE *a2, int *a3, unsigned int a4, _BYTE *a5);",
+            "is_crypto_fun": true,
+            "description": "The function features XOR operations on byte arrays, indicative of a simple encryption or obfuscation process."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401031(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "This function initializes a buffer, potentially modifies its content by calling another function (sub_401DEC), and creates a new thread. There is no indication of it being an encryption function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "StartAddress",
+            "is_crypto_fun": false,
+            "description": "This function sets up a window class and creates a window in a Windows application loop, handling Windows messages. It appears to involve creating and managing a GUI rather than performing encryption or data content modification."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40106C(lpThreadParameter);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform network operations, including setting up sockets, connecting, and receiving data. It makes use of various subfunctions potentially related to data handling and networking. There is no clear sign of encryption operations like those in AES, RSA, or similar algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401BFF(SOCKET s, char *buf, int len, HANDLE hHandle)",
+            "is_crypto_fun": false,
+            "description": "The function appears to be related to network communication, handling socket operations for sending data over a network. It incorporates socket API calls such as 'send' and 'select', but doesn't directly apply any encryption method on the data being handled."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401926(a1, a2, a3, a4);",
+            "is_crypto_fun": true,
+            "description": "The function appears to implement a variant of the RC4 stream cipher, often used for data encryption. It initializes a key schedule and performs a key-stream generation and XOR operation on input data."
+        }
+    }
+]

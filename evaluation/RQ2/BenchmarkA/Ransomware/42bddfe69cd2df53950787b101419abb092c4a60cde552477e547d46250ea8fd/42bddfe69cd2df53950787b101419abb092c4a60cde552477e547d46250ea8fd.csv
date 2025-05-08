@@ -1,0 +1,12 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+WinMain,"['crypt', 'Encrypt']",sub_14779A7A0,['WriteFile'],sub_1420FBBD4,['FindNextFile'],sub_14779A9F0,['ReadFile'],,
+sub_1495ED010,['expand 32-byte kexpand 16-byte'],sub_149BDB3E0,['WriteFile'],,,sub_14EFD46E0,['CreateFile'],,
+sub_145EA3E30,['RijnDael_AES_LONG'],sub_145A54420,['DeleteFile'],,,sub_145A54420,['CreateFile'],,
+sub_14E5D7110,['RijnDael_AES_LONG'],,,,,,,,
+sub_145A54420,"['crypt', 'Crypt']",,,,,,,,
+sub_14E5D76B0,"Function resembles SHA-256 compression function with bitwise operations and constants, but it doesn't qualify as an encryption algorithm under provided rules. However, its structure indicates a cryptographic transformation.",,,,,,,,
+sub_14E5D7280,"The function involves operations with XOR, bit shifts, and mixing, which are typical for encryption algorithms, indicating potential data encryption or transformation.",,,,,,,,
+sub_1495ED640,"The function contains operations resembling steps of block cipher encryption, using bitwise and arithmetic operations on the input data similar to rounds of a symmetric encryption algorithm.",,,,,,,,
+sub_143F31950,"The function appears to implement a cryptographic algorithm involving multiple bitwise operations, rotations, and additions indicative of a stream or block cipher, possibly similar to ChaCha or Salsa20.",,,,,,,,
+sub_1495ED460,"The function appears to implement a form of encrypted operation or a cipher-like transformation, involving various data manipulation techniques and multiple lookup tables for potential substitution or permutation operations.",,,,,,,,
+sub_1495ED130,"The function appears to transform data using bitwise operations, swaps, and a series of XOR-based operations. This manipulation is consistent with block cipher structures observed in encryption algorithms.",,,,,,,,

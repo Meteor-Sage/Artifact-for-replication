@@ -1,0 +1,13 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_41ACDA,['advapi32.dll'],sub_4098FA,['MoveFile'],sub_409B8D,['SearchPath'],sub_40FACE,['CreateFile'],sub_411F92,['Snapshot']
+if,['Crypt'],sub_400150,['DeleteFile'],sub_40C012,['SearchPath'],sub_4024D4,['CreateFile'],sub_413F8A,['Snapshot']
+,,sub_4024D4,['MoveFile'],sub_4030EB,['FindFirstFile'],sub_400C52,['CreateFile'],sub_4501F9,['Backup']
+,,sub_40ACE6,['WriteFile'],sub_40F023,['FindNextFile'],sub_40E7B5,['ReadFile'],sub_45953E,['Backup']
+,,sub_452DA5,['WriteFile'],sub_406ADB,['FindNextFile'],sub_404562,['ReadFile'],sub_4598E8,['Backup']
+,,sub_45F30D,['DeleteFile'],sub_405586,['FindNextFile'],Address,['CreateFile'],,
+,,sub_458A4D,"['MoveFile', 'DeleteFile']",sub_40C0E1,['FindFirstFile'],sub_42D459,['CreateFile'],,
+,,sub_4527BD,['WriteFile'],sub_44C02E,['FindFirstFile'],sub_4538C4,['CreateFile'],,
+,,,,,,sub_459DA1,['ReadFile'],,
+,,,,,,sub_4589D7,['CreateFile'],,
+,,,,,,sub_4541C4,['CreateFile'],,
+,,,,,,sub_4527BD,"['CreateFile', 'ReadFile']",,

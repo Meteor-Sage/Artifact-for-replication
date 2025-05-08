@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40A1D5();",
+            "is_crypto_fun": false,
+            "description": "This function calls 'gimp_main' with parameters but does not indicate it is related to encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4028CA();",
+            "is_crypto_fun": false,
+            "description": "This function appears to handle dynamic library loading and function address resolution, not encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40733E()",
+            "is_crypto_fun": false,
+            "description": "No content modification or encryption operation observed in the function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4078A5();",
+            "is_crypto_fun": false,
+            "description": "The function provided does not perform any operations, and hence, it is not an encryption function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408E00",
+            "is_crypto_fun": false,
+            "description": "Function sub_408E00 appears to involve getting main arguments and initializing some variables. It does not seem to modify data content in a way characteristic of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F0AF()",
+            "is_crypto_fun": false,
+            "description": "This function appears to check and set application types, set certain flags, and perform some system-specific initialization tasks. It does not seem to perform any encryption or cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40025D",
+            "is_crypto_fun": false,
+            "description": "This function appears to be related to registering a file handler for JPEG 2000 images in GIMP. It is not related to encryption or data modification in the context of cryptographic functions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F27E()",
+            "is_crypto_fun": false,
+            "description": "The function does not appear to perform encryption or modification operations based on the given code."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4009E5();",
+            "is_crypto_fun": false,
+            "description": "This function appears to be generating a value based on system-specific parameters such as process ID, thread ID, tick count, and performance counter. It is not performing encryption but rather generating a potentially unique value based on system state."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_405D69(const char *a1, __int64 a2, __int64 a3, _DWORD *a4, _QWORD *a5)",
+            "is_crypto_fun": false,
+            "description": "This function handles the loading and processing of an image, including color space conversion, image component verification, and error reporting. It is not associated with any cryptographic operations."
+        }
+    }
+]

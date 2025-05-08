@@ -1,0 +1,5 @@
+node: { title: "0" label: "?__scrt_common_main_seh" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "1" label: "sub_40C9EF" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "2" label: "main" color: 76 textcolor: 73 bordercolor: black }
+edge: { sourcename: "2" targetname: "1" }
+edge: { sourcename: "0" targetname: "2" }

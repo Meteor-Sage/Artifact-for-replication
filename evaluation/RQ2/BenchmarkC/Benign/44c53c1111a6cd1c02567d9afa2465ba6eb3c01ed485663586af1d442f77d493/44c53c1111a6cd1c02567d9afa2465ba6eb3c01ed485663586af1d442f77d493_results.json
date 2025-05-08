@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14152CDF4()",
+            "is_crypto_fun": false,
+            "description": "The function is mainly used for generating and setting a security cookie for stack protection. It does not perform encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14A50DCF0(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "This function primarily deals with device registry properties and memory management, not encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_144196008",
+            "is_crypto_fun": false,
+            "description": "This function calls TraceMessage, which is not related to encryption or data modification."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_148B1CAF8(__int64 a1);",
+            "is_crypto_fun": false,
+            "description": "The function interacts with the Windows Registry, specifically checking and retrieving values related to 'DiskDiagnostics\\FallbackPolicy' and handling memory allocation and cleanup. It does not perform encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1441966A8(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function does not appear to implement encryption. It is primarily setting up and modifying values in memory with possible conditional assignments."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_144196068(dwNewLong, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be manipulating window handles, performing system registry operations, and handling events. No indications of it being an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14419602C(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "This function appears to log or trace a message rather than performing encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_148B1C804(a1);",
+            "is_crypto_fun": false,
+            "description": "This function seems to be involved with registry key operations and memory allocation/deallocation. It does not appear to implement any encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14152C158(void **a1, _DWORD *a2, _DWORD *a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform memory allocation, memory manipulation, and conditional checks based on specific criteria. There is no clear indication of standard encryption operations such as those used in AES, RSA, DES, etc."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1441964FC",
+            "is_crypto_fun": false,
+            "description": "This function does not appear to perform any encryption operations."
+        }
+    }
+]

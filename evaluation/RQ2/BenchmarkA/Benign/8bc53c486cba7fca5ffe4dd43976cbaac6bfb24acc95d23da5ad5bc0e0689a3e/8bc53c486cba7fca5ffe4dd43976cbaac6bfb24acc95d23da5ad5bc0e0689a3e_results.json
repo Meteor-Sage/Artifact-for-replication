@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_406FF4(a1);",
+            "is_crypto_fun": false,
+            "description": "This function simply returns the input value, no encryption or data content modification is performed."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40AC2C();",
+            "is_crypto_fun": false,
+            "description": "This function does not perform any operations and, therefore, is not an encryption function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40E89A(a1);",
+            "is_crypto_fun": false,
+            "description": "The function simply returns the input argument without any modification or encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F27E();",
+            "is_crypto_fun": false,
+            "description": "Function does not perform encryption; it involves loading a library and getting the address of a function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_407DAF();",
+            "is_crypto_fun": false,
+            "description": "The function appears to initialize locale-specific formatting information and is not related to any encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "TlsCallback_0(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The function does not show characteristics of encryption algorithm implementation. It primarily changes a global variable and calls another function based on certain conditions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40E2D9()",
+            "is_crypto_fun": false,
+            "description": "The function seems to be performing some kind of initialization and configuration. It checks certain memory locations and sets up application types but does not exhibit any behavior indicative of standard encryption algorithms such as AES, RSA, TEA, DES, etc. involved in actual content modification or encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "TlsCallback_1(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be a TLS callback, determining behavior based on the parameters and invoking a subroutine 'sub_401C1B' which is not determined to be a cryptographic algorithm based on the provided information."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D618",
+            "is_crypto_fun": false,
+            "description": "The function appears to be a process/thread-based unique identifier generation algorithm, likely used to set or modify a global variable with a unique value. It does not exhibit characteristics of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F0AF()",
+            "is_crypto_fun": false,
+            "description": "Function appears to handle command-line arguments and does not perform encryption."
+        }
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "iox_crypto_chacha20__ptr_Cipher_doBlocks",
+            "is_crypto_fun": true,
+            "description": "This function appears to be part of the ChaCha20 encryption implementation, specifically handling blocks as part of its operation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "github_com_xtaci_smux__ptr_Session_AcceptStream",
+            "is_crypto_fun": false,
+            "description": "The function seems related to stream acceptance and session management, rather than performing any encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "runtime_memmove",
+            "is_crypto_fun": false,
+            "description": "The provided function is a memory movement operation, typically used to copy memory from one location to another. It is not related to encryption; instead, it deals with efficient data transfer between memory addresses."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "github_com_xtaci_smux__ptr_Stream_waitRead",
+            "is_crypto_fun": false,
+            "description": "This function seems to deal with synchronization and handling read operations, possibly with timeouts and error handling, but does not appear to implement an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "cmpbody();",
+            "is_crypto_fun": false,
+            "description": "This function appears to involve data comparison operations, likely checking equality or similarity between data blocks. It does not implement encryption or reversible data transformation operations consistent with known encryption algorithms, but rather evaluates conditions between data points and adjusts output based on comparison results."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "iox_operate_local2RemoteUDP()",
+            "is_crypto_fun": false,
+            "description": "Function appears to handle UDP operations including connection and listening but does not perform any recognized cryptographic encryption operations. No algorithm like AES, RSA, TEA, DES, etc., is identified."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "memeqbody",
+            "is_crypto_fun": false,
+            "description": "This function compares memory regions and checks if they are equal. It does not perform encryption but is instead used for equality checks between two chunks of data."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "github_com_xtaci_smux__ptr_Stream_sendWindowUpdate",
+            "is_crypto_fun": false,
+            "description": "The function appears to be related to updating stream windows, timers, and writing frames. It doesn't display characteristics typical of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "github_com_xtaci_smux__ptr_Stream_Write",
+            "is_crypto_fun": false,
+            "description": "This function appears to be handling data writing operations for a stream, particularly for the smux protocol. It involves writing data frames, handling timeouts, and session management. There is no indication of encryption operations in this code."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "github_com_xtaci_smux__ptr_Stream_writeV2",
+            "is_crypto_fun": false,
+            "description": "The function performs operations related to stream writing and data transmission but does not implement any recognizable encryption algorithms. It handles conditions related to data stream management, synchronization, and error handling."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "iox_operate_local2LocalUDP();",
+            "is_crypto_fun": false,
+            "description": "This function appears to be involved in UDP network operations, handling network sockets and resolving UDP addresses. It does not demonstrate characteristics typical of encryption algorithms."
+        }
+    }
+]

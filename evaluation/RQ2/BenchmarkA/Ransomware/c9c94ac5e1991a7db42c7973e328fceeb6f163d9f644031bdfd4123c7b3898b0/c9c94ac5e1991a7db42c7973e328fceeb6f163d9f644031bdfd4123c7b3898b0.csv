@@ -1,0 +1,12 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_1400199B0,['crypt'],sub_1400D72D0,['WriteFile'],sub_1400DACE0,['FindNextFile'],sub_1400DAFA0,['CreateFile'],,
+sub_14001C490,['crypt'],sub_1400DB780,['MoveFile'],sub_1400DB2E0,['FindFirstFile'],sub_1400DC530,['ReadFile'],,
+sub_1400A5480,['crypt'],sub_1400DC690,['WriteFile'],sub_1400DBA80,['FindFirstFile'],sub_1400DEBB0,['ReadFile'],,
+sub_1400A5620,['crypt'],,,,,sub_1400DFA50,['ReadFile'],,
+sub_1400A5800,['crypt'],,,,,,,,
+sub_1400A5990,['Sosemanuk'],,,,,,,,
+sub_1400A8C70,['0x9E3779'],,,,,,,,
+sub_1400DE270,"['Crypt', 'CryptGenRandom']",,,,,,,,
+sub_14003B5F0,"The function appears to perform operations on data that include bit shifting, multiplication, and addition grouped with overflow checks, which are characteristic of modern encryption algorithms. These operations often resemble modular arithmetic involved in cryptographic algorithms.",,,,,,,,
+sub_1400B3560,"This function appears to perform encryption-like operations, as it involves a series of bitwise operations and rotations which are common in symmetric encryption algorithms.",,,,,,,,
+sub_14003BF40,"The function performs multiple operations on the input data, including multiplications, additions, and handling potential overflows, which suggests it implements a form of data transformation or encryption-like routine.",,,,,,,,

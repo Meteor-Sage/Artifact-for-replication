@@ -1,0 +1,38 @@
+{
+    "sub_12": {
+        "nodes": {
+            "0": "sub_405210",
+            "1": "WinMain",
+            "2": "tmainCRTStartup"
+        },
+        "edges": [
+            [
+                "WinMain",
+                "sub_405210"
+            ],
+            [
+                "tmainCRTStartup",
+                "WinMain"
+            ]
+        ],
+        "leafs": [
+            "sub_405210"
+        ]
+    },
+    "sub_23": {
+        "nodes": {},
+        "edges": [],
+        "leafs": []
+    },
+    "sub_123": {
+        "nodes": {},
+        "edges": [],
+        "leafs": []
+    },
+    "paths_12_1": [],
+    "paths_12_2": [],
+    "paths_23_2": [],
+    "paths_23_3": [],
+    "paths_123_12": [],
+    "paths_123_23": []
+}

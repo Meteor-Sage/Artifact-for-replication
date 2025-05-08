@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4047FC()",
+            "is_crypto_fun": false,
+            "description": "The function seems to perform a simple arithmetic operation involving a subtraction. There is no indication of typical encryption operations such as data transformation or key usage."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_403BA8(a1);",
+            "is_crypto_fun": false,
+            "description": "This function simply assigns the input parameter to a global variable and calls a system halt procedure. It does not perform any encryption or decryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_407B09(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform several bitwise operations and arithmetic manipulations on input parameters, but it doesn't resemble any known encryption algorithm structure. It modifies data primarily through bit-masking and arithmetic, which can be part of various types of transformations, but these actions alone do not indicate cryptographic functionality."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40481C()",
+            "is_crypto_fun": false,
+            "description": "DynArrayClear() appears to be a function related to clearing or resetting a dynamic array, not encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40132C(result);",
+            "is_crypto_fun": false,
+            "description": "This function appears to set elements of a pointer array to point to itself, which does not exhibit characteristics of any known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_402E9C(System::TObject *this);",
+            "is_crypto_fun": false,
+            "description": "This function appears to clean up an object by freeing memory. It is not related to encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4197F0",
+            "is_crypto_fun": true,
+            "description": "The function performs several operations that suggest it is manipulating allocated memory regions, potentially involving encryption or similar data modification processes. These include calling functions such as VirtualAllocEx and FillMemory, iterating through memory with operations that alter data (e.g., XOR operations, memory shifting), common in encryption routines."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_403BB4(int a1);",
+            "is_crypto_fun": false,
+            "description": "The function does not contain elements typical of encryption algorithms such as complex arithmetic operations, data manipulation techniques, or use of specific cryptographic primitives. The function appears to involve handling a stack pointer or other variable, without any evident cryptographic behavior."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4026EC(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "This function assigns a value to a global variable and invokes another function. It does not exhibit characteristics of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408724",
+            "is_crypto_fun": false,
+            "description": "This function appears to involve data processing and manipulation operations, possibly related to string handling, conditional checks, and interpreting system datetime functionality. It does not implement a recognized encryption algorithm."
+        }
+    }
+]

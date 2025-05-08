@@ -1,0 +1,8 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_403A82,['crypt'],sub_40438F,['MoveFile'],sub_4057A3,['FindFirstFile'],sub_414461,['CreateFile'],sub_403A82,['encrypted']
+sub_409ACC,"['crypt', 'Encrypt']",,,sub_418049,['FindNextFile'],,,sub_409ACC,['encrypted']
+sub_404E6E,"This function appears to perform key setup operations, likely for the ChaCha20 cipher, as indicated by 'expand 32-byte k', which is a characteristic keyword of the initialization process in the ChaCha20 algorithm.",,,,,,,,
+sub_41AD2C,"Potential modular arithmetic and bit manipulation operations suggestive of cryptographic processing, likely related to number theory common in encryption functions.",,,,,,,,
+sub_41F6D1,"The function implements a data transformation process resembling ChaCha or Salsa20 stream cipher operations. It performs numerous bitwise rotations and additions in a loop, which are typical characteristics of certain stream cipher algorithms.",,,,,,,,
+sub_41840D,"The function appears to perform operations related to modular exponentiation involving the calculation of powers of a number modulo another number ('mpz_powm'), which is a common operation in encryption algorithms such as RSA.",,,,,,,,
+sub_4154D0,"The function appears to perform complex data modifications and bit manipulations, which are characteristic of encryption processes. It also calls other functions like sub_413BA4, which seem to be involved in bit-level operations, possibly related to block or stream cipher operations. However, without full context, it is challenging to confirm the specific encryption algorithm.",,,,,,,,

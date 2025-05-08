@@ -1,0 +1,86 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_404CC3",
+            "is_crypto_fun": false,
+            "description": "Based on the provided code, the function appears to perform a bitwise manipulation and possible lookup table-based operations, but it does not match common encryption algorithms. It might be a checksum or CRC function instead."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4028C8",
+            "is_crypto_fun": false,
+            "description": "The function seems to perform several operations related to event handling and checking conditions based on flags and counters. It does not resemble a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4050B1(hFile, a2, lpBuffer);",
+            "is_crypto_fun": false,
+            "description": "This function reads file contents into memory in chunks and manages file pointers, but does not perform any encryption or cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4016DD(u_long hostlong);",
+            "is_crypto_fun": false,
+            "description": "The function manipulates data using several operations that resemble encryption-like transformations but are not clearly identifiable as a standard encryption algorithm. It uses functions such as htonl and qmemcpy, and performs bit-level manipulations, yet lacks clear signals of implementing a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4044E9(int a1, int a2, int a3);",
+            "is_crypto_fun": true,
+            "description": "This function appears to be implementing an arithmetic coding operation or a similar algorithm involving complex data manipulation and multiple modulus operations, which are common in encryption and encoding algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401932",
+            "is_crypto_fun": false,
+            "description": "The function sub_401932 appears to interact with logical drives and handle strings but lacks clear indicators of common cryptographic operations like AES, RSA, TEA, DES, ChaCha, or RC4. It performs logical and memory operations and manipulates data but does not show patterns typical of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_404858(size_t a1, int a2, _DWORD *a3, void *a4);",
+            "is_crypto_fun": false,
+            "description": "The function performs bitwise operations and manipulates data based on certain conditions, but it does not exhibit clear patterns of known encryption algorithms like AES, RSA, or others."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_402AEE(a1, hKey, lpSubKey, lpValueName, lpData);",
+            "is_crypto_fun": false,
+            "description": "Function appears to be interacting with the Windows registry, querying key values and modifying input buffer sizes."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4047EC(int a1, _DWORD *a2, int a3);",
+            "is_crypto_fun": false,
+            "description": "This function does not exhibit typical characteristics of known encryption algorithms. It appears to manipulate memory with custom operations such as memset and bit-shifting, but these actions alone are insufficient to classify it as a cryptographic function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401A5D(lpThreadParameter);",
+            "is_crypto_fun": false,
+            "description": "The function appears to involve checking and responding to changes in logical drives, as well as interactions with threads and memory allocation. There does not appear to be any direct indication of encryption operations like data transformations or cryptographic key handling."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40104E();",
+            "is_crypto_fun": false,
+            "description": "This function appears to operate with logical drives and handle memory allocation and deallocation. It does not demonstrate characteristics typical of encryption functions like any recognizable cipher operations (e.g., key setup, data transformation, etc.)."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_405A9E(Src, a2, a3, a4, a5);",
+            "is_crypto_fun": false,
+            "description": "This function performs string manipulation, copying, and transformation with a callback function but lacks typical characteristics of encryption functions."
+        }
+    }
+]

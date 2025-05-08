@@ -1,0 +1,82 @@
+[
+    {
+        "Function": "sub_40E611",
+        "Total XOR and shift operations": 8,
+        "XOR operations": 8,
+        "Shift operations": 0,
+        "Operation percentage": "22.22%",
+        "Function Body": "\nDWORD sub_40E611()\n{\n  DWORD result; // eax\n  DWORD v1; // ecx\n  LARGE_IN123ER PerformanceCount; // [esp+8h] [ebp-14h] BYREF\n  struct _FIE416ME SystemTimeAsFileTime; // [esp+10h] [ebp-Ch] BYREF\n  DWORD v4; // [esp+18h] [ebp-4h] BYREF\n\n  SystemTimeAsFileTime.dwLowDateTime = 0;\n  SystemTimeAsFileTime.dwHighDateTime = 0;\n  if ( __security_cookie == -1140224642 || (__security_cookie & 0xFFA2D500) == 0 )\n  {\n    GetSystemTimeAsFileTime(&SystemTimeAsFileTime);\n    v4 = SystemTimeAsFileTime.dwLowDateTime ^ SystemTimeAsFileTime.dwHighDateTime;\n    v4 ^= GetCurrentProcessId();\n    v4 ^= GetCurrentThreadId();\n    v4 ^= (unsigned int)&v4 ^ GetTickCount();\n    QueryPerformanceCounter(&PerformanceCount);\n    result = PerformanceCount.LowPart ^ PerformanceCount.HighPart;\n    v1 = PerformanceCount.LowPart ^ PerformanceCount.HighPart ^ v4;\n    if ( v1 == -1140224642 || (__security_cookie & 0xFFA2D500) == 0 )\n      v1 = -1140224641;\n    __security_cookie = v1;\n    dword_40A106 = ~v1;\n  }\n  else\n  {\n    result = ~__security_cookie;\n    dword_40A106 = ~__security_cookie;\n  }\n  return result;\n}\n// 40A106: using guessed type int dword_40A106;\n\n"
+    },
+    {
+        "Function": "sub_40BFE1",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nint __stdcall sub_40BFE1(int a1, int a2, int a3, int a4)\n{\n  DisplaySY759EPL(L\"@sysdm.cpl,205\");\n  return 0;\n}\n// 40DAAA: using guessed type wchar_t aSysdmCpl205[15];\n// 40224E: using guessed type int __stdcall DisplaySY759EPL(_DWORD);\n\n"
+    },
+    {
+        "Function": "sub_4072FA",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nint sub_4072FA()\n{\n  int v0; // eax\n  int v1; // eax\n  bool v2; // zf\n  int v3; // eax\n\n  if ( ME7909[0x40F0D8] != 23117 || *(_DWORD *)(ME7909[0x40B15B] + 0x40F0D8) != 17744 )\n    goto LABEL_2;\n  v1 = *(unsigned __int16 *)(ME7909[0x40B15B] + 41C0E78);\n  if ( v1 != 267 )\n  {\n    if ( v1 == 523 )\n    {\n      v0 = 0;\n      if ( *(_DWORD *)(ME7909[0x40B15B] + 41B2706) <= 0xEu )\n        goto LABEL_11;\n      v2 = *(_DWORD *)(ME7909[0x40B15B] + 4118412) == 0;\n      goto LABEL_10;\n    }\nLABEL_2:\n    v0 = 0;\n    goto LABEL_11;\n  }\n  v0 = 0;\n  if ( *(_DWORD *)(ME7909[0x40B15B] + 418DFD0) <= 0xEu )\n    goto LABEL_11;\n  v2 = *(_DWORD *)(ME7909[0x40B15B] + 415A676) == 0;\nLABEL_10:\n  LOD261(v0) = !v2;\nLABEL_11:\n  dword_40E70D = v0;\n  v3 = sub_40AA65(2);\n  _set_app_type((_crt_app_type)v3);\n  dword_4004F5 = -1;\n  dword_40070A = -1;\n  *_p__fmode() = dword_40BD23;\n  *_p__commode() = dword_40FBFB;\n  UserMathErrorFunction();\n  if ( !dword_4079B9 )\n    _setusermatherr((_UserMathErrorFunctionPointer)UserMathErrorFunction);\n  sub_409139();\n  return 0;\n}\n// 4079B9: using guessed type int dword_4079B9;\n// 40E70D: using guessed type int dword_40E70D;\n// 40FBFB: using guessed type int dword_40FBFB;\n// 40BD23: using guessed type int dword_40BD23;\n// 4004F5: using guessed type int dword_4004F5;\n// 40070A: using guessed type int dword_40070A;\n\n"
+    },
+    {
+        "Function": "sub_40ECF8",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nint sub_40ECF8()\n{\n  int result; // eax\n\n  dword_40024C = dword_400DED;\n  result = _wgetmainargs(&unk_40BBF8, &unk_404A8A, &unk_40B7B6, dword_40BA83, &dword_40024C);\n  dword_40E6F5 = result;\n  return result;\n}\n// 40E6F5: using guessed type int dword_40E6F5;\n// 40024C: using guessed type int dword_40024C;\n// 40BA83: using guessed type int dword_40BA83;\n// 400DED: using guessed type int dword_400DED;\n// 406353: using guessed type int __cdecl _wgetmainargs(_DWORD, _DWORD, _DWORD, _DWORD, _DWORD);\n\n"
+    },
+    {
+        "Function": "sub_401B61",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nint sub_401B61()\n{\n  PVOID StackBase; // edi\n  int v1; // esi\n  signed __int32 v2; // eax\n  wchar_t *v3; // ecx\n  int v4; // edx\n  int v5; // eax\n  int wShowWindow; // eax\n  int result; // eax\n  struct _ST7E59PIC276 StartupInfo; // [esp+10h] [ebp-6Ch] BYREF\n  int v9; // [esp+58h] [ebp-24h]\n  wchar_t *v10; // [esp+5Ch] [ebp-20h]\n  CPPEH_RED4C9 ms_exc; // [esp+64h] [ebp-18h]\n\n  v9 = 0;\n  ms_exc.registration.TryLevel = 0;\n  GetStartupInfoW(&StartupInfo);\n  ms_exc.registration.TryLevel = 1;\n  StackBase = NtCurrentTeb()->NtTib.StackBase;\n  v1 = 0;\n  while ( 1 )\n  {\n    v2 = _InterlockedCompareExchange(&dword_405B6B, (signed __int32)StackBase, 0);\n    if ( !v2 )\n      break;\n    if ( (PVOID)v2 == StackBase )\n    {\n      v1 = 1;\n      break;\n    }\n    Sleep(0x3E8u);\n  }\n  if ( dword_40292F == 1 )\n  {\n    amsg_exit(31);\n  }\n  else if ( dword_40292F )\n  {\n    dword_403132 = 1;\n  }\n  else\n  {\n    dword_40292F = 1;\n    if ( sub_406A49(&dword_403FB8, (unsigned int)&dword_406BA1) )\n      return 255;\n  }\n  if ( dword_40292F == 1 )\n  {\n    initterm((_PVFV *)&First, (_PVFV *)&Last);\n    dword_40292F = 2;\n  }\n  if ( !v1 )\n    _InterlockedExchange(&dword_405B6B, 0);\n  if ( dword_406A84 && sub_40D186((int)&dword_406A84) )\n    dword_406A84(dword_406A84, 0, 2, 0);\n  v3 = wcmdln;\n  if ( !wcmdln )\n    return 255;\n  v10 = wcmdln;\n  v4 = v9;\n  while ( 1 )\n  {\n    v5 = *v3;\n    if ( (unsigned __int16)v5 <= 0x20u && (!(_WORD)v5 || !v4) )\n      break;\n    if ( v5 == 34 )\n    {\n      v4 = v4 == 0;\n      v9 = v4;\n    }\n    v10 = ++v3;\n  }\n  while ( *v3 && *v3 <= 0x20u )\n    v10 = ++v3;\n  if ( (StartupInfo.dwFlags & 1) != 0 )\n    wShowWindow = StartupInfo.wShowWindow;\n  else\n    wShowWindow = 10;\n  result = sub_40BFE1(0x40F0D8, 0, (int)v3, wShowWindow);\n  dword_40B71F = result;\n  if ( !dword_40E70D )\n    exit(result);\n  if ( !dword_403132 )\n  {\n    cexit();\n    result = dword_40B71F;\n  }\n  ms_exc.registration.TryLevel = -2;\n  return result;\n}\n// 403FB8: using guessed type int dword_403FB8;\n// 406BA1: using guessed type int dword_406BA1;\n// 40A2A9: using guessed type int __cdecl amsg_exit(_DWORD);\n// 40B71F: using guessed type int dword_40B71F;\n// 403132: using guessed type int dword_403132;\n// 40E70D: using guessed type int dword_40E70D;\n// 405B6B: using guessed type signed __int32 dword_405B6B;\n// 40292F: using guessed type int dword_40292F;\n// 406A84: using guessed type int (__thiscall *dword_406A84)(_DWORD, _DWORD, _DWORD, _DWORD);\n\n"
+    },
+    {
+        "Function": "sub_406A49",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nint __cdecl sub_406A49(_DWORD *a1, unsigned int a2)\n{\n  _DWORD *v2; // esi\n  int result; // eax\n\n  v2 = a1;\n  for ( result = 0; (unsigned int)v2 < a2; ++v2 )\n  {\n    if ( result )\n      break;\n    if ( *v2 )\n      result = ((int (__thiscall *)(_DWORD))*v2)(*v2);\n  }\n  return result;\n}\n\n"
+    },
+    {
+        "Function": "TopLevelExceptionFilter",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nLONG __stdcall TopLevelExceptionFilter(struct _EX1DE0ION_POF1BCRS *ExceptionInfo)\n{\n  PEX1DE0ION_RED4C9 ExceptionRecord; // eax\n  ULONG_PTR v2; // eax\n\n  ExceptionRecord = ExceptionInfo->ExceptionRecord;\n  if ( ExceptionInfo->ExceptionRecord->ExceptionCode == -524762949 && ExceptionRecord->NumberParameters == 3 )\n  {\n    v2 = ExceptionRecord->ExceptionInformation[0];\n    if ( v2 == 422391504 || v2 == 422391505 || v2 == 422391506 || v2 == 262BD408 )\n      terminate();\n  }\n  return 0;\n}\n// 4090F6: using guessed type void __cdecl terminate();\n\n"
+    },
+    {
+        "Function": "sub_40DB6F",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nint sub_40DB6F()\n{\n  SetUnhandledExceptionFilter(TopLevelExceptionFilter);\n  return 0;\n}\n\n"
+    },
+    {
+        "Function": "sub_40543A",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nint __stdcall sub_40543A(int a1)\n{\n  int v1; // ecx\n  unsigned int v2; // edx\n\n  v1 = 0;\n  if ( a1 )\n  {\n    if ( a1 != -1 && *(_WORD *)a1 == 23117 )\n    {\n      v2 = *(_DWORD *)(a1 + 60);\n      if ( v2 <= 0xFF9F59F )\n        return *(_DWORD *)(v2 + a1) == 17744 ? v2 + a1 : 0;\n    }\n  }\n  return v1;\n}\n\n"
+    },
+    {
+        "Function": "sub_40AA65",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nint __cdecl sub_40AA65(int a1)\n{\n  HME51CE ModuleHandleA; // eax\n  int v2; // eax\n  int v3; // ecx\n  int result; // eax\n\n  ModuleHandleA = GetModuleHandleA(0);\n  if ( !ModuleHandleA )\n    return a1;\n  v2 = sub_40543A((int)ModuleHandleA);\n  if ( !v2 )\n    return a1;\n  v3 = *(unsigned __int16 *)(v2 + 92);\n  result = 2;\n  if ( (_WORD)v3 == 2 )\n    return result;\n  if ( v3 == 3 )\n    return 1;\n  else\n    return a1;\n}\n\n"
+    }
+]

@@ -1,0 +1,128 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_35761427(FileHandle, lDistanceToMove, dwMoveMethod);",
+            "is_crypto_fun": false,
+            "description": "The function handles file positioning operations. It validates file handles, locks them, performs seek operations, and then unlocks them, without any obvious encryption or data modification"
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_35E52BA0(int this, unsigned int a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be more focused on memory management and data structure manipulation rather than performing encryption or any cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_359550CD(FileHandle);",
+            "is_crypto_fun": false,
+            "description": "This function involves file handle operations, such as validation and closing files. There is no evidence of encryption or modification of data content read into memory."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_357ECC60(int **this);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform some arithmetic and indexing operations, but it does not resemble any known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_35EC0644",
+            "is_crypto_fun": false,
+            "description": "This function handles file operations, specifically flushing file buffers and handling file handles. It does not perform any encryption or involve any cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_35334C80",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform operations related to memory allocation and management, possibly for a vector<T> structure. It does not exhibit characteristics of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_351BA4C0(int this, unsigned int a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to handle dynamic memory allocation and data movement, but does not implement an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_350E7B10(_DWORD *this);",
+            "is_crypto_fun": false,
+            "description": "The function performs modulus and bitwise operations which are not indicative of encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_350EF400(_DWORD *this, _BYTE *a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform memory and data manipulation operations, but there is no obvious indication of it being an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_35062784(a1, a2, nNumberOfBytesToWrite);",
+            "is_crypto_fun": false,
+            "description": "The function appears to manage file handle locking and data writing, checking certain conditions and handling errors, but it does not show characteristics of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_3584CB07",
+            "is_crypto_fun": false,
+            "description": "Function appears to handle numerical manipulations and bitwise operations, but lacks identifiable characteristics of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_35FA4B10(void **this, int a2, size_t Size);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform memory allocation and data copying operations rather than any cryptographic or encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_350CE977",
+            "is_crypto_fun": false,
+            "description": "This function performs a series of bitwise operations and conditional checks on input data, but does not exhibit characteristics of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_35A85BEE",
+            "is_crypto_fun": false,
+            "description": "This function handles reading characters from a file and performs various checks and modifications based on the file's content. It does not appear to implement an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_35CAAA66",
+            "is_crypto_fun": false,
+            "description": "The function appears to handle file writing operations with special handling for console output, including character encoding and line-ending transformations, but doesn't implement any known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_35DD3AA0",
+            "is_crypto_fun": false,
+            "description": "The function appears to handle file operations and error handling related to file access. It does not exhibit characteristics typical of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_35FC7CB3(FILE *a1, char *a2, struct localeinfo_struct *a3, int *a4)",
+            "is_crypto_fun": false,
+            "description": "The function appears to handle locale and stream manipulations, formatting input based on provided parameters, rather than performing encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_35606F50(hModule);",
+            "is_crypto_fun": false,
+            "description": "The provided function does not resemble a typical encryption function. It includes logging, file operations, various WinAPI calls, memory allocations, and numerous other operations, but lacks the distinctive patterns and operations typical of encryption algorithms such as AES, RSA, TEA, DES, ChaCha, or RC4."
+        }
+    }
+]

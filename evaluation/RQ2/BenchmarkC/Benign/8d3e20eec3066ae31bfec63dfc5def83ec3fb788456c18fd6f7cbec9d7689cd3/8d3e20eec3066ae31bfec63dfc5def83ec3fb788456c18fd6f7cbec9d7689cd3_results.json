@@ -1,0 +1,107 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_421FAA",
+            "is_crypto_fun": false,
+            "description": "This function performs a simple aggregation of bytes into a 64-bit integer, which is not an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4164C6(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be processing and modifying data content, but it does not exhibit characteristics typical of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4125A5",
+            "is_crypto_fun": false,
+            "description": "No clear indication of standard encryption algorithm; appears to modify data, but not in a manner consistent with common encryption techniques."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_428CF6(a1);",
+            "is_crypto_fun": false,
+            "description": "The function combines four elements of an array into a single 64-bit integer. It is likely intended for integer manipulation or conversion rather than encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409631(a1);",
+            "is_crypto_fun": false,
+            "description": "This function constructs a 64-bit integer from the bytes of the input, which suggests it is not performing encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_426C51",
+            "is_crypto_fun": false,
+            "description": "The function takes a pointer to an array, reads the first four bytes, and combines them into a single 64-bit integer. This bit-shift and addition operation is a common way to construct values from consecutive bytes but does not imply an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41AE4B(int a1, _BYTE *a2, unsigned __int8 *a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be a data transformation or manipulation function, but it does not use known structures or operations characteristic of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4162C6(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The function does not seem to perform any known encryption algorithm. It appears to involve arithmetic operations and large constants, possibly for scrambling or other purposes."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_42FB32(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to manipulate memory addresses and data content, but there is no indication of cryptographic operations like encryption or decryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_418DAB(int a1, _BYTE *a2, unsigned __int8 *a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform byte manipulation and transformation on input data, but there are no indications of it being a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_42777E(__int64 a1, unsigned __int8 *a2, int *a3, __int64 a4, int *a5);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform data manipulation and bitwise operations, but does not exhibit clear characteristics of standard encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408D3F",
+            "is_crypto_fun": false,
+            "description": "The function appears to handle file I/O operations, manipulate and print metadata, and other data related to file properties but does not demonstrate characteristics of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_430528",
+            "is_crypto_fun": false,
+            "description": "This function appears to format and output various types of metadata and configuration information, rather than performing any encryption or cryptographic tasks."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401235(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);",
+            "is_crypto_fun": false,
+            "description": "Function appears to be performing data manipulation and formatting, but does not exhibit standard characteristics of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_43CB48(a1);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be parsing and handling different types of data or commands embedded in some input, possibly related to document processing or printer job management. It does not exhibit typical characteristics of encryption algorithms."
+        }
+    }
+]

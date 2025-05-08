@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40023C();",
+            "is_crypto_fun": false,
+            "description": "Erases elements from an associative container based on the RB-tree implementation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "new",
+            "is_crypto_fun": false,
+            "description": "This function appears to be related to the emplace operation in a C++ standard library red-black tree and involves memory allocation and string management."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4062EC();",
+            "is_crypto_fun": false,
+            "description": "The function seems to be initializing some variables and calling other functions, but it does not directly perform any encryption or modification of data content."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408E00()",
+            "is_crypto_fun": false,
+            "description": "This function appears to be involved in obtaining the main arguments for the program execution. No indication of encryption or data modification was observed."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40B61E()",
+            "is_crypto_fun": false,
+            "description": "This function appears to generate a unique value based on system time and other system information, which could be used as a seed or a unique identifier. It does not directly implement a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4078A5",
+            "is_crypto_fun": false,
+            "description": "Function that appears to be involved with string manipulation, environment variable handling, and obtaining file paths. No signs of encryption algorithm usage."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "main",
+            "is_crypto_fun": false,
+            "description": "The given function appears to handle command-line argument parsing and processes input to determine further actions within the program. It does not perform any known encryption or cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "std::_Rb_tree<std::string, std::pair<std::string const, std::string>, std::_Select1st<std::pair<std::string const, std::string>>, std::less<std::string>, std::allocator<std::pair<std::string const, std::string>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string &&>, std::tuple<>>(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be related to the internal implementation of an associative container (likely a Red-Black tree) for managing key-value pairs. No evidence of encryption algorithms detected."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "std::_Rb_tree<std::string,std::pair<std::string const,std::string>,std::_Select1st<std::pair<std::string const,std::string>>,std::less<std::string>,std::allocator<std::pair<std::string const,std::string>>>::_M_erase",
+            "is_crypto_fun": false,
+            "description": "This function appears to delete or manage memory within a red-black tree structure."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F0AF()",
+            "is_crypto_fun": false,
+            "description": "This function does not appear to perform encryption-related tasks. It seems to be involved in setting up certain configurations or conditions and writing to various global variables."
+        }
+    }
+]

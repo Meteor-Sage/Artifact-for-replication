@@ -1,0 +1,128 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_411029(int this, int *a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be manipulating specific bits of the integers pointed to by a2 based on the values of certain bytes and words within the object at 'this'. This does not seem to be a standard encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40AAD6",
+            "is_crypto_fun": false,
+            "description": "The function does not indicate any known encryption operations. It involves pointer arithmetic and the destruction of an istream object."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_410EF2",
+            "is_crypto_fun": false,
+            "description": "The function doesn't match typical patterns of encryption algorithms. It seems to perform a modification based on specific constants and conditions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408738(__int64 a1);",
+            "is_crypto_fun": false,
+            "description": "The function performs a comparison operation with a shifted value and is not related to any encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_403B54(_DWORD *this, unsigned int a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform arithmetic operations and conditional logic, but does not exhibit characteristics of a typical encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409E4F(_DWORD *this)",
+            "is_crypto_fun": false,
+            "description": "This function appears to be involved in stream buffer operations and resetting file buffers, not encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_418D70(int *this, int a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be modifying bits of the input integer based on certain conditions, but it does not seem to be part of a standard encryption algorithm or performing typical cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40BDC4(this, a2);",
+            "is_crypto_fun": false,
+            "description": "This function does not involve encryption but appears to handle object deletion and cleanup."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41D066(int a1, int *a2, char a3);",
+            "is_crypto_fun": false,
+            "description": "This function does not resemble any standard encryption algorithm. It appears to perform some bit manipulation and conditional operations but isn't a recognized encryption function like AES, RSA, TEA, DES, ChaCha, or RC4."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4088CE(this, a2);",
+            "is_crypto_fun": false,
+            "description": "This function checks a specific bit in a value; it does not perform encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40268A(int *a1, int a2, int a3, char a4);",
+            "is_crypto_fun": false,
+            "description": "Function seems to be manipulating specific bits of input data and calling other subroutines, but it does not exhibit characteristics typical of encryption functions. It appears more to handle some status flags or configuration values."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41B073",
+            "is_crypto_fun": false,
+            "description": "The function does not perform encryption or any content modification directly related to cryptography."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_410014(_DWORD **this, _DWORD *a2, char *a3, unsigned int a4, unsigned int a5);",
+            "is_crypto_fun": false,
+            "description": "This function appears to handle memory allocation and vector manipulation, but does not exhibit characteristics of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41492C(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "This function contains complex operations on data structures and uses memory allocations. However, it does not exhibit characteristics typical of known encryption algorithms like AES, RSA, TEA, etc."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_417F91(int a1, int **a2);",
+            "is_crypto_fun": false,
+            "description": "Function does not exhibit behavior typical of known encryption algorithms. It appears to perform data manipulation but does not match patterns of major encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_416924",
+            "is_crypto_fun": false,
+            "description": "This function appears to be involved in processing and modifying data content based on various conditions and flags. However, it does not appear to implement any encryption algorithm like AES, RSA, etc."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41F185();",
+            "is_crypto_fun": false,
+            "description": "Not an encryption function. It appears to be a complex parser or evaluator, possibly for arithmetic or logical expressions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_403081",
+            "is_crypto_fun": false,
+            "description": "The function sub_403081 performs various operations based on the input conditions and does not exhibit characteristics of a cryptographic functionality."
+        }
+    }
+]

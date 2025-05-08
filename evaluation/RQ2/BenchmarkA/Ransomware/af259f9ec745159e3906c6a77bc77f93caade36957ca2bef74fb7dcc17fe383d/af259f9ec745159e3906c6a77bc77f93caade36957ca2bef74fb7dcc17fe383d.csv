@@ -1,0 +1,4 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+main,"['CryptAcquireContext', 'CryptStringToBinary', 'crypt', 'Encrypt', 'CryptGenRandom', 'CryptEncrypt', 'Crypt']",sub_14FE7C9D0,['WriteFile'],sub_146931DD4,['FindNextFile'],sub_14FE7CBF0,['ReadFile'],,
+sub_149BDB140,['crypt'],,,,,sub_149BDB140,['CreateFile'],,
+sub_14F4CC220,"Function appears to implement content modification consistent with an encryption algorithm through bitwise operations, rotations, and state updates, resembling a block cipher like ChaCha20.",,,,,,,,

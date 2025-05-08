@@ -1,0 +1,82 @@
+[
+    {
+        "Function": "sub_4060A0",
+        "Total XOR and shift operations": 2,
+        "XOR operations": 0,
+        "Shift operations": 2,
+        "Operation percentage": "9.52%",
+        "Function Body": "\nint __thiscall sub_4060A0(_DWORD *this)\n{\n  char *v1; // esi\n  int result; // eax\n\n  *(_DWORD *)((char *)this + *(_DWORD *)(*(this - 21) + 4) - 84) = &std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>::`vftable';\n  v1 = (char *)(this - 18);\n  sub_405AC0(this - 18);\n  *(_DWORD *)&v1[*(_DWORD *)(*((_DWORD *)v1 - 3) + 4) - 12] = &std::iostream::`vftable';\n  result = *(_DWORD *)(*((_DWORD *)v1 - 1) + 4);\n  *(_DWORD *)&v1[result - 4] = &std::ostream::`vftable';\n  *(_DWORD *)&v1[*(_DWORD *)(*((_DWORD *)v1 - 3) + 4) - 12] = &std::istream::`vftable';\n  return result;\n}\n// 40395C: using guessed type void *std::istream::`vftable';\n// 403964: using guessed type void *std::ostream::`vftable';\n// 40396C: using guessed type void *std::iostream::`vftable';\n// 4039B0: using guessed type void *std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>::`vftable';\n\n"
+    },
+    {
+        "Function": "sub_405FF0",
+        "Total XOR and shift operations": 2,
+        "XOR operations": 0,
+        "Shift operations": 2,
+        "Operation percentage": "8.00%",
+        "Function Body": "\n_DWORD *__stdcall sub_405FF0(_DWORD *a1)\n{\n  *a1 = &dword_4039B4;\n  a1[2] = &dword_4039BC;\n  a1[21] = &std::ios::`vftable';\n  sub_4067B0(a1, (int)(a1 + 3));\n  *(_DWORD *)((char *)a1 + *(_DWORD *)(a1[2] + 4) + 8) = &std::ostream::`vftable';\n  *(_DWORD *)((char *)a1 + *(_DWORD *)(*a1 + 4)) = &std::iostream::`vftable';\n  *(_DWORD *)((char *)a1 + *(_DWORD *)(*a1 + 4)) = &std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>::`vftable';\n  sub_406510(a1 + 3);\n  a1[18] = 0;\n  a1[19] = 0;\n  a1[3] = &std::stringbuf::`vftable';\n  return a1;\n}\n// 403918: using guessed type void *std::ios::`vftable';\n// 403964: using guessed type void *std::ostream::`vftable';\n// 40396C: using guessed type void *std::iostream::`vftable';\n// 403974: using guessed type void *std::stringbuf::`vftable';\n// 4039B0: using guessed type void *std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>::`vftable';\n// 4039B4: using guessed type int dword_4039B4;\n// 4039BC: using guessed type int dword_4039BC;\n\n"
+    },
+    {
+        "Function": "sub_405030",
+        "Total XOR and shift operations": 3,
+        "XOR operations": 0,
+        "Shift operations": 3,
+        "Operation percentage": "7.32%",
+        "Function Body": "\nSIZE_T sub_405030()\n{\n  SIZE_T result; // eax\n  unsigned int *v1; // [esp+0h] [ebp-840h]\n  SIZE_T v2; // [esp+4h] [ebp-83Ch]\n  BOOL ResourceState; // [esp+8h] [ebp-838h] BYREF\n  struct _COMMCONFIG CC; // [esp+Ch] [ebp-834h] BYREF\n  WCHAR szVolumeName[1024]; // [esp+40h] [ebp-800h] BYREF\n\n  result = dwSize >> 3;\n  if ( dwSize >> 3 )\n  {\n    v1 = (unsigned int *)dword_90AEB4;\n    v2 = dwSize >> 3;\n    do\n    {\n      if ( dwSize == 2393 )\n      {\n        SetProcessAffinityMask(0, 0);\n        FindNextVolumeW(0, szVolumeName, 0);\n        QueryMemoryResourceNotification(0, &ResourceState);\n        PurgeComm(0, 0);\n        BeginUpdateResourceA(\"zabugumudukal facopubadojibitupazavitazuhi fifaxiluzonebavibahipojafum tos\", 0);\n        GlobalAlloc(0, 0);\n        UnlockFile(0, 0, 0, 0, 0);\n        memset(&CC, 0, sizeof(CC));\n        SetCommConfig(0, &CC, 0);\n      }\n      result = (SIZE_T)sub_404E10(v1);\n      v1 += 2;\n      --v2;\n    }\n    while ( v2 );\n  }\n  return result;\n}\n// 90AEB4: using guessed type int dword_90AEB4;\n// 405030: using guessed type WCHAR szVolumeName[1024];\n\n"
+    },
+    {
+        "Function": "sub_404E10",
+        "Total XOR and shift operations": 6,
+        "XOR operations": 4,
+        "Shift operations": 2,
+        "Operation percentage": "5.56%",
+        "Function Body": "\nunsigned int *__stdcall sub_404E10(unsigned int *a1)\n{\n  unsigned int v1; // esi\n  unsigned int v2; // eax\n  int v3; // ebx\n  SIZE_T v4; // ecx\n  int v5; // eax\n  unsigned int *result; // eax\n  unsigned int v7; // edx\n  int v8; // [esp+10h] [ebp-848h] BYREF\n  unsigned int v9; // [esp+14h] [ebp-844h] BYREF\n  unsigned int v10; // [esp+18h] [ebp-840h]\n  int v11; // [esp+1Ch] [ebp-83Ch]\n  int v12; // [esp+20h] [ebp-838h]\n  int v13; // [esp+24h] [ebp-834h]\n  int v14; // [esp+28h] [ebp-830h] BYREF\n  unsigned int v15; // [esp+2Ch] [ebp-82Ch] BYREF\n  int v16; // [esp+30h] [ebp-828h]\n  int v17; // [esp+34h] [ebp-824h]\n  int v18; // [esp+38h] [ebp-820h]\n  int v19; // [esp+3Ch] [ebp-81Ch]\n  DWORD NumberOfEventsRead; // [esp+40h] [ebp-818h] BYREF\n  struct _INPUT_RECORD Buffer; // [esp+44h] [ebp-814h] BYREF\n  WCHAR szVolumePathName[1024]; // [esp+58h] [ebp-800h] BYREF\n\n  v1 = *a1;\n  v2 = a1[1];\n  v15 = *a1;\n  v10 = v2;\n  if ( dwSize == 1428 )\n    LoadLibraryW(L\"gewavukahavuvuzatanucuwulole kumosozidumuxufu\");\n  v14 = 0;\n  v18 = dword_42C2B8;\n  v17 = dword_42C2BC;\n  sub_404DE0(&v14);\n  v14 += 575;\n  v3 = dword_42C2C4;\n  v19 = dword_42C2C0;\n  v16 = 32;\n  while ( 1 )\n  {\n    v11 = 5;\n    v4 = dwSize;\n    v5 = 16 * v1;\n    v8 = 16 * v1;\n    if ( dwSize == 12 )\n    {\n      ReadConsoleInputW(0, &Buffer, 0, &NumberOfEventsRead);\n      v5 = v8;\n      v4 = dwSize;\n    }\n    v8 = v19 + v5;\n    if ( v4 == 4009 )\n    {\n      dword_90B118 = -303354304;\n    }\n    else if ( v4 == 1003 )\n    {\n      dword_90AEB0 = 0;\n    }\n    v13 = v1 + v14;\n    v9 = v1 >> v11;\n    dword_90B114 = -185975314;\n    sub_404DF0(&v9, v3);\n    v8 ^= v13;\n    if ( dwSize == 2534 )\n      GetProfileIntA(\"Bagenifute xuyegicamoluha\", \"Hezel xibikomuborahez\", 0);\n    v9 ^= v8;\n    v10 += 100;\n    v10 -= v9;\n    v10 -= 100;\n    if ( dwSize == 12 )\n    {\n      SetUnhandledExceptionFilter(0);\n      GetVolumePathNameW(L\"Tekobafawusax fewevalaz nev\", szVolumePathName, 0);\n    }\n    sub_404DD0(v10, &v8);\n    v8 += v18;\n    v12 = v10 + v14;\n    v13 = v10 + v14;\n    v9 = v17 + (v10 >> v11);\n    v8 ^= v10 + v14;\n    if ( dwSize == 289 )\n      AddConsoleAliasA(0, 0, 0);\n    v8 ^= v9;\n    sub_404E00(&v15, v8);\n    sub_404DC0(&v14);\n    if ( !--v16 )\n      break;\n    v1 = v15;\n  }\n  result = a1;\n  v7 = v10;\n  *a1 = v15;\n  a1[1] = v7;\n  return result;\n}\n// 42C2B8: using guessed type int dword_42C2B8;\n// 42C2BC: using guessed type int dword_42C2BC;\n// 42C2C0: using guessed type int dword_42C2C0;\n// 42C2C4: using guessed type int dword_42C2C4;\n// 90AEB0: using guessed type int dword_90AEB0;\n// 90B114: using guessed type int dword_90B114;\n// 90B118: using guessed type int dword_90B118;\n// 404E10: using guessed type WCHAR szVolumePathName[1024];\n\n"
+    },
+    {
+        "Function": "sub_406840",
+        "Total XOR and shift operations": 2,
+        "XOR operations": 0,
+        "Shift operations": 2,
+        "Operation percentage": "2.74%",
+        "Function Body": "\n_BYTE *__thiscall sub_406840(int this, int a2, rsize_t SourceSize)\n{\n  unsigned int v3; // esi\n  unsigned int v5; // ebx\n  unsigned int v6; // ecx\n  size_t v7; // ecx\n  void *v8; // ebx\n  rsize_t v9; // ecx\n  const void *v10; // eax\n  _BYTE *result; // eax\n  int v12; // [esp+0h] [ebp-34h] BYREF\n  int pExceptionObject[3]; // [esp+Ch] [ebp-28h] BYREF\n  char *v14[3]; // [esp+1Ch] [ebp-18h] BYREF\n  int v15; // [esp+30h] [ebp-4h]\n\n  v3 = a2 | 0xF;\n  v14[2] = (char *)&v12;\n  v14[1] = (char *)this;\n  if ( (a2 | 0xF) == -1 )\n  {\n    v3 = a2;\n  }\n  else\n  {\n    v5 = *(_DWORD *)(this + 24);\n    v6 = v5 >> 1;\n    if ( v3 / 3 < v5 >> 1 && v5 <= -2 - v6 )\n      v3 = v6 + v5;\n  }\n  v7 = v3 + 1;\n  v15 = 0;\n  if ( v3 == -1 )\n  {\n    v7 = 0;\n  }\n  else if ( !(0xFFFFFFFF / v7) )\n  {\n    v14[0] = 0;\n    std::exception::exception((std::exception *)pExceptionObject, (const char *const *)v14);\n    pExceptionObject[0] = (int)&std::bad_alloc::`vftable';\n    _CxxThrowException(pExceptionObject, (_ThrowInfo *)&_TI2_AVbad_alloc_std__);\n  }\n  v8 = operator new(v7);\n  v15 = -1;\n  v9 = SourceSize;\n  if ( SourceSize )\n  {\n    if ( *(_DWORD *)(this + 24) < 0x10u )\n      v10 = (const void *)(this + 4);\n    else\n      v10 = *(const void **)(this + 4);\n    memcpy_s(v8, v3 + 1, v10, SourceSize);\n    v9 = SourceSize;\n  }\n  if ( *(_DWORD *)(this + 24) >= 0x10u )\n  {\n    operator delete(*(void **)(this + 4));\n    v9 = SourceSize;\n  }\n  result = (_BYTE *)(this + 4);\n  *(_BYTE *)(this + 4) = 0;\n  *(_DWORD *)(this + 4) = v8;\n  *(_DWORD *)(this + 24) = v3;\n  *(_DWORD *)(this + 20) = v9;\n  if ( v3 >= 0x10 )\n    result = v8;\n  result[v9] = 0;\n  return result;\n}\n// 401274: using guessed type void *std::bad_alloc::`vftable';\n\n"
+    },
+    {
+        "Function": "sub_405B30",
+        "Total XOR and shift operations": 3,
+        "XOR operations": 0,
+        "Shift operations": 3,
+        "Operation percentage": "1.96%",
+        "Function Body": "\nint __thiscall sub_405B30(int this, int a2)\n{\n  unsigned int *v3; // edi\n  unsigned int v4; // edx\n  unsigned int v5; // ecx\n  unsigned int v6; // eax\n  unsigned int v8; // edi\n  _DWORD *v9; // eax\n  _DWORD *v10; // esi\n  _BYTE *v11; // eax\n  rsize_t v12; // ebp\n  unsigned int v13; // eax\n  rsize_t v14; // edx\n  void *v15; // ebx\n  char *v16; // edi\n  char *v17; // eax\n  bool v18; // zf\n  _DWORD *v19; // eax\n  _DWORD *v20; // edx\n  int *v21; // eax\n  int v22; // eax\n  char *v23; // eax\n  int v24; // ecx\n  char *v25; // eax\n  _DWORD *v26; // eax\n  _DWORD *v27; // esi\n  _BYTE *v28; // eax\n  rsize_t v29; // [esp+8h] [ebp-4h]\n\n  if ( (*(_BYTE *)(this + 64) & 8) != 0 )\n  {\n    v3 = *(unsigned int **)(this + 36);\n    v4 = *v3;\n    if ( *v3 )\n    {\n      v5 = *(_DWORD *)(this + 60);\n      if ( v4 < v5 )\n      {\n        v6 = v4 + **(_DWORD **)(this + 52);\n        *v3 = v5;\n        **(_DWORD **)(this + 52) = v6 - v5;\n      }\n    }\n  }\n  if ( a2 == -1 )\n    return 0;\n  v8 = **(_DWORD **)(this + 36);\n  if ( v8 && (v9 = *(_DWORD **)(this + 52), v8 < v8 + *v9) )\n  {\n    --*v9;\n    v10 = *(_DWORD **)(this + 36);\n    v11 = (_BYTE *)(*v10)++;\n    *v11 = a2;\n    return a2;\n  }\n  else if ( (*(_BYTE *)(this + 64) & 2) != 0 )\n  {\n    return -1;\n  }\n  else\n  {\n    if ( v8 )\n      v12 = v8 + **(_DWORD **)(this + 52) - **(_DWORD **)(this + 16);\n    else\n      v12 = 0;\n    v13 = v12 >> 1;\n    v14 = v12;\n    v29 = v12;\n    if ( v12 >> 1 < 0x20 )\n      v13 = 32;\n    v15 = **(void ***)(this + 16);\n    v16 = 0;\n    if ( v13 )\n    {\n      while ( 0x7FFFFFFF - v13 < v12 )\n      {\n        v13 >>= 1;\n        if ( !v13 )\n          goto LABEL_22;\n      }\n      v29 = v12 + v13;\n      v17 = (char *)sub_4064B0((char *)(v12 + v13));\n      v14 = v29;\n      v16 = v17;\n    }\nLABEL_22:\n    v18 = v12 == 0;\n    if ( v12 )\n    {\n      memcpy_s(v16, v14, v15, v12);\n      v14 = v29;\n      v18 = v12 == 0;\n    }\n    if ( v18 )\n    {\n      v19 = *(_DWORD **)(this + 20);\n      *(_DWORD *)(this + 60) = v16;\n      *v19 = v16;\n      **(_DWORD **)(this + 36) = v16;\n      **(_DWORD **)(this + 52) = v14;\n      v18 = (*(_BYTE *)(this + 64) & 4) == 0;\n      **(_DWORD **)(this + 16) = v16;\n      v20 = *(_DWORD **)(this + 32);\n      if ( v18 )\n      {\n        *v20 = v16;\n        **(_DWORD **)(this + 48) = 1;\n      }\n      else\n      {\n        *v20 = 0;\n        **(_DWORD **)(this + 48) = v16;\n      }\n    }\n    else\n    {\n      v21 = *(int **)(this + 36);\n      *(_DWORD *)(this + 60) += v16 - (_BYTE *)v15;\n      v22 = *v21;\n      **(_DWORD **)(this + 20) += v16 - (_BYTE *)v15;\n      v23 = &v16[v22 - (_DWORD)v15];\n      **(_DWORD **)(this + 36) = v23;\n      **(_DWORD **)(this + 52) = v14 + v16 - v23;\n      if ( (*(_BYTE *)(this + 64) & 4) != 0 )\n      {\n        **(_DWORD **)(this + 16) = v16;\n        **(_DWORD **)(this + 32) = 0;\n        **(_DWORD **)(this + 48) = v16;\n      }\n      else\n      {\n        v24 = **(_DWORD **)(this + 36);\n        v25 = &v16[**(_DWORD **)(this + 32) - (_DWORD)v15];\n        **(_DWORD **)(this + 16) = v16;\n        **(_DWORD **)(this + 32) = v25;\n        **(_DWORD **)(this + 48) = v24 - (_DWORD)v25 + 1;\n      }\n    }\n    if ( (*(_BYTE *)(this + 64) & 1) != 0 )\n      operator delete(v15);\n    v26 = *(_DWORD **)(this + 52);\n    *(_DWORD *)(this + 64) |= 1u;\n    --*v26;\n    v27 = *(_DWORD **)(this + 36);\n    v28 = (_BYTE *)(*v27)++;\n    *v28 = a2;\n    return a2;\n  }\n}\n// 405BF3: conditional instruction was optimized away because eax.4!=0\n\n"
+    },
+    {
+        "Function": "sub_404300",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nvoid __thiscall sub_404300(void *this)\n{\n  *(_DWORD *)this = &std::bad_alloc::`vftable';\n  sub_407807(this);\n}\n// 401274: using guessed type void *std::bad_alloc::`vftable';\n\n"
+    },
+    {
+        "Function": "sub_404310",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n_DWORD *__thiscall sub_404310(_DWORD *this, char a2)\n{\n  *this = &std::bad_alloc::`vftable';\n  sub_407807(this);\n  if ( (a2 & 1) != 0 )\n    operator delete(this);\n  return this;\n}\n// 401274: using guessed type void *std::bad_alloc::`vftable';\n\n"
+    },
+    {
+        "Function": "sub_404350",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nvoid **__thiscall sub_404350(void **this, char a2)\n{\n  *this = &std::runtime_error::`vftable';\n  if ( (unsigned int)this[9] >= 0x10 )\n    operator delete(this[4]);\n  this[9] = (void *)15;\n  this[8] = 0;\n  *((_BYTE *)this + 16) = 0;\n  sub_407807(this);\n  if ( (a2 & 1) != 0 )\n    operator delete(this);\n  return this;\n}\n// 4039C8: using guessed type void *std::runtime_error::`vftable';\n\n"
+    },
+    {
+        "Function": "sub_4043A0",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nstd::_Lockit *__stdcall sub_4043A0(std::_Lockit *a1, int a2)\n{\n  std::_Lockit::_Lockit(a1, 0);\n  *((_DWORD *)a1 + 7) = 15;\n  *((_DWORD *)a1 + 6) = 0;\n  *((_BYTE *)a1 + 8) = 0;\n  *((_DWORD *)a1 + 14) = 15;\n  *((_DWORD *)a1 + 13) = 0;\n  *((_BYTE *)a1 + 36) = 0;\n  *((_DWORD *)a1 + 21) = 15;\n  *((_DWORD *)a1 + 20) = 0;\n  *((_BYTE *)a1 + 64) = 0;\n  *((_DWORD *)a1 + 28) = 15;\n  *((_DWORD *)a1 + 27) = 0;\n  *((_BYTE *)a1 + 92) = 0;\n  std::_Locinfo::_Locinfo_ctor(a1, a2);\n  return a1;\n}\n// 406F80: using guessed type _DWORD __cdecl std::_Locinfo::_Locinfo_ctor(_DWORD, _DWORD);\n\n"
+    }
+]

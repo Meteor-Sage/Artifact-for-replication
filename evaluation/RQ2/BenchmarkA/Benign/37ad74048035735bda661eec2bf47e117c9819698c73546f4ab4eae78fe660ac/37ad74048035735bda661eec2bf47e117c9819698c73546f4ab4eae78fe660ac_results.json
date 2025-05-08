@@ -1,0 +1,86 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14BD578A4()",
+            "is_crypto_fun": false,
+            "description": "Function that initializes and modifies a security cookie. It is not a standard encryption function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14B345088(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The function counts the number of words in a wide-character string by detecting whitespace transitions, and does not perform encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1491E0830(hObj, a2);",
+            "is_crypto_fun": false,
+            "description": "No indication of encryption or cryptographic operations; function appears to handle user object information retrieval."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14EEF1488(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "This function appears to handle memory copying and potential manipulation of data based on certain conditions but does not exhibit typical characteristics of standard encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_144196264(a1, a2, a3, a4, a5, a6);",
+            "is_crypto_fun": false,
+            "description": "The function appears to handle data formatting and preparation for logging or event writing, rather than performing cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14DCE5C40(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be related to memory allocation and content relocation. It dynamically resizes an allocated memory buffer if necessary and copies the existing data to the new buffer."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_144AADEA0",
+            "is_crypto_fun": false,
+            "description": "The function performs conditional checks and modifications of values based on certain conditions. It does not exhibit characteristics of a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14BCB7F98",
+            "is_crypto_fun": false,
+            "description": "This function appears to handle memory manipulation and copying operations, involving adjustments to pointers and potentially safeguards against buffer overflows. It does not show any clear signs of being an encryption function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140B21784(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be memory allocation and management, not an encryption algorithm. It uses memory handling functions such as calloc and memmove_s."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14DCE5D4C(__int64 a1, size_t a2);",
+            "is_crypto_fun": false,
+            "description": "Memory allocation and content copy function likely used for dynamic array resizing."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140FEA290",
+            "is_crypto_fun": false,
+            "description": "The function seems to perform memory allocation, SID validation, and copying, but it does not exhibit characteristics of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_147C810A0()",
+            "is_crypto_fun": false,
+            "description": "The function seems to perform memory allocation, SID validation, and copying, but it does not exhibit characteristics of known encryption algorithms."
+        }
+    }
+]

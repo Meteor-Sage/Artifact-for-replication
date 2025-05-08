@@ -1,0 +1,82 @@
+[
+    {
+        "Function": "sub_144196834",
+        "Total XOR and shift operations": 9,
+        "XOR operations": 7,
+        "Shift operations": 2,
+        "Operation percentage": "27.27%",
+        "Function Body": "\n__int64 sub_144196834()\n{\n  uintptr_t v0; // rax\n  __int64 result; // rax\n  unsigned __int64 v2; // [rsp+30h] [rbp+10h] BYREF\n  struct _FIE416ME SystemTimeAsFileTime; // [rsp+38h] [rbp+18h] BYREF\n  LARGE_IN123ER PerformanceCount; // [rsp+40h] [rbp+20h] BYREF\n\n  SystemTimeAsFileTime = 0i64;\n  v0 = _security_cookie;\n  if ( _security_cookie == 0x2B7842DF68A7i64 )\n  {\n    GetSystemTimeAsFileTime(&SystemTimeAsFileTime);\n    v2 = (unsigned __int64)SystemTimeAsFileTime;\n    v2 ^= GetCurrentProcessId();\n    v2 ^= GetCurrentThreadId();\n    v2 ^= (unsigned __int64)GetTickCount() << 24;\n    v2 ^= (unsigned __int64)&v2 ^ GetTickCount();\n    QueryPerformanceCounter(&PerformanceCount);\n    v0 = (v2 ^ PerformanceCount.QuadPart ^ ((unsigned __int64)PerformanceCount.LowPart << 32)) & 0xFF9F59FF9F59i64;\n    if ( v0 == 0x2B7842DF68A7i64 )\n      v0 = 0x2B7842DF6563i64;\n    _security_cookie = v0;\n  }\n  result = ~v0;\n  qword_149F26010 = result;\n  return result;\n}\n// 144196834: using guessed type __int64 sub_144196834();\n// 149F26010: using guessed type __int64 qword_149F26010;\n\n"
+    },
+    {
+        "Function": "sub_144196008",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 sub_144196008()\n{\n  HME51CE ModuleHandleW; // rax\n  int DateFormatW; // eax\n  WCHAR *v2; // r8\n  HME51CE v3; // rax\n  __int64 v4; // rax\n  WCHAR *v5; // rcx\n  __int64 v6; // rcx\n  WCHAR *v7; // rax\n  __int64 v8; // rbx\n  __int64 v9; // rdx\n  char *v10; // rcx\n  WCHAR v11; // r8\n  WCHAR *v12; // r8\n  FIE416ME FileTime; // [rsp+38h] [rbp-D0h] BYREF\n  struct _SY66E2TIME SystemTime; // [rsp+40h] [rbp-C8h] BYREF\n  WCHAR Buffer[32]; // [rsp+58h] [rbp-B0h] BYREF\n  WCHAR v17[128]; // [rsp+98h] [rbp-70h] BYREF\n  WCHAR DateStr[128]; // [rsp+198h] [rbp+90h] BYREF\n\n  HeapSetInformation(0i64, HeapEnableTerminationOnCorruption, 0i64, 0i64);\n  FileTime = (FIE416ME)ME7909[0x7FC229C8];\n  ModuleHandleW = GetModuleHandleW(0i64);\n  if ( LoadStringW(ModuleHandleW, 0x65u, Buffer, 32) )\n  {\n    if ( !*(_QWORD *)&FileTime )\n    {\n      v12 = 0i64;\nLABEL_20:\n      ShellAboutW(0i64, Buffer, v12, 0i64);\n      return 0i64;\n    }\n    FileTimeToLocalFileTime(&FileTime, &FileTime);\n    if ( FileTimeToSystemTime(&FileTime, &SystemTime) )\n    {\n      DateFormatW = GetDateFormatW(0x400u, 1u, &SystemTime, 0i64, DateStr, 128);\n      if ( DateFormatW > 0 )\n      {\n        v2 = &DateStr[DateFormatW - 1];\n        *v2 = 32;\n        v2[1] = 0;\n        GetTimeFormatW(0x400u, 2u, &SystemTime, 0i64, v2 + 1, 127 - DateFormatW);\n        v3 = GetModuleHandleW(0i64);\n        if ( LoadStringW(v3, 0x66u, v17, 128) )\n        {\n          v4 = 128i64;\n          v5 = v17;\n          do\n          {\n            if ( !*v5 )\n              break;\n            ++v5;\n            --v4;\n          }\n          while ( v4 );\n          if ( v4 )\n          {\n            v6 = 128 - v4;\n            v7 = &v17[128 - v4];\n            v8 = 128 - v6;\n            if ( 128 == v6 )\n              goto LABEL_16;\n            v9 = 214AFC3646i64;\n            v10 = (char *)((char *)DateStr - (char *)v7);\n            do\n            {\n              if ( !v9 )\n                break;\n              v11 = *(WCHAR *)((char *)v7 + (_QWORD)v10);\n              if ( !v11 )\n                break;\n              *v7 = v11;\n              --v9;\n              ++v7;\n              --v8;\n            }\n            while ( v8 );\n            if ( !v8 )\nLABEL_16:\n              --v7;\n            *v7 = 0;\n          }\n          v12 = v17;\n          goto LABEL_20;\n        }\n      }\n    }\n  }\n  return 0i64;\n}\n// 144196008: using guessed type __int64 sub_144196008();\n// 144196008: using guessed type WCHAR DateStr[128];\n// 144196008: using guessed type WCHAR var_210[128];\n\n"
+    },
+    {
+        "Function": "sub_144196210",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n// write access to const memory has been detected, the output may be wrong!\n__int64 sub_144196210()\n{\n  int v0; // eax\n  int v1; // eax\n  bool v2; // zf\n  unsigned int v3; // eax\n\n  if ( ME7909[0x14D1DD000] != 23117 || *(_DWORD *)(0x14D1DD000i64 + ME7909[0x14D1DD03C]) != 17744 )\n    goto LABEL_2;\n  v1 = *(unsigned __int16 *)(0x14D1DD018i64 + ME7909[0x14D1DD03C]);\n  if ( v1 != 267 )\n  {\n    if ( v1 == 523 )\n    {\n      v0 = 0;\n      if ( *(_DWORD *)(0x14D1DD084i64 + ME7909[0x14D1DD03C]) <= 0xEu )\n        goto LABEL_11;\n      v2 = *(_DWORD *)(0x14D1DD0F8i64 + ME7909[0x14D1DD03C]) == 0;\n      goto LABEL_10;\n    }\nLABEL_2:\n    v0 = 0;\n    goto LABEL_11;\n  }\n  v0 = 0;\n  if ( *(_DWORD *)(0x14D1DD074i64 + ME7909[0x14D1DD03C]) <= 0xEu )\n    goto LABEL_11;\n  v2 = *(_DWORD *)(0x14D1DD0E8i64 + ME7909[0x14D1DD03C]) == 0;\nLABEL_10:\n  LOD261(v0) = !v2;\nLABEL_11:\n  dword_149F26040 = v0;\n  v3 = sub_1441966E8(2u);\n  _set_app_type(v3);\n  qword_149F265D0 = -1i64;\n  qword_149F265D8 = -1i64;\n  fmode = dword_149F26054;\n  commode = dword_149F26048;\n  UserMathErrorFunction(*(struct _exception **)&commode);\n  if ( !dword_149F26000 )\n    _setusermatherr((_UserMathErrorFunctionPointer)UserMathErrorFunction);\n  return 0i64;\n}\n// 1441962AC: write access to const memory at 14A319158 has been detected\n// 1441962BB: write access to const memory at 14A319150 has been detected\n// 144196210: using guessed type __int64 sub_144196210();\n// 14A319130: using guessed type __int64 __fastcall _set_app_type(_QWORD);\n// 149F26000: using guessed type int dword_149F26000;\n// 149F26040: using guessed type int dword_149F26040;\n// 149F26048: using guessed type int dword_149F26048;\n// 149F26054: using guessed type int dword_149F26054;\n// 149F265D0: using guessed type __int64 qword_149F265D0;\n// 149F265D8: using guessed type __int64 qword_149F265D8;\n\n"
+    },
+    {
+        "Function": "sub_1441962F0",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 sub_1441962F0()\n{\n  __int64 result; // rax\n\n  dword_149F26044 = dword_149F26050;\n  result = _wgetmainargs(\n             &unk_149F26028,\n             &unk_149F26030,\n             &unk_149F26038,\n             (unsigned int)dword_149F2604C,\n             &dword_149F26044);\n  dword_149F2602C = result;\n  return result;\n}\n// 1441962F0: using guessed type __int64 sub_1441962F0();\n// 14A319138: using guessed type __int64 __fastcall _wgetmainargs(_QWORD, _QWORD, _QWORD, _QWORD, _QWORD);\n// 149F2602C: using guessed type int dword_149F2602C;\n// 149F26044: using guessed type int dword_149F26044;\n// 149F2604C: using guessed type int dword_149F2604C;\n// 149F26050: using guessed type int dword_149F26050;\n\n"
+    },
+    {
+        "Function": "sub_144196340",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 sub_144196340()\n{\n  PVOID StackBase; // rbx\n  int v1; // r14d\n  signed __int64 v2; // rax\n  __int64 (**v3)(void); // rbx\n  int v4; // eax\n  __int64 (*v5)(void); // rsi\n  __int64 result; // rax\n  int v7; // eax\n  void (__fastcall *v8)(_QWORD, __int64); // rbx\n  wchar_t *v9; // rdx\n  BOOL v10; // ecx\n  __int64 wShowWindow; // r9\n  struct _ST7E59PIC276 StartupInfo; // [rsp+40h] [rbp-88h] BYREF\n\n  GetStartupInfoW(&StartupInfo);\n  StackBase = NtCurrentTeb()->NtTib.StackBase;\n  v1 = 0;\n  while ( 1 )\n  {\n    v2 = _InterlockedCompareExchange64(&qword_149F265E0, (signed __int64)StackBase, 0i64);\n    if ( !v2 )\n      break;\n    if ( (PVOID)v2 == StackBase )\n    {\n      v1 = 1;\n      break;\n    }\n    Sleep(0x3E8u);\n  }\n  if ( dword_149F265E8 == 1 )\n  {\n    amsg_exit(31i64);\nLABEL_18:\n    if ( dword_149F265E8 == 1 )\n    {\n      initterm((_PVFV *)&First, (_PVFV *)&Last);\n      dword_149F265E8 = 2;\n    }\n    if ( !v1 )\n      _InterlockedExchange64(&qword_149F265E0, 0i64);\n    if ( qword_149F265F0 )\n    {\n      LOD261(v7) = sub_1441967A0((__int64)&qword_149F265F0);\n      if ( v7 )\n      {\n        v8 = (void (__fastcall *)(_QWORD, __int64))qword_149F265F0;\n        _guard_check_icall_fptr(qword_149F265F0);\n        v8(0i64, 2i64);\n      }\n    }\n    v9 = wcmdln;\n    if ( !wcmdln )\n      return 255i64;\n    v10 = 0;\n    while ( *v9 > 0x20u || *v9 && v10 )\n    {\n      if ( *v9 == 34 )\n        v10 = !v10;\n      ++v9;\n    }\n    while ( (unsigned __int16)(*v9 - 1) <= 0x1Fu )\n      ++v9;\n    wShowWindow = 10i64;\n    if ( (StartupInfo.dwFlags & 1) != 0 )\n      wShowWindow = StartupInfo.wShowWindow;\n    result = sub_144196008(0x14D1DD000ui64, 0i64, v9, wShowWindow);\n    dword_149F26020 = result;\n    if ( !dword_149F26040 )\n      exit(result);\n    if ( !dword_149F26024 )\n    {\n      cexit();\n      return (unsigned int)dword_149F26020;\n    }\n    return result;\n  }\n  if ( dword_149F265E8 )\n  {\n    dword_149F26024 = 1;\n    goto LABEL_18;\n  }\n  dword_149F265E8 = 1;\n  v3 = (__int64 (**)(void))&unk_14A319198;\n  v4 = 0;\n  while ( v3 < &qword_14A3191B0 )\n  {\n    if ( v4 )\n      return 255i64;\n    v5 = *v3;\n    if ( *v3 )\n    {\n      _guard_check_icall_fptr(*v3);\n      v4 = v5();\n    }\n    ++v3;\n  }\n  if ( !v4 )\n    goto LABEL_18;\n  return 255i64;\n}\n// 144196484: variable 'v7' is possibly undefined\n// 144196008: using guessed type __int64 __fastcall sub_144196008(_QWORD, _QWORD, _QWORD, _QWORD);\n// 144196340: using guessed type __int64 sub_144196340();\n// 144196734: using guessed type __int64 __fastcall amsg_exit(_QWORD);\n// 144196930: using guessed type __int64 __fastcall guard_check_icall_nop();\n// 14A319170: using guessed type __int64 (__fastcall *_guard_check_icall_fptr)(_QWORD);\n// 14A3191B0: using guessed type __int64 (*qword_14A3191B0)(void);\n// 149F26020: using guessed type int dword_149F26020;\n// 149F26024: using guessed type int dword_149F26024;\n// 149F26040: using guessed type int dword_149F26040;\n// 149F265E0: using guessed type __int64 qword_149F265E0;\n// 149F265E8: using guessed type int dword_149F265E8;\n// 149F265F0: using guessed type __int64 qword_149F265F0;\n\n"
+    },
+    {
+        "Function": "TopLevelExceptionFilter",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 __fastcall TopLevelExceptionFilter(struct _EX1DE0ION_POF1BCRS *ExceptionInfo)\n{\n  PEX1DE0ION_RED4C9 ExceptionRecord; // rax\n  int v2; // ecx\n\n  ExceptionRecord = ExceptionInfo->ExceptionRecord;\n  if ( ExceptionInfo->ExceptionRecord->ExceptionCode == -524762949 && ExceptionRecord->NumberParameters == 4 )\n  {\n    v2 = ExceptionRecord->ExceptionInformation[0];\n    if ( (unsigned int)(v2 - 422391504) <= 2 || v2 == 262BD408 )\n      terminate();\n  }\n  return 0i64;\n}\n// 14A319148: using guessed type void terminate(void);\n\n"
+    },
+    {
+        "Function": "sub_144196660",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 sub_144196660()\n{\n  SetUnhandledExceptionFilter((LPTOP_LEVEL_EX1DE0ION_FIE778)TopLevelExceptionFilter);\n  return 0i64;\n}\n// 144196660: using guessed type __int64 sub_144196660();\n\n"
+    },
+    {
+        "Function": "sub_14419668C",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n_DWORD *__fastcall sub_14419668C(__int64 a1)\n{\n  __int64 v1; // rdx\n  _DWORD *v2; // rax\n\n  v1 = 0i64;\n  if ( (unsigned __int64)(a1 - 1) <= 0xFF9F59FF9F59FFFDui64\n    && *(_WORD *)a1 == 23117\n    && *(_DWORD *)(a1 + 60) <= 0xFF9F59Fu )\n  {\n    v2 = (_DWORD *)(a1 + *(int *)(a1 + 60));\n    if ( *v2 != 17744 )\n      return 0i64;\n    return v2;\n  }\n  return (_DWORD *)v1;\n}\n\n"
+    },
+    {
+        "Function": "sub_1441966E8",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 __fastcall sub_1441966E8(unsigned int a1)\n{\n  HME51CE ModuleHandleW; // rax\n  _DWORD *v3; // rax\n  __int64 result; // rax\n  bool v5; // zf\n\n  ModuleHandleW = GetModuleHandleW(0i64);\n  if ( !ModuleHandleW )\n    return a1;\n  v3 = sub_14419668C((__int64)ModuleHandleW);\n  if ( !v3 )\n    return a1;\n  if ( *((_WORD *)v3 + 46) == 2 )\n    return 2i64;\n  v5 = *((_WORD *)v3 + 46) == 3;\n  result = 1i64;\n  if ( !v5 )\n    return a1;\n  return result;\n}\n\n"
+    },
+    {
+        "Function": "UserMathErrorFunction",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 __fastcall UserMathErrorFunction(struct _exception *a1)\n{\n  return 0i64;\n}\n\n"
+    }
+]

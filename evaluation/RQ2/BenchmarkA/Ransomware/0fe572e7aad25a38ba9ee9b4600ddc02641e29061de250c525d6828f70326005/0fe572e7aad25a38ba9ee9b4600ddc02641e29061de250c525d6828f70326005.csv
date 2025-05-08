@@ -1,0 +1,13 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+WinMain,"['crypt', 'Encrypt']",sub_140040F50,['WriteFile'],sub_140080A4C,['FindNextFile'],sub_1400411A0,['ReadFile'],,
+sub_140084C20,['expand 32-byte kexpand 16-byte'],sub_14005D200,['WriteFile'],,,sub_1400B62F0,['CreateFile'],,
+sub_14008BA40,['RijnDael_AES_LONG'],sub_1400B70D0,['DeleteFile'],,,sub_1400B70D0,['CreateFile'],,
+sub_14008BD20,['RijnDael_AES_LONG'],,,,,,,,
+sub_1400B70D0,"['crypt', 'Encrypt', 'Crypt']",,,,,,,,
+sub_14008BE90,Potential encryption routine involving bitwise operations and data transformations with a combination of loops and variable manipulations.,,,,,,,,
+sub_140085250,"This function appears to implement a part of the AES encryption algorithm, specifically involving the MixColumns step. It uses fixed XOR operations and bit shifting similar to those used in cryptographic transformations.",,,,,,,,
+sub_140084560,"The function appears to perform cryptographic operations on data blocks in memory, possibly resembling a stream or block cipher due to its use of bitwise operations and round-like transformations.",,,,,,,,
+sub_14008AC70,"Function appears to perform data transformations using bitwise operations and rotations, potentially related to cryptographic algorithms such as block ciphers or hash functions.",,,,,,,,
+sub_140085070,"The function suggests cryptographic manipulation due to several bitwise operations and use of look-up tables indexed by the data being processed, which is typical in encryption algorithms.",,,,,,,,
+sub_140048DE0,"The function appears to be modifying data based on complex mathematical operations with bit shifts, multiplications, and offset calculations. The structure and use of 128-bit integers suggest potential cryptographic processing or transformation of data.",,,,,,,,
+sub_140084D40,"This function appears to manipulate data using bitwise operations and byte swapping typical of encryption algorithms. It processes input arrays, conditionally modifies values, applies transformations using sub_140085250, and repeatedly calls sub_140085070 in a loop, indicating a block cipher or other cryptographic primitive behavior.",,,,,,,,

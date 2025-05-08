@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_144196238",
+            "is_crypto_fun": false,
+            "description": "The function appears to manipulate bits and bytes in memory, possibly related to some form of data processing, shifting, or masking."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_144196008",
+            "is_crypto_fun": false,
+            "description": "The function appears to process data by interpreting specific byte values and manipulating pointers. There are no clear indications of standard encryption algorithm operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1441968A0",
+            "is_crypto_fun": false,
+            "description": "This function appears to manipulate input data based on certain conditions and flags, but there is no indication of encryption or cryptographic processing."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140B21D34()",
+            "is_crypto_fun": false,
+            "description": "Function to set up a security cookie using system parameters and time. Not an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_144196128(char *a1, unsigned __int8 *a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform some form of string processing and conditional checks, but it does not seem to be a part of a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_149F26970",
+            "is_crypto_fun": false,
+            "description": "The function involves file handling and processing, including reading and mapping file content, but does not exhibit characteristics of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1441962C4",
+            "is_crypto_fun": false,
+            "description": "The function does not appear to implement known encryption algorithms such as AES, RSA, TEA, DES, ChaCha, or RC4. It is involved in parsing and copying strings with specific character handling, potentially parsing a pattern."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_144196A60(char *Source, int a2);",
+            "is_crypto_fun": false,
+            "description": "The function does not exhibit behaviors typical of cryptographic algorithms. It seems to perform various string manipulations and conditional checks, including bitwise operations and memory allocations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_149F26150(Src, a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be manipulating data content read into memory and writing it out, possibly related to buffering or file operations. There is no clear evidence of encryption or cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_144196740",
+            "is_crypto_fun": false,
+            "description": "The function does not appear to perform typical cryptographic operations. It manipulates data in memory, but there is no clear indication of encryption algorithms like AES, RSA, TEA, DES, chacha, or RC4 being employed."
+        }
+    }
+]

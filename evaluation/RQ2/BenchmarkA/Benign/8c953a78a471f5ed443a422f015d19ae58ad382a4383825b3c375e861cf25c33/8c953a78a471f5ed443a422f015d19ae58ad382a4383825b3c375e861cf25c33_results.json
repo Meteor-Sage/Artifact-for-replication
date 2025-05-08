@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40733E();",
+            "is_crypto_fun": false,
+            "description": "The function is empty and does not perform any operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408E00();",
+            "is_crypto_fun": false,
+            "description": "Function appears to be related to program argument handling, not encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4028CA()",
+            "is_crypto_fun": false,
+            "description": "The function handles dynamic DLL loading and function pointer calls, but doesn't perform any encryption-related operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4078A5();",
+            "is_crypto_fun": false,
+            "description": "Empty function or does not perform any data modification."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D1B4();",
+            "is_crypto_fun": false,
+            "description": "This function registers a GIMP plugin for deinterlacing images. It is not a cryptographic function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F0AF()",
+            "is_crypto_fun": false,
+            "description": "The function doesn't perform encryption or any operations related to cryptographic algorithms. It seems to be setting some values and calling various functions that might be related to application initialization."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F27E();",
+            "is_crypto_fun": false,
+            "description": "This function calls sub_40673B and sub_401FD0, and sets unk_4019E8 to 0. Based on this information, it does not appear to be performing encryption or data modification directly related to cryptographic functions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40673B();",
+            "is_crypto_fun": false,
+            "description": "This function appears to initialize a value based on system-specific data (system time, process ID, thread ID, tick count, and performance counter). It does not demonstrate characteristics typical of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_403B02(a1, a2, a3, a4, a5);",
+            "is_crypto_fun": false,
+            "description": "This function seems to involve image processing or manipulation using the GIMP library, including tasks such as deinterlacing and updating the UI."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40025D",
+            "is_crypto_fun": false,
+            "description": "The function appears to be manipulating image data using GIMP library functions. It involves operations like getting pixel rows, merging shadow, flushing and updating drawable content, but there is no indication of use of encryption algorithms."
+        }
+    }
+]

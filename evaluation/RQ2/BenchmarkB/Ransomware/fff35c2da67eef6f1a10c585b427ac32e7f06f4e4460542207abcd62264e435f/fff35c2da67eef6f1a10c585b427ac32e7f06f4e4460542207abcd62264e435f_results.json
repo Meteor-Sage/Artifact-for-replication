@@ -1,0 +1,86 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40CA0A(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "This appears to be a checksum calculation or hash-related function rather than a traditional encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40DE14(v1, v2, v3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory with operations resembling those in block ciphers."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4056CD(char *a1, unsigned __int8 a2, unsigned int a3);",
+            "is_crypto_fun": false,
+            "description": "This function modifies the memory content of the array pointed to by a1 with a repeating pattern based on the parameters a2 and a3. It does not perform encryption as it uses memset operations to fill memory blocks."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40381A(_DWORD *a1, int a2, _DWORD *a3);",
+            "is_crypto_fun": true,
+            "description": "The function appears to engage in cryptographic operations, as it manipulates data using byte-wise operations, conditionally employs lookup tables, and processes data in multiple rounds. Though not matching a recognizable standard algorithm, its behavior reflects common encryption function characteristics."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_402479(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function performs division-like operations and bit manipulation, but it does not exhibit characteristics of any known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40052E(a1);",
+            "is_crypto_fun": false,
+            "description": "The function includes data manipulation, padding logic typical in hashing, and shift operations. It processes data in specific blocks and adds padding, likely related to a hash computation or structure packing rather than encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40A370()",
+            "is_crypto_fun": true,
+            "description": "The function appears to implement parts of AES encryption or a similar algorithm. It involves setting up S-boxes and transformation operations reminiscent of what is typically found in symmetric encryption algorithms like AES."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40B086()",
+            "is_crypto_fun": false,
+            "description": "This function appears to modify certain global variables using system time, performance counters, process ID, and thread ID. These operations are more characteristic of randomness seeding or unique value generation rather than encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_405E29",
+            "is_crypto_fun": true,
+            "description": "The function appears to perform a series of XOR operations and table lookups based on input data and keys. It uses several transformation tables, suggesting potential use of an encryption algorithm similar to block ciphers such as AES which use S-boxes for substitution. The function modifies the input data considerably, which is indicative of cryptographic processing."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408565(a1, a2, a3);",
+            "is_crypto_fun": true,
+            "description": "The function appears to implement a cryptographic transformation or block cipher operation. It uses multiple XOR operations combined with lookup tables (dword_40362C, dword_4029ED, dword_400AF3, dword_403852, byte_401E51) to modify data, which is characteristic of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4073D5(int *a1, int a2, _BYTE *a3, unsigned __int8 *a4);",
+            "is_crypto_fun": true,
+            "description": "This function appears to perform cryptographic operations, likely involving a block cipher given the operations over fixed-size blocks (16 bytes). The use of XOR operations suggests a potential encryption or decryption process, with further processing delegated to the sub_405E29 and sub_408565 functions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409499(a1, a2, a3);",
+            "is_crypto_fun": true,
+            "description": "The function appears to perform complex manipulations with memory and data, potentially part of an encryption algorithm, based on the operations involving data transformations, and multiple auxiliary function calls that suggest streaming or block data processing, commonly seen in encryption routines."
+        }
+    }
+]

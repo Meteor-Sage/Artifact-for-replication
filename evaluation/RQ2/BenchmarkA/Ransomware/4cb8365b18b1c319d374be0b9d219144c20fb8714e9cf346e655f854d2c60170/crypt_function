@@ -1,0 +1,12 @@
+node: { title: "0" label: "sub_14005F1F0" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "1" label: "?__scrt_common_main_seh" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "2" label: "sub_14005EA50" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "3" label: "main" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "4" label: "sub_140003330" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "5" label: "sub_14005E2E0" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "6" label: "sub_14005C390" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "7" label: "sub_140019150" color: 76 textcolor: 73 bordercolor: black }
+edge: { sourcename: "0" targetname: "7" }
+edge: { sourcename: "2" targetname: "7" }
+edge: { sourcename: "5" targetname: "7" }
+edge: { sourcename: "1" targetname: "3" }

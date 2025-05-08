@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_10C34D0(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "The function appears to manipulate a parameter and call another function. No signs of encryption detected."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_10B1B20",
+            "is_crypto_fun": false,
+            "description": "This function processes and modifies input string data, potentially dealing with quoted strings and whitespace. It does not show any signs of common encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_10F9ED0(__int16 *a1, wchar_t *a2, int a3, __int16 *a4, unsigned int a5);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be manipulating or processing string data potentially with pointer operations and memory copying. It does not exhibit any characteristics of common encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1062520(SQB5C4MT hstmt);",
+            "is_crypto_fun": false,
+            "description": "The function appears to interact with an SQL database, performing attribute retrieval and formatting operations for output. It does not exhibit characteristics typical of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_107EDF0()",
+            "is_crypto_fun": false,
+            "description": "This function seems to handle SQL connection attributes, memory allocation, and string manipulation. It does not appear to implement any recognized encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_10D4FB0(SQB5C4MT hstmt, SQED81AL2568 a2, __int64 a3, __int64 a4);",
+            "is_crypto_fun": false,
+            "description": "The function does not show typical characteristics of an encryption algorithm. It appears to be interacting with an SQL database, manipulating data, and formatting strings."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_10F79D0(hstmt, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "The function involves SQL operations, file I/O, and data formatting but does not appear to perform any cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_10AAED0(SQB5C4MT hstmt, SQED81AL2568 a2, __int16 *a3);",
+            "is_crypto_fun": false,
+            "description": "Function appears to interact with SQL database handles and retrieve data attributes. No cryptographic operations detected."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_10118C0(SQB5C4MT hstmt, SQED81AL2568 a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be manipulating SQL statement handles and attributes, potentially interacting with SQL database columns. No signs of content encryption or data obfuscation were found."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "wmain();",
+            "is_crypto_fun": false,
+            "description": "The given function does not appear to be performing cryptographic operations. It includes various Windows API calls, memory allocations, string manipulations, and database-related operations. No standard encryption algorithm logic (AES, RSA, etc.) is present in the function."
+        }
+    }
+]

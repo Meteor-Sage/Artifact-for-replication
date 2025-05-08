@@ -1,0 +1,82 @@
+[
+    {
+        "Function": "sub_40AC2C",
+        "Total XOR and shift operations": 9,
+        "XOR operations": 0,
+        "Shift operations": 9,
+        "Operation percentage": "52.94%",
+        "Function Body": "\nvoid __fastcall __noreturn sub_40AC2C(std::string *a1)\n{\n  __int64 v1; // rbx\n  __int64 v2; // rax\n  __int64 v3; // rax\n\n  v1 = std::string::c_str(a1);\n  v2 = std::operator<<<std::char_traits<char>>(&std::cout, \"Error: \");\n  v3 = std::operator<<<std::char_traits<char>>(v2, v1);\n  std::ostream::operator<<(v3, &std::endl<char,std::char_traits<char>>);\n  exit(1);\n}\n// 400DF9: using guessed type __int64 __fastcall std::operator<<<std::char_traits<char>>(_QWORD, _QWORD);\n// 4077EF: using guessed type __int64 __fastcall std::ostream::operator<<(_QWORD, _QWORD);\n\n"
+    },
+    {
+        "Function": "wmain",
+        "Total XOR and shift operations": 30,
+        "XOR operations": 0,
+        "Shift operations": 30,
+        "Operation percentage": "16.04%",
+        "Function Body": "\n__int64 __fastcall wmain(int a1, LARGE_IN123ER *a2)\n{\n  int v2; // eax\n  LPDC3B *ppv; // rbx\n  const IID *v4; // rax\n  int Instance; // eax\n  __int64 (__fastcall *v6)(_QWORD, void *, __int64); // rbx\n  __int64 v7; // rsi\n  void *v8; // rax\n  int v9; // eax\n  int v10; // eax\n  int v11; // eax\n  __int64 (__fastcall *v12)(_QWORD, void *, __int64); // rbx\n  __int64 v13; // rsi\n  void *v14; // rax\n  int v15; // eax\n  int v16; // eax\n  unsigned int vt; // ebx\n  __int64 v18; // rax\n  __int64 v19; // rax\n  LARGE_IN123ER hVal; // rbx\n  __int64 v21; // rax\n  __int64 v22; // rax\n  __int64 v23; // rax\n  LARGE_IN123ER v24; // rbx\n  __int64 v25; // rax\n  __int64 v26; // rax\n  int v27; // eax\n  int v28; // eax\n  int v29; // eax\n  __int64 v31; // [rsp+0h] [rbp-80h] BYREF\n  PRBB79RIANT pvar; // [rsp+30h] [rbp-50h] BYREF\n  __int64 v33; // [rsp+48h] [rbp-38h] BYREF\n  __int64 v34; // [rsp+50h] [rbp-30h] BYREF\n  __int64 (__fastcall ***v35)(_QWORD, void *, __int64); // [rsp+58h] [rbp-28h] BYREF\n  char v36[15]; // [rsp+60h] [rbp-20h] BYREF\n  char v37; // [rsp+6Fh] [rbp-11h] BYREF\n  char v38[15]; // [rsp+70h] [rbp-10h] BYREF\n  char v39; // [rsp+7Fh] [rbp-1h] BYREF\n  char v40[15]; // [rsp+80h] [rbp+0h] BYREF\n  char v41; // [rsp+8Fh] [rbp+Fh] BYREF\n  char v42[15]; // [rsp+90h] [rbp+10h] BYREF\n  char v43; // [rsp+9Fh] [rbp+1Fh] BYREF\n  char v44[15]; // [rsp+A0h] [rbp+20h] BYREF\n  char v45; // [rsp+AFh] [rbp+2Fh] BYREF\n  char v46[15]; // [rsp+B0h] [rbp+30h] BYREF\n  char v47; // [rsp+BFh] [rbp+3Fh] BYREF\n  char v48[15]; // [rsp+C0h] [rbp+40h] BYREF\n  char v49; // [rsp+CFh] [rbp+4Fh] BYREF\n  char v50[15]; // [rsp+D0h] [rbp+50h] BYREF\n  char v51; // [rsp+DFh] [rbp+5Fh] BYREF\n  char v52[15]; // [rsp+E0h] [rbp+60h] BYREF\n  char v53; // [rsp+EFh] [rbp+6Fh] BYREF\n  char v54[15]; // [rsp+F0h] [rbp+70h] BYREF\n  char v55; // [rsp+FFh] [rbp+7Fh] BYREF\n  char v56[15]; // [rsp+100h] [rbp+80h] BYREF\n  char v57[17]; // [rsp+10Fh] [rbp+8Fh] BYREF\n\n  std::allocator<char>::allocator((char *)&v31 + 111);\n  std::string::string(v36, \"Failed to initialise COM\", &v37);\n  v2 = CoInitializeEx(0i64, 2u);\n  sub_402661(v2, (const std::string *)v36);\n  std::string::~string((std::string *)v36);\n  std::allocator<char>::~allocator(&v37);\n  std::allocator<char>::allocator(&v39);\n  std::string::string(v38, \"Failed to create ShellLink object\", &v39);\n  ppv = (LPDC3B *)sub_40B268((__int64)&v35);\n  v4 = (const IID *)sub_404FB7();\n  Instance = CoCreateInstance((const IID *const)&unk_40BBAB, 0i64, 1u, v4, ppv);\n  sub_402661(Instance, (const std::string *)v38);\n  std::string::~string((std::string *)v38);\n  std::allocator<char>::~allocator(&v39);\n  std::allocator<char>::allocator(&v41);\n  std::string::string(v40, \"Failed to obtain PersistFile interface\", &v41);\n  v6 = **v35;\n  v7 = sub_40DBC2((__int64)&v34);\n  v8 = sub_4072AA();\n  v9 = v6(v35, v8, v7);\n  sub_402661(v9, (const std::string *)v40);\n  std::string::~string((std::string *)v40);\n  std::allocator<char>::~allocator(&v41);\n  if ( a1 <= 2 )\n  {\n    std::allocator<char>::allocator(&v45);\n    std::string::string(v44, \"Failed to load shortcut file\", &v45);\n    v11 = (*(__int64 (__fastcall **)(__int64, LARGE_IN123ER, __int64))(*(_QWORD *)v34 + 40i64))(v34, a2[1], 64i64);\n    sub_402661(v11, (const std::string *)v44);\n    std::string::~string((std::string *)v44);\n    std::allocator<char>::~allocator(&v45);\n  }\n  else\n  {\n    std::allocator<char>::allocator(&v43);\n    std::string::string(v42, \"Failed to load shortcut file\", &v43);\n    v10 = (*(__int64 (__fastcall **)(__int64, LARGE_IN123ER, __int64))(*(_QWORD *)v34 + 40i64))(v34, a2[1], 2i64);\n    sub_402661(v10, (const std::string *)v42);\n    std::string::~string((std::string *)v42);\n    std::allocator<char>::~allocator(&v43);\n  }\n  std::allocator<char>::allocator(&v47);\n  std::string::string(v46, \"Failed to obtain PropertyStore interface\", &v47);\n  v12 = **v35;\n  v13 = sub_4051F2((__int64)&v33);\n  v14 = sub_405FCB();\n  v15 = v12(v35, v14, v13);\n  sub_402661(v15, (const std::string *)v46);\n  std::string::~string((std::string *)v46);\n  std::allocator<char>::~allocator(&v47);\n  std::allocator<char>::allocator(&v49);\n  std::string::string(v48, \"Failed to retrieve AppId\", &v49);\n  v16 = (*(__int64 (__fastcall **)(__int64, void *, PRBB79RIANT *))(*(_QWORD *)v33 + 40i64))(v33, &unk_40B9CA, &pvar);\n  sub_402661(v16, (const std::string *)v48);\n  std::string::~string((std::string *)v48);\n  std::allocator<char>::~allocator(&v49);\n  if ( pvar.vt )\n  {\n    if ( pvar.vt != 31 )\n    {\n      vt = pvar.vt;\n      v18 = std::operator<<<std::char_traits<char>>(&std::cout, \"Type: \");\n      v19 = std::ostream::operator<<(v18, vt);\n      std::ostream::operator<<(v19, &std::endl<char,std::char_traits<char>>);\n      std::allocator<char>::allocator(&v51);\n      std::string::string(v50, \"Unexpected property value type\", &v51);\n      sub_40AC2C((std::string *)v50);\n    }\n    hVal = pvar.hVal;\n    v21 = std::operator<<<wchar_t,std::char_traits<wchar_t>>(&std::wcout, \"Current AppId: \");\n    v22 = ((__int64 (__fastcall *)(_QWORD, _QWORD))std::operator<<<wchar_t,std::char_traits<wchar_t>>)(\n            v21,\n            (LARGE_IN123ER)hVal.QuadPart);\n    std::wostream::operator<<(v22, &std::endl<wchar_t,std::char_traits<wchar_t>>);\n  }\n  else\n  {\n    v23 = std::operator<<<std::char_traits<char>>(&std::cout, \"No current AppId\");\n    std::ostream::operator<<(v23, &std::endl<char,std::char_traits<char>>);\n  }\n  PropVariantClear(&pvar);\n  if ( a1 > 2 )\n  {\n    v24 = a2[2];\n    v25 = std::operator<<<wchar_t,std::char_traits<wchar_t>>(&std::wcout, \"New AppId: \");\n    v26 = ((__int64 (__fastcall *)(_QWORD, _QWORD))std::operator<<<wchar_t,std::char_traits<wchar_t>>)(\n            v25,\n            (LARGE_IN123ER)v24.QuadPart);\n    std::wostream::operator<<(v26, &std::endl<wchar_t,std::char_traits<wchar_t>>);\n    pvar.vt = 31;\n    pvar.hVal = a2[2];\n    std::allocator<char>::allocator(&v53);\n    std::string::string(v52, \"Failed to set AppId\", &v53);\n    v27 = (*(__int64 (__fastcall **)(__int64, void *, PRBB79RIANT *))(*(_QWORD *)v33 + 48i64))(v33, &unk_40B9CA, &pvar);\n    sub_402661(v27, (const std::string *)v52);\n    std::string::~string((std::string *)v52);\n    std::allocator<char>::~allocator(&v53);\n    pvar.hVal.QuadPart = 0i64;\n    PropVariantClear(&pvar);\n    std::allocator<char>::allocator(&v55);\n    std::string::string(v54, \"Failed to commit AppId property\", &v55);\n    v28 = (*(__int64 (__fastcall **)(__int64))(*(_QWORD *)v33 + 56i64))(v33);\n    sub_402661(v28, (const std::string *)v54);\n    std::string::~string((std::string *)v54);\n    std::allocator<char>::~allocator(&v55);\n    std::allocator<char>::allocator(v57);\n    std::string::string(v56, \"Failed to save shortcut\", v57);\n    v29 = (*(__int64 (__fastcall **)(__int64, _QWORD, __int64))(*(_QWORD *)v34 + 48i64))(v34, 0i64, 1i64);\n    sub_402661(v29, (const std::string *)v56);\n    std::string::~string((std::string *)v56);\n    std::allocator<char>::~allocator(v57);\n  }\n  (*(void (__fastcall **)(__int64))(*(_QWORD *)v33 + 16i64))(v33);\n  (*(void (__fastcall **)(__int64))(*(_QWORD *)v34 + 16i64))(v34);\n  ((void (__fastcall *)(__int64 (__fastcall ***)(_QWORD, void *, __int64)))(*v35)[2])(v35);\n  return 0i64;\n}\n// 40A0AA: using guessed type __int64 __fastcall std::operator<<<wchar_t,std::char_traits<wchar_t>>(_QWORD, _QWORD);\n// 40D1BE: using guessed type __int64 __fastcall std::operator<<<wchar_t,std::char_traits<wchar_t>>(_QWORD, _QWORD);\n// 400DF9: using guessed type __int64 __fastcall std::operator<<<std::char_traits<char>>(_QWORD, _QWORD);\n// 40C143: using guessed type __int64 __fastcall std::wostream::operator<<(_QWORD, _QWORD);\n// 401D8D: using guessed type __int64 __fastcall std::string::string(_QWORD, _QWORD, _QWORD);\n// 401CE0: using guessed type __int64 __fastcall std::ostream::operator<<(_QWORD, _QWORD);\n// 4077EF: using guessed type __int64 __fastcall std::ostream::operator<<(_QWORD, _QWORD);\n// 407C3E: using guessed type __int64 __fastcall std::allocator<char>::~allocator(_QWORD);\n// 40843D: using guessed type __int64 __fastcall std::allocator<char>::allocator(_QWORD);\n\n"
+    },
+    {
+        "Function": "sub_40B1BA",
+        "Total XOR and shift operations": 4,
+        "XOR operations": 4,
+        "Shift operations": 0,
+        "Operation percentage": "8.89%",
+        "Function Body": "\nunsigned __int64 sub_40B1BA()\n{\n  unsigned __int64 result; // rax\n  struct _FIE416ME v1; // r12\n  __int64 CurrentProcessId; // rbp\n  DWORD CurrentThreadId; // edi\n  DWORD TickCount; // esi\n  LOFE2CNG v5; // rsi\n  struct _FIE416ME SystemTimeAsFileTime; // [rsp+20h] [rbp-48h] BYREF\n  LARGE_IN123ER PerformanceCount; // [rsp+30h] [rbp-38h] BYREF\n\n  result = 0x2B7842DF68A7i64;\n  SystemTimeAsFileTime = 0i64;\n  if ( qword_40EA46 == 0x2B7842DF68A7i64 )\n  {\n    GetSystemTimeAsFileTime(&SystemTimeAsFileTime);\n    v1 = SystemTimeAsFileTime;\n    CurrentProcessId = GetCurrentProcessId();\n    CurrentThreadId = GetCurrentThreadId();\n    TickCount = GetTickCount();\n    QueryPerformanceCounter(&PerformanceCount);\n    v5 = (TickCount ^ CurrentThreadId ^ PerformanceCount.QuadPart ^ *(_QWORD *)&v1 ^ CurrentProcessId) & 0xFF9F59FF9F59i64;\n    if ( v5 == 0x2B7842DF68A7i64 )\n    {\n      result = 0xFFF1D1663EC55DCCui64;\n      v5 = 0x2B7842DF6563i64;\n    }\n    else\n    {\n      result = ~v5;\n    }\n    qword_40EA46 = v5;\n    qword_404987 = result;\n  }\n  else\n  {\n    qword_404987 = ~qword_40EA46;\n  }\n  return result;\n}\n// 40EA46: using guessed type __int64 qword_40EA46;\n// 404987: using guessed type __int64 qword_404987;\n\n"
+    },
+    {
+        "Function": "sub_40F0AF",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n// write access to const memory has been detected, the output may be wrong!\n__int64 sub_40F0AF()\n{\n  BOOL v0; // edx\n  __int16 v2; // cx\n\n  v0 = 0;\n  unk_40397A = 1;\n  unk_402F85 = 1;\n  unk_40403D = 1;\n  unk_4098AC = 1;\n  if ( ME7909[0x40F0D8] == 23117 && *(_DWORD *)(ME7909[0x40B15B] + 0x40F0D8i64) == 17744 )\n  {\n    v2 = *(_WORD *)(ME7909[0x40B15B] + 0x40D2CCi64);\n    if ( v2 == 267 )\n    {\n      if ( *(_DWORD *)(ME7909[0x40B15B] + 0x40F067i64) > 0xEu )\n        v0 = *(_DWORD *)(ME7909[0x40B15B] + 0x40DE97i64) != 0;\n    }\n    else if ( v2 == 523 && *(_DWORD *)(ME7909[0x40B15B] + 0x4066F1i64) > 0xEu )\n    {\n      v0 = *(_DWORD *)(ME7909[0x40B15B] + 0x406AA7i64) != 0;\n    }\n  }\n  dword_40F97B = v0;\n  if ( unk_404AE0 )\n    _set_app_type(_crt_gui_app);\n  else\n    _set_app_type(_crt_console_app);\n  qword_403CD4 = sub_40C5F0(-1i64);\n  qword_40A50C = qword_403CD4;\n  fmode = unk_407CE3;\n  sub_40DF9D();\n  if ( unk_403D96 == 1 )\n    sub_409668((_UserMathErrorFunctionPointer)sub_407DF3);\n  return 0i64;\n}\n// 4023EB: write access to const memory at 401937 has been detected\n// 40F0AF: using guessed type __int64 sub_40F0AF();\n// 40DF9D: using guessed type __int64 sub_40DF9D(void);\n// 40F97B: using guessed type int dword_40F97B;\n// 40A50C: using guessed type __int64 qword_40A50C;\n// 403CD4: using guessed type __int64 qword_403CD4;\n\n"
+    },
+    {
+        "Function": "sub_408E00",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 sub_408E00()\n{\n  __int64 result; // rax\n\n  dword_40C10C = unk_405F4E;\n  result = _wgetmainargs(&dword_409319, &qword_4063B0, &qword_4078D0, unk_402F35, &dword_40C10C);\n  dword_40C775 = result;\n  return result;\n}\n// 408E00: using guessed type __int64 sub_408E00();\n// 40945B: using guessed type __int64 __fastcall _wgetmainargs(_QWORD, _QWORD, _QWORD, _QWORD, _QWORD);\n// 40C10C: using guessed type int dword_40C10C;\n// 40C775: using guessed type int dword_40C775;\n// 4078D0: using guessed type __int64 qword_4078D0;\n// 4063B0: using guessed type __int64 qword_4063B0;\n// 409319: using guessed type int dword_409319;\n\n"
+    },
+    {
+        "Function": "sub_40820F",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 sub_40820F()\n{\n  unk_404AE0 = 1;\n  sub_40B1BA();\n  return sub_401FD0();\n}\n// 401FD0: using guessed type __int64 sub_401FD0(void);\n// 40820F: using guessed type __int64 sub_40820F();\n\n"
+    },
+    {
+        "Function": "sub_402661",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nvoid __fastcall sub_402661(int a1, const std::string *a2)\n{\n  char v2[32]; // [rsp+20h] [rbp-60h] BYREF\n\n  if ( a1 < 0 )\n  {\n    std::string::string((std::string *)v2, a2);\n    sub_40AC2C((std::string *)v2);\n  }\n}\n\n"
+    },
+    {
+        "Function": "sub_403973",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nvoid sub_403973()\n{\n  std::ios_base::Init::~Init((std::ios_base::Init *)&unk_40C591);\n}\n\n"
+    },
+    {
+        "Function": "sub_40248E",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 __fastcall sub_40248E(int a1, int a2)\n{\n  __int64 result; // rax\n\n  if ( a1 == 1 && a2 == 0xFFFF )\n  {\n    std::ios_base::Init::Init((std::ios_base::Init *)&unk_40C591);\n    return sub_40FBFB((int (__cdecl *)())sub_403973);\n  }\n  return result;\n}\n\n"
+    },
+    {
+        "Function": "sub_40762E",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 sub_40762E()\n{\n  return sub_40248E(1, 0xFFFF);\n}\n// 40762E: using guessed type __int64 sub_40762E();\n\n"
+    }
+]

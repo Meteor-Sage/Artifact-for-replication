@@ -1,0 +1,86 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4162AE(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function performs bit manipulation and shifting on input data, which may involve encoding or data modification but does not resemble a standard encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4197A4(this);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform bit manipulation and conditional operations based on input states or file content, but does not involve any recognized encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40BD95(this, a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform data assignments and critical section management. It assigns double and DWORD values from a source object to another object but does not exhibit typical characteristics of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_416263",
+            "is_crypto_fun": false,
+            "description": "The function performs bit manipulation and data transformation. This is likely related to encoding or data packing but doesn't exhibit characteristics of standard encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4175DC(hIcon);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform operations related to bitmap manipulation, specifically creating and modifying icons. There are no indications of it being an encryption function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_415F05()",
+            "is_crypto_fun": false,
+            "description": "This function appears to manage a memory buffer. It ensures the buffer is large enough by reallocating memory if necessary and then clearing the memory using memset. It does not perform encryption or cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_416BB2",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform operations related to graphics rendering or manipulation on a device context (HDC) rather than encryption. It calculates coordinates and utilizes a sub-function to adjust graphics parameters."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_415EBB(int this, unsigned int a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to allocate and initialize memory, not perform encryption. It checks if new memory allocation is needed, allocates it, and initializes it to zero."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40CCC3(int this, _BYTE *a2, unsigned int a3, _BYTE *a4);",
+            "is_crypto_fun": false,
+            "description": "The function appears to manipulate arrays of data, likely involving some form of memory management. It includes operations such as copying and moving data blocks and possibly some padding or buffer resizing. However, it does not exhibit typical characteristics of recognized encryption algorithms like AES, RSA, etc."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_402AB3(HWND *this, int a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be interacting with window handles and sending messages, likely related to GUI operations. It does not exhibit characteristics of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4158A5(a1, lpString2);",
+            "is_crypto_fun": false,
+            "description": "The function involves string manipulation, file attribute checking, and function calls with potentially some conditions based on external states (like key states), but it does not perform any recognizable cryptographic encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4167CB(_DWORD *this, int a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be involved in drawing graphical elements, handling rectangles, colors, and menu item information in a Windows GUI context. It does not resemble a typical encryption algorithm."
+        }
+    }
+]

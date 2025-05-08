@@ -1,0 +1,7 @@
+node: { title: "0" label: "?__scrt_common_main_seh" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "1" label: "WinMain" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "2" label: "sub_4082E0" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "3" label: "sub_402270" color: 76 textcolor: 73 bordercolor: black }
+edge: { sourcename: "2" targetname: "3" }
+edge: { sourcename: "0" targetname: "1" }
+edge: { sourcename: "1" targetname: "2" }

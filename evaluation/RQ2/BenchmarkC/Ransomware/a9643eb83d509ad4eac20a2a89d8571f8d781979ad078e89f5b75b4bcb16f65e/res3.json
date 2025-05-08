@@ -1,0 +1,104 @@
+{
+    "sub_123": {
+        "nodes": {
+            "3": "sub_35002DE0",
+            "10": "sub_35002A10",
+            "14": "sub_35004D50"
+        },
+        "edges": [
+            [
+                "sub_35002A10",
+                "sub_35002DE0"
+            ],
+            [
+                "sub_35002DE0",
+                "sub_35004D50"
+            ]
+        ],
+        "leafs": [
+            "sub_35004D50"
+        ]
+    },
+    "paths_123_1": [
+        {
+            "start": "sub_35004D50",
+            "end": "sub_35004D50",
+            "path": {
+                "nodes": [
+                    "sub_35004D50"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_2": [
+        {
+            "start": "sub_35004D50",
+            "end": "sub_35004D50",
+            "path": {
+                "nodes": [
+                    "sub_35004D50"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_3": [
+        {
+            "start": "sub_35004D50",
+            "end": "sub_35004D50",
+            "path": {
+                "nodes": [
+                    "sub_35004D50"
+                ],
+                "edges": []
+            }
+        },
+        {
+            "start": "sub_35004D50",
+            "end": "sub_35013866",
+            "path": {
+                "nodes": [
+                    "__vsnprintf",
+                    "__vsnprintf_l",
+                    "sub_350037B0",
+                    "sub_350038C0",
+                    "sub_35004D50",
+                    "sub_35012FEC",
+                    "sub_35013784",
+                    "sub_35013866"
+                ],
+                "edges": [
+                    [
+                        "__vsnprintf",
+                        "__vsnprintf_l"
+                    ],
+                    [
+                        "__vsnprintf_l",
+                        "sub_35012FEC"
+                    ],
+                    [
+                        "sub_350037B0",
+                        "sub_350038C0"
+                    ],
+                    [
+                        "sub_350038C0",
+                        "__vsnprintf"
+                    ],
+                    [
+                        "sub_35004D50",
+                        "sub_350037B0"
+                    ],
+                    [
+                        "sub_35012FEC",
+                        "sub_35013784"
+                    ],
+                    [
+                        "sub_35013784",
+                        "sub_35013866"
+                    ]
+                ]
+            }
+        }
+    ]
+}

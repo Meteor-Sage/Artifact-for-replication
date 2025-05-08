@@ -1,0 +1,142 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_400359(this);",
+            "is_crypto_fun": false,
+            "description": "This function appears to assign a virtual function table pointer to an object, which is not indicative of an encryption operation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_400E88(void *this, HA8EFF hFile, int a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform file operations such as setting the file pointer, setting the end of the file, and flushing file buffers. There is no indication of encryption algorithm use."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_403734(Block, a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to initialize a block with a vftable pointer and conditionally calls another function sub_42F33D based on a flag in a2. It does not indicate typical behavior of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40328C(_DWORD *this);",
+            "is_crypto_fun": false,
+            "description": "The function assigns a vtable pointer to the object and does not perform any encryption or data modification operations typical of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40068A(_DWORD *Block, char a2);",
+            "is_crypto_fun": false,
+            "description": "This function manipulates a block of memory by setting virtual function pointers and calls a function to flush file buffers. It does not exhibit characteristics of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_425818(int a1, int a2);",
+            "is_crypto_fun": false,
+            "description": "The function performs a subtraction followed by a right bit-shift operation. It does not resemble any known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_45CE96",
+            "is_crypto_fun": false,
+            "description": "This function processes input streams, handling whitespace, literal characters, and conversion specifiers. It does not perform any encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4567F6(char *this, int a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to deal with input processing and format string parsing, rather than performing encryption or cryptographic transformations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_455702(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "The function seems to manipulate character input and check against certain byte arrays. It also uses a library function for some verification but doesn't display characteristics of a standard encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_45EEB7(char *a1, int a2, int a3, int a4);",
+            "is_crypto_fun": false,
+            "description": "The function does not exhibit typical behaviors of symmetric or asymmetric encryption algorithms. It appears to process or modify character data in some manner but lacks characteristics of known encryption algorithms such as key management, deterministic output from operations on blocks or streams of data, and cryptographic logic. The presence of functions like 'get' and 'unget' suggests input and output handling rather than cryptographic processing."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_450477(Locale, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be parsing or interpreting numbers from a string input or data source, without implementing any encryption or cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4E155A",
+            "is_crypto_fun": false,
+            "description": "The provided code exhibits complex control flows and data manipulations, including various conditional jumps, arithmetic operations with mixed registers, memory accesses, and handling of exceptions, but lacks clear characteristics of standard encryption algorithms like AES, RSA, etc. It appears more as a distorted or obfuscated function, possibly a corrupted or modified decompilation output. The absence of recognizable encryption patterns or structures suggests this is not a cryptographic function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_458157(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);",
+            "is_crypto_fun": false,
+            "description": "This function appears to handle character input processing and number conversion, potentially parsing numeric strings based on different bases (binary, octal, decimal, hexadecimal) and possibly dealing with overflow. It does not seem to implement any standard encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_45DEB4(Locale, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The provided function appears to handle input parsing and conversion based on locale settings, likely related to string to numeric conversions. There are operations related to character analysis and numeric computation based on input values and locale rules. The function does not exhibit characteristics of known encryption functions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_45260E",
+            "is_crypto_fun": false,
+            "description": "The function appears to validate and process numeric strings based on a specified base (radix). It handles string input, identifies sign characters (+ or -), and checks for overflow conditions. There are no indications of encryption processes like key handling or data transformation indicative of standard encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_45F1FD",
+            "is_crypto_fun": false,
+            "description": "Function appears to perform character input processing and possibly number conversion. It contains logic for handling numerical bases and sign management, without any indications of implementing or invoking an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_45B870",
+            "is_crypto_fun": false,
+            "description": "Function appears to be handling string or character input, possibly converting or parsing numeric values. There is no clear indication of cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_453C26(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be involved in interpreting and parsing input data rather than performing encryption operations. It handles character input and seems to be a part of a larger parsing mechanism, possibly for numbers or specific data formats."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_454B98(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform character and number processing, possibly parsing or converting character inputs. The structure and operations do not strongly indicate typical encryption functions like AES, RSA, TEA, etc. Instead, it seems to focus on character handling and potentially converting strings to numbers."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4ACFB3",
+            "is_crypto_fun": false,
+            "description": "The function performs various complex operations, including arithmetic and memory manipulations, but does not show clear characteristics or patterns typical of encryption algorithms such as AES, RSA, TEA, DES, Chacha, or RC4."
+        }
+    }
+]

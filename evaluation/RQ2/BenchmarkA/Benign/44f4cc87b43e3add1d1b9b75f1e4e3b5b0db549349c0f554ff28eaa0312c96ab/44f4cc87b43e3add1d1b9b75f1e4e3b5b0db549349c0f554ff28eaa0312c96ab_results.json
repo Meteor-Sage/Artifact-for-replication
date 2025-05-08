@@ -1,0 +1,114 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40A606",
+            "is_crypto_fun": false,
+            "description": "This function does not appear to perform encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_42E1CB",
+            "is_crypto_fun": false,
+            "description": "This function implements arithmetic operations based on input values, including bit-shifting and modulo operations. It does not correspond to a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4162EC(v1, v2);",
+            "is_crypto_fun": false,
+            "description": "No indication of encryption. The function appears to be a search algorithm, likely a binary search, for an integer within an array."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4099E8",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform some conditional checks and returns values based on certain conditions, but it does not modify or encrypt data content in a typical manner of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4168D1",
+            "is_crypto_fun": false,
+            "description": "The function evaluates and conditions multiple parameters but does not perform any form of encryption or decryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41986E(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "This function performs arithmetic operations including division and bit manipulation. It doesn't exhibit characteristics of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_429C01(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform bitwise operations, division, and modulus operations, but does not match characteristics of typical encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F7D4(int *a1, int a2, int a3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be performing some form of data checking or manipulation with conditions, rather than any known encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40616C(int a1, char *Str);",
+            "is_crypto_fun": false,
+            "description": "Function appears to perform bitwise operations based on the length and content of the input string, but it does not resemble any known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_405B68(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform categorization and modification of character sets based on the specified type (alphanumeric, control, lower, space, etc.). It does not implement known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_418E39",
+            "is_crypto_fun": false,
+            "description": "This function does not appear to be performing cryptographic operations. It primarily searches and manipulates values based on various conditions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41087B",
+            "is_crypto_fun": false,
+            "description": "The function appears to handle memory allocation, deallocation, and copying, but does not exhibit behaviors typical of encryption functions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_412DFC",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform character or string comparison, potentially case-insensitive. It does not exhibit characteristics typical of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41F7EB(a1, a2, a3, a4, a5, a6, a7);",
+            "is_crypto_fun": false,
+            "description": "This function involves memory allocation, comparisons, and conditional operations, but it does not appear to implement a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41B09B(v1, v2, v3, v4, v5);",
+            "is_crypto_fun": false,
+            "description": "The function appears to handle dynamic memory allocation, searching, and sorting operations, but it does not exhibit characteristics typical of cryptographic functions such as AES, RSA, TEA, etc."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41E558",
+            "is_crypto_fun": false,
+            "description": "This function appears to be involved in formatting or manipulating time and date strings, rather than performing cryptographic operations."
+        }
+    }
+]

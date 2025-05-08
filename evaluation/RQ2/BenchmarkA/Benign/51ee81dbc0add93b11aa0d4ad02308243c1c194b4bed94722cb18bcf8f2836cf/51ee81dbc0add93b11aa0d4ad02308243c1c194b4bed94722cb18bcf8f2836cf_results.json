@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40CE45",
+            "is_crypto_fun": false,
+            "description": "Function appears to handle process synchronization and status checks, not encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_403EFD",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform file handling and error checking operations rather than encryption or data transformation commonly found in encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408E00()",
+            "is_crypto_fun": false,
+            "description": "This function does not appear to perform any encryption or modify data content; it retrieves program arguments using _getmainargs."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401D54(FileName, a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to modify and obfuscate parts of a file name string but does not perform standard encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40A9D1()",
+            "is_crypto_fun": false,
+            "description": "This function appears to generate or store a unique identifier/value based on various system properties and states, not primarily an encryption function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F0AF();",
+            "is_crypto_fun": false,
+            "description": "The function does not appear to be related to encryption. It performs checks on certain memory values and sets application parameters based on those checks. It also calls other functions like sub_4007B1 without evident encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4084E8(__int64 a1, unsigned int a2, char *a3, char **a4, const char **a5, int FileHandle, int a7, int a8, int a9, _QWORD *a10, _DWORD *a11);",
+            "is_crypto_fun": false,
+            "description": "This function involves various system operations, error handling, and process creation, but it doesn't seem to perform encryption or modify data content in an encrypted manner."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D5D0(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 *a5, _QWORD *a6, unsigned int a7);",
+            "is_crypto_fun": false,
+            "description": "The function `sub_40D5D0` appears to be checking and/or managing execution states based on the `a7` flag and handling messages accordingly. There is no evidence that this function performs encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "main",
+            "is_crypto_fun": false,
+            "description": "The provided function 'main' does not seem to be involved in any encryption algorithm but rather performs operations related to argument parsing, file handling, and utility execution."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4062EC();",
+            "is_crypto_fun": false,
+            "description": "This function sets a variable and calls two other functions without evident signs of encryption algorithms."
+        }
+    }
+]

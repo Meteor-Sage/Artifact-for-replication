@@ -1,0 +1,107 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140FC90E0",
+            "is_crypto_fun": false,
+            "description": "The function appears to involve manipulation and transformation of numerical values and memory addresses, but there is no clear indication that it represents a known encryption algorithm. It mainly seems to perform calculations and store results based on input values."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14068D4A0(__int64 a1, unsigned int a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform bit manipulation and transformations based on the input value 'a2', possibly for encoding or format conversion, but does not strictly follow typical patterns of encryption algorithms like AES, RSA, etc."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1476AD3A0(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform conditional operations that involve calling another function sub_14815F670 based on the value of a3, followed by a construction of a 64-bit integer from bytes found in a2. There is no indication of typical encryption-like operations (such as iterated block transformations or use of cryptographic keys) to suggest it is an encryption function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1476AD5F0(_DWORD *a1, const void *a2);",
+            "is_crypto_fun": false,
+            "description": "The function primarily involves bit manipulation, shifting, and overflow checks, which are common in various types of data processing but do not exhibit clear characteristics of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14F3DD560(void *a1, unsigned __int64 a2, _DWORD *a3, _DWORD *a4, _DWORD *a5);",
+            "is_crypto_fun": true,
+            "description": "The function sub_14F3DD560 appears to perform cryptographic operations, involving bitwise operations, rotations, and mathematical manipulations on input data. These characteristics are indicative of encryption algorithms or data content modification routines."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1465A5060(void *a1, __int64 *a2, __int64 *a3);",
+            "is_crypto_fun": true,
+            "description": "This function appears to perform arithmetic operations similar to the carry-reducing, modular multiplication logic found in certain cryptographic algorithms. The use of overflow checks suggests operations on large numbers, potentially relevant in cryptographic contexts, such as multi-precision arithmetic."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14D144C70",
+            "is_crypto_fun": true,
+            "description": "This function exhibits characteristics of block cipher operations including what appears to be key scheduling, bitwise rotations, and XOR operations using constants, which suggest encryption-like behavior. The presence of numerous bitwise manipulations and constants akin to those used in cryptographic algorithms like TEA (Tiny Encryption Algorithm) further imply potential encryption functionality."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14815C810(a1);",
+            "is_crypto_fun": false,
+            "description": "This function appears to compare portions of data processed through another function (sub_1423F0860) but doesn't apply encryption or transformation typically seen in encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_143A76010",
+            "is_crypto_fun": false,
+            "description": "This function does not appear to implement encryption algorithms. It includes operations related to process creation and environment manipulation, indicative of handling executable paths and process creation settings."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14393B990(_DWORD *a1);",
+            "is_crypto_fun": true,
+            "description": "The function exhibits characteristics of an encryption routine, likely implementing a stream cipher. It utilizes Sosemanuk tables for transformations and includes XOR operations and bit shifts commonly used in cryptographic algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14FD39900(a1);",
+            "is_crypto_fun": false,
+            "description": "A comparison function likely involving some form of content manipulation, but does not appear to implement or call a known encryption algorithm directly."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14F783820",
+            "is_crypto_fun": false,
+            "description": "The function sub_14F783820 does not appear to perform typical encryption or cryptographic operations associated with known algorithms such as AES, RSA, TEA, DES, ChaCha, RC4, etc. The analysis involves numerous pointer and conditional operations, string manipulations, and various data transformations but lacks clear indications of standard encryption processes."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1476ADF40",
+            "is_crypto_fun": true,
+            "description": "The function appears to implement a complex mathematical operation involving multiple operations, bit manipulations, and cycling through data, which is typical in cryptographic functions. It utilizes assertions for overflow checks and handles large values represented in a specific form, which suggests the function might be working as part of an encryption operation or similar cryptographic function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14B8B6910(__int64 a1, __int64 *a2);",
+            "is_crypto_fun": false,
+            "description": "The function doesn't fit the criteria of common encryption algorithms like AES, RSA, TEA, DES, ChaCha, or RC4. The function appears to iterate through a series of bytes and performs various checks and operations, possibly related to data processing or validation, but not indicating encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14C57F5E0(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform mathematical operations and bit manipulations on its inputs. It lacks characteristics typical of encryption algorithms, such as key usage or standard cryptographic routines."
+        }
+    }
+]

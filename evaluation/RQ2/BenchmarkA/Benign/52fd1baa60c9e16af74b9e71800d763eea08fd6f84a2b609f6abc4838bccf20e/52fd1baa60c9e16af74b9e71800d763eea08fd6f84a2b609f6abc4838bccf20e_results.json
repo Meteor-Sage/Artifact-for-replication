@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40BF73",
+            "is_crypto_fun": false,
+            "description": "The function appears to handle file operations, string formatting, and writing to handles but does not contain any recognizable encryption logic."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "start();",
+            "is_crypto_fun": false,
+            "description": "The function appears to initialize or start some process, with a debug check and a call to another function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40B095()",
+            "is_crypto_fun": false,
+            "description": "Function does not perform any operations, just returns 0."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_405C2B(Stream, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "This function reads from a file stream and writes content to another file stream with specific condition checks. It does not exhibit behaviors typical of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401FE0",
+            "is_crypto_fun": false,
+            "description": "This function manipulates file modes and performs file I/O operations, but does not appear to perform encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40395E(int a1);",
+            "is_crypto_fun": false,
+            "description": "The function does not exhibit characteristics of known encryption algorithms. It appears to use lstat to check a status or property of the given input."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4040D9();",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform string localization and formatting. There is no indication of encryption or data transformation typical of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40108C(FILE *Stream, FILE *a2, _DWORD *a3, const char *a4);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be manipulating file streams and checking for certain values, likely for file conversion or text processing purposes. It does not exhibit characteristics typical of encryption functions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40B306(char *FileName, char *String, _DWORD *a3, const char *a4);",
+            "is_crypto_fun": false,
+            "description": "This function does not appear to perform any encryption operations. It involves file handling, such as opening, modifying, and renaming files, as well as error handling for these operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40C143(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function does not appear to perform any encryption or decryption operations. It processes command-line arguments, reads environment variables, and performs various string operations and file conversions."
+        }
+    }
+]

@@ -1,0 +1,12 @@
+node: { title: "0" label: "sub_142FC3A88" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "1" label: "sub_14A50D890" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "2" label: "tmainCRTStartup" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "3" label: "main" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "4" label: "sub_144196D40" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "5" label: "sub_14152CC60" color: 76 textcolor: 73 bordercolor: black }
+node: { title: "6" label: "sub_14A50D690" color: 76 textcolor: 73 bordercolor: black }
+edge: { sourcename: "3" targetname: "4" }
+edge: { sourcename: "6" targetname: "1" }
+edge: { sourcename: "2" targetname: "3" }
+edge: { sourcename: "4" targetname: "6" }
+edge: { sourcename: "1" targetname: "0" }

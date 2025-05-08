@@ -1,0 +1,107 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14F06E2D4();",
+            "is_crypto_fun": false,
+            "description": "Function likely dealing with file buffer operations related to wide characters, not encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14B345860(__int64 a1);",
+            "is_crypto_fun": false,
+            "description": "This function appears to involve memory management operations, specifically freeing memory and resetting pointers, rather than any cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14E6107D0(__int64 a1);",
+            "is_crypto_fun": false,
+            "description": "The function appears to manipulate memory and perform allocations based on input value calculations. However, it does not exhibit identifiable characteristics of standard encryption functions like AES, RSA, or similar algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1463ED700(int **a1, __int64 a2);",
+            "is_crypto_fun": false,
+            "description": "The function allocates a new integer, performs a bit manipulation on a byte from the input data, and stores the result. This does not resemble typical cryptographic operations like encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14F4CC220",
+            "is_crypto_fun": true,
+            "description": "This function appears to implement a variant of the ChaCha cipher algorithm. It includes several rounds of operations on data, involving bitwise XOR, addition, and rotation operations, which are characteristic of the ChaCha encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14EEF1C50",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform operations related to memory manipulation or string processing, rather than encryption. It involves various pointer and condition checks, likely to ensure correct memory access and potentially modify or process string data."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1481D5B60(_QWORD *a1, char a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be related to object construction or memory management, possibly tied to reference counting or object lifecycle for asio::windows::basic_random_access_handle. No evidence of encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_146634560(__int64 *a1, unsigned __int64 a2, __int64 a3, __int64 a4);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform memory management, possibly allocating, copying, and zeroing memory regions but does not demonstrate characteristics of a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14B345A10(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be a memory management routine that involves allocation, copying, and freeing of memory blocks. It modifies data by performing memory operations, but there is no clear evidence of cryptographic or data encryption transformations typical of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1448462D0",
+            "is_crypto_fun": false,
+            "description": "This function appears to initialize a structure or an object, set up event handles, and configure various state flags. It does not show typical characteristics of an encryption function, such as performing any mathematical operations or transformations on data intended for encryption. The function is likely related to event or state management in an asynchronous I/O or threading context."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1466340E0(__int64 *a1, __int64 a2, unsigned __int64 *a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform memory allocation and content manipulation operations, potentially involving data buffer adjustments and application-specific transformations of data structures. It does not fit the typical structure of common encryption algorithms like AES, RSA, or others listed."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14EEF1ED0(a1);",
+            "is_crypto_fun": false,
+            "description": "This function appears to compare two blocks of memory, possibly interpreting them as strings or sequences of wide characters, with its logic handling specific character conditions such as '\\' and '/'. The detailing and operations do not match known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1487F1550(__int64 *a1, int a2, void **a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform operations such as memory manipulation and data structure updates rather than implementing an encryption algorithm. No cryptographic primitives or recognizable patterns of encryption algorithms are evident in the code."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14025C830(__int64 *a1, __int64 a2, __int64 a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform memory operations related to object or buffer management, including allocation and copying data structures. There are no evident typical encryption operations such as bit manipulation, key scheduling, or rounds of transformation indicative of well-known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_149F26330",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform data manipulation, involving multiple array operations and a series of calls to sub-functions (sub_145619920 and others) that likely transform or modify data in some way. However, there are no clear indications of cryptographic algorithms being used."
+        }
+    }
+]

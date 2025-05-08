@@ -1,0 +1,79 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409FE5(unsigned __int8 *a1)",
+            "is_crypto_fun": false,
+            "description": "This function appears to be performing a simple conditional check and combining bytes into a single integer, rather than performing encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D5B9(a1);",
+            "is_crypto_fun": false,
+            "description": "Function appears to be performing date and time calculations based on input; no encryption functionality detected."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40B7B6(a1, a2, a3);",
+            "is_crypto_fun": true,
+            "description": "Potential CRC-32 or similar hash algorithm implementation which manipulates the data stream in a manner consistent with certain encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40CC54(a1);",
+            "is_crypto_fun": false,
+            "description": "This function appears to convert a sequence of bytes (from a pointer) into a 32-bit integer. It does not exhibit characteristics of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_403D25()",
+            "is_crypto_fun": false,
+            "description": "The function does not appear to implement any recognized encryption algorithm. It involves various bitwise and logical operations on data, but these do not correlate to standard encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40C832();",
+            "is_crypto_fun": false,
+            "description": "The function generates a table of 256 DWORD values which appear to be part of a CRC (Cyclic Redundancy Check) calculation, specifically using the polynomial 0xED3CF720."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F26D(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "Function appears to be related to signal handling and locale setting; does not contain typical operations for known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D57B",
+            "is_crypto_fun": false,
+            "description": "The function sub_40D57B does not resemble typical encryption algorithms such as AES, RSA, TEA, DES, chacha, or RC4. It involves various bitwise and memory operations, but lacks identifiable key-based operations characteristic of encryption functions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_403532(a1, a2, a3, a4, a5, a6, a7);",
+            "is_crypto_fun": true,
+            "description": "Function appears to perform bit manipulation, memory operations, and dynamic table generation suggesting a role in encoding, decoding, or some other transformation of content, likely for encryption or decryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40C6CA",
+            "is_crypto_fun": false,
+            "description": "No clear indication of being a function of a standard encryption algorithm. Possibly related to decompression or different data processing."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_400497(a1, a2, a3, a4, a5, a6);",
+            "is_crypto_fun": false,
+            "description": "The function appears to process and modify data structures based on specific conditions but lacks common characteristics of encryption algorithms."
+        }
+    }
+]

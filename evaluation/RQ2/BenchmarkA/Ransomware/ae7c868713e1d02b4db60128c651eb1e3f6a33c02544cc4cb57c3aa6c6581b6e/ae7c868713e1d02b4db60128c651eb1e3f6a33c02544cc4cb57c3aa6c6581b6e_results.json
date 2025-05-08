@@ -1,0 +1,121 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4068D0(_DWORD *this, unsigned __int8 *a2, unsigned __int8 *a3);",
+            "is_crypto_fun": true,
+            "description": "The function initializes a 32-byte state with constants and input keys, resembling part of a ChaCha20 encryption setup phase."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_42526D(_DWORD *this, std::_Locinfo *a2, int a3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be related to locale information and time-get functionality, rather than encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4252A0(_DWORD *this, std::_Locinfo *a2, int a3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be related to setting up a `time_get` object, possibly initializing some locale-dependent behavior, but it does not demonstrate characteristics of typical encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_431361(_DWORD *this, std::_Locinfo *a2, int a3);",
+            "is_crypto_fun": false,
+            "description": "This function seems to involve setting a virtual function table and calling another function. It does not exhibit characteristics of an encryption function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4197C0(_DWORD *a1, int a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform bitwise manipulations and arithmetic operations, possibly related to normalization or preparation of integer values, but it doesn't match the characteristics of a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_410480(_DWORD *Src, unsigned int a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform some form of encoding, possibly related to character encoding transformations, such as UTF encoding, rather than encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_415430",
+            "is_crypto_fun": true,
+            "description": "This function appears to implement rounds involving bitwise operations, rotations (ROL), and the addition of vectors, which is characteristic of stream cipher algorithms or block cipher transformation steps, making it a potential candidate for an encryption function like a variant of the Salsa20 or ChaCha stream cipher."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_42534B",
+            "is_crypto_fun": false,
+            "description": "This function involves memory manipulation and freeing of resources, indicating object management rather than any encryption or data modification typical of cryptographic functions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_418940(unsigned int *a1);",
+            "is_crypto_fun": false,
+            "description": "The function performs a series of arithmetic operations and bit shifts on the input data. It does not resemble any known standard encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41C4C0(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform bit manipulation and array access, potentially for some data structure or boolean operation, but it does not resemble known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41BDA0",
+            "is_crypto_fun": true,
+            "description": "The function implements a modular exponentiation operation, which is a common operation used in cryptographic algorithms such as RSA for encryption, decryption, and key generation. This suggests it is likely part of a cryptographic routine."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_42DF7B",
+            "is_crypto_fun": false,
+            "description": "The function appears to be related to time format conversion and manipulation, likely dealing with locale-based formatting of time strings and integer parsing. It does not exhibit characteristics typical of cryptographic encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4332F9",
+            "is_crypto_fun": false,
+            "description": "The function appears to be related to processing date and time formats, using C++ Standard Library components like std::time_get. It performs operations related to locale and time extraction but doesn't exhibit any characteristics typical of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_42E33C(this, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);",
+            "is_crypto_fun": false,
+            "description": "The function appears to involve time and locale settings with multiple conditional checks but does not perform typical encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_42B907(a1, a2, a3, a4, a5, a6, a7, Src, a9, a10, a11, a12, a13, a14);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be performing operations related to locale and money formatting, memory manipulation, and does not indicate use of any standard encryption algorithm. It involves insertion and manipulation of wide-character strings and locale-based functionality rather than encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41ADA0",
+            "is_crypto_fun": false,
+            "description": "The function sub_41ADA0 appears complex with extensive arithmetic manipulations and conditional logic, possibly related to data processing or transformation. However, there is insufficient evidence to conclusively identify it as an encryption algorithm based on standard cryptographic methods (AES, RSA, etc.)."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_404400(void **Src, _DWORD *a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform memory manipulation operations using various logical conditions and data transformations. It is complex, perhaps involving data encoding or transformation, but does not show clear signs of implementing a standard encryption algorithm like AES, RSA, etc."
+        }
+    }
+]

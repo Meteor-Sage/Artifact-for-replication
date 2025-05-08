@@ -1,0 +1,10 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_1400A5480,['crypt'],sub_1400D72D0,['WriteFile'],sub_1400DACE0,['FindNextFile'],sub_1400DAFA0,['CreateFile'],,
+sub_1400A5620,['crypt'],sub_1400DB780,['MoveFile'],sub_1400DB2E0,['FindFirstFile'],sub_1400DC530,['ReadFile'],,
+sub_1400A5800,['crypt'],sub_1400DC690,['WriteFile'],sub_1400DBA80,['FindFirstFile'],sub_1400DEBB0,['ReadFile'],,
+sub_1400A5990,['Sosemanuk'],,,,,sub_1400DFA50,['ReadFile'],,
+sub_1400A8C70,['0x9E3779'],,,,,,,,
+sub_1400DE270,"['Crypt', 'CryptGenRandom']",,,,,,,,
+sub_1400B3560,"The function sub_1400B3560 appears to perform cryptographic operations, involving bitwise operations, rotations, and mathematical manipulations on input data. These characteristics are indicative of encryption algorithms or data content modification routines.",,,,,,,,
+sub_140039060,"This function appears to perform arithmetic operations similar to the carry-reducing, modular multiplication logic found in certain cryptographic algorithms. The use of overflow checks suggests operations on large numbers, potentially relevant in cryptographic contexts, such as multi-precision arithmetic.",,,,,,,,
+sub_14003BF40,"The function appears to implement a complex mathematical operation involving multiple operations, bit manipulations, and cycling through data, which is typical in cryptographic functions. It utilizes assertions for overflow checks and handles large values represented in a specific form, which suggests the function might be working as part of an encryption operation or similar cryptographic function.",,,,,,,,

@@ -1,0 +1,12 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+WinMain,"['crypt', 'Encrypt']",sub_140040800,['WriteFile'],sub_1400821B4,['FindNextFile'],sub_140040A50,['ReadFile'],,
+sub_1400845F0,['expand 32-byte kexpand 16-byte'],sub_14005CAB0,['WriteFile'],,,sub_1400B5CC0,['CreateFile'],,
+sub_14008B410,['RijnDael_AES_LONG'],sub_1400B6A00,['DeleteFile'],,,sub_1400B6A00,['CreateFile'],,
+sub_14008B6F0,['RijnDael_AES_LONG'],,,,,,,,
+sub_1400B6A00,"['crypt', 'Crypt']",,,,,,,,
+sub_14008BC90,"The function appears to implement cryptographic operations, likely involving encryption or similar data transformations. There are indications of data manipulation patterns similar to cryptographic algorithms such as SHA-256 or other hash functions due to the use of multiple rotations (__ROR4__), XOR operations, and constant additions, which are common in block cipher or hash algorithm implementations.",,,,,,,,
+sub_14008B860,"The function exhibits characteristics of an encryption algorithm. It involves XOR operations, byte-level manipulations, and byte-shifting patterns typical of block ciphers.",,,,,,,,
+sub_140084C20,"Potential encryption-related function. The operations resemble characteristics of block cipher algorithms, such as bitwise manipulation, shifts, and conditional transformations similar to components of AES's MixColumns step.",,,,,,,,
+sub_140083F30,"This function appears to implement an encryption-like operation on data, likely involving rounds of bitwise operations, shifts, and mixing similar to what's seen in block cipher algorithms. The use of loops with index and key manipulation suggests the presence of a round-based cipher process.",,,,,,,,
+sub_140084A40,"The function appears to perform a series of bitwise operations and table lookups which resemble cryptographic operations. The presence of XOR operations, shifts, and indices using arrays suggests it could be related to symmetric encryption methods like RC4 or TEA.",,,,,,,,
+sub_140084710,"This function appears to perform operations consistent with transformation and permutation typical of cryptographic encryption. It involves bitwise manipulations, data swapping, and seems to be preparing or processing data blocks potentially as part of an encryption process.",,,,,,,,

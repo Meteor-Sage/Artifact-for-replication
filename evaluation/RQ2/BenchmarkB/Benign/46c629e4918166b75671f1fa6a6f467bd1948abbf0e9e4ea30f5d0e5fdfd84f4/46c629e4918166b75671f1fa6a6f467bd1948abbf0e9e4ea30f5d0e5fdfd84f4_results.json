@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40C1FE()",
+            "is_crypto_fun": false,
+            "description": "This function performs initialization and setup operations but does not exhibit characteristics of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40B040()",
+            "is_crypto_fun": false,
+            "description": "Function appears to be setting up or initializing some system-related or security-related values, rather than performing encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4057E7();",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform conditional checks and manage some values, but it does not display characteristics of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40FE3C(HKEY *this, LP71D7R lpValueName, BYTE *lpData);",
+            "is_crypto_fun": false,
+            "description": "Function likely processes data and sets registry values."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_404601",
+            "is_crypto_fun": false,
+            "description": "This function performs memory allocation, copying, and some data processing but does not exhibit clear characteristics of a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D26A()",
+            "is_crypto_fun": false,
+            "description": "This function appears to be calling two other functions, potentially for setup and registration of some handler, but there is no indication that it is performing any cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_404E64",
+            "is_crypto_fun": false,
+            "description": "This function appears to be determining the length of a null-terminated string or array. It does not perform any cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40158E(LP71D7R *this, HKEY *a2, const WCHAR *a3, char *a4);",
+            "is_crypto_fun": false,
+            "description": "This function appears to handle registry value modifications and string manipulations in wide character format, but it does not seem to implement any standard encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408145(LP71D7R *this, char *lpString1, HKEY a3, int a4, int a5);",
+            "is_crypto_fun": false,
+            "description": "The function appears to manipulate registry keys and values, involving conditional deletions, modifications, and other registry operations. There is no indication of encryption or cryptographic content modification."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_406941(this, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The function reads and processes data, potentially modifies content read into memory, but does not appear to implement an encryption algorithm."
+        }
+    }
+]

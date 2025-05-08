@@ -1,0 +1,4 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_4197F0,"The function performs several operations that suggest it is manipulating allocated memory regions, potentially involving encryption or similar data modification processes. These include calling functions such as VirtualAllocEx and FillMemory, iterating through memory with operations that alter data (e.g., XOR operations, memory shifting), common in encryption routines.",sub_40705C,['WriteFile'],,,sub_407030,['ReadFile'],,
+,,,,,,sub_415470,['CreateFile'],,
+,,,,,,sub_418BD4,['CreateFile'],,

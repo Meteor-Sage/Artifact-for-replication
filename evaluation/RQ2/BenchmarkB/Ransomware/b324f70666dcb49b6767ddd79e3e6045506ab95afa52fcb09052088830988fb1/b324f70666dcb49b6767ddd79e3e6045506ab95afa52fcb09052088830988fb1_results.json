@@ -1,0 +1,86 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41356D(a1);",
+            "is_crypto_fun": false,
+            "description": "Function initializes a critical section and enters it based on the value of `a1`."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_410D12(a1);",
+            "is_crypto_fun": false,
+            "description": "This function manipulates critical sections, which are synchronization primitives, but does not perform encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_402AF8()",
+            "is_crypto_fun": true,
+            "description": "This function appears to be setting up tables and constants used in AES encryption, including S-box initialization and lookup tables common in block cipher algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D617",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content using values and operations that suggest structured transformation consistent with encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_403849(unsigned __int8 *a1, _DWORD *a2);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function involves multiple bitwise operations on data arrays and matches the general characteristics of a cryptographic function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_407317(a1, a2);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function involves XOR operations and uses lookup tables for modification."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_404428(a1, a2);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or cryptographic hash function involving data content and multiple bitwise operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40EA2F",
+            "is_crypto_fun": true,
+            "description": "The function appears to perform complex bitwise operations and data manipulation consistent with cryptographic algorithms, potentially similar to hash functions or block ciphers."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_400021(v1, v2, v3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to use SHA-512 constants and operations typically found in hashing functions, indicating it is part of a hash function rather than an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_406791",
+            "is_crypto_fun": true,
+            "description": "Potential encryption function involving various bitwise operations and rotations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_410634",
+            "is_crypto_fun": true,
+            "description": "This function appears to implement AES encryption operations using Intel's AES-NI instruction set."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4153DD(a1, a2, a3, a4, a5, a6);",
+            "is_crypto_fun": true,
+            "description": "This function appears to be performing AES encryption based on the usage of AES instructions such as aesenc and aesenclast."
+        }
+    }
+]

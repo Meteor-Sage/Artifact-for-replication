@@ -1,0 +1,82 @@
+[
+    {
+        "Function": "sub_40D618",
+        "Total XOR and shift operations": 6,
+        "XOR operations": 6,
+        "Shift operations": 0,
+        "Operation percentage": "13.33%",
+        "Function Body": "\nint sub_40D618()\n{\n  int result; // eax\n  DWORD dwLowDateTime; // ebp\n  DWORD CurrentProcessId; // edi\n  DWORD CurrentThreadId; // esi\n  DWORD TickCount; // ebx\n  DWORD v5; // ebp\n  DWORD dwHighDateTime; // [esp+1Ch] [ebp-30h]\n  struct _FIE416ME SystemTimeAsFileTime; // [esp+20h] [ebp-2Ch] BYREF\n  LARGE_IN123ER PerformanceCount; // [esp+28h] [ebp-24h] BYREF\n\n  SystemTimeAsFileTime.dwLowDateTime = 0;\n  SystemTimeAsFileTime.dwHighDateTime = 0;\n  if ( dword_40159D == -1140224642 )\n  {\n    GetSystemTimeAsFileTime(&SystemTimeAsFileTime);\n    dwLowDateTime = SystemTimeAsFileTime.dwLowDateTime;\n    dwHighDateTime = SystemTimeAsFileTime.dwHighDateTime;\n    CurrentProcessId = GetCurrentProcessId();\n    CurrentThreadId = GetCurrentThreadId();\n    TickCount = GetTickCount();\n    QueryPerformanceCounter(&PerformanceCount);\n    v5 = TickCount ^ CurrentThreadId ^ CurrentProcessId ^ PerformanceCount.HighPart ^ PerformanceCount.LowPart ^ dwHighDateTime ^ dwLowDateTime;\n    result = ~v5;\n    if ( v5 == -1140224642 )\n    {\n      result = 1140224640;\n      v5 = -1140224641;\n    }\n    dword_40159D = v5;\n    dword_40315D = result;\n  }\n  else\n  {\n    result = ~dword_40159D;\n    dword_40315D = ~dword_40159D;\n  }\n  return result;\n}\n// 40159D: using guessed type int dword_40159D;\n// 40315D: using guessed type int dword_40315D;\n\n"
+    },
+    {
+        "Function": "sub_40F0AF",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nint sub_40F0AF()\n{\n  int result; // eax\n\n  dword_405D25 = dword_403D70;\n  result = _getmainargs(&argc, &argv, &envp, dword_40F900, &dword_405D25);\n  dword_40859A = result;\n  return result;\n}\n// 40407C: using guessed type int __cdecl _getmainargs(_DWORD, _DWORD, _DWORD, _DWORD, _DWORD);\n// 405D25: using guessed type int dword_405D25;\n// 40859A: using guessed type int dword_40859A;\n// 40F900: using guessed type int dword_40F900;\n// 403D70: using guessed type int dword_403D70;\n\n"
+    },
+    {
+        "Function": "sub_40E2D9",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n// write access to const memory has been detected, the output may be wrong!\nint sub_40E2D9()\n{\n  BOOL v0; // eax\n  __int16 v2; // dx\n\n  v0 = 0;\n  dword_4010BA = 1;\n  dword_405DD5 = 1;\n  dword_4027C3 = 1;\n  dword_40BEC8 = 1;\n  if ( ME7909[0x40F0D8] == 23117 && *(_DWORD *)(ME7909[0x40B15B] + 0x40F0D8) == 17744 )\n  {\n    v2 = *(_WORD *)(ME7909[0x40B15B] + 41C0E78);\n    if ( v2 == 267 )\n    {\n      if ( *(_DWORD *)(ME7909[0x40B15B] + 418DFD0) > 0xEu )\n        v0 = *(_DWORD *)(ME7909[0x40B15B] + 415A676) != 0;\n    }\n    else if ( v2 == 523 && *(_DWORD *)(ME7909[0x40B15B] + 41B2706) > 0xEu )\n    {\n      v0 = *(_DWORD *)(ME7909[0x40B15B] + 4118412) != 0;\n    }\n  }\n  dword_408104 = v0;\n  if ( dword_40F9B1 )\n    _set_app_type(_crt_gui_app);\n  else\n    _set_app_type(_crt_console_app);\n  dword_4001A1 = sub_406FF4(-1);\n  dword_40CD93 = dword_4001A1;\n  fmode = dword_40FE2F;\n  sub_409E46();\n  if ( dword_4033E3 == 1 )\n    sub_402B6D((_UserMathErrorFunctionPointer)sub_406252);\n  return 0;\n}\n// 40A8DD: write access to const memory at 4027AC has been detected\n// 4033E3: using guessed type int dword_4033E3;\n// 408104: using guessed type int dword_408104;\n// 4027C3: using guessed type int dword_4027C3;\n// 405DD5: using guessed type int dword_405DD5;\n// 4010BA: using guessed type int dword_4010BA;\n// 40BEC8: using guessed type int dword_40BEC8;\n// 40F9B1: using guessed type int dword_40F9B1;\n// 40FE2F: using guessed type int dword_40FE2F;\n// 4001A1: using guessed type int dword_4001A1;\n// 40CD93: using guessed type int dword_40CD93;\n\n"
+    },
+    {
+        "Function": "sub_40F27E",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nHME51CE sub_40F27E()\n{\n  HME51CE result; // eax\n  int (__cdecl *v1)(int *); // edx\n\n  result = (HME51CE)dword_405FBB;\n  if ( dword_405FBB )\n  {\n    result = GetModuleHandleA(\"libgcj-12.dll\");\n    v1 = 0;\n    if ( result )\n    {\n      result = (HME51CE)GetProcAddress(result, \"_Jv_RegisterClasses\");\n      v1 = (int (__cdecl *)(int *))result;\n    }\n    if ( v1 )\n      return (HME51CE)v1(&dword_405FBB);\n  }\n  return result;\n}\n// 405FBB: using guessed type int dword_405FBB;\n\n"
+    },
+    {
+        "Function": "sub_40AC2C",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nvoid __cdecl sub_40AC2C()\n{\n  ;\n}\n\n"
+    },
+    {
+        "Function": "TlsCallback_1",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nint __stdcall TlsCallback_1(int a1, int a2, int a3)\n{\n  if ( a2 && a2 != 3 )\n    return 1;\n  sub_401C1B(a1, a2);\n  return 1;\n}\n\n"
+    },
+    {
+        "Function": "TlsCallback_0",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nint __stdcall TlsCallback_0(int a1, int a2, int a3)\n{\n  if ( dword_40EFCD != 2 )\n    dword_40EFCD = 2;\n  if ( a2 == 1 )\n    sub_401C1B(a1, 1);\n  return 1;\n}\n// 40EFCD: using guessed type int dword_40EFCD;\n\n"
+    },
+    {
+        "Function": "sub_407DAF",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nint sub_407DAF()\n{\n  return _lconv_init();\n}\n// 404B6F: using guessed type int _lconv_init(void);\n\n"
+    },
+    {
+        "Function": "sub_40E89A",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nint __cdecl sub_40E89A(int a1)\n{\n  return a1;\n}\n\n"
+    },
+    {
+        "Function": "sub_406FF4",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nint __cdecl sub_406FF4(int a1)\n{\n  return a1;\n}\n\n"
+    }
+]

@@ -1,0 +1,12 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+WinMain,"['crypt', 'Encrypt']",sub_14779A7A0,['WriteFile'],sub_1420FBBD4,['FindNextFile'],sub_14779A9F0,['ReadFile'],,
+sub_1495ED010,['expand 32-byte kexpand 16-byte'],sub_149BDB3E0,['WriteFile'],,,sub_14EFD46E0,['CreateFile'],,
+sub_145EA3E30,['RijnDael_AES_LONG'],sub_145A54420,['DeleteFile'],,,sub_145A54420,['CreateFile'],,
+sub_14E5D7110,['RijnDael_AES_LONG'],,,,,,,,
+sub_145A54420,"['crypt', 'Crypt']",,,,,,,,
+sub_14E5D76B0,"The function appears to perform cryptographic operations consistent with data block manipulation using functions like bitwise rotations and additions, which are typical in encryption algorithms.",,,,,,,,
+sub_14E5D7280,"This function appears to implement a block-based encryption algorithm, involving multiple XOR operations, bitwise shifts, and byte manipulations, which are typical of block ciphers. The iterative structure with variable manipulations suggests it might be processing data in a cryptographic manner, potentially an algorithm similar to TEA or similar block ciphers.",,,,,,,,
+sub_1495ED640,"This function appears to perform operations similar to an AES mix columns transformation or other byte substitution/modification operations common in block ciphers, utilizing bitwise operations and substitutions.",,,,,,,,
+sub_143F31950,"This function resembles the structure of an encryption or decryption function employing block-wise processing reminiscent of the ChaCha stream cipher. The code contains bitwise operations, rotations, and iterations typical of encryption algorithms, suggesting it performs some form of data modification that's consistent with cryptographic functions.",,,,,,,,
+sub_1495ED460,"The function involves operations typical of cryptographic algorithms, such as key-dependent transformations, bitwise operations, and usage of substitution tables (s-boxes), suggesting potential encryption or data obfuscation.",,,,,,,,
+sub_1495ED130,"The function appears to perform bitwise operations and transformations on input data, resembling steps found in block ciphers or other encryption algorithms. The use of _byteswap_ulong and multiple XOR operations suggests data encryption processing.",,,,,,,,

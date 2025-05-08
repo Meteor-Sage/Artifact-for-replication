@@ -1,0 +1,10 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_402270,"['CryptAcquireContext', 'Encrypt', 'CryptReleaseContext', 'crypt', 'CryptEncrypt', 'Crypt', 'CryptDestroyKey']",sub_402270,['WriteFile'],sub_402730,"['FindFirstFile', 'FindNextFile']",sub_402270,"['CreateFile', 'ReadFile']",,
+sub_407270,"['crypt', 'CryptEncrypt', 'Crypt', 'Encrypt']",sub_4082E0,['MoveFile'],,,,,,
+sub_407400,"['Crypt', 'CryptAcquireContext', 'CryptStringToBinary']",WinMain,['DeleteFile'],,,,,,
+sub_4082E0,"['CryptReleaseContext', 'Crypt', 'CryptAcquireContext']",,,,,,,,
+sub_40D260,"['CryptGenRandom', 'Crypt', 'CryptAcquireContext']",,,,,,,,
+sub_4113C0,"This function exhibits characteristic operations of cryptographic hash functions or symmetric key encryption algorithms. It significantly modifies the content of the input data using bitwise operations, additions, and rotations, which are commonly seen in cryptographic functions.",,,,,,,,
+sub_413130,"Potential encryption or data content modification. The function utilizes operations such as memmove, memset, and other sub-functions which suggest block data processing common in encryption techniques.",,,,,,,,
+sub_412400,"Potential encryption or modification of data content read into memory, involving block operations, padding, and multi-step processing typical in cryptographic functions.",,,,,,,,
+sub_410910,"Potential encryption or modification of data content read into memory, involving buffer operations and data manipulation.",,,,,,,,

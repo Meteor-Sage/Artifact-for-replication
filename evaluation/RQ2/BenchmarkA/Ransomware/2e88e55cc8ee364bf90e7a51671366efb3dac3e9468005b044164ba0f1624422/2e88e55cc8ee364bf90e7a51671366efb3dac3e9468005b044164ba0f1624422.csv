@@ -1,0 +1,12 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+WinMain,"['crypt', 'Encrypt']",sub_1400405B0,['WriteFile'],sub_140078998,['FindNextFile'],sub_1400407E0,['ReadFile'],,
+sub_14007C570,['expand 32-byte kexpand 16-byte'],sub_14005C260,['WriteFile'],,,sub_1400ADB00,['CreateFile'],,
+sub_140083390,['RijnDael_AES_LONG'],sub_1400AE840,['DeleteFile'],,,sub_1400AE840,['CreateFile'],,
+sub_140083670,['RijnDael_AES_LONG'],,,,,,,,
+sub_1400AE840,"['crypt', 'Crypt']",,,,,,,,
+sub_1400837E0,"The function appears to perform operations reminiscent of block encryption. It conducts multiple bitwise and memory access operations, likely involving transformations and key schedule-like manipulations over data chunks, indicating potential encryption steps.",,,,,,,,
+sub_14007CBA0,"The function appears to operate on data in a manner consistent with cryptographic operations, involving byte-level transformations and complex bit manipulations, potentially indicative of symmetric encryption-like processes similar to AES.",,,,,,,,
+sub_14007BEB0,"The function appears to perform complex bitwise operations and transformations indicative of a cryptographic cipher, potentially resembling algorithms like ChaCha20 designed for encryption purposes.",,,,,,,,
+sub_14007C9C0,"The function appears to be performing bitwise operations, substitutions using tables (likely S-boxes or similar), and data transformations typically associated with cryptographic algorithms or obfuscation routines.",,,,,,,,
+sub_14007C690,"This function appears to perform cryptographic operations involving data manipulation, conditional checks, and bitwise manipulations typical of encryption algorithms. The repeated use of the _byteswap_ulong function and XOR operations are common in encryption processes.",,,,,,,,
+sub_1400472D0,Potential encryption or modification of data content read into memory.,,,,,,,,

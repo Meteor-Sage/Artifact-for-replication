@@ -1,0 +1,93 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_42C39C",
+            "is_crypto_fun": false,
+            "description": "Function involves freeing allocated memory and does not perform encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_42EAE1",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform memory allocation and data manipulation with no indication of encryption or cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_427E89()",
+            "is_crypto_fun": false,
+            "description": "The function generates a pseudo-random value based on system and process information, but it does not appear to implement any standard encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_421CE4(const char *a1, __int64 a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be performing string comparison operations rather than encrypting or modifying content."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_420EB7",
+            "is_crypto_fun": false,
+            "description": "The function does not appear to perform any encryption. It reallocates memory and modifies content based on its parameters."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_406E29",
+            "is_crypto_fun": false,
+            "description": "This function appears to be handling string comparison and memory management rather than performing encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_42D4E2()",
+            "is_crypto_fun": false,
+            "description": "The function reads an environment variable, performs checks and basic arithmetic operations, but does not exhibit typical behavior of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_420EAD(__int64 a1, __int64 a2, const char *a3);",
+            "is_crypto_fun": false,
+            "description": "This function does not appear to perform cryptographic operations. It seems to be handling memory allocation and string comparison/copy operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40B4E3",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform some condition checks and return specific values based on those checks. There is no indication of encryption or data modification typical of cryptographic functions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_400C06",
+            "is_crypto_fun": false,
+            "description": "This function primarily deals with handling and modifying HDF5 files and properties without any evidence of encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_420786",
+            "is_crypto_fun": false,
+            "description": "The function seems to be related to formatting or processing data and interacting with HDF5 data types, rather than performing cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40EE32",
+            "is_crypto_fun": false,
+            "description": "This function appears to be performing operations related to HDF5 file format rather than any encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401F84(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "The function handles operations related to HDF5 group, dataset, and datatype manipulations. It performs actions such as opening, closing, reading, writing, and creating references for HDF5 objects. There is no evidence of encryption or cryptographic operations within the provided code."
+        }
+    }
+]

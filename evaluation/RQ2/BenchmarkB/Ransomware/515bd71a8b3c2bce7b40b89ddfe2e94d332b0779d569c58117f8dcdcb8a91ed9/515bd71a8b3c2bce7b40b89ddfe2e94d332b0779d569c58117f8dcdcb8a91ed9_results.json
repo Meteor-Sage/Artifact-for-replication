@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "StartAddress",
+            "is_crypto_fun": true,
+            "description": "The function involves importing a cryptographic key using CryptImportKey and using sub_4022C0, which likely performs encryption or another cryptographic operation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40B55E(int a1);",
+            "is_crypto_fun": false,
+            "description": "This function is related to error handling and parameter validation and does not appear to be performing any encryption or crypto-related operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401EE0",
+            "is_crypto_fun": false,
+            "description": "The function appears to be interacting with system information and logical drives, creating threads and handling synchronization. It does not exhibit typical characteristics of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401A80(HCRYPTKEY a1, LPCWSTR lpFileName, unsigned __int8 *a3, unsigned __int8 *a4);",
+            "is_crypto_fun": true,
+            "description": "This function involves file handling, potential encryption operations using an HCRYPTKEY object, and modification of data content read into memory."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401000",
+            "is_crypto_fun": true,
+            "description": "The function appears to perform several rounds of bitwise operations, including rotations and additions on 128-bit SSE registers. These operations are characteristic of symmetric encryption algorithms such as those used in block ciphers."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4012B0",
+            "is_crypto_fun": true,
+            "description": "This function is likely related to a block cipher or stream cipher setup, as it manipulates data in a form that suggests initialization of cryptographic structures."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4013F0(__m128i *a1, __m128i *a2, unsigned int a3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content using SIMD operations, involving XOR operations and possible state tracking."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4015A0(hFile, a2, a3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function manipulates data read from a file using another function sub_4013F0 which hints at encryption or similar data processing operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4022C0",
+            "is_crypto_fun": true,
+            "description": "Potential encryption function. This function performs file system operations, reads and writes to files, and uses cryptographic providers and keys to potentially encrypt or manipulate file data."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401840(HANDLE hFile, unsigned __int8 *a2, unsigned __int8 *a3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory."
+        }
+    }
+]

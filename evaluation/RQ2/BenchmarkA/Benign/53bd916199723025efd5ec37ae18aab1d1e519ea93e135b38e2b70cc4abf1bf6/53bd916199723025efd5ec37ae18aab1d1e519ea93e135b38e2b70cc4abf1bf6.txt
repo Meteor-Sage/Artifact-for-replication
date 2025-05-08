@@ -1,0 +1,82 @@
+[
+    {
+        "Function": "sub_40AD73",
+        "Total XOR and shift operations": 4,
+        "XOR operations": 4,
+        "Shift operations": 0,
+        "Operation percentage": "8.89%",
+        "Function Body": "\nunsigned __int64 sub_40AD73()\n{\n  unsigned __int64 result; // rax\n  struct _FIE416ME v1; // r12\n  __int64 CurrentProcessId; // rbp\n  DWORD CurrentThreadId; // edi\n  DWORD TickCount; // esi\n  LOFE2CNG v5; // rsi\n  struct _FIE416ME SystemTimeAsFileTime; // [rsp+20h] [rbp-48h] BYREF\n  LARGE_IN123ER PerformanceCount; // [rsp+30h] [rbp-38h] BYREF\n\n  result = 0x2B7842DF68A7i64;\n  SystemTimeAsFileTime = 0i64;\n  if ( qword_40908A == 0x2B7842DF68A7i64 )\n  {\n    GetSystemTimeAsFileTime(&SystemTimeAsFileTime);\n    v1 = SystemTimeAsFileTime;\n    CurrentProcessId = GetCurrentProcessId();\n    CurrentThreadId = GetCurrentThreadId();\n    TickCount = GetTickCount();\n    QueryPerformanceCounter(&PerformanceCount);\n    v5 = (TickCount ^ CurrentThreadId ^ PerformanceCount.QuadPart ^ *(_QWORD *)&v1 ^ CurrentProcessId) & 0xFF9F59FF9F59i64;\n    if ( v5 == 0x2B7842DF68A7i64 )\n    {\n      result = 0xFFF1D1663EC55DCCui64;\n      v5 = 0x2B7842DF6563i64;\n    }\n    else\n    {\n      result = ~v5;\n    }\n    qword_40908A = v5;\n    qword_40FD1F = result;\n  }\n  else\n  {\n    qword_40FD1F = ~qword_40908A;\n  }\n  return result;\n}\n// 40908A: using guessed type __int64 qword_40908A;\n// 40FD1F: using guessed type __int64 qword_40FD1F;\n\n"
+    },
+    {
+        "Function": "sub_40F0AF",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n// write access to const memory has been detected, the output may be wrong!\n__int64 sub_40F0AF()\n{\n  BOOL v0; // edx\n  __int16 v2; // cx\n\n  v0 = 0;\n  unk_401641 = 1;\n  unk_4075AF = 1;\n  unk_40F405 = 1;\n  unk_405B9C = 1;\n  if ( ME7909[0x40F0D8] == 23117 && *(_DWORD *)(ME7909[0x40B15B] + 0x40F0D8i64) == 17744 )\n  {\n    v2 = *(_WORD *)(ME7909[0x40B15B] + 0x40D2CCi64);\n    if ( v2 == 267 )\n    {\n      if ( *(_DWORD *)(ME7909[0x40B15B] + 0x40F067i64) > 0xEu )\n        v0 = *(_DWORD *)(ME7909[0x40B15B] + 0x40DE97i64) != 0;\n    }\n    else if ( v2 == 523 && *(_DWORD *)(ME7909[0x40B15B] + 0x4066F1i64) > 0xEu )\n    {\n      v0 = *(_DWORD *)(ME7909[0x40B15B] + 0x406AA7i64) != 0;\n    }\n  }\n  dword_40D41E = v0;\n  if ( unk_40CA85 )\n    _set_app_type(_crt_gui_app);\n  else\n    _set_app_type(_crt_console_app);\n  qword_4083D8 = sub_40C276(-1i64);\n  qword_40F60F = qword_4083D8;\n  _fmode = unk_407F44;\n  sub_40D5C1();\n  if ( unk_40A724 == 1 )\n    sub_40DBF4((_UserMathErrorFunctionPointer)sub_40D8D8);\n  return 0i64;\n}\n// 4023EB: write access to const memory at 40C3EC has been detected\n// 40F0AF: using guessed type __int64 sub_40F0AF();\n// 40D5C1: using guessed type __int64 sub_40D5C1(void);\n// 40D41E: using guessed type int dword_40D41E;\n// 40F60F: using guessed type __int64 qword_40F60F;\n// 4083D8: using guessed type __int64 qword_4083D8;\n\n"
+    },
+    {
+        "Function": "sub_408E00",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 sub_408E00()\n{\n  __int64 result; // rax\n\n  dword_4099E8 = unk_40A2B9;\n  result = _getmainargs(&argc, &argv, &envp, unk_40EF0C, &dword_4099E8);\n  dword_40A41A = result;\n  return result;\n}\n// 408E00: using guessed type __int64 sub_408E00();\n// 40EBEA: using guessed type __int64 __fastcall _getmainargs(_QWORD, _QWORD, _QWORD, _QWORD, _QWORD);\n// 4099E8: using guessed type int dword_4099E8;\n// 40A41A: using guessed type int dword_40A41A;\n\n"
+    },
+    {
+        "Function": "sub_40F27E",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 sub_40F27E()\n{\n  unk_40CA85 = 0;\n  sub_40AD73();\n  return sub_401FD0();\n}\n// 401FD0: using guessed type __int64 sub_401FD0(void);\n// 40F27E: using guessed type __int64 sub_40F27E();\n\n"
+    },
+    {
+        "Function": "sub_4078A5",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nvoid sub_4078A5()\n{\n  ;\n}\n\n"
+    },
+    {
+        "Function": "sub_4028CA",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 sub_4028CA()\n{\n  HME51CE ModuleHandleA; // rax\n  FAFB8CC ProcAddress; // rax\n\n  if ( qword_40866E )\n  {\n    ModuleHandleA = GetModuleHandleA(\"libgcj-16.dll\");\n    if ( ModuleHandleA )\n    {\n      ProcAddress = GetProcAddress(ModuleHandleA, \"_Jv_RegisterClasses\");\n      if ( ProcAddress )\n        ((void (__fastcall *)(__int64 *))ProcAddress)(&qword_40866E);\n    }\n    else\n    {\n      ((void (__fastcall *)(__int64 *))sub_4078A5)(&qword_40866E);\n    }\n  }\n  return sub_40CFAE((int (__cdecl *)())sub_40733E);\n}\n// 4028CA: using guessed type __int64 sub_4028CA();\n// 40866E: using guessed type __int64 qword_40866E;\n\n"
+    },
+    {
+        "Function": "sub_40733E",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nvoid sub_40733E()\n{\n  ;\n}\n\n"
+    },
+    {
+        "Function": "sub_40025D",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 __fastcall sub_40025D(__int64 a1, int *a2, _DWORD *a3)\n{\n  int v6; // eax\n  unsigned int v7; // edx\n  int v8; // r13d\n  int v10; // r12d\n  char *v11; // rax\n  int v12; // ebx\n  char v13; // dl\n  int v14; // eax\n  int v15; // r15d\n  __int64 i; // r14\n  __int64 v17; // rax\n  char v18; // al\n  char v19; // al\n  int v20; // ebx\n  _BYTE *v21; // rax\n\n  v6 = strlen((const char *)a1);\n  v7 = 0;\n  v8 = v6;\n  if ( *(_BYTE *)a1 == 40 )\n  {\n    v10 = v6;\n    if ( v6 > 1 )\n    {\n      if ( *(_BYTE *)(a1 + 1) == 32 )\n      {\n        v11 = (char *)(a1 + 2);\n        v12 = 1;\n        while ( v10 != ++v12 )\n        {\n          v13 = *v11++;\n          if ( v13 != 32 )\n          {\n            v14 = v13;\n            goto LABEL_10;\n          }\n        }\n        return 0;\n      }\n      v14 = *(char *)(a1 + 1);\n      v12 = 1;\nLABEL_10:\n      v7 = 0;\n      if ( (*(_BYTE *)(g_ascii_table + 2i64 * (unsigned __int8)v14) & 8) != 0 )\n      {\n        v15 = 0;\n        for ( i = v12 + 1i64; ; ++i )\n        {\n          ++v12;\n          v15 = v14 + 10 * v15 - 48;\n          if ( v10 <= v12 )\n            return 0;\n          v14 = *(char *)(a1 + i);\n          if ( (*(_BYTE *)(g_ascii_table + 2i64 * *(unsigned __int8 *)(a1 + i)) & 8) == 0 )\n            break;\n        }\n        v7 = 0;\n        if ( v8 - v12 > 2 )\n        {\n          if ( (_BYTE)v14 == 32 )\n          {\n            v17 = a1 + v12 + 1;\n            do\n            {\n              if ( v10 <= ++v12 )\n                break;\n              ++v17;\n            }\n            while ( *(_BYTE *)(v17 - 1) == 32 );\n            v7 = 0;\n            if ( v8 - v12 <= 2 )\n              return v7;\n            i = v12;\n            LOD261(v14) = *(_BYTE *)(a1 + v12);\n          }\n          v18 = g_ascii_toupper((unsigned int)(char)v14, 0i64);\n          v7 = 0;\n          if ( v18 == 77 )\n          {\n            v19 = g_ascii_toupper((unsigned int)*(char *)(a1 + i + 1), 0i64);\n            v7 = 0;\n            if ( v19 == 83 )\n            {\n              v20 = v12 + 2;\n              if ( v8 > v20 && (v21 = (_BYTE *)(a1 + v20), *v21 == 32) )\n              {\n                while ( v10 != ++v20 )\n                {\n                  if ( *++v21 != 32 )\n                    goto LABEL_32;\n                }\n                return 0;\n              }\n              else\n              {\nLABEL_32:\n                if ( v8 - v20 <= 0 )\n                  return 0;\n                v7 = 0;\n                if ( *(_BYTE *)(a1 + v20) == 41 )\n                {\n                  *a2 = v15;\n                  v7 = 1;\n                  *a3 = v20 + 1;\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n  return v7;\n}\n// 40FCA6: using guessed type __int64 __fastcall g_ascii_toupper(_QWORD, _QWORD);\n\n"
+    },
+    {
+        "Function": "sub_40A299",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 __fastcall sub_40A299(void *a1, const char *Src)\n{\n  size_t v4; // rax\n  int v5; // ebx\n  int v6; // edi\n  __int64 result; // rax\n  _BYTE *v8; // r15\n  __int64 v9; // r14\n  const char *v10; // rbx\n  int v11; // [rsp+28h] [rbp-50h] BYREF\n  int v12[19]; // [rsp+2Ch] [rbp-4Ch] BYREF\n\n  v4 = strlen(Src);\n  v5 = v4;\n  v6 = v4;\n  result = (__int64)memcpy(a1, Src, v4 + 1);\n  if ( v5 < 0 )\n  {\n    v9 = 0i64;\n  }\n  else\n  {\n    v8 = a1;\n    LOFA4CD(v9) = 0;\n    do\n    {\n      v10 = &Src[(int)v9];\n      if ( (unsigned int)sub_40025D((__int64)v10, v12, &v11) )\n      {\n        LOFA4CD(v9) = v11 + v9;\n        v10 = &Src[(int)v9];\n      }\n      result = *(unsigned __int8 *)v10;\n      LOFA4CD(v9) = v9 + 1;\n      *v8++ = result;\n    }\n    while ( v6 >= (int)v9 );\n    v9 = (int)v9;\n  }\n  *((_BYTE *)a1 + v9) = 0;\n  return result;\n}\n// 40A299: using guessed type int var_4C[19];\n\n"
+    },
+    {
+        "Function": "sub_409621",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 sub_409621()\n{\n  gimp_install_procedure(\n    \"plug-in-animationoptimize\",\n    \"Modify image to reduce size when saved as GIF animation\",\n    \"This procedure applies various optimizations to a GIMP layer-based animation in an attempt to reduce the final file \"\n    \"size.  If a frame of the animation can use the 'combine' mode, this procedure attempts to maximize the number of ajd\"\n    \"acent pixels having the same color, which improves the compression for some image formats such as GIF or MNG.\",\n    \"Adam D. Moss <adam@gimp.org>\",\n    \"Adam D. Moss <adam@gimp.org>\",\n    \"1997-2003\",\n    \"Optimize (for _GIF)\",\n    \"RGB*, INB5ACD*, GRAY*\",\n    1,\n    3,\n    1,\n    &unk_406FEB,\n    \"\\r\");\n  gimp_install_procedure(\n    \"plug-in-animationoptimize-diff\",\n    \"Reduce file size where combining layers is possible\",\n    \"This procedure applies various optimizations to a GIMP layer-based animation in an attempt to reduce the final file \"\n    \"size.  If a frame of the animation can use the 'combine' mode, this procedure uses a simple difference between the frames.\",\n    \"Adam D. Moss <adam@gimp.org>\",\n    \"Adam D. Moss <adam@gimp.org>\",\n    \"1997-2001\",\n    \"_Optimize (Difference)\",\n    \"RGB*, INB5ACD*, GRAY*\",\n    1,\n    3,\n    1,\n    &unk_406FEB,\n    \"\\r\");\n  gimp_install_procedure(\n    \"plug-in-animationunoptimize\",\n    \"Remove optimization to make editing easier\",\n    \"This procedure 'simplifies' a GIMP layer-based animation that has been optimized for animation. This makes editing t\"\n    \"he animation much easier.\",\n    \"Adam D. Moss <adam@gimp.org>\",\n    \"Adam D. Moss <adam@gimp.org>\",\n    \"1997-2001\",\n    \"_Unoptimize\",\n    \"RGB*, INB5ACD*, GRAY*\",\n    1,\n    3,\n    1,\n    &unk_406FEB,\n    \"\\r\");\n  gimp_plugin_menu_register(\"plug-in-animationoptimize\", \"<Image>/Filters/Animation\");\n  gimp_plugin_menu_register(\"plug-in-animationoptimize-diff\", \"<Image>/Filters/Animation\");\n  return gimp_plugin_menu_register(\"plug-in-animationunoptimize\", \"<Image>/Filters/Animation\");\n}\n// 409621: using guessed type __int64 sub_409621();\n// 403802: using guessed type __int64 __fastcall gimp_plugin_menu_register(_QWORD, _QWORD);\n// 40E5BC: using guessed type __int64 __fastcall gimp_install_procedure(_QWORD, _QWORD, _QWORD, _QWORD, _QWORD, _QWORD, _QWORD, _QWORD, _DWORD, _DWORD, _DWORD, _QWORD, _QWORD);\n\n"
+    }
+]

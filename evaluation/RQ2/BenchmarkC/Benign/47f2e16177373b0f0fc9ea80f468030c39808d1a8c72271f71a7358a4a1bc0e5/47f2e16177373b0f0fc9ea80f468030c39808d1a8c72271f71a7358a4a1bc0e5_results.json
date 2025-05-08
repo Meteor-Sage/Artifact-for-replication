@@ -1,0 +1,86 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408AE4(unsigned int a1);",
+            "is_crypto_fun": false,
+            "description": "This function appears to work with resources and dynamic linking rather than performing any encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408D43",
+            "is_crypto_fun": false,
+            "description": "The function appears to be a binary search algorithm using a callback, rather than an encryption or cryptographic function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401694(FILE *a1);",
+            "is_crypto_fun": false,
+            "description": "This function retrieves memory status information and formats it into a string for output. It does not perform any encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_406919",
+            "is_crypto_fun": false,
+            "description": "The function deals with resource finding using FindResourceW and does not exhibit any encryption or data modification operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40A319(int *a1, int a2, void *Source);",
+            "is_crypto_fun": false,
+            "description": "This function performs operations such as copying or moving memory but does not exhibit characteristics of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41C439",
+            "is_crypto_fun": false,
+            "description": "The function involves bit-level manipulations and conditional modifications but does not show clear signs of being part of a standard encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40C030(v1, v2);",
+            "is_crypto_fun": false,
+            "description": "The provided function does not exhibit characteristics typical of known encryption algorithms and appears to be conditional data manipulation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_403639(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "Function modifies content by setting the first byte to a fixed value and the next two bytes to values derived from a lookup table."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41EBE2(a1, a2);",
+            "is_crypto_fun": true,
+            "description": "Potential floating point arithmetic operations indicative of cryptographic processing."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4087A2(v1, v2, v3, v4);",
+            "is_crypto_fun": false,
+            "description": "Function appears to execute some recursive or sorting-like operations. Its purpose is unclear, but it does not exhibit characteristics of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_402B0F(FILE *a1, int a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to analyze and print memory content, specifically in a readable format for stack dumping."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F37A(a1, Source, MaxCount);",
+            "is_crypto_fun": false,
+            "description": "The function seems to handle memory operations, string length calculations, memory allocation, and safe memory copying. There is no evidence pointing to encryption operations."
+        }
+    }
+]

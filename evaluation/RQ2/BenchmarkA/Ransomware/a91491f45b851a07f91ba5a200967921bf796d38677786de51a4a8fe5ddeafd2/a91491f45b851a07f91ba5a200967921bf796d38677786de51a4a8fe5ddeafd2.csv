@@ -1,0 +1,10 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_403E72,"['CryptDestroyKey', 'Crypt']",sub_401000,['WriteFile'],sub_4056D4,"['FindNextFile', 'FindFirstFile']",sub_401000,['CreateFile'],sub_4032FA,['Snapshot']
+sub_403F30,"['CryptAcquireContext', 'CryptImportKey', 'CryptDestroyKey', 'CryptSetKeyParam', 'Crypt']",sub_4030E4,['WriteFile'],,,sub_404D46,"['CreateFile', 'ReadFile']",,
+sub_403FBD,"['crypt', 'CryptEncrypt', 'Encrypt', 'Crypt']",sub_404D46,"['DeleteFile', 'WriteFile']",,,sub_4050B1,['ReadFile'],,
+sub_403FFF,"['crypt', 'Crypt']",sub_405042,['WriteFile'],,,sub_405193,['CreateFile'],,
+sub_40403E,"['CryptAcquireContext', 'Crypt', 'CryptGenRandom']",sub_405193,"['WriteFile', 'MoveFile']",,,sub_4053DE,['CreateFile'],,
+sub_4041DD,"['CryptAcquireContext', 'Crypt', 'CryptGenRandom']",,,,,,,,
+sub_404D46,"['CryptDestroyKey', 'Crypt']",,,,,,,,
+sub_405193,"['CryptDestroyKey', 'Crypt']",,,,,,,,
+sub_4044E9,"This function appears to be implementing an arithmetic coding operation or a similar algorithm involving complex data manipulation and multiple modulus operations, which are common in encryption and encoding algorithms.",,,,,,,,

@@ -1,0 +1,86 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_405E29(a1, a2, a3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption algorithm involving XOR operations with key schedules and S-boxes, indicating a form of symmetric block cipher."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_402479",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform arithmetic operations and divisions involving bit manipulation, not typical of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40A370()",
+            "is_crypto_fun": true,
+            "description": "This function appears to be involved in the initialization of data structures similar to those used in block ciphers, such as the generation of S-boxes or similar transformation tables common in cryptographic algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40B086",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform operations involving critical sections and uses system time and performance counters to manipulate specific memory locations. However, the XOR operations seem to be used more for generating randomness or obfuscation than for encryption as typically used in cryptographic algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408565(unsigned __int8 *a1, int a2, int *a3);",
+            "is_crypto_fun": true,
+            "description": "The function performs several bitwise operations involving XORs and shifting, which are typical of encryption routines. The use of static arrays (dword_40362C, dword_4029ED, etc.) hints at S-box or permutation table usage, which are characteristic of block ciphers."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40CA0A(a1, a2, a3)",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform a transformation involving bitwise operations and a lookup table, but it does not exhibit characteristics typical of standard encryption algorithms like AES or RSA. It seems more likely to be implementing a form of checksum or hash calculation, possibly resembling components of a CRC (Cyclic Redundancy Check) routine."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40DE14(result, a2);",
+            "is_crypto_fun": true,
+            "description": "This function appears to be performing cryptographic operations potentially related to a block cipher. The iterative bitwise operations, shifts (ROL and ROR), XORs, and additions suggest a complex transformation of input data reminiscent of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40381A(_DWORD *a1, int a2, _DWORD *a3);",
+            "is_crypto_fun": true,
+            "description": "The function appears to be an encryption algorithm due to its use of bitwise operations, iterative transformations, and data scrambling based on input data, which are consistent with cryptographic processes."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4056CD(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to fill a memory buffer with a specified pattern or value, but it does not exhibit characteristics of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409499(a1, a2, a3);",
+            "is_crypto_fun": true,
+            "description": "The function exhibits characteristics commonly found in encryption algorithms, such as bitwise and modular operations. It manipulates data by reading bytes, performing arithmetic operations, and potentially uses function calls pertinent to cryptographic processing."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40052E(a1);",
+            "is_crypto_fun": false,
+            "description": "The function appears to process or transform data without fitting the common patterns of standard encryption algorithms like AES or RSA."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4073D5(int *a1, int a2, _BYTE *a3, unsigned __int8 *a4);",
+            "is_crypto_fun": true,
+            "description": "This function appears to implement an encryption or decryption operation using XOR operations and other subfunctions, likely dealing with data blocks and keys, potentially resembling block cipher operations."
+        }
+    }
+]

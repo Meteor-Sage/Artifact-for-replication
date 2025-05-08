@@ -1,0 +1,6 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_40A762,"['crypt32.dll', 'crypt']",sub_40BAB8,['WriteFile'],sub_40414B,['PathFindFileName'],sub_40BAB8,['CreateFile'],sub_400581,['Snapshot']
+sub_408BD6,['Crypt'],TopLevelExceptionFilter,['DeleteFile'],sub_4085A4,['PathFindFileName'],sub_40EA73,['CreateFile'],sub_405882,['Snapshot']
+sub_401ECF,['Crypt'],,,sub_40B87E,['PathFindFileName'],sub_407BD2,['CreateFile'],t,['Snapshot']
+sub_40F237,['Crypt'],,,sub_40865D,"['FindFirstFile', 'FindNextFile']",,,sub_40B87E,['Snapshot']
+sub_40D758,['Crypt'],,,,,,,sub_402517,['Snapshot']

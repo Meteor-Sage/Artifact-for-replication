@@ -1,0 +1,86 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1495ED640",
+            "is_crypto_fun": true,
+            "description": "The function contains operations resembling steps of block cipher encryption, using bitwise and arithmetic operations on the input data similar to rounds of a symmetric encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14E5D7280(a1, a2, a3, a4, a5, a6);",
+            "is_crypto_fun": true,
+            "description": "The function involves operations with XOR, bit shifts, and mixing, which are typical for encryption algorithms, indicating potential data encryption or transformation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14E887150(int a1);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform a series of arithmetic operations with conditional checks and iterations on the input parameter. There is no clear evidence of it implementing a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_145EA3060",
+            "is_crypto_fun": false,
+            "description": "The code structure resembles operations similar to those used in cryptographic or checksum algorithms, such as MD5, which involve bitwise operations, rotations, and arithmetic. However, it does not exhibit characteristics of reversible encryption algorithms like AES or RSA and thus appears to be a hash or checksum function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_144C7CF10",
+            "is_crypto_fun": false,
+            "description": "The function appears to involve complex calculations and bitwise manipulations on floating-point representations but does not resemble a known encryption algorithm. It includes arithmetic and logical operations which might be related to data transformation tasks rather than encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14B7E2190(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform complex calculations, bit manipulations, and conditional logic without evident encryption algorithms such as AES, RSA, or similar. It may involve data transformations or encoding operations, but lacks clear indicators of standard cryptographic methods."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1495ED460(unsigned int *a1, int a2);",
+            "is_crypto_fun": true,
+            "description": "The function appears to implement a form of encrypted operation or a cipher-like transformation, involving various data manipulation techniques and multiple lookup tables for potential substitution or permutation operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1415AF5F0(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function performs operations involving bit shifts, multiplications, and memory lookups, but lacks characteristics typical of standard encryption algorithms. It's possibly modifying data based on some transformation logic."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14E5D76B0",
+            "is_crypto_fun": true,
+            "description": "Function resembles SHA-256 compression function with bitwise operations and constants, but it doesn't qualify as an encryption algorithm under provided rules. However, its structure indicates a cryptographic transformation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1495ED130(a1, a2, a3, a4, a5);",
+            "is_crypto_fun": true,
+            "description": "The function appears to transform data using bitwise operations, swaps, and a series of XOR-based operations. This manipulation is consistent with block cipher structures observed in encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1433B42C0",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform various buffer manipulations and data transformations, potentially related to data formatting or conversions, but does not directly implement a recognizable encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_143F31950",
+            "is_crypto_fun": true,
+            "description": "The function appears to implement a cryptographic algorithm involving multiple bitwise operations, rotations, and additions indicative of a stream or block cipher, possibly similar to ChaCha or Salsa20."
+        }
+    }
+]

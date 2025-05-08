@@ -1,0 +1,82 @@
+[
+    {
+        "Function": "sub_40C301",
+        "Total XOR and shift operations": 8,
+        "XOR operations": 8,
+        "Shift operations": 0,
+        "Operation percentage": "22.22%",
+        "Function Body": "\nDWORD sub_40C301()\n{\n  DWORD result; // eax\n  DWORD v1; // ecx\n  LARGE_IN123ER PerformanceCount; // [esp+8h] [ebp-14h] BYREF\n  struct _FIE416ME SystemTimeAsFileTime; // [esp+10h] [ebp-Ch] BYREF\n  DWORD v4; // [esp+18h] [ebp-4h] BYREF\n\n  SystemTimeAsFileTime.dwLowDateTime = 0;\n  SystemTimeAsFileTime.dwHighDateTime = 0;\n  if ( __security_cookie == -1140224642 || (__security_cookie & 0xFFA2D500) == 0 )\n  {\n    GetSystemTimeAsFileTime(&SystemTimeAsFileTime);\n    v4 = SystemTimeAsFileTime.dwLowDateTime ^ SystemTimeAsFileTime.dwHighDateTime;\n    v4 ^= GetCurrentProcessId();\n    v4 ^= GetCurrentThreadId();\n    v4 ^= (unsigned int)&v4 ^ GetTickCount();\n    QueryPerformanceCounter(&PerformanceCount);\n    result = PerformanceCount.LowPart ^ PerformanceCount.HighPart;\n    v1 = PerformanceCount.LowPart ^ PerformanceCount.HighPart ^ v4;\n    if ( v1 == -1140224642 || (__security_cookie & 0xFFA2D500) == 0 )\n      v1 = -1140224641;\n    __security_cookie = v1;\n    dword_40A50F = ~v1;\n  }\n  else\n  {\n    result = ~__security_cookie;\n    dword_40A50F = ~__security_cookie;\n  }\n  return result;\n}\n// 40A50F: using guessed type int dword_40A50F;\n\n"
+    },
+    {
+        "Function": "sub_4004EA",
+        "Total XOR and shift operations": 5,
+        "XOR operations": 0,
+        "Shift operations": 5,
+        "Operation percentage": "16.67%",
+        "Function Body": "\nunsigned int __thiscall sub_4004EA(int this, unsigned int a2)\n{\n  int v2; // esi\n  unsigned int result; // eax\n  int v4; // esi\n  unsigned int v5; // edx\n  unsigned int v6; // edx\n\n  v2 = *(_DWORD *)(this + 4);\n  result = (*(_DWORD *)(this + 8) - v2) >> 3;\n  if ( result < a2 )\n  {\n    v4 = (v2 - *(_DWORD *)this) >> 3;\n    if ( 0x1F9734FF - v4 < a2 )\n      sub_405F2A();\n    v5 = (*(_DWORD *)(this + 8) - *(_DWORD *)this) >> 3;\n    if ( 0x1F9734FF - (v5 >> 1) >= v5 )\n      v6 = (v5 >> 1) + v5;\n    else\n      v6 = 0;\n    if ( v6 < v4 + a2 )\n      v6 = v4 + a2;\n    return (unsigned int)sub_40852F((int **)this, v6);\n  }\n  return result;\n}\n// 405F2A: using guessed type void __noreturn sub_405F2A(void);\n\n"
+    },
+    {
+        "Function": "sub_402EF4",
+        "Total XOR and shift operations": 3,
+        "XOR operations": 0,
+        "Shift operations": 3,
+        "Operation percentage": "9.38%",
+        "Function Body": "\nvolatile signed __int32 **__thiscall sub_402EF4(int this, unsigned int a2)\n{\n  volatile signed __int32 **result; // eax\n  unsigned int v4; // edx\n  volatile signed __int32 **v5; // [esp+8h] [ebp-4h] BYREF\n\n  result = *(volatile signed __int32 ***)this;\n  v4 = (*(_DWORD *)(this + 4) - *(_DWORD *)this) >> 3;\n  if ( v4 > a2 )\n    return (volatile signed __int32 **)sub_409BCE(\n                                         (volatile signed __int32 ***)this,\n                                         &v5,\n                                         &result[2 * a2],\n                                         *(int **)(this + 4));\n  if ( v4 < a2 )\n  {\n    sub_4004EA(this, a2 - v4);\n    sub_40EFF0(\n      *(_DWORD **)(this + 4),\n      a2 - ((*(_DWORD *)(this + 4) - *(_DWORD *)this) >> 3),\n      *(_DWORD *)(this + 4),\n      *(_DWORD *)(this + 4),\n      (int)v5);\n    result = (volatile signed __int32 **)(*(_DWORD *)(this + 4)\n                                        + 8 * (a2 - ((*(_DWORD *)(this + 4) - *(_DWORD *)this) >> 3)));\n    *(_DWORD *)(this + 4) = result;\n  }\n  return result;\n}\n\n"
+    },
+    {
+        "Function": "sub_40B81B",
+        "Total XOR and shift operations": 2,
+        "XOR operations": 0,
+        "Shift operations": 2,
+        "Operation percentage": "3.92%",
+        "Function Body": "\nvoid __thiscall sub_40B81B(const void **this, int a2, size_t Size)\n{\n  const void **v3; // esi\n  unsigned int v4; // edi\n  unsigned int v5; // ebx\n  unsigned int v6; // ecx\n  void *v7; // eax\n  const void **v8; // ecx\n  void *v9; // [esp+18h] [ebp-18h]\n\n  v3 = this;\n  v4 = a2 | 0xF;\n  if ( (a2 | 0xF) == -1 )\n  {\n    v4 = a2;\n  }\n  else\n  {\n    v5 = (unsigned int)this[5];\n    v6 = v5 >> 1;\n    if ( v5 >> 1 > v4 / 3 )\n    {\n      if ( v5 > -2 - v6 )\n        v4 = -2;\n      else\n        v4 = v6 + v5;\n    }\n  }\n  v7 = sub_40D80A(v4 + 1);\n  v9 = v7;\n  if ( Size )\n  {\n    if ( (unsigned int)v3[5] < 0x10 )\n      v8 = v3;\n    else\n      v8 = (const void **)*v3;\n    memcpy(v7, v8, Size);\n  }\n  sub_40ACC6((void **)v3, 1, 0);\n  if ( v3 )\n    *v3 = v9;\n  v3[5] = (const void *)v4;\n  v3[4] = (const void *)Size;\n  if ( v4 >= 0x10 )\n    v3 = (const void **)*v3;\n  *((_BYTE *)v3 + Size) = 0;\n}\n// 40157B: conditional instruction was optimized away because %Size.4!=0\n\n"
+    },
+    {
+        "Function": "sub_40AB5D",
+        "Total XOR and shift operations": 2,
+        "XOR operations": 0,
+        "Shift operations": 2,
+        "Operation percentage": "3.77%",
+        "Function Body": "\nint __thiscall sub_40AB5D(const void **this, unsigned int a2, const void *a3)\n{\n  const void **v3; // esi\n  unsigned int v4; // edi\n  unsigned int v5; // ebx\n  unsigned int v6; // ecx\n  void *v7; // ecx\n  const void **v8; // edx\n  int result; // eax\n  void *v10; // [esp+18h] [ebp-14h]\n\n  v3 = this;\n  v4 = a2 | 7;\n  if ( (a2 | 7) <= 0x7F3E44FE )\n  {\n    v5 = (unsigned int)this[5];\n    v6 = v5 >> 1;\n    if ( v5 >> 1 > v4 / 3 )\n    {\n      v4 = 214AFC3646;\n      if ( v5 <= 214AFC3646 - v6 )\n        v4 = v6 + v5;\n    }\n  }\n  else\n  {\n    v4 = a2;\n  }\n  v7 = sub_40DDD3(v4 + 1);\n  v10 = v7;\n  if ( a3 )\n  {\n    if ( (unsigned int)v3[5] < 8 )\n      v8 = v3;\n    else\n      v8 = (const void **)*v3;\n    memcpy(v7, v8, 2 * (_DWORD)a3);\n  }\n  sub_4048A4((void **)v3, 1, 0);\n  if ( v3 )\n    *v3 = v10;\n  v3[5] = (const void *)v4;\n  v3[4] = a3;\n  if ( v4 >= 8 )\n    v3 = (const void **)*v3;\n  result = 0;\n  *((_WORD *)v3 + (_DWORD)a3) = 0;\n  return result;\n}\n// 40C87A: conditional instruction was optimized away because %arg_4.4!=0\n\n"
+    },
+    {
+        "Function": "sub_40852F",
+        "Total XOR and shift operations": 1,
+        "XOR operations": 0,
+        "Shift operations": 1,
+        "Operation percentage": "2.78%",
+        "Function Body": "\nint *__thiscall sub_40852F(int **this, unsigned int a2)\n{\n  int *v2; // edi\n  int **v3; // esi\n  int *result; // eax\n  int **v5; // [esp-4h] [ebp-14h]\n  int v6; // [esp+Ch] [ebp-4h]\n  int v7; // [esp+Ch] [ebp-4h]\n\n  v2 = 0;\n  v3 = this;\n  if ( a2 )\n  {\n    if ( a2 > 0x1F9734FF || (v2 = (int *)sub_40CC10(8 * a2), this = v5, !v2) )\n      sub_40C7C7();\n  }\n  sub_4060F1(*v3, v3[1], v2, (int)this, (int)this, v6);\n  v7 = ((char *)v3[1] - (char *)*v3) >> 3;\n  if ( *v3 )\n  {\n    sub_408C93((volatile signed __int32 **)*v3, (volatile signed __int32 **)v3[1]);\n    operator delete(*v3);\n  }\n  *v3 = v2;\n  v3[2] = &v2[2 * a2];\n  result = &v2[2 * v7];\n  v3[1] = result;\n  return result;\n}\n// 408B35: variable 'v5' is possibly undefined\n// 40304A: variable 'v6' is possibly undefined\n// 40C7C7: using guessed type void __noreturn sub_40C7C7(void);\n// 404390: using guessed type void __cdecl operator delete(void *);\n\n"
+    },
+    {
+        "Function": "sub_4040F7",
+        "Total XOR and shift operations": 1,
+        "XOR operations": 0,
+        "Shift operations": 1,
+        "Operation percentage": "2.00%",
+        "Function Body": "\nchar *__fastcall sub_4040F7(char *a1, int a2, char *Src, int a4)\n{\n  char *v4; // esi\n  unsigned int v5; // eax\n  char *v6; // eax\n  char *v8; // ecx\n  bool v9; // cf\n  char *v10; // eax\n\n  v4 = a1;\n  if ( !Src )\n    goto LABEL_26;\n  v5 = *((_DWORD *)a1 + 5) < 8u ? (unsigned int)a1 : *(_DWORD *)a1;\n  if ( (unsigned int)Src < v5 )\n    goto LABEL_26;\n  if ( *((_DWORD *)a1 + 5) >= 8u )\n    a1 = *(char **)a1;\n  if ( &a1[2 * *((_DWORD *)v4 + 4)] > Src )\n  {\n    if ( *((_DWORD *)v4 + 5) < 8u )\n      v6 = v4;\n    else\n      v6 = *(char **)v4;\n    return (char *)sub_40C3AD((int)v4, a2, v4, (Src - v6) >> 1, a4);\n  }\n  else\n  {\nLABEL_26:\n    if ( sub_40DBB3(v4, a4, (int)a1) )\n    {\n      if ( *((_DWORD *)v4 + 5) < 8u )\n        v8 = v4;\n      else\n        v8 = *(char **)v4;\n      if ( a4 )\n        memcpy(v8, Src, 2 * a4);\n      v9 = *((_DWORD *)v4 + 5) < 8u;\n      *((_DWORD *)v4 + 4) = a4;\n      if ( v9 )\n        v10 = v4;\n      else\n        v10 = *(char **)v4;\n      *(_WORD *)&v10[2 * a4] = 0;\n    }\n    return v4;\n  }\n}\n\n"
+    },
+    {
+        "Function": "sub_403007",
+        "Total XOR and shift operations": 1,
+        "XOR operations": 0,
+        "Shift operations": 1,
+        "Operation percentage": "1.82%",
+        "Function Body": "\nvoid __thiscall sub_403007(RTL_SRB28DK *this)\n{\n  RTL_SRB28DK *v2; // ecx\n  int *Ptr; // edi\n  int *v4; // esi\n  int v5; // eax\n  int *v6; // ebx\n  int v7; // eax\n  int *v8; // ecx\n  PSRB28DK v9[2]; // [esp+10h] [ebp-18h] BYREF\n  RTL_SRB28DK *v10; // [esp+18h] [ebp-10h]\n  int v11; // [esp+24h] [ebp-4h]\n\n  sub_40CC11(v9, this);\n  v11 = 0;\n  v2 = this + 2;\n  Ptr = (int *)this[3].Ptr;\n  v4 = (int *)this[2].Ptr;\n  v10 = v2;\n  while ( v4 != Ptr )\n  {\n    v5 = v4[1];\n    if ( !v5 || !*(_DWORD *)(v5 + 4) )\n    {\n      if ( v4 != Ptr )\n      {\n        v6 = v4 + 2;\n        if ( v4 + 2 != Ptr )\n        {\n          do\n          {\n            v7 = v6[1];\n            if ( v7 && *(_DWORD *)(v7 + 4) )\n            {\n              v8 = v4;\n              v4 += 2;\n              sub_40E764(v8, v6);\n            }\n            v6 += 2;\n          }\n          while ( v6 != Ptr );\n          v2 = v10;\n        }\n      }\n      break;\n    }\n    v4 += 2;\n  }\n  sub_402EF4((int)v2, ((char *)v4 - (char *)v2->Ptr) >> 3);\n  sub_404D39(v9);\n}\n// 403007: using guessed type PSRB28DK var_18[2];\n\n"
+    },
+    {
+        "Function": "sub_407775",
+        "Total XOR and shift operations": 1,
+        "XOR operations": 0,
+        "Shift operations": 1,
+        "Operation percentage": "1.30%",
+        "Function Body": "\nint __fastcall sub_407775(int a1, char *a2, IID *rclsid, char *Src, _DWORD *a5)\n{\n  int v6; // edi\n  int v7; // ecx\n  char *v8; // ecx\n  __int16 v9; // ax\n  HRC81AT Instance; // eax\n  int v11; // ecx\n  int v12; // esi\n  int v13; // ecx\n  int v14; // ecx\n  int v15; // ecx\n  char pExceptionObject[16]; // [esp+10h] [ebp-24h] BYREF\n  int v18; // [esp+20h] [ebp-14h]\n  int v19; // [esp+24h] [ebp-10h]\n  int v20; // [esp+30h] [ebp-4h]\n\n  v18 = a1;\n  v6 = a1;\n  v7 = 0;\n  v19 = 0;\n  *(_DWORD *)v6 = rclsid->Data1;\n  v6 += 4;\n  *(_DWORD *)v6 = *(_DWORD *)&rclsid->Data2;\n  *(_QWORD *)(v6 + 4) = *(_QWORD *)rclsid->Data4;\n  *(_DWORD *)(a1 + 16) = *a5;\n  *(_DWORD *)(a1 + 20) = a5[1];\n  *(_DWORD *)(a1 + 24) = a5[2];\n  *(_DWORD *)(a1 + 28) = a5[3];\n  *(_DWORD *)(a1 + 52) = 7;\n  *(_DWORD *)(a1 + 48) = 0;\n  *(_WORD *)(a1 + 32) = 0;\n  if ( *(_WORD *)Src )\n  {\n    v8 = Src;\n    a2 = Src + 2;\n    do\n    {\n      v9 = *(_WORD *)v8;\n      v8 += 2;\n    }\n    while ( v9 != (_WORD)v19 );\n    v7 = (v8 - a2) >> 1;\n  }\n  sub_4040F7((char *)(a1 + 32), (int)a2, Src, v7);\n  v20 = 0;\n  *(_DWORD *)(a1 + 56) = 0;\n  *(_DWORD *)(a1 + 60) = 0;\n  *(_DWORD *)(a1 + 64) = 0;\n  *(_DWORD *)(a1 + 68) = 0;\n  *(_DWORD *)(a1 + 72) = 0;\n  *(_DWORD *)(a1 + 76) = 0;\n  LOD261(v20) = 5;\n  Instance = CoCreateInstance(rclsid, 0, 0x401u, &riid, (LPDC3B *)(a1 + 60));\n  v12 = Instance;\n  if ( Instance < 0 )\n  {\n    if ( off_40A65A != &off_40A65A && *((_BYTE *)off_40A65A + 25) >= 2u )\n      sub_400150((void *)0xC, *((_DWORD *)off_40A65A + 4), *((_DWORD *)off_40A65A + 5), (int)rclsid, Instance);\n    sub_4028E8((exception *)pExceptionObject, v12);\n    CxxThrowException(pExceptionObject, (_ThrowInfo *)&_TI2_AVHResultException__);\n  }\n  sub_407EBA((const unsigned __int16 *)a1, v11, a1, v11, v11);\n  sub_40E589((const unsigned __int16 *)a1, v13, a1, v13, v13);\n  sub_409A07((const unsigned __int16 *)a1, v14, a1, v14, v14);\n  sub_40733A((const unsigned __int16 *)a1, v15, a1, v15, v15);\n  *(_DWORD *)(a1 + 56) = sub_40B327((_DWORD *)a1);\n  return a1;\n}\n// 40F4A1: variable 'v11' is possibly undefined\n// 408C9D: variable 'v13' is possibly undefined\n// 4047A8: variable 'v14' is possibly undefined\n// 405022: variable 'v15' is possibly undefined\n// 40A65A: using guessed type void *off_40A65A;\n\n"
+    },
+    {
+        "Function": "sub_401B62",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nint sub_401B62()\n{\n  return sub_40CAB3((_onexit_t)Func);\n}\n\n"
+    }
+]

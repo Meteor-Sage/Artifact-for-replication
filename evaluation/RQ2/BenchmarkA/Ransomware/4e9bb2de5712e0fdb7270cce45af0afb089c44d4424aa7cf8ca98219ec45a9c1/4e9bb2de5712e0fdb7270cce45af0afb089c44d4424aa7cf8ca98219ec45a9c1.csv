@@ -1,0 +1,8 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+iox_crypto_chacha20__ptr_Cipher_doBlocks,['crypt'],iox_operate_local2RemoteTCP_func1,"['DeleteFile', 'MoveFile']",iox_operate_local2RemoteTCP_func1,"['FindNextFile', 'FindFirstFile']",iox_operate_local2RemoteTCP_func1,['CreateFile'],iox_operate_local2RemoteTCP_func1,['RegEnumKey']
+iox_operate_local2RemoteTCP_func1,"['crypt32.dll', 'advapi32.dll', 'crypt']",,,,,,,iox_operate_local2RemoteUDP,['encrypted']
+iox_operate_local2RemoteUDP,['crypt'],,,,,,,iox_operate_local2LocalUDP,['encrypted']
+iox_operate_local2LocalUDP,['crypt'],,,,,,,iox_operate_remote2remoteUDP,['encrypted']
+iox_operate_remote2remoteUDP,['crypt'],,,,,,,iox_operate_ProxyRemote,['encrypted']
+iox_operate_ProxyRemote,['crypt'],,,,,,,iox_operate_ProxyRemoteL2L,['encrypted']
+iox_operate_ProxyRemoteL2L,['crypt'],,,,,,,,

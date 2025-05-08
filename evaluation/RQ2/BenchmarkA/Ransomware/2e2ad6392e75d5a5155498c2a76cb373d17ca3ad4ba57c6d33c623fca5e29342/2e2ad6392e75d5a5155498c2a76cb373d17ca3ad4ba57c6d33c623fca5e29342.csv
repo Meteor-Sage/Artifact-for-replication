@@ -1,0 +1,4 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+main,"['CryptAcquireContext', 'CryptStringToBinary', 'CryptReleaseContext', 'crypt', 'Crypt']",sub_140017900,['WriteFile'],sub_1400341B4,['FindNextFile'],sub_140017B20,['ReadFile'],,
+sub_14005C390,"['crypt', 'Encrypt', 'CryptGenRandom', 'CryptEncrypt', 'Crypt']",,,,,sub_14005C390,['CreateFile'],,
+sub_140019150,This function appears to implement a block-based encryption algorithm with operations such as bit rotations and XORs consistent with the structure of symmetric encryption algorithms like ChaCha20.,,,,,,,,

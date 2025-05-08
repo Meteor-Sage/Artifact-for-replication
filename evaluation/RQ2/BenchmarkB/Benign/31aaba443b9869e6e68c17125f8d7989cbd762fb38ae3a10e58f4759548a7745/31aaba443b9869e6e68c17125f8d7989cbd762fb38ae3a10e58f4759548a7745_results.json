@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40E611();",
+            "is_crypto_fun": false,
+            "description": "This function is used for generating a security cookie, which is typically employed in buffer overflow protection. This is not an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "TopLevelExceptionFilter",
+            "is_crypto_fun": false,
+            "description": "This function handles specific exception scenarios and potentially terminates the program. It does not perform any encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40DB6F();",
+            "is_crypto_fun": false,
+            "description": "Function sets an exception filter, not related to encryption or data modification."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40ECF8();",
+            "is_crypto_fun": false,
+            "description": "This function appears to be handling program arguments and does not perform any encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4072FA",
+            "is_crypto_fun": false,
+            "description": "Does not perform any encryption or significant content modification operations. Primarily involves checks and initializations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401B61();",
+            "is_crypto_fun": false,
+            "description": "The function appears to handle some startup operations and environment checks, but it does not perform any cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40AA65(a1);",
+            "is_crypto_fun": false,
+            "description": "This function does not seem to perform encryption or any content modification related to encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40543A(a1);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform a check or validation on structures or file headers, specifically looking for certain identifying values. It does not involve cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_406A49(_DWORD *a1, unsigned int a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to iterate over a memory region and invoke function pointers. It does not perform any known cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40BFE1(int a1, int a2, int a3, int a4);",
+            "is_crypto_fun": false,
+            "description": "Function appears to display a system control panel applet, does not perform any encryption operations."
+        }
+    }
+]

@@ -1,0 +1,9 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_408DC4,['RijnDael_AES_LONG'],sub_41B240,"['RemoveFile', 'PathRemoveFileSpec', 'WriteFile']",sub_403C54,['FindFirstFile'],sub_412E9F,['CreateFile'],sub_4095BE,['Snapshot']
+sub_404AE7,['RijnDael_AES_inv_LONG'],sub_416D6F,['WriteFile'],sub_40947D,"['FindFirstFile', 'FindNextFile']",sub_417408,"['NtOpenFile', 'OpenFile']",sub_409FAC,['Snapshot']
+sub_401DFA,['RijnDael_AES_LONG'],sub_416A5F,['MoveFile'],,,sub_41B240,['CreateFile'],sub_40E3A7,['Snapshot']
+sub_40968B,"['CryptAcquireContext', 'CryptGenRandom', 'crypt', 'CryptReleaseContext', 'Crypt', 'bcrypt.dll']",,,,,sub_416D6F,['ReadFile'],,
+sub_41F96B,"['Crypt', 'CryptBinaryToString']",,,,,sub_416A5F,"['CreateFile', 'ReadFile']",,
+sub_40CEB7,Potential encryption or modification of data content read into memory. The use of bitwise operations and cyclic shifts suggest a cryptographic or hashing function.,,,,,,,,
+sub_41AA66,Potential encryption or modification of data content. The function uses multiple function calls and operations that suggest cryptographic processing or data transformation.,,,,,,,,
+sub_402EC0,"Potential encryption or modification of data content read into memory. The function includes various operations that are indicative of cryptographic processing, such as memory manipulation, bitwise operations, and calls to other functions that suggest handling of cryptographic or encoded data.",,,,,,,,

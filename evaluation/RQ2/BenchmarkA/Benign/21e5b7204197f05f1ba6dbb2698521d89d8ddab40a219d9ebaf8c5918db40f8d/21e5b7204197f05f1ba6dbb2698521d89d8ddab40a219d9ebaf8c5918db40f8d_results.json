@@ -1,0 +1,93 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14BCB7814()",
+            "is_crypto_fun": false,
+            "description": "This function modifies the security cookie using various system parameters, but it does not perform encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14E610950(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "Function modifies memory content, potentially comprising memory management and array manipulation but does not contain known cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14A539724(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function sub_14A539724 performs some memory or data manipulation but does not exhibit characteristics of standard encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1476AD144(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform bit manipulation and shifting operations on its input, but it does not resemble standard encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1465A5C64(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be calling _crtGetStringTypeW, which is related to string type information retrieval, not an encryption function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14DF7A608(a1);",
+            "is_crypto_fun": false,
+            "description": "The function is not performing encryption operations. It is performing bitwise operations, conditional checks, and returning modified values based on the conditions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14A50D6E0",
+            "is_crypto_fun": false,
+            "description": "Function appears to be checking and manipulating pointers and memory offsets, but it does not show any characteristics of a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14EEF1680(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to handle memory management, including allocation and data copying, but there is no indication that it performs cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14152CD18(__int64 a1, _WORD *a2, __int64 a3, __int16 *a4);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be manipulating memory and handling string or buffer operations. There are no evident encryption or cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1476AD848(a1);",
+            "is_crypto_fun": false,
+            "description": "The function performs bitwise operations on a set of unsigned 16-bit integers but does not exhibit characteristics of a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1466345DC",
+            "is_crypto_fun": false,
+            "description": "The function primarily processes and modifies arrays of 64-bit integers, adjusting memory and handling exceptions, without clear indications of cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14DF7AE90(__int64 *a1, __int64 a2, __int64 a3, __int64 a4);",
+            "is_crypto_fun": false,
+            "description": "Function appears to handle memory management and data structure operations rather than performing cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_147D4C1C0",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform operations involving memory management, array resizing, and element rearrangement. It does not exhibit typical patterns of an encryption algorithm."
+        }
+    }
+]

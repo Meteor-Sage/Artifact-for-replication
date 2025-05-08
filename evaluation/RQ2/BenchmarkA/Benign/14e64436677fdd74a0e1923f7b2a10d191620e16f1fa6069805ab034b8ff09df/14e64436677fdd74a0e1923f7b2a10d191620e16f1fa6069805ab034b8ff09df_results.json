@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4078A5();",
+            "is_crypto_fun": false,
+            "description": "Empty function with no operations inside."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408E00",
+            "is_crypto_fun": false,
+            "description": "Function related to initializing and retrieving main arguments, not an encryption function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4028CA()",
+            "is_crypto_fun": false,
+            "description": "The function is involved in dynamically loading a library and invoking a function from that library. It does not perform encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_406B24()",
+            "is_crypto_fun": false,
+            "description": "This function does not perform any encryption operations. It appears to generate some kind of system-specific unique value based on various system calls and timestamps."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_404DBB",
+            "is_crypto_fun": false,
+            "description": "The function appears to calculate power for a double value, including the handling of negative exponents and special cases like infinity and NaN. It does not perform any cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F27E()",
+            "is_crypto_fun": false,
+            "description": "The function appears to be initializing memory and calling other functions, but there's no discernible encryption activity."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F0AF()",
+            "is_crypto_fun": false,
+            "description": "The function analyzed does not appear to perform encryption or modification of data content associated with known encryption algorithms. It appears to perform checks and configurations, potentially setting application types and invoking other functions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40733E();",
+            "is_crypto_fun": false,
+            "description": "No operation is being performed in the function; hence, it is not an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40025D(unsigned int *a1);",
+            "is_crypto_fun": false,
+            "description": "The function appears to deal with image processing using GIMP procedures, handling pixel region manipulations, color transformations and drawing operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4048D8(__int64 a1, int a2, unsigned int *a3, _DWORD *a4, _QWORD *a5);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be manipulating data and UI elements related to a GIMP plugin, but there are no indications of encryption or cryptographic processes."
+        }
+    }
+]

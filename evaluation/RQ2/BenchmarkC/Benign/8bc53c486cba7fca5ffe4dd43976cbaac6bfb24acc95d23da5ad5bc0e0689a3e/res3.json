@@ -1,0 +1,35 @@
+{
+    "sub_123": {
+        "nodes": {
+            "1": "tmainCRTStartup",
+            "3": "sub_40C751",
+            "9": "sub_4043B4",
+            "12": "wWinMain",
+            "34": "sub_409E3E"
+        },
+        "edges": [
+            [
+                "sub_409E3E",
+                "sub_4043B4"
+            ],
+            [
+                "sub_4043B4",
+                "sub_40C751"
+            ],
+            [
+                "wWinMain",
+                "sub_409E3E"
+            ],
+            [
+                "tmainCRTStartup",
+                "wWinMain"
+            ]
+        ],
+        "leafs": [
+            "sub_40C751"
+        ]
+    },
+    "paths_123_1": [],
+    "paths_123_2": [],
+    "paths_123_3": []
+}

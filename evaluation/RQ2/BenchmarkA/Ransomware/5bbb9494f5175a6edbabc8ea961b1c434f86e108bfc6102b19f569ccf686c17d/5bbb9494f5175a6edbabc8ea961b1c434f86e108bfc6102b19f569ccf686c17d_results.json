@@ -1,0 +1,107 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14F06E484",
+            "is_crypto_fun": false,
+            "description": "This function appears to be related to the destruction of a wide character file buffer object and does not involve cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14E1E51D0(a1)",
+            "is_crypto_fun": false,
+            "description": "The function appears to be related to freeing up memory resources and resetting pointers rather than performing encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14E610700",
+            "is_crypto_fun": false,
+            "description": "The function seems to allocate memory and perform operations based on certain conditions. There is no evidence of encryption algorithm usage such as AES, RSA, TEA, DES, or similar cryptographic routines."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14E1E5380",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform memory management and data movement operations, including dynamic allocation and conditional copying, rather than any recognizable encryption process."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_146634C00(__int64 *a1, unsigned __int64 a2, __int64 a3, __int64 a4);",
+            "is_crypto_fun": false,
+            "description": "This function deals with memory operations, allocation, and possibly manipulation of data structures, but it does not exhibit characteristics of known encryption functions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1463EDDA0(int **a1, __int64 a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform a basic bit manipulation operation, storing part of a byte from a given memory location into a new integer. It does not exhibit characteristics typical of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1481D5A90(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to handle reference counting and memory management involving Asio's random access handle object, but it does not demonstrate any typical characteristics of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14F4CC150(int *a1, char *a2, char *a3, unsigned int a4);",
+            "is_crypto_fun": true,
+            "description": "The function appears to implement a cryptographic operation involving bitwise rotations, additions, and XORs, which are characteristic operations used in encryption algorithms similar to stream or block ciphers, potentially resembling the structure of ChaCha or a related cipher."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1448465C0(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to initialize a structure or object, involve thread-related operations, and set up event handles. It does not include typical encryption operations like key expansion, block processing, or bitwise operations common in encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1491E02F0(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The function involves string or memory manipulations, comparisons, and possible content reallocation, but does not exhibit patterns typical of known encryption algorithms such as AES, RSA, TEA, DES, ChaCha, or RC4."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1491E0560(a1);",
+            "is_crypto_fun": false,
+            "description": "The function contains operations related to pointer arithmetic and comparison of memory regions, but it does not resemble a typical encryption algorithm. It appears to involve sequence comparison potentially related to paths or character sequences, not cryptographic functions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_146634780",
+            "is_crypto_fun": false,
+            "description": "The function appears to be involved in memory management and manipulation, such as allocating new memory blocks and copying data between different memory regions. It does not exhibit characteristics typical of cryptographic operations like AES, RSA, etc."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14025CB20",
+            "is_crypto_fun": false,
+            "description": "The function primarily involves memory allocation and data copy operations. It appears to manage data blocks or records by manipulating pointers and object memory states rather than performing encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1487F1840(__int64 *a1, int a2, void **a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to manage memory and potentially manipulate data structures with various operations, but it doesn't show clear indications of being a conventional encryption algorithm like AES, RSA, or similar. It involves operations such as copying, comparing, and possibly sorting elements with comprehensions on memory, which might be for data structure manipulation or internal sorting/ordering operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_149F26330",
+            "is_crypto_fun": true,
+            "description": "This function appears to perform encryption or encoding operations with numerous data transformations and processing. It includes repetitive operations on arrays and involves calls to functions such as sub_145619850 for data transformation, which is indicative of cryptographic manipulation."
+        }
+    }
+]

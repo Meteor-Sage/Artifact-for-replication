@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_18AF7B7D0(HWND a1);",
+            "is_crypto_fun": false,
+            "description": "The function appears to involve manipulation of unsigned integer values and possibly interacts with dialog components. There is no indication of cryptographic operations here."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_18C3DB060",
+            "is_crypto_fun": false,
+            "description": "The function appears to compare two arrays of unsigned 16-bit integers, potentially with case insensitive comparison. It does not exhibit typical operations of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "NtCurrentPeb()",
+            "is_crypto_fun": false,
+            "description": "The function retrieves the Process Environment Block (PEB) of the current process. It is not related to encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_18C3DB4A0(unsigned __int16 *a1);",
+            "is_crypto_fun": false,
+            "description": "This function seems to be dealing with list traversal and comparison, which does not indicate encryption or data modification typical of cryptographic functions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_18C3DB8E0(const WCHAR *a1);",
+            "is_crypto_fun": false,
+            "description": "This function displays a message box with the given string. It does not perform any encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_18C3DB520(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "Function performs a string comparison and index lookup within a data structure, suggesting it does not involve cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_18C3DB910(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "This function displays a message box using MessageBoxA and does not perform any encryption or modification of data content."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_18C3DB020(_WORD *a1);",
+            "is_crypto_fun": false,
+            "description": "This function counts the number of elements in a wide character string. It does not perform encryption or content modification."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_18AF7B930(a1, a2, a3, a4, a5);",
+            "is_crypto_fun": false,
+            "description": "The function appears to format and display color values and coordinates, indicating it is used for logging or display purposes, rather than encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "DialogFunc",
+            "is_crypto_fun": false,
+            "description": "This function appears to handle a dialog interaction within an application, including resource loading, checks, and possibly some obfuscation using XOR. There is no clear indication of it implementing a standard encryption algorithm like AES, RSA, or others listed."
+        }
+    }
+]

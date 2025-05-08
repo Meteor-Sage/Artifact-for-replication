@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4095AE();",
+            "is_crypto_fun": false,
+            "description": "Function calls an error exit routine. There is no indication of encryption or data content modification."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "WinMain",
+            "is_crypto_fun": false,
+            "description": "Standard Windows main entry point function, not performing any cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40CABB();",
+            "is_crypto_fun": false,
+            "description": "This function does not perform encryption. It retrieves a value from Thread Local Storage and potentially frees the associated memory."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4083F9(signed int *a1);",
+            "is_crypto_fun": false,
+            "description": "The function appears to manipulate memory content and configuration, but does not directly indicate encryption or decryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408F9B();",
+            "is_crypto_fun": false,
+            "description": "Function exits with an error message. Not related to encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40AB10",
+            "is_crypto_fun": false,
+            "description": "This function appears to handle numerical formatting and localization, converting numbers to a string format. There are no apparent cryptographic operations such as encryption or decryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D7AE(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function performs a simple conditional arithmetic operation and does not involve any encryption or modification of data content related to encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4043DB",
+            "is_crypto_fun": false,
+            "description": "This function appears to be involved in locale-aware formatting and conversion of numerical data to a wide-character string, not in encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_405246(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "Simple arithmetic manipulation based on a condition, not related to encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40267D(a1, a2, a3, a4, a5, a6, a7);",
+            "is_crypto_fun": false,
+            "description": "This function appears to process numeric input, potentially considering special numeric formats and locale settings. It does not implement a known encryption algorithm."
+        }
+    }
+]

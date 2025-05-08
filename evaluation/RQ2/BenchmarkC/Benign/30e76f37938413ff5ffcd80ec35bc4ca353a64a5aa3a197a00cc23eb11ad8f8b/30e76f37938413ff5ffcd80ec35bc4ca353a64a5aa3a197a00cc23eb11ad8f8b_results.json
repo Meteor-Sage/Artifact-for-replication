@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401B62()",
+            "is_crypto_fun": false,
+            "description": "This function calls another function sub_40CAB3 with _onexit_t as an argument, which does not indicate any encryption-related operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40852F",
+            "is_crypto_fun": false,
+            "description": "Function does not appear to perform any encryption or cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_402EF4(int this, unsigned int a2);",
+            "is_crypto_fun": false,
+            "description": "Does not appear to be related to any known encryption algorithms. Instead, it seems to be manipulating data structures and memory pointers."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40C301",
+            "is_crypto_fun": false,
+            "description": "This function appears to generate a security cookie based on various system-specific values. It is not performing encryption but rather generating a value likely used for security purposes such as detecting buffer overflows."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_403007",
+            "is_crypto_fun": false,
+            "description": "This function does not appear to perform any known encryption operations or modify data content in a way typical of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_407775(int a1, char *a2, IID *rclsid, char *Src, _DWORD *a5);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be dealing with object initialization and handling of data structures rather than performing encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40AB5D(this, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to handle resizing and copying memory content, but does not exhibit characteristics of a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4004EA(int this, unsigned int a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to manage memory allocation or buffer usage based on conditions, but it does not exhibit characteristics typical of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40B81B(this, a2, Size);",
+            "is_crypto_fun": false,
+            "description": "This function does not appear to perform any encryption. It seems to be allocating memory, copying data, and modifying pointers."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4040F7(a1, a2, Src, a4);",
+            "is_crypto_fun": false,
+            "description": "The function appears to handle memory operations, such as checks, possible modifications, and copying data, but no cryptographic operations are evident."
+        }
+    }
+]

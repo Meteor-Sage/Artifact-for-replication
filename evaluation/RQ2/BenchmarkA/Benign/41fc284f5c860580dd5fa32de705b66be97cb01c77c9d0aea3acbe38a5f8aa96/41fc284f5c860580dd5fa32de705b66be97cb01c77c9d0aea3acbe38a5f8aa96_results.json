@@ -1,0 +1,79 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4071E4();",
+            "is_crypto_fun": false,
+            "description": "The function appears to be related to STL data structure operations and does not perform encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "delete",
+            "is_crypto_fun": false,
+            "description": "This function performs memory management and deletion operations on tree nodes, but it is not related to any known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_406F84()",
+            "is_crypto_fun": false,
+            "description": "This function appears to generate or manipulate a value based on various system parameters. It does not seem to implement any known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40703D",
+            "is_crypto_fun": false,
+            "description": "This function primarily deals with file path operations, attribute checks, and memory allocations, without any evident cryptographic content."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408D76(const char **a1, char a2);",
+            "is_crypto_fun": false,
+            "description": "No indication of encryption or data content modification commonly associated with cryptographic functions. Appears to involve output or type casting operations instead."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_405F26(a1);",
+            "is_crypto_fun": false,
+            "description": "This function appears to be related to file handling, directory searching, and string operations rather than encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "std::_Rb_tree<std::string,std::pair<std::string const,std::string>,std::_Select1st<std::pair<std::string const,std::string>>,std::less<std::string>,std::allocator<std::pair<std::string const,std::string>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&,std::tuple<std::string const&>,std::tuple<>>(_QWORD *a1, __int64 a2, __int64 a3, const std::string **a4);",
+            "is_crypto_fun": false,
+            "description": "This function manages placement and insertion of elements within an associative container (like a balanced tree) and does not perform cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40B71F(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "This function reads data from a file into memory and possibly modifies it, but it does not appear to perform encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "rpl_stat",
+            "is_crypto_fun": false,
+            "description": "The function 'rpl_stat' is involved in handling file status information using the _stat64 function. It readjusts and modifies the file path string to attempt different variations if the initial file status attempt fails. The function does not perform cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "std::_Rb_tree<std::string,std::pair<std::string const,std::string>,std::_Select1st<std::pair<std::string const,std::string>>,std::less<std::string>,std::allocator<std::pair<std::string const,std::string>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&,std::tuple<std::string &&>,std::tuple<>>",
+            "is_crypto_fun": false,
+            "description": "This function appears to be related to insertion and management in a red-black tree structure for string pairs in C++. It does not exhibit characteristics of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "main;",
+            "is_crypto_fun": false,
+            "description": "Function does not appear to implement cryptographic operations such as AES, RSA, TEA, DES, ChaCha, or RC4."
+        }
+    }
+]

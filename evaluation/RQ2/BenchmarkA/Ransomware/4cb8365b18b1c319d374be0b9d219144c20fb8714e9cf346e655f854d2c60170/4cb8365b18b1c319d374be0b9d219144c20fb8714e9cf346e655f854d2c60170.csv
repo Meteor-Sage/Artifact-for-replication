@@ -1,0 +1,5 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+main,"['CryptAcquireContext', 'CryptStringToBinary', 'CryptReleaseContext', 'crypt', 'Crypt']",sub_140017900,['WriteFile'],sub_1400341B4,['FindNextFile'],sub_140017B20,['ReadFile'],,
+sub_14005C390,"['crypt', 'Encrypt', 'CryptGenRandom', 'CryptEncrypt', 'Crypt']",,,,,sub_14005C390,['CreateFile'],,
+sub_140019150,"The function appears to implement a cryptographic operation involving bitwise rotations, additions, and XORs, which are characteristic operations used in encryption algorithms similar to stream or block ciphers, potentially resembling the structure of ChaCha or a related cipher.",,,,,,,,
+sub_140003330,"This function appears to perform encryption or encoding operations with numerous data transformations and processing. It includes repetitive operations on arrays and involves calls to functions such as sub_140015850 for data transformation, which is indicative of cryptographic manipulation.",,,,,,,,

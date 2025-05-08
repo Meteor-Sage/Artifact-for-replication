@@ -1,0 +1,82 @@
+[
+    {
+        "Function": "sub_40C9D4",
+        "Total XOR and shift operations": 4,
+        "XOR operations": 4,
+        "Shift operations": 0,
+        "Operation percentage": "8.89%",
+        "Function Body": "\nunsigned __int64 sub_40C9D4()\n{\n  unsigned __int64 result; // rax\n  struct _FIE416ME v1; // r12\n  __int64 CurrentProcessId; // rbp\n  DWORD CurrentThreadId; // edi\n  DWORD TickCount; // esi\n  LOFE2CNG v5; // rsi\n  struct _FIE416ME SystemTimeAsFileTime; // [rsp+20h] [rbp-48h] BYREF\n  LARGE_IN123ER PerformanceCount; // [rsp+30h] [rbp-38h] BYREF\n\n  result = 0x2B7842DF68A7i64;\n  SystemTimeAsFileTime = 0i64;\n  if ( qword_40FCA6 == 0x2B7842DF68A7i64 )\n  {\n    GetSystemTimeAsFileTime(&SystemTimeAsFileTime);\n    v1 = SystemTimeAsFileTime;\n    CurrentProcessId = GetCurrentProcessId();\n    CurrentThreadId = GetCurrentThreadId();\n    TickCount = GetTickCount();\n    QueryPerformanceCounter(&PerformanceCount);\n    v5 = (TickCount ^ CurrentThreadId ^ PerformanceCount.QuadPart ^ *(_QWORD *)&v1 ^ CurrentProcessId) & 0xFF9F59FF9F59i64;\n    if ( v5 == 0x2B7842DF68A7i64 )\n    {\n      result = 0xFFF1D1663EC55DCCui64;\n      v5 = 0x2B7842DF6563i64;\n    }\n    else\n    {\n      result = ~v5;\n    }\n    qword_40FCA6 = v5;\n    qword_400150 = result;\n  }\n  else\n  {\n    qword_400150 = ~qword_40FCA6;\n  }\n  return result;\n}\n// 40FCA6: using guessed type __int64 qword_40FCA6;\n// 400150: using guessed type __int64 qword_400150;\n\n"
+    },
+    {
+        "Function": "sub_40D1BE",
+        "Total XOR and shift operations": 1,
+        "XOR operations": 0,
+        "Shift operations": 1,
+        "Operation percentage": "1.89%",
+        "Function Body": "\n__int64 __fastcall sub_40D1BE(unsigned int a1, unsigned int a2, __int64 a3, __int64 a4, int a5)\n{\n  int v5; // edi\n  int v6; // ecx\n  int v7; // r15d\n  __int64 v9; // [rsp+50h] [rbp-98h]\n  unsigned int image; // [rsp+5Ch] [rbp-8Ch]\n  char v11[4]; // [rsp+60h] [rbp-88h] BYREF\n  char v12[4]; // [rsp+64h] [rbp-84h] BYREF\n  char v13[4]; // [rsp+68h] [rbp-80h] BYREF\n  int v14; // [rsp+6Ch] [rbp-7Ch] BYREF\n  char v15[32]; // [rsp+70h] [rbp-78h] BYREF\n\n  g_snprintf(v15, 32i64, \"%d\", a2);\n  v9 = gimp_drawable_get(a1);\n  image = gimp_item_get_image(a1);\n  v5 = 2 * (a5 / 10);\n  if ( a5 / 10 <= 0 )\n    v5 = 2;\n  v6 = 0;\n  do\n  {\n    v7 = v6 + 1;\n    if ( (unsigned int)gimp_text_get_extents_fontname(\n                         v15,\n                         (unsigned int)-((v6 + 1) >> 1),\n                         0i64,\n                         aMonospace,\n                         v11,\n                         v12,\n                         v13,\n                         &v14) )\n      break;\n    v6 = v7;\n  }\n  while ( v7 <= v5 );\n  if ( (unsigned int)gimp_text_fontname(image, a1) == -1 )\n    g_log(0i64, 32i64, \"draw_number: Error in drawing text\\n\");\n  return gimp_drawable_detach(v9);\n}\n// 409203: using guessed type __int64 __fastcall gimp_text_get_extents_fontname(_QWORD, _QWORD, _QWORD, _QWORD, _QWORD, _QWORD, _QWORD, _QWORD);\n// 40EFD2: using guessed type __int64 __fastcall gimp_text_fontname(_QWORD, _QWORD);\n// 40EC09: using guessed type __int64 __fastcall gimp_item_get_image(_QWORD);\n// 400B3F: using guessed type __int64 __fastcall gimp_drawable_get(_QWORD);\n// 402BA6: using guessed type __int64 __fastcall gimp_drawable_detach(_QWORD);\n// 40221F: using guessed type __int64 g_snprintf(_QWORD, _QWORD, const char *, ...);\n// 407E49: using guessed type __int64 __fastcall g_log(_QWORD, _QWORD, _QWORD);\n// 40D1BE: using guessed type char var_80[4];\n// 40D1BE: using guessed type char var_84[4];\n// 40D1BE: using guessed type char var_88[4];\n\n"
+    },
+    {
+        "Function": "sub_40F0AF",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n// write access to const memory has been detected, the output may be wrong!\n__int64 sub_40F0AF()\n{\n  BOOL v0; // edx\n  __int16 v2; // cx\n\n  v0 = 0;\n  unk_4087F9 = 1;\n  unk_40AF76 = 1;\n  unk_40C975 = 1;\n  unk_402460 = 1;\n  if ( ME7909[0x40F0D8] == 23117 && *(_DWORD *)(ME7909[0x40B15B] + 0x40F0D8i64) == 17744 )\n  {\n    v2 = *(_WORD *)(ME7909[0x40B15B] + 0x40D2CCi64);\n    if ( v2 == 267 )\n    {\n      if ( *(_DWORD *)(ME7909[0x40B15B] + 0x40F067i64) > 0xEu )\n        v0 = *(_DWORD *)(ME7909[0x40B15B] + 0x40DE97i64) != 0;\n    }\n    else if ( v2 == 523 && *(_DWORD *)(ME7909[0x40B15B] + 0x4066F1i64) > 0xEu )\n    {\n      v0 = *(_DWORD *)(ME7909[0x40B15B] + 0x406AA7i64) != 0;\n    }\n  }\n  dword_40F4D1 = v0;\n  if ( unk_4096A3 )\n    _set_app_type(_crt_gui_app);\n  else\n    _set_app_type(_crt_console_app);\n  qword_402294 = sub_40FDA4(-1i64);\n  qword_40A2E2 = qword_402294;\n  _fmode = unk_403723;\n  sub_40440A();\n  if ( unk_401516 == 1 )\n    sub_407F21((_UserMathErrorFunctionPointer)sub_405C1E);\n  return 0i64;\n}\n// 4023EB: write access to const memory at 40FE98 has been detected\n// 40F0AF: using guessed type __int64 sub_40F0AF();\n// 40440A: using guessed type __int64 sub_40440A(void);\n// 40F4D1: using guessed type int dword_40F4D1;\n// 40A2E2: using guessed type __int64 qword_40A2E2;\n// 402294: using guessed type __int64 qword_402294;\n\n"
+    },
+    {
+        "Function": "sub_408E00",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 sub_408E00()\n{\n  __int64 result; // rax\n\n  dword_40B99F = unk_40D6BF;\n  result = _getmainargs(&argc, &argv, &envp, unk_4046AB, &dword_40B99F);\n  dword_40E52F = result;\n  return result;\n}\n// 408E00: using guessed type __int64 sub_408E00();\n// 403FAC: using guessed type __int64 __fastcall _getmainargs(_QWORD, _QWORD, _QWORD, _QWORD, _QWORD);\n// 40B99F: using guessed type int dword_40B99F;\n// 40E52F: using guessed type int dword_40E52F;\n\n"
+    },
+    {
+        "Function": "sub_40F27E",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 sub_40F27E()\n{\n  unk_4096A3 = 0;\n  sub_40C9D4();\n  return sub_401FD0();\n}\n// 401FD0: using guessed type __int64 sub_401FD0(void);\n// 40F27E: using guessed type __int64 sub_40F27E();\n\n"
+    },
+    {
+        "Function": "sub_4078A5",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nvoid sub_4078A5()\n{\n  ;\n}\n\n"
+    },
+    {
+        "Function": "sub_4028CA",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 sub_4028CA()\n{\n  HME51CE ModuleHandleA; // rax\n  FAFB8CC ProcAddress; // rax\n\n  if ( qword_409C02 )\n  {\n    ModuleHandleA = GetModuleHandleA(\"libgcj-16.dll\");\n    if ( ModuleHandleA )\n    {\n      ProcAddress = GetProcAddress(ModuleHandleA, \"_Jv_RegisterClasses\");\n      if ( ProcAddress )\n        ((void (__fastcall *)(__int64 *))ProcAddress)(&qword_409C02);\n    }\n    else\n    {\n      ((void (__fastcall *)(__int64 *))sub_4078A5)(&qword_409C02);\n    }\n  }\n  return sub_408EAA((int (__cdecl *)())sub_40733E);\n}\n// 4028CA: using guessed type __int64 sub_4028CA();\n// 409C02: using guessed type __int64 qword_409C02;\n\n"
+    },
+    {
+        "Function": "sub_40733E",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\nvoid sub_40733E()\n{\n  ;\n}\n\n"
+    },
+    {
+        "Function": "sub_40025D",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 __fastcall sub_40025D(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return g_strlcpy(a4 + 136, a2, 256i64);\n}\n// 40F8F9: using guessed type __int64 __fastcall g_strlcpy(_QWORD, _QWORD, _QWORD);\n\n"
+    },
+    {
+        "Function": "sub_4049D9",
+        "Total XOR and shift operations": 0,
+        "XOR operations": 0,
+        "Shift operations": 0,
+        "Operation percentage": "0.00%",
+        "Function Body": "\n__int64 __fastcall sub_4049D9(__int64 a1, __int64 a2)\n{\n  __int64 selected_rows; // rbp\n  _QWORD *v3; // rbx\n  __int64 type; // rdi\n  __int64 v5; // rax\n  __int64 v6; // r15\n  unsigned int v7; // r14d\n  __int64 v8; // rax\n  unsigned int v10; // [rsp+4Ch] [rbp-7Ch] BYREF\n  __int64 v11; // [rsp+50h] [rbp-78h] BYREF\n  __int64 v12; // [rsp+58h] [rbp-70h] BYREF\n  char v13[104]; // [rsp+60h] [rbp-68h] BYREF\n\n  selected_rows = gtk_tree_selection_get_selected_rows(a2, &v11);\n  v3 = (_QWORD *)selected_rows;\n  if ( selected_rows )\n  {\n    do\n    {\n      if ( (unsigned int)gtk_tree_model_get_iter(v11, v13, *v3) )\n      {\n        gtk_tree_model_get(v11, v13, 0i64, &v10, 1, &v12, -1);\n        type = gtk_list_store_get_type();\n        v5 = g_type_check_instance_cast(qword_409926, type);\n        gtk_list_store_append(v5, v13);\n        v6 = v12;\n        v7 = v10;\n        v8 = g_type_check_instance_cast(qword_409926, type);\n        gtk_list_store_set(v8, v13, 0i64, v7, 1, v6, -1);\n        g_free(v12);\n      }\n      gtk_tree_path_free(*v3);\n      v3 = (_QWORD *)v3[1];\n    }\n    while ( v3 );\n  }\n  return g_list_free(selected_rows);\n}\n// 40A2E5: using guessed type __int64 __fastcall gtk_tree_selection_get_selected_rows(_QWORD, _QWORD);\n// 40B165: using guessed type __int64 __fastcall gtk_tree_path_free(_QWORD);\n// 40B7EA: using guessed type __int64 __fastcall gtk_tree_model_get_iter(_QWORD, _QWORD, _QWORD);\n// 407E56: using guessed type __int64 __fastcall gtk_tree_model_get(_QWORD, _QWORD, _QWORD, _QWORD, _DWORD, _QWORD, _DWORD);\n// 40ED7F: using guessed type __int64 __fastcall gtk_list_store_set(_QWORD, _QWORD, _QWORD, _QWORD, _DWORD, _QWORD, _DWORD);\n// 40A702: using guessed type __int64 gtk_list_store_get_type(void);\n// 40A28D: using guessed type __int64 __fastcall gtk_list_store_append(_QWORD, _QWORD);\n// 40AF35: using guessed type __int64 __fastcall g_type_check_instance_cast(_QWORD, _QWORD);\n// 40B6CA: using guessed type __int64 __fastcall g_list_free(_QWORD);\n// 402F89: using guessed type __int64 __fastcall g_free(_QWORD);\n// 409926: using guessed type __int64 qword_409926;\n\n"
+    }
+]

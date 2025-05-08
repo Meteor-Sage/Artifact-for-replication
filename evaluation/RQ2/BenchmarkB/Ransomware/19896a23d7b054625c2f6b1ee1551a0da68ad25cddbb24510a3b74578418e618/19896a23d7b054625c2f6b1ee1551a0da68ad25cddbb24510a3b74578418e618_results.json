@@ -1,0 +1,114 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14001CA20(a1);",
+            "is_crypto_fun": false,
+            "description": "The function does not appear to implement any specific encryption algorithm. It performs certain memory operations and synchronization mechanisms like locking or entering a critical section, depending on the value of 'a1'."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14001B6D0()",
+            "is_crypto_fun": false,
+            "description": "This function modifies the security cookie for stack protection purposes, using various system information to seed a new value. It is not an encryption function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14001CA70(a1);",
+            "is_crypto_fun": false,
+            "description": "This function is not an encryption algorithm. It appears to be related to managing critical sections or unlocking mechanisms, possibly involving memory or threading operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1400050D8",
+            "is_crypto_fun": false,
+            "description": "This function appears to handle memory and data movements without any direct encryption. It includes operations such as pointer arithmetic, memory allocation, and data reorganization, but lacks the classic characteristics of encryption algorithms like key-dependent transformations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14000D574(__int128 *a1, _OWORD *a2, __int64 a3);",
+            "is_crypto_fun": false,
+            "description": "The function performs bit manipulation and arithmetic operations, particularly involving shifts and conditions. It does not resemble a typical encryption algorithm structure."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14001BE90",
+            "is_crypto_fun": false,
+            "description": "The function appears to be performing memory operations involving a security cookie and pointer manipulation rather than implementing a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14000D5EC(__int128 *a1, _OWORD *a2, __int64 a3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to manipulate or transform data, possibly involving bitwise operations and arithmetic, but does not exhibit characteristics typical of standard encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14001423C(unsigned __int64 *a1, unsigned __int64 a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to manipulate or adjust memory content, but does not exhibit direct characteristics of a standard encryption algorithm. The operations involve memory moving with a condition and bitwise manipulation which are not indicative of cryptographic data transformations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140015F28(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform various arithmetic and memory manipulation tasks, but lacks the typical operations associated with known encryption algorithms like AES, RSA, TEA, DES, ChaCha, or RC4. It modifies values based on conditions and employs other functions (sub_14000D5EC, sub_14000462C, sub_14001423C), the purposes of which are unclear without additional context, but there's no indication of cryptographic processes."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14001C294()",
+            "is_crypto_fun": false,
+            "description": "The function is involved in processor feature detection and capability settings, using CPUID instruction. It checks for specific CPU features and sets flags accordingly, but does not perform encryption or data content modification characteristic of cryptographic algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140004A2C(_QWORD *a1, _QWORD *a2, unsigned __int64 *a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be involved in memory manipulation and data structure reorganization rather than performing encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1400046DC(_QWORD *a1, _QWORD *a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be manipulating data structures with pointers and involves memory operations. It does not resemble known encryption algorithms as it lacks characteristic components such as key management, encryption rounds, or mathematical transformations typical of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140004BD8(_QWORD *a1, _QWORD *a2, __int64 *a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to manipulate memory by relocating blocks and adjusting pointers but does not exhibit characteristics of common encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140004884(_QWORD *a1, _QWORD *a2, __int64 *a3);",
+            "is_crypto_fun": false,
+            "description": "The function seems to deal with memory manipulation, with possible resizing and copying of data within specified limits. There are no apparent signs of known encryption algorithm structures or operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140018948(a1)",
+            "is_crypto_fun": false,
+            "description": "The function appears to primarily process and escape characters, including handling UTF-8 encoding and string validation. There is no evidence of cryptographic operations such as encryption algorithms (e.g., AES, RSA, TEA, etc.) being performed."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1400011A0(_QWORD *a1, _QWORD *a2, _QWORD *a3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform memory management and data manipulation operations, potentially involving resizing memory allocations and copying data. It doesn't exhibit characteristics typical of known encryption algorithms."
+        }
+    }
+]

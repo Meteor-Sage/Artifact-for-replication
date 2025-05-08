@@ -1,0 +1,135 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_417204",
+            "is_crypto_fun": false,
+            "description": "The function appears to format and print data but does not exhibit any encryption characteristics."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41ABAF",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform arithmetic and bitwise operations, not indicative of a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_432EA6(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function checks a condition on two unsigned integers to determine if a second input falls within certain bounds relative to the first input."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4183EC",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform bitwise operations and array manipulations, but there is no clear indication it implements a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_420376(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be performing data manipulation based on given inputs and not performing encryption. It does not exhibit characteristics of well-known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4179FF(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be a form of iterative hash calculation or checksum, rather than a reversible encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_42F7FD(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform a search and comparison operation rather than encryption or modification of data content."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40A82A(a1, a2, a3, a4);",
+            "is_crypto_fun": false,
+            "description": "The function appears to handle memory manipulation and conditional copying of data, but there are no clear indicators of cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D277(int a1, _QWORD *a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to manipulate integer values and perform bitwise operations, but there is no indication that it is a cryptographic encryption function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_42ABF1(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform some kind of data content modification, potentially involving recursive operations and bitwise manipulation. However, it does not closely resemble known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4261EA(int a1);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform some complex mathematical operations and conditional logic involving arrays and constants, but it does not resemble any known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_437354",
+            "is_crypto_fun": false,
+            "description": "The function does not resemble a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_44B4A6",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function performs various bitwise operations and manipulations commonly seen in encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_447F08(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to involve bit manipulation, shifts and arithmetic operations which are not representative of a typical encryption function like AES, RSA, or related ciphers."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_426ABD",
+            "is_crypto_fun": true,
+            "description": "This function appears to contain a Base64 encoding algorithm, as it significantly interacts with a BA245B conversion table, performs character encoding, and handles the transformation of input data into a BA245B encoded format."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_423549(int a1, int a2, int a3, int *a4);",
+            "is_crypto_fun": false,
+            "description": "Function seems to be involved in data manipulation, handling specific values based on conditions and possibly interacting with memory, but it does not resemble any standard encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4261B5(int a1, _DWORD *a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to involve some type of base64 encoding or formatting rather than performing encryption. It uses a table 'BA245B_table_47D2D2' to map values, which is indicative of base64 encoding/decoding operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4357DB(_DWORD *a1, _DWORD *a2);",
+            "is_crypto_fun": false,
+            "description": "This function performs various data manipulations and transformations, but there are no clear indications that it follows a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_427E2A(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform decoding or conversion of character data based on a variety of conditions and transformations, rather than actual encryption operations. It does not seem to implement any known standard encryption algorithms."
+        }
+    }
+]

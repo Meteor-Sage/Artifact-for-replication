@@ -1,0 +1,4 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+main,"['CryptAcquireContext', 'CryptStringToBinary', 'crypt', 'Encrypt', 'CryptGenRandom', 'CryptEncrypt', 'Crypt']",sub_1400179D0,['WriteFile'],sub_140033DD4,['FindNextFile'],sub_140017BF0,['ReadFile'],,
+sub_14005C140,['crypt'],,,,,sub_14005C140,['CreateFile'],,
+sub_140019220,"This function appears to implement a variant of the ChaCha cipher algorithm. It includes several rounds of operations on data, involving bitwise XOR, addition, and rotation operations, which are characteristic of the ChaCha encryption algorithm.",,,,,,,,

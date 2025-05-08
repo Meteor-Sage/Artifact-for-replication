@@ -1,0 +1,86 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "cmpbody",
+            "is_crypto_fun": false,
+            "description": "The function `cmpbody` is analyzing and comparing memory content, rather than performing encryption. It seems to perform operations that involve comparing blocks of memory with vectorized instructions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "crypto_md5_block",
+            "is_crypto_fun": false,
+            "description": "This function is implementing a block transformation step of the MD5 hash algorithm, which is not considered an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "crypto_ed25519_internal_edwards25519_field_feMul",
+            "is_crypto_fun": true,
+            "description": "The function appears to perform a field multiplication operation which is part of the Edwards-curve Digital Signature Algorithm (EdDSA) implementation using Curve25519, a well-known elliptic curve in cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "crypto_sha1_blockAMD64",
+            "is_crypto_fun": false,
+            "description": "This function is related to SHA-1 hashing, which is not considered an encryption algorithm as it is an irreversible hash function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "project1_common_GetBlocksAmount",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform mathematical calculations and conditional logic for determining blocks amount. It does not resemble a standard encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "crypto_sha512_blockAVX2(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be specifically implementing an SHA-512 hashing block using AVX2 instructions, which involves cryptographic hash operations rather than encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "math_big_shlVU",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform a bitwise shift operation on large integers. It is not an encryption function, but instead deals with manipulation of data at the bit level, specifically shifting bits to the left."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "memeqbody",
+            "is_crypto_fun": false,
+            "description": "This function is used to compare memory blocks for equality rather than performing any encryption operation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "math_big_shrVU()",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform a bitwise right shift operation over an array of unsigned 64-bit integers. It does not exhibit characteristics of a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "countbody",
+            "is_crypto_fun": false,
+            "description": "The function 'countbody' appears to perform byte counting and comparison operations on data. It utilizes SIMD instructions to efficiently process data blocks but does not exhibit properties of an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "math_big_addMulVVW",
+            "is_crypto_fun": false,
+            "description": "This function appears to be performing large integer arithmetic operations, such as multiplication and addition. These types of operations are common in mathematical libraries and do not specifically indicate encryption functionality."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "crypto_ed25519_internal_edwards25519_field_feSquare",
+            "is_crypto_fun": true,
+            "description": "The function appears to perform field operations related to the Ed25519 cryptographic algorithm, particularly field squaring in the context of elliptic curve operations."
+        }
+    }
+]

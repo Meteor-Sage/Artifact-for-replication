@@ -1,0 +1,100 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40890E(int *a1, const void *a2);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory, with repeated XOR and bitwise rotation operations, indicating cryptographic behavior."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_404EB3(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The function primarily performs memory set operations and is not related to any encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408B6C",
+            "is_crypto_fun": true,
+            "description": "This function performs data modification using bitwise operations and tables likely associated with AES encryption (Rijndael algorithm)."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40AF23(int a1, _DWORD *a2, int a3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function appears to perform XOR operations on the data which is a common feature in encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_405E10(unsigned int a1);",
+            "is_crypto_fun": true,
+            "description": "This function appears to perform a series of iterative modifications on its input, resembling the structure of cryptographic algorithms such as TEA (Tiny Encryption Algorithm). The use of bitwise operations, addition, and iteration are characteristic of encryption functions."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40AEEF(int a1, int a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform bitwise operations on its input values but does not resemble a standard encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_406FE4(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "This function appears to implement a CRC32 hash calculation rather than an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40908F(a1, a2, a3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption function. This code involves bitwise rotations (ROL, ROR) and manipulations, which are common in block cipher encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40B0A4(_DWORD *a1);",
+            "is_crypto_fun": false,
+            "description": "This function primarily performs a large number of bit-wise XOR operations and shifts on the input data. While encryption algorithms may use similar operations, the lack of any recognizable encryption structure suggests that this is more likely a general data manipulation or transformation function rather than a well-known cryptographic algorithm such as AES, RSA, etc."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409E4B(int *a1, unsigned __int8 *a2);",
+            "is_crypto_fun": true,
+            "description": "This function appears to perform bitwise operations and data manipulation consistent with encryption algorithms, potentially involving complex bit shifts and masks."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409B7A(a1, a2);",
+            "is_crypto_fun": true,
+            "description": "The function shows multiple operations on data segments, bitwise shifts and logical operations that are characteristic of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40A87F(a1);",
+            "is_crypto_fun": false,
+            "description": "The function performs a series of arithmetic and bitwise operations, but there is no clear indication that it implements a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40A993(_DWORD *a1);",
+            "is_crypto_fun": false,
+            "description": "This function performs a series of bitwise and arithmetic operations on the input array. It does not resemble known cryptographic algorithms like AES, RSA, etc."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40BD39(const void *a1, char *a2, unsigned int a3);",
+            "is_crypto_fun": false,
+            "description": "The function provided appears to handle some form of data processing, especially around string parsing and copying operations. It does not clearly implement known encryption algorithms."
+        }
+    }
+]

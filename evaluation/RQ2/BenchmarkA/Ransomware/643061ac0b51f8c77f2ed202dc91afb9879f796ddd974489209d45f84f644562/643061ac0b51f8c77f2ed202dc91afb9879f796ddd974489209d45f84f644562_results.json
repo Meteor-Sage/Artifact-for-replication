@@ -1,0 +1,86 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1400837E0",
+            "is_crypto_fun": true,
+            "description": "This function appears to implement a block cipher-like operation, possibly involving rounds of transformations on the input data using XOR and byte-wise manipulations, indicative of encryption processing."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140048600(__m128i *a1, int a2);",
+            "is_crypto_fun": true,
+            "description": "The function appears to perform operations resembling a modified block cipher technique involving bit shifts and multiplications, indicative of complex data transformations, which are common in encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140067030",
+            "is_crypto_fun": false,
+            "description": "The function does not perform encryption operations, rather it seems to involve complex arithmetic and bit manipulation, possibly for indexing or other non-cryptographic purposes."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140065070(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform mathematical operations involving shifts, multiplications, and divisions on input values. However, there's no clear indication of an encryption algorithm being implemented."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14007CBA0",
+            "is_crypto_fun": true,
+            "description": "The function appears to perform operations similar to those found in encryption algorithms such as AES, including bitwise operations, shifts, and XOR with potential substitution steps. The use of constants like 0x1B is characteristic of AES and possibly indicates a finite field substitution or multiplication, which is common in block ciphers."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140083C10",
+            "is_crypto_fun": true,
+            "description": "This function appears to implement operations similar to cryptographic hashing functions, specifically those found in encryption algorithms like SHA-256. It involves a series of bitwise operations, rotations, and additions typical in cryptographic processes."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14007C9C0(unsigned int *a1, int a2);",
+            "is_crypto_fun": true,
+            "description": "The function appears to perform operations typical of encryption or cryptographic modifications, notably involving byte shuffling, use of substitution tables, and XOR operations which are common in block ciphers."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14007BEB0(int *a1, char *a2, char *a3, unsigned int a4);",
+            "is_crypto_fun": true,
+            "description": "The function appears to implement a cipher operation, involving bitwise operations, shifting, and XOR operations that resemble a block cipher structure like ChaCha. The function uses multiple rounds and processes blocks of data in a manner consistent with known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_140064DF0(double a1);",
+            "is_crypto_fun": false,
+            "description": "The function appears to manipulate numeric representations, potentially involving bitwise operations and floating-point manipulation. There are no apparent encryption-related operations such as use of keys or cryptographic primitives."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1400825C0",
+            "is_crypto_fun": true,
+            "description": "This function appears to be implementing an MD5 hash algorithm. The constants and operations match the pattern used in the MD5 hashing process, including bitwise operations and additions with specific constants."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_14007C690(__int64 a1, unsigned int *a2, __int64 a3, unsigned int *a4, __int64 a5);",
+            "is_crypto_fun": true,
+            "description": "The function appears to perform several bitwise operations and transformations on input data, which are characteristic of some encryption algorithms. The use of operations such as swapping bytes and XORing, combined with the handling of specific data sizes, suggests it could be related to a cryptographic process."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_1400472D0",
+            "is_crypto_fun": false,
+            "description": "This function performs various bit manipulation and memory operations, but it lacks any identifiable characteristics of common encryption algorithms."
+        }
+    }
+]

@@ -1,0 +1,13 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+WinMain,"['crypt', 'Encrypt']",sub_1400407A0,['WriteFile'],sub_140081BD4,['FindNextFile'],sub_1400409F0,['ReadFile'],,
+sub_140084010,['expand 32-byte kexpand 16-byte'],sub_14005C3E0,['WriteFile'],,,sub_1400B56E0,['CreateFile'],,
+sub_14008AE30,['RijnDael_AES_LONG'],sub_1400B6420,['DeleteFile'],,,sub_1400B6420,['CreateFile'],,
+sub_14008B110,['RijnDael_AES_LONG'],,,,,,,,
+sub_1400B6420,"['crypt', 'Crypt']",,,,,,,,
+sub_14008B6B0,"This function appears to perform operations similar to cryptographic processes, such as bitwise manipulations and rotations, commonly observed in encryption algorithms like SHA-256. The use of iterative transformations, mixing, and hashing of input data are indicative of encryption or cryptographic operations, albeit resembling hash functions.",,,,,,,,
+sub_14008B280,"The function performs bitwise operations and data transformation consistent with cryptographic techniques, potentially resembling block cipher operations using lookup tables and substitution. This might indicate some form of encryption algorithm.",,,,,,,,
+sub_140084640,"This function appears to be implementing a variant of a substitution-permutation network typically found in block ciphers, as evidenced by the operations resembling shift, XOR, and bit manipulation, which are characteristic of encryption routines such as those found in AES or similar algorithms.",,,,,,,,
+sub_140083950,"The function appears to implement a cryptographic operation, potentially an encryption or decryption algorithm, involving multiple rounds of operations on data blocks, which resembles characteristics of algorithms like ChaCha or Salsa.",,,,,,,,
+sub_140084460,"This function appears to perform complex bitwise operations and transformations on input data, possibly using substitution tables (S-boxes) which are common in encryption algorithms. The operations and structure suggest it may be an encryption function or part of an encryption process.",,,,,,,,
+sub_1400485F0,"This function performs complex arithmetic operations on data potentially resembling those used in certain encryption algorithms. It involves shifts, multiplications, bit manipulation, and conditional assignments with data stored in memory.",,,,,,,,
+sub_140084130,"The function appears to perform encryption-like operations including byte swapping and bitwise operations on input data, potentially part of a block cipher or data obfuscation process.",,,,,,,,

@@ -1,0 +1,8 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_4041A3,['Crypt'],sub_402315,['WriteFile'],sub_4029F7,"['FindFirstFile', 'FindNextFile']",sub_401CD2,['CreateFile'],,
+sub_404222,['Crypt'],sub_402525,['DeleteFile'],sub_40CD67,['FindFirstFile'],sub_401DF7,['ReadFile'],,
+sub_4047F4,"['crypt', 'Crypt', 'crypt32.dll']",sub_40D273,"['MoveFile', 'DeleteFile']",,,sub_401F07,['CreateFile'],,
+sub_40A3EC,"Potential encryption function involving XOR operations and table lookups, which suggest it is likely part of a stream or block cipher implementation.",,,,,sub_4026B1,['CreateFile'],,
+sub_401773,Potential encryption or modification of data content read into memory. This function appears to implement a form of CRC (cyclic redundancy check) or a similar operation.,,,,,sub_4047F4,"['CreateFile', 'ReadFile']",,
+,,,,,,sub_40C3C5,['CreateFile'],,
+,,,,,,WinMain,['OpenFile'],,
