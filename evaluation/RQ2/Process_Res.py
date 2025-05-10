@@ -105,10 +105,10 @@ def process_data(root_path, label):
 
 
 
-# process_data("./BenchmarkA/", 1)
-# process_data("./BenchmarkA/", 0)
-# process_data("./BenchmarkB/", 1)
-# process_data("./BenchmarkB/", 0)
+process_data("./BenchmarkA/", 1)
+process_data("./BenchmarkA/", 0)
+process_data("./BenchmarkB/", 1)
+process_data("./BenchmarkB/", 0)
 process_data("./BenchmarkC/", 1)
 process_data("./BenchmarkC/", 0)
 
