@@ -76,7 +76,7 @@ Our code can be download [here](cryptosence)
 
 ##### 00. environment:
 
-seen in [requirements.txt](cryptosence/requirements.txt)
+see [requirements.txt](cryptosence/requirements.txt)
 
 ##### 01. Setup:
 
