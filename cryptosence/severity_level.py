@@ -97,7 +97,6 @@ def analyze_function(type, orders):
                                     "description": "Upon analysis, there is no file data {des} behavior. The function exhibits no obvious malicious behavior."
                                  }}
                                  5) If you are ready, please reply 'Understood'.
-                                 {hyper_parameters.tips}
                                  '''},
                         {"role": "assistant", "content": "Understood"},
                         {"role": "user",
