@@ -1,0 +1,100 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_405067(a1, a2, a3)",
+            "is_crypto_fun": false,
+            "description": "This function performs memory setting using memset32 and memset. It is not an encryption function but rather modifies content in memory."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_407198(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform a CRC32 checksum calculation, which is a hash function and not an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40924A",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function performs bitwise operations, rotations, and uses a lookup table, which are common characteristics of cryptographic algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40B0AA(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "This function performs bitwise operations on the inputs but does not resemble known encryption algorithms such as AES, RSA, TEA, DES, ChaCha, or RC4."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408D27(a1, a2, a3, a4);",
+            "is_crypto_fun": true,
+            "description": "Potential AES encryption function based on data manipulation and usage of precomputed tables resembling Rijndael S-box."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40B0DE(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform a series of bitwise operations and data transformations. While it modifies the content read into memory, there is no indication that it implements a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_405FC4(a1);",
+            "is_crypto_fun": true,
+            "description": "The function appears to implement a Feistel-like structure involving bitwise operations, likely part of or similar to an encryption algorithm like TEA."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40A006(int *a1, unsigned __int8 *a2);",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform bitwise operations and data reorganization on input arrays but does not exhibit characteristics of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40B25F(_DWORD *a1);",
+            "is_crypto_fun": true,
+            "description": "The function performs a series of iterative bitwise operations and data transformation on the input array, indicative of cryptographic routines."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_408AC9(a1, a2);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function appears to perform multiple bitwise operations and rotations, which are characteristic of certain block cipher encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409D35(_BYTE *a1, int a2);",
+            "is_crypto_fun": false,
+            "description": "Function involves bit manipulation and arithmetic on data, but it does not clearly indicate a well-known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40AA3A(a1);",
+            "is_crypto_fun": true,
+            "description": "This function performs multiple bitwise operations, additions, subtractions, and shifts, which resemble common patterns found in cryptographic functions. The structure of the code, involving wrapping around specific bit lengths and specific mathematic manipulations, is indicative of cryptographic computations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40AB4E(a1);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content by iteratively manipulating memory content and processing results of various bitwise and arithmetic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40BEF4(a1, a2, a3);",
+            "is_crypto_fun": false,
+            "description": "The given function does not appear to implement any known encryption algorithm. It includes various data manipulations, conditional checks, and memory operations, but nothing conclusively points to it being a cryptographic function."
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_403203",
+            "is_crypto_fun": false,
+            "description": "The function does not indicate typical operations characteristic of encryption algorithms. It appears to involve memory allocation and modification without clear cryptographic operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40100C();",
+            "is_crypto_fun": false,
+            "description": "This function registers a function to be called at program exit. It is not an encryption function."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401338",
+            "is_crypto_fun": false,
+            "description": "The function does not exhibit characteristics typical of encryption algorithms. It appears to perform memory allocation, data modification, and management tasks."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401018();",
+            "is_crypto_fun": false,
+            "description": "This function sets up an exit handler but does not perform any encryption or data modification."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_403552",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or decryption involving bitwise operations and key schedule, likely indicating a lightweight encryption algorithm such as TEA (Tiny Encryption Algorithm)."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401070(size_t Size, int a2);",
+            "is_crypto_fun": false,
+            "description": "This function allocates memory of specified Size and does not represent any encryption or cryptographic operation."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401227(v1, v2, v3);",
+            "is_crypto_fun": false,
+            "description": "This function does not perform encryption. It appears to be handling memory allocation and copying, possibly resizing a string buffer."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41D008",
+            "is_crypto_fun": false,
+            "description": "The function appears to be performing bitwise operations and manipulations on data, potentially for some form of data transformation or interpretation, but it doesn't clearly follow known patterns of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40109A(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to allocate memory based on the size parameter. It does not perform any encryption or modify content in a way characteristic of encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_41CA96(unsigned __int16 *a1, _DWORD *a2);",
+            "is_crypto_fun": false,
+            "description": "This function appears to perform bit manipulation and shifting operations on some integer or floating-point values, likely related to exponent and significand adjustments. There are no clear indications that it incorporates traditional encryption algorithms such as AES, RSA, TEA, DES, Chacha, or RC4."
+        }
+    }
+]

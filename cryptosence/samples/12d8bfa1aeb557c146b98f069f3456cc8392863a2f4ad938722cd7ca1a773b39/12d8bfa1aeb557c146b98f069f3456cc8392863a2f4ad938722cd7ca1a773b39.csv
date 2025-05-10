@@ -1,0 +1,9 @@
+crypt_function,crypt_keyword,delete_file_function,delete_file_keyword,find_file_function,find_file_keyword,read_file_function,read_file_keyword,danger_word_function,danger_word_keyword
+sub_408A5A,['salsa20'],,,,,,,,
+sub_408D27,['RijnDael_AES_Base'],,,,,,,,
+sub_40B25F,"The function performs a series of iterative bitwise operations and data transformation on the input array, indicative of cryptographic routines.",,,,,,,,
+sub_40924A,"Potential encryption or modification of data content read into memory. The function performs bitwise operations, rotations, and uses a lookup table, which are common characteristics of cryptographic algorithms.",,,,,,,,
+sub_408AC9,"Potential encryption or modification of data content read into memory. The function appears to perform multiple bitwise operations and rotations, which are characteristic of certain block cipher encryption algorithms.",,,,,,,,
+sub_405FC4,"The function appears to implement a Feistel-like structure involving bitwise operations, likely part of or similar to an encryption algorithm like TEA.",,,,,,,,
+sub_40AA3A,"This function performs multiple bitwise operations, additions, subtractions, and shifts, which resemble common patterns found in cryptographic functions. The structure of the code, involving wrapping around specific bit lengths and specific mathematic manipulations, is indicative of cryptographic computations.",,,,,,,,
+sub_40AB4E,Potential encryption or modification of data content by iteratively manipulating memory content and processing results of various bitwise and arithmetic operations.,,,,,,,,

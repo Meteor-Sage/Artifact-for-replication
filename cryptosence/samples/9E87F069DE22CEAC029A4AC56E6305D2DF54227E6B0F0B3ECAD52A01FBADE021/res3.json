@@ -1,0 +1,63 @@
+{
+    "sub_123": {
+        "nodes": {
+            "0": "sub_4082E0",
+            "1": "WinMain",
+            "2": "sub_402270",
+            "3": "?__scrt_common_main_seh"
+        },
+        "edges": [
+            [
+                "sub_4082E0",
+                "sub_402270"
+            ],
+            [
+                "?__scrt_common_main_seh",
+                "WinMain"
+            ],
+            [
+                "WinMain",
+                "sub_4082E0"
+            ]
+        ],
+        "leafs": [
+            "sub_402270"
+        ]
+    },
+    "paths_123_1": [
+        {
+            "start": "sub_402270",
+            "end": "sub_402270",
+            "path": {
+                "nodes": [
+                    "sub_402270"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_2": [
+        {
+            "start": "sub_402270",
+            "end": "sub_402270",
+            "path": {
+                "nodes": [
+                    "sub_402270"
+                ],
+                "edges": []
+            }
+        }
+    ],
+    "paths_123_3": [
+        {
+            "start": "sub_402270",
+            "end": "sub_402270",
+            "path": {
+                "nodes": [
+                    "sub_402270"
+                ],
+                "edges": []
+            }
+        }
+    ]
+}

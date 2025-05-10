@@ -1,0 +1,86 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409032(v1, v2, v3);",
+            "is_crypto_fun": false,
+            "description": "The function appears to be performing bitwise operations and memory manipulations but does not exhibit characteristics of standard encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40F400",
+            "is_crypto_fun": false,
+            "description": "This function appears to be performing arithmetic operations, specifically division and bit manipulation, and does not demonstrate characteristics of known encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40E3A0(_DWORD *a1, int a2, unsigned int a3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory, possibly as part of some hash or block processing."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D990(LPCSTR lpFileName, __int64 lDistanceToMove, __int64 a3);",
+            "is_crypto_fun": false,
+            "description": "The function reads contents from a file and applies some transformation using a lookup table, but this does not resemble any encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40FA10(double a1);",
+            "is_crypto_fun": false,
+            "description": "This function deals with floating point operations and does not exhibit characteristics of standard encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_405860",
+            "is_crypto_fun": false,
+            "description": "The function does not appear to perform any encryption operations; it mainly handles specific conditions and string manipulations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40D890(int a1, unsigned int a2, int a3);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. The function appears to be performing a series of cryptographic transformations based on calls to other functions, and then encoding the result."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409218(a1);",
+            "is_crypto_fun": false,
+            "description": "This function performs a simple arithmetic operation, not related to encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40DCC0(a1);",
+            "is_crypto_fun": true,
+            "description": "Potential encryption or modification of data content read into memory. This function appears to be implementing a (partially) reversible transformation based on complex bitwise operations and multiple rounds of manipulation, which is characteristic of various block cipher encryption algorithms."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4091A2(a1, a2);",
+            "is_crypto_fun": false,
+            "description": "The function sub_4091A2 does not appear to implement any known encryption algorithm. It performs bitwise operations and calls another function sub_40915E multiple times, which might indicate some iterative or conditional processing but not necessarily encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_409226",
+            "is_crypto_fun": false,
+            "description": "The function appears to manipulate data with a lot of bitwise and memory operations, but it does not implement a known encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4052F0",
+            "is_crypto_fun": false,
+            "description": "The function appears to perform conversion of string representations of numbers (integers). It handles different bases such as hexadecimal, percentage notation, or decimal. There are no indications that it performs encryption operations."
+        }
+    }
+]

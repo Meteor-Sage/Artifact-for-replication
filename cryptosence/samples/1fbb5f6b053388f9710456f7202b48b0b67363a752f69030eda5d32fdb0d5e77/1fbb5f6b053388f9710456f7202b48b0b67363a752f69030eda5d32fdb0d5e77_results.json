@@ -1,0 +1,72 @@
+[
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4018EB()",
+            "is_crypto_fun": true,
+            "description": "This function appears to perform key generation and key export operations using the CryptoAPI, which indicates it is involved in cryptographic processes."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401DFE(a1);",
+            "is_crypto_fun": false,
+            "description": "This function is allocating memory from the heap, not performing encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4024E4();",
+            "is_crypto_fun": false,
+            "description": "This function appears to be identifying logical drives and possibly processing them, but there is no indication of encryption operations."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40204A(lpFileName);",
+            "is_crypto_fun": true,
+            "description": "The function appears to perform content encryption or modification using CryptGenRandom and CryptEncrypt, which indicates potential encryption."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401BD4(a1, a2, a3, a4);",
+            "is_crypto_fun": true,
+            "description": "The function appears to engage in Salsa20 encryption, a known stream cipher, by setting up an appropriate state with input values and performing cryptographic operations on them."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4017BC",
+            "is_crypto_fun": false,
+            "description": "The function performs a Base64 encoding of the input data, which is not an encryption algorithm."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4016C8(a1, a2);",
+            "is_crypto_fun": true,
+            "description": "This function involves operations typically associated with Base64 encoding/decoding and potentially modifying data from memory."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_401E12(lpMem);",
+            "is_crypto_fun": false,
+            "description": "Function frees allocated memory if the pointer is not null."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_40189E()",
+            "is_crypto_fun": true,
+            "description": "The function appears to perform cryptographic operations by importing a cryptographic key using the CryptImportKey function. This suggests it is part of an encryption or decryption mechanism."
+        }
+    },
+    {
+        "content_modification_operations": {
+            "fun_name": "sub_4019D2(a1, a2);",
+            "is_crypto_fun": true,
+            "description": "The function appears to perform multiple bitwise rotations and XOR operations in rounds resembling the structure of a block cipher, suggesting that it is an encryption function."
+        }
+    }
+]
